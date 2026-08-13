@@ -1,0 +1,14 @@
+name: validate-allocation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  allocation:
+    uses: technehub-labs/dea-architecture-framework/.github/workflows/validate-against-model.yml@v0.3.0
+    with:
+      model_ref: v0.3.0
+      pointer_file: metamodel-pointer.yaml
