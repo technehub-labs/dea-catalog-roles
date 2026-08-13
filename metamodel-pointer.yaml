@@ -1,0 +1,20 @@
+# Metamodel Pointer — Role
+# Auto-generated from OpenDEAM v0.3.0 (ADR-0003). Do not edit manually.
+metamodel:
+  version: v0.3.0
+  entity_id: dea:entity-role
+  class_alias: ROL
+  layer: L3
+  building_block: L3-people-skills-culture
+  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=ROL"
+
+catalog:
+  name: Role
+  repo: technehub-labs/dea-catalog-roles
+  status: proposed
+
+links:
+  metamodel_repo: https://github.com/technehub-labs/dea-metamodel
+  root_model: https://github.com/technehub-labs/dea-architecture-framework
+  viewer: "https://technehub-labs.github.io/metamodel/?entity=ROL"
+  github: https://github.com/technehub-labs/dea-catalog-roles
