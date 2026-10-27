@@ -1,0 +1,28 @@
+id: roles:role-domain-owner
+type: Role
+name: Domain Owner
+description: >-
+  Accountable for the strategy, roadmap, and value of one business domain.
+  Prioritizes domain investment, owns domain-level guardrail conformance,
+  and arbitrates cross-team trade-offs within the domain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - leadership
+  - governance
+relationships:
+  - id: roles:rel-do-requires-do-skill
+    source_id: roles:role-domain-owner
+    target_id: skills:skill-domain-leadership
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without domain leadership competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

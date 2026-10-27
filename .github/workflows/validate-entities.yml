@@ -18,3 +18,7 @@ jobs:
           python-version: "3.x"
       - run: pip install pyyaml jsonschema
       - run: python scripts/validate_entities.py
+      - name: cross-catalog references
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/check_cross_catalog_refs.py

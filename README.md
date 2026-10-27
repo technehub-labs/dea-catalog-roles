@@ -34,6 +34,9 @@ Content (entity instances) lands when the entity promotes from
 - `change-requests/`, `contributions/` — governance queues
 - `scripts/validate_entities.py` — schema validation, run in CI
   (`validate-entities.yml`) alongside pointer validation
+- `scripts/check_cross_catalog_refs.py` — verifies `skills:`/`actors:`
+  references resolve against partner catalogs (warning until they publish
+  entities; failure on unknown namespaces or contradicting a published list)
 
 ## License
 
