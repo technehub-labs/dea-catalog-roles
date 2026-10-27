@@ -1,0 +1,28 @@
+id: roles:role-product-owner
+type: Role
+name: Product Owner
+description: >-
+  Maximizes the value of one product. Owns and prioritizes the product
+  backlog, accepts increments against acceptance criteria, and is the single
+  accountable decision point for product scope within the domain's guardrails.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - product
+relationships:
+  - id: roles:rel-po-requires-po-skill
+    source_id: roles:role-product-owner
+    target_id: skills:skill-product-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without product management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

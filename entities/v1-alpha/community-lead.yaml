@@ -1,0 +1,28 @@
+id: roles:role-community-lead
+type: Role
+name: Community Lead
+description: >-
+  Grows a practitioner community (guild, chapter, or center of practice).
+  Curates shared knowledge, runs enablement rituals, and mentors
+  practitioners; accountable for community health, not delivery outcomes.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - enablement
+  - culture
+relationships:
+  - id: roles:rel-cl-requires-cl-skill
+    source_id: roles:role-community-lead
+    target_id: skills:skill-facilitation
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without facilitation competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
