@@ -37,6 +37,9 @@ Content (entity instances) lands when the entity promotes from
 - `scripts/check_cross_catalog_refs.py` — verifies `skills:`/`actors:`
   references resolve against partner catalogs (warning until they publish
   entities; failure on unknown namespaces or contradicting a published list)
+- `GOVERNANCE.md` / `EVIDENCE.md` — change control and evidence method
+  (CR-DEA-ROL series)
+- `change-requests/` — CR-DEA-ROL index and documents
 
 ## License
 
