@@ -17,6 +17,7 @@ metadata:
     - telecom
     - banking
     - health
+    - public-sector
 relationships:
   - id: roles:rel-rcm-requires-rcm-skill
     source_id: roles:role-regulatory-compliance-manager
@@ -29,7 +30,8 @@ relationships:
       recurs across regulated industries (telecom, finance, health).
       Banking pass corroborates: E2 (two independent industries). Health
       pass adds a third regulated industry: enterprise-generality argument
-      recorded at E3.
+      recorded at E3. Public-sector pass adds a fourth: regulation
+      administration corroborated from the regulator side.
     provenance:
       type: discovery
       reference: industries/telecom.yaml

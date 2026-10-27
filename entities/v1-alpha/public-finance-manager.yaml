@@ -1,0 +1,33 @@
+id: roles:role-public-finance-manager
+type: Role
+name: Public Finance Manager
+description: >-
+  Manages the public budget cycle: budget preparation and justification,
+  in-year allocation and control, and the financial reporting and audit
+  trail that supports legislative oversight.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - finance
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - public-sector
+relationships:
+  - id: roles:rel-pfm-requires-pf-skill
+    source_id: roles:role-public-finance-manager
+    target_id: skills:skill-public-finance-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without public finance management
+      competency (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector
+      discovery pass 1; adjacent to Treasury Manager (budget-cycle
+      accountability vs balance-sheet liquidity; E4 sweep tests).
+    provenance:
+      type: discovery
+      reference: industries/public-sector.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified
