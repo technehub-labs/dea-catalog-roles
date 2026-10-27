@@ -1,0 +1,28 @@
+catalog:
+  abbreviation: ROL
+  entity_id: dea:entity-role
+  metamodel_version: v0.3.0
+  repo: technehub-labs/dea-catalog-roles
+  status: proposed
+  description: >-
+    A defined set of required Skills and responsibilities that an Actor
+    fulfills within an Organizational Unit.
+  counts:
+    entities: 2
+  cross_cutting:
+    entities: entities/
+    schemas: schemas/
+    validators: scripts/
+    change_requests: change-requests/
+    contributions_queue: contributions/
+  entities:
+    - id: roles:role-enterprise-architect
+      path: entities/v1-alpha/enterprise-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-14"
+    - id: roles:role-solution-architect
+      path: entities/v1-alpha/solution-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-14"

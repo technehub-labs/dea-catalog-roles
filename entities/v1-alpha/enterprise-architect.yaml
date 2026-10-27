@@ -1,0 +1,29 @@
+id: roles:role-enterprise-architect
+type: Role
+name: Enterprise Architect
+description: >-
+  Owns the enterprise-wide architecture coherence across business, information,
+  and technology layers. Defines architecture guardrails and blueprints, and
+  steers solution architectures toward the target state.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - architecture
+  - governance
+  - leadership
+relationships:
+  - id: roles:rel-ea-requires-ea-skill
+    source_id: roles:role-enterprise-architect
+    target_id: skills:skill-enterprise-architecture
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without enterprise architecture competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

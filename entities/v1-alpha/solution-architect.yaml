@@ -1,0 +1,28 @@
+id: roles:role-solution-architect
+type: Role
+name: Solution Architect
+description: >-
+  Designs the architecture of a specific solution or initiative within the
+  guardrails set by enterprise architecture. Accountable for solution-level
+  technology choices and their fit with the target state.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - architecture
+  - delivery
+relationships:
+  - id: roles:rel-sa-requires-sa-skill
+    source_id: roles:role-solution-architect
+    target_id: skills:skill-solution-architecture
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without solution design competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
