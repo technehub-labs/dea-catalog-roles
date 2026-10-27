@@ -1,0 +1,31 @@
+id: roles:role-service-assurance-manager
+type: Role
+name: Service Assurance Manager
+description: >-
+  Owns end-to-end service quality for live services: assurance KPIs, proactive
+  monitoring, degradation management, and the assurance backlog shared with
+  product and network operations.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - operations
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - telecom
+relationships:
+  - id: roles:rel-sam-requires-sam-skill
+    source_id: roles:role-service-assurance-manager
+    target_id: skills:skill-service-assurance
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without service assurance competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Telco discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/telecom.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

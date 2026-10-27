@@ -1,0 +1,18 @@
+id: telecom
+name: Telecommunications
+status: discovery-complete
+scope: >-
+  Telco operating model: network operations, service delivery, BSS/OSS,
+  wholesale/interconnect, regulatory compliance, and retail/B2B customer
+  operations. Excludes handset manufacturing and pure media content.
+sources:
+  - class: industry-specific
+    examples: TM Forum (eTOM/Business Process Framework, SID), telco operating-model literature
+    stance: Evidences recurring telco responsibilities; names never copied
+  - class: enterprise-architecture
+    examples: TOGAF telecom industry guidance
+    stance: Corroborates enterprise-general roles as they recur in telco
+notes: >-
+  Discovery pass 1 (2026-10-27). Candidates are E1 unless already E1+ from a
+  prior pass. TM Forum eTOM is a process framework: it evidences recurring
+  work, from which roles are inferred — never transcribed.
