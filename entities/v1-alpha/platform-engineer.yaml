@@ -1,0 +1,28 @@
+id: roles:role-platform-engineer
+type: Role
+name: Platform Engineer
+description: >-
+  Builds and operates the internal platform capabilities (infrastructure,
+  pipelines, self-service tooling) that delivery teams consume. Accountable
+  for platform reliability and the golden paths product teams build on.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - technical
+  - platform
+relationships:
+  - id: roles:rel-pe-requires-pe-skill
+    source_id: roles:role-platform-engineer
+    target_id: skills:skill-platform-engineering
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without platform engineering competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

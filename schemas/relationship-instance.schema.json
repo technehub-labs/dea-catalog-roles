@@ -1,0 +1,295 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://technehub-labs.github.io/dea-metamodel/schemas/relationships/relationship-instance.json",
+  "metamodel_version": "1.0.0",
+  "title": "RelationshipInstance",
+  "description": "An instantiated typed relationship between two entities (CR-002: typed, directed, versioned, provenance-aware).",
+  "type": "object",
+  "required": [
+    "source_id",
+    "target_id",
+    "relationship_type"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Instance identifier."
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*:[a-z0-9-]+$",
+      "description": "Source entity ID."
+    },
+    "target_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*:[a-z0-9-]+$",
+      "description": "Target entity ID."
+    },
+    "relationship_type": {
+      "type": "string",
+      "enum": [
+        "accesses",
+        "accountable-for",
+        "addressed-by",
+        "affects",
+        "aggregates",
+        "analyses-metric",
+        "applies-metric",
+        "applies-period",
+        "applies-subject",
+        "approves",
+        "assessed-by",
+        "assesses",
+        "attains",
+        "authorized-by",
+        "authorizes",
+        "benchmarked-against",
+        "captures",
+        "caused-by",
+        "composes",
+        "conducted-under",
+        "constrained-by",
+        "constrains",
+        "consults",
+        "consumes",
+        "contains",
+        "contributes-to",
+        "controls",
+        "coordinates",
+        "corrects",
+        "correlates",
+        "curates",
+        "defines",
+        "delegates",
+        "depends-on",
+        "derived-from",
+        "derives-from",
+        "enables",
+        "enforces",
+        "escalates-to",
+        "establishes",
+        "evaluated-by",
+        "evaluates",
+        "evidenced-by",
+        "exchanges",
+        "executes",
+        "exposes",
+        "flows-to",
+        "from-state",
+        "governs",
+        "grants",
+        "has-designation",
+        "has-oversight",
+        "has-provenance",
+        "has-skill",
+        "has-target",
+        "implements",
+        "in-state",
+        "informed-by",
+        "informs",
+        "informs-decision",
+        "instantiates",
+        "interprets",
+        "introduces",
+        "invokes",
+        "makes",
+        "mandates",
+        "maps-onto",
+        "maps-to",
+        "may-become",
+        "measured-by",
+        "measures-subject",
+        "migrates-to",
+        "mitigates",
+        "modifies",
+        "motivates",
+        "operationalizes",
+        "orchestrates",
+        "originates-from",
+        "owns",
+        "performed-by",
+        "performs",
+        "permits",
+        "precedes",
+        "produces",
+        "prohibits",
+        "provides",
+        "publishes",
+        "quantifies",
+        "realizes",
+        "records",
+        "references",
+        "refers-to",
+        "removes",
+        "replaces",
+        "represents",
+        "requires",
+        "requires-approval",
+        "responsible-for",
+        "results-in",
+        "scoped-by",
+        "seeks",
+        "serves",
+        "specializes",
+        "specifies",
+        "specifies-target",
+        "subscribes-to",
+        "supersedes",
+        "supports",
+        "targets",
+        "tests-hypothesis",
+        "threatens",
+        "to-state",
+        "traces-to",
+        "trained-on",
+        "transitions-to",
+        "triggers",
+        "uses",
+        "valid-during",
+        "version-of"
+      ],
+      "description": "CR-MET-012 adds correlates, tests-hypothesis, analyses-metric, and informs-decision. CR-MET-011 adds has-provenance, corrects, and applies-period. Canonical relationship type (registry id without dea: prefix). Deprecated pre-0.7.0 types are rejected; migrate via metamodel/migration/relationship-crosswalk.yaml."
+    },
+    "direction": {
+      "type": "string",
+      "enum": [
+        "source-to-target"
+      ],
+      "default": "source-to-target",
+      "description": "Canonical direction is always source-to-target (CR-2 §7). Inverse views are generated, never stored (§8)."
+    },
+    "mapping": {
+      "type": "object",
+      "description": "Required when relationship_type is 'maps-to' (CR-2 §9).",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "equivalent",
+            "broader",
+            "narrower",
+            "related",
+            "traceability",
+            "external-crosswalk"
+          ]
+        }
+      }
+    },
+    "effective_from": {
+      "type": "string",
+      "format": "date",
+      "description": "Start of temporal validity (§6)."
+    },
+    "effective_to": {
+      "type": "string",
+      "format": "date",
+      "description": "End of temporal validity."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "proposed",
+        "planned",
+        "active",
+        "deprecated",
+        "retired"
+      ],
+      "description": "CR-6 §22: relationship lifecycle state. A planned edge must never be read as a current edge."
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Confidence or strength (§6)."
+    },
+    "asserted_by": {
+      "type": "string",
+      "description": "Person, team, or agent asserting this relationship (§21/§22)."
+    },
+    "rationale": {
+      "type": "string",
+      "maxLength": 1000
+    },
+    "evidence": {
+      "type": "string",
+      "maxLength": 1000,
+      "description": "Reference to supporting evidence."
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Structured provenance (§21). AI-asserted relationships must set provenance.agent_id and verification_status (§22).",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "architecture-review",
+            "discovery",
+            "assessment",
+            "inference",
+            "migration",
+            "manual"
+          ]
+        },
+        "reference": {
+          "type": "string"
+        },
+        "asserted_by": {
+          "type": "string"
+        },
+        "asserted_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "system": {
+          "type": "string"
+        },
+        "framework": {
+          "type": "string"
+        },
+        "agent_id": {
+          "type": "string",
+          "description": "AI agent identifier (§22)."
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": [
+            "unverified",
+            "verified",
+            "rejected"
+          ]
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "deprecated": true,
+      "description": "DEPRECATED (CR-002): use confidence."
+    },
+    "bidirectional": {
+      "type": "boolean",
+      "deprecated": true,
+      "description": "DEPRECATED (CR-002 §7/§8): direction is canonical; inverses are generated views."
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date-time",
+      "description": "CR-6 §21: start of this relationship's valid time. T004: must not be active outside endpoint validity where endpoint existence is required."
+    },
+    "valid_to": {
+      "type": "string",
+      "format": "date-time",
+      "description": "CR-6 §21: end of this relationship's valid time."
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "CR-6 §5: transaction time; when the model learned of this relationship."
+    }
+  }
+}

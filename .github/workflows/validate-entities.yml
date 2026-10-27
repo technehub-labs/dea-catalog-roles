@@ -1,0 +1,24 @@
+# Validate role entity instances against the vendored OpenDEAM schemas.
+
+name: validate-entities
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  entities:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: pip install pyyaml jsonschema
+      - run: python scripts/validate_entities.py
+      - name: cross-catalog references
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/check_cross_catalog_refs.py

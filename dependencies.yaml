@@ -1,0 +1,29 @@
+# Dependencies — Role (ROL)
+# Cross-catalog edges defined by the OpenDEAM v0.3.0 model.
+
+model_relationships:
+  - from_entity: dea:entity-skill
+    from_alias: SKL
+    to_entity: dea:entity-role
+    to_alias: ROL
+    label: required by
+    rel_type: dependency
+    cardinality: 0..N:0..N
+    catalog: technehub-labs/dea-catalog-skills
+    status: unresolved
+    note: >-
+      skills: ids referenced from role instances must exist in the skills
+      catalog once it publishes its entity list.
+
+  - from_entity: dea:entity-role
+    from_alias: ROL
+    to_entity: dea:entity-actor
+    to_alias: AC
+    label: fulfilled by
+    rel_type: realization
+    cardinality: 1:0..N
+    catalog: technehub-labs/dea-catalog-actors
+    status: unresolved
+    note: >-
+      ROL -> AC instances are deferred until dea-catalog-actors publishes
+      actor entities; roles must exist first (1:0..N).
