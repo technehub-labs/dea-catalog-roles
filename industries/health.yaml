@@ -1,0 +1,22 @@
+id: health
+name: Health
+status: discovery-complete
+scope: >-
+  Health operating model: clinical service delivery, population health,
+  health-payor claims and member operations, clinical research, and the
+  health data governance that connects them. Excludes medical device
+  manufacturing and pharmaceutical production.
+sources:
+  - class: industry-specific
+    examples: >-
+      Health operating-model literature; clinical governance frameworks;
+      claims-processing and health-payor practice; health-data governance
+      guidance
+    stance: Evidences recurring health responsibilities; names never copied
+  - class: government-guidance
+    examples: Health-sector regulatory guidance (privacy, safety, quality)
+    stance: Corroborates compliance-role recurrence across jurisdictions
+notes: >-
+  Discovery pass 1 (2026-10-27). Candidates are E1 unless corroborated by a
+  prior industry pass, in which case they register E2 (two independent
+  industries) or E3 pending the enterprise-generality argument.

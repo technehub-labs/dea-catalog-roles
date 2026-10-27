@@ -16,6 +16,7 @@ metadata:
   industries:
     - telecom
     - banking
+    - health
 relationships:
   - id: roles:rel-rcm-requires-rcm-skill
     source_id: roles:role-regulatory-compliance-manager
@@ -26,7 +27,9 @@ relationships:
       The role cannot be fulfilled without regulatory compliance competency
       (SKL -> ROL "required by", OpenDEAM v0.3.0). Telco discovery pass 1;
       recurs across regulated industries (telecom, finance, health).
-      Banking pass corroborates: E2 (two independent industries).
+      Banking pass corroborates: E2 (two independent industries). Health
+      pass adds a third regulated industry: enterprise-generality argument
+      recorded at E3.
     provenance:
       type: discovery
       reference: industries/telecom.yaml

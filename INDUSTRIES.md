@@ -33,3 +33,4 @@ evidence provenance, not membership: it never restricts a role's scope.
 |---|---|---|---|
 | Telecommunications | `telecom` | discovery-complete (E1 candidates registered) | [industries/telecom-demand.md](industries/telecom-demand.md) |
 | Banking | `banking` | discovery-complete (6 candidates; 1 E2 promotion) | [industries/banking-demand.md](industries/banking-demand.md) |
+| Health | `health` | discovery-complete (6 candidates; 1 E2, 1 E3-track promotion) | [industries/health-demand.md](industries/health-demand.md) |

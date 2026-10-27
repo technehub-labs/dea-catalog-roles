@@ -1,0 +1,31 @@
+id: roles:role-clinical-governance-lead
+type: Role
+name: Clinical Governance Lead
+description: >-
+  Owns the clinical governance framework: quality and safety standards for
+  clinical work, clinical audit and incident review, and the accreditation
+  evidence that clinical services meet external quality requirements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - clinical-quality
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - health
+relationships:
+  - id: roles:rel-cgl-requires-cg-skill
+    source_id: roles:role-clinical-governance-lead
+    target_id: skills:skill-clinical-governance
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without clinical governance competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Health discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/health.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

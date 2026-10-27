@@ -1,0 +1,31 @@
+id: roles:role-clinical-informaticist
+type: Role
+name: Clinical Informaticist
+description: >-
+  Bridges clinical practice and technology: clinical decision-support
+  design, EHR workflow optimization, and the clinical safety checks on
+  technology changes that touch patient care.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - technical
+  - clinical
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - health
+relationships:
+  - id: roles:rel-ci2-requires-informatics-skill
+    source_id: roles:role-clinical-informaticist
+    target_id: skills:skill-clinical-informatics
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without clinical informatics competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Health discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/health.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified
