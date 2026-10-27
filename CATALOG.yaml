@@ -9,6 +9,7 @@ catalog:
     fulfills within an Organizational Unit.
   counts:
     entities: 34
+    canonical: 1
   cross_cutting:
     entities: entities/
     schemas: schemas/
@@ -83,8 +84,8 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-regulatory-compliance-manager
       path: entities/v1-alpha/regulatory-compliance-manager.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
     - id: roles:role-service-provisioning-manager
       path: entities/v1-alpha/service-provisioning-manager.yaml
