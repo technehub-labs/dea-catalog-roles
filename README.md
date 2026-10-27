@@ -39,6 +39,8 @@ Content (entity instances) lands when the entity promotes from
   entities; failure on unknown namespaces or contradicting a published list)
 - `GOVERNANCE.md` / `EVIDENCE.md` — change control and evidence method
   (CR-DEA-ROL series)
+- `INDUSTRIES.md` + `industries/` — industry discovery program and per-industry
+  registers/demand lists (first slice: telecom)
 - `change-requests/` — CR-DEA-ROL index and documents
 
 ## License

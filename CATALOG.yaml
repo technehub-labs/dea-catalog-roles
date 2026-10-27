@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 10
+    entities: 16
   cross_cutting:
     entities: entities/
     schemas: schemas/
@@ -66,3 +66,33 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-14"
+    - id: roles:role-network-operations-center-engineer
+      path: entities/v1-alpha/network-operations-center-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-service-assurance-manager
+      path: entities/v1-alpha/service-assurance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-interconnect-and-wholesale-manager
+      path: entities/v1-alpha/interconnect-and-wholesale-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-regulatory-compliance-manager
+      path: entities/v1-alpha/regulatory-compliance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-service-provisioning-manager
+      path: entities/v1-alpha/service-provisioning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-network-planning-engineer
+      path: entities/v1-alpha/network-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"

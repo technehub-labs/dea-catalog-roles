@@ -1,0 +1,32 @@
+id: roles:role-regulatory-compliance-manager
+type: Role
+name: Regulatory Compliance Manager
+description: >-
+  Accountable for the enterprise's compliance with sector regulation:
+  interprets regulatory obligations for the operating model, owns the
+  compliance control evidence, and is the escalation point for regulators.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - compliance
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - telecom
+relationships:
+  - id: roles:rel-rcm-requires-rcm-skill
+    source_id: roles:role-regulatory-compliance-manager
+    target_id: skills:skill-regulatory-compliance
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without regulatory compliance competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Telco discovery pass 1;
+      recurs across regulated industries (telecom, finance, health).
+    provenance:
+      type: discovery
+      reference: industries/telecom.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

@@ -1,0 +1,31 @@
+id: roles:role-network-operations-center-engineer
+type: Role
+name: Network Operations Center Engineer
+description: >-
+  Monitors and operates the production network from the NOC: detects,
+  diagnoses, and escalates network faults, executes maintenance windows, and
+  is first-line accountable for network availability and incident SLAs.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - technical
+  - operations
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - telecom
+relationships:
+  - id: roles:rel-noc-requires-noc-skill
+    source_id: roles:role-network-operations-center-engineer
+    target_id: skills:skill-network-operations
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without network operations competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Telco discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/telecom.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified
