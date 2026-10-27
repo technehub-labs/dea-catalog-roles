@@ -1,0 +1,32 @@
+id: roles:role-population-health-program-manager
+type: Role
+name: Population Health Program Manager
+description: >-
+  Manages programs that improve health outcomes for a defined population:
+  program design against epidemiological need, intervention delivery with
+  care teams, and outcome measurement against program targets.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - program
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - health
+relationships:
+  - id: roles:rel-php-requires-pm2-skill
+    source_id: roles:role-population-health-program-manager
+    target_id: skills:skill-program-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without program management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Health discovery pass 1;
+      program management recurs enterprise-wide (tracked toward E2).
+    provenance:
+      type: discovery
+      reference: industries/health.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

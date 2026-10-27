@@ -1,0 +1,33 @@
+id: roles:role-health-information-manager
+type: Role
+name: Health Information Manager
+description: >-
+  Owns health information governance: patient-record standards, health-data
+  privacy and consent compliance, coding and classification integrity, and
+  the release-of-information process.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - data
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - health
+relationships:
+  - id: roles:rel-him-requires-him-skill
+    source_id: roles:role-health-information-manager
+    target_id: skills:skill-health-information-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without health information management
+      competency (SKL -> ROL "required by", OpenDEAM v0.3.0). Health
+      discovery pass 1; adjacent to Data Architect but accountable for
+      records governance, not data architecture.
+    provenance:
+      type: discovery
+      reference: industries/health.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

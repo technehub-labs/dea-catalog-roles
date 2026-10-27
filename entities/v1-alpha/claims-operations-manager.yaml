@@ -1,0 +1,32 @@
+id: roles:role-claims-operations-manager
+type: Role
+name: Claims Operations Manager
+description: >-
+  Runs claims operations end to end: intake and adjudication, payment
+  accuracy, denial and appeals handling, and the claims SLAs and quality
+  controls reported to stakeholders.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - operations
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - health
+relationships:
+  - id: roles:rel-com2-requires-claims-skill
+    source_id: roles:role-claims-operations-manager
+    target_id: skills:skill-claims-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without claims management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Health discovery pass 1;
+      claims processing recurs across insurance-adjacent industries.
+    provenance:
+      type: discovery
+      reference: industries/health.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified
