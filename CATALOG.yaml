@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 6
+    entities: 10
   cross_cutting:
     entities: entities/
     schemas: schemas/
@@ -43,6 +43,26 @@ catalog:
       last_modified: "2026-10-14"
     - id: roles:role-community-lead
       path: entities/v1-alpha/community-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-14"
+    - id: roles:role-data-architect
+      path: entities/v1-alpha/data-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-14"
+    - id: roles:role-security-architect
+      path: entities/v1-alpha/security-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-14"
+    - id: roles:role-architecture-board-member
+      path: entities/v1-alpha/architecture-board-member.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-14"
+    - id: roles:role-process-owner
+      path: entities/v1-alpha/process-owner.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-14"
