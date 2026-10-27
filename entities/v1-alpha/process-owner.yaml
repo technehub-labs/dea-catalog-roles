@@ -1,0 +1,27 @@
+id: roles:role-process-owner
+type: Role
+name: Process Owner
+description: >-
+  Accountable for the end-to-end performance and improvement of one business
+  process: defines the process, measures it against its outcome targets, and
+  arbitrates changes that cross the teams executing it.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+relationships:
+  - id: roles:rel-pro-requires-bpm-skill
+    source_id: roles:role-process-owner
+    target_id: skills:skill-process-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without process management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

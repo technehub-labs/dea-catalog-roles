@@ -1,0 +1,28 @@
+id: roles:role-security-architect
+type: Role
+name: Security Architect
+description: >-
+  Designs and enforces the security architecture: threat modeling for
+  solution designs, security guardrails, and the control mappings that
+  keep technology choices within the enterprise's risk appetite.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - technical
+relationships:
+  - id: roles:rel-sa2-requires-sec-skill
+    source_id: roles:role-security-architect
+    target_id: skills:skill-security-architecture
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without security architecture competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

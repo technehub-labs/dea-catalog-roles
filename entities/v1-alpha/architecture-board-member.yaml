@@ -1,0 +1,27 @@
+id: roles:role-architecture-board-member
+type: Role
+name: Architecture Board Member
+description: >-
+  Sits on the standing architecture review board. Reviews significant
+  changes against guardrails and blueprints, records decisions, and
+  escalates guardrail conflicts to the governance body.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+relationships:
+  - id: roles:rel-abm-requires-ar-skill
+    source_id: roles:role-architecture-board-member
+    target_id: skills:skill-architecture-review
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without architecture review competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0

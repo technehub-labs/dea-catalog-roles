@@ -1,0 +1,28 @@
+id: roles:role-data-architect
+type: Role
+name: Data Architect
+description: >-
+  Owns the enterprise data architecture: data model standards, domain
+  boundaries for data ownership, and the governance rules that keep data
+  assets discoverable, consistent, and fit for consumption.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - technical
+  - data
+relationships:
+  - id: roles:rel-da-requires-da-skill
+    source_id: roles:role-data-architect
+    target_id: skills:skill-data-architecture
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without data architecture competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0).
+    provenance:
+      type: manual
+      asserted_by: catalog-seed
+      verification_status: unverified
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
