@@ -32,3 +32,4 @@ evidence provenance, not membership: it never restricts a role's scope.
 | Industry | id | Status | Demand list |
 |---|---|---|---|
 | Telecommunications | `telecom` | discovery-complete (E1 candidates registered) | [industries/telecom-demand.md](industries/telecom-demand.md) |
+| Banking | `banking` | discovery-complete (6 candidates; 1 E2 promotion) | [industries/banking-demand.md](industries/banking-demand.md) |

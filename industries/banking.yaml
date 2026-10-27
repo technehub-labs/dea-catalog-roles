@@ -1,0 +1,21 @@
+id: banking
+name: Banking
+status: discovery-complete
+scope: >-
+  Banking operating model: retail and corporate lending, deposits and
+  payments, treasury and capital markets, risk and compliance (credit,
+  market, operational, AML), and channel operations. Excludes insurance
+  underwriting and pure investment management.
+sources:
+  - class: industry-specific
+    examples: >-
+      Banking operating-model literature; risk and compliance frameworks
+      (credit/market/operational risk, AML/KYC practice); payment-scheme
+      operating rules
+    stance: Evidences recurring banking responsibilities; names never copied
+  - class: government-guidance
+    examples: Prudential and conduct regulatory guidance
+    stance: Corroborates compliance-role recurrence across jurisdictions
+notes: >-
+  Discovery pass 1 (2026-10-27). Candidates are E1 unless corroborated by the
+  telecom pass, in which case they register E2 (two independent industries).

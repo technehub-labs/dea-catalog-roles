@@ -1,0 +1,31 @@
+id: roles:role-treasury-manager
+type: Role
+name: Treasury Manager
+description: >-
+  Manages the balance sheet's liquidity and funding: cash and liquidity
+  positions, funding plans, and the interest-rate and currency exposure
+  within the treasury risk limits.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - finance
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - banking
+relationships:
+  - id: roles:rel-tm-requires-tre-skill
+    source_id: roles:role-treasury-manager
+    target_id: skills:skill-treasury-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without treasury management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Banking discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/banking.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

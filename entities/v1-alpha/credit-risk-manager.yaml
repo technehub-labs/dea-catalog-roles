@@ -1,0 +1,31 @@
+id: roles:role-credit-risk-manager
+type: Role
+name: Credit Risk Manager
+description: >-
+  Owns the credit risk appetite in originations and portfolio: credit
+  policy, limit and concentration management, and the impairment and
+  provisioning analysis reported to risk committees.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - risk
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - banking
+relationships:
+  - id: roles:rel-crm-requires-cr-skill
+    source_id: roles:role-credit-risk-manager
+    target_id: skills:skill-credit-risk-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without credit risk management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Banking discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/banking.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

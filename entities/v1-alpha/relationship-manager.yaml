@@ -1,0 +1,32 @@
+id: roles:role-relationship-manager
+type: Role
+name: Relationship Manager
+description: >-
+  Owns the end-to-end relationship with an assigned portfolio of corporate
+  or retail customers: needs discovery, product/solution structuring with
+  specialists, and the relationship P&L, within risk-appetite guardrails.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - commercial
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - banking
+relationships:
+  - id: roles:rel-rm2-requires-rm-skill
+    source_id: roles:role-relationship-manager
+    target_id: skills:skill-relationship-management
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without relationship management competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Banking discovery pass 1;
+      recurs in any enterprise with named-account portfolios.
+    provenance:
+      type: discovery
+      reference: industries/banking.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified
