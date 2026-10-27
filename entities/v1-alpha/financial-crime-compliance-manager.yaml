@@ -1,0 +1,33 @@
+id: roles:role-financial-crime-compliance-manager
+type: Role
+name: Financial Crime Compliance Manager
+description: >-
+  Owns the anti-money-laundering and sanctions compliance program: KYC/CDD
+  standards, alert and case management, suspicious-activity reporting, and
+  the financial-crime risk assessment.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - compliance
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - banking
+relationships:
+  - id: roles:rel-fcc-requires-fc-skill
+    source_id: roles:role-financial-crime-compliance-manager
+    target_id: skills:skill-financial-crime-compliance
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without financial crime compliance
+      competency (SKL -> ROL "required by", OpenDEAM v0.3.0). Banking
+      discovery pass 1; distinct from Regulatory Compliance Manager
+      (program-level AML/sanctions vs sector regulation generally).
+    provenance:
+      type: discovery
+      reference: industries/banking.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

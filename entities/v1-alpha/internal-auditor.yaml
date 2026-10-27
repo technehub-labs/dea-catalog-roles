@@ -1,0 +1,32 @@
+id: roles:role-internal-auditor
+type: Role
+name: Internal Auditor
+description: >-
+  Provides independent assurance to the board: audits the control
+  environment against policy and regulation, reports findings with severity
+  and agreed remediation, and tracks them to closure.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - assurance
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - banking
+relationships:
+  - id: roles:rel-ia-requires-audit-skill
+    source_id: roles:role-internal-auditor
+    target_id: skills:skill-internal-audit
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without internal audit competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Banking discovery pass 1;
+      recurs across all regulated industries.
+    provenance:
+      type: discovery
+      reference: industries/banking.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

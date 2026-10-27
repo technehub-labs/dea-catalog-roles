@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 16
+    entities: 22
   cross_cutting:
     entities: entities/
     schemas: schemas/
@@ -93,6 +93,36 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-network-planning-engineer
       path: entities/v1-alpha/network-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-credit-risk-manager
+      path: entities/v1-alpha/credit-risk-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-financial-crime-compliance-manager
+      path: entities/v1-alpha/financial-crime-compliance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-payments-operations-manager
+      path: entities/v1-alpha/payments-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-treasury-manager
+      path: entities/v1-alpha/treasury-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-relationship-manager
+      path: entities/v1-alpha/relationship-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-internal-auditor
+      path: entities/v1-alpha/internal-auditor.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-27"
