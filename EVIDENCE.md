@@ -31,7 +31,10 @@ Candidate roles carry an ordinal rating, E0–E5:
 | E4 | Distinctness argued: not a duplicate of another cataloged role |
 | E5 | Reviewed and admitted canonical |
 
-The four seed instances (Enterprise Architect, Solution Architect, Platform Engineer, Domain Owner) and the Phase-4 additions are currently **E1 candidates**: seeded from enterprise-architecture and team-topologies recurrence, pending corroborated → reviewed promotion per GOVERNANCE.md §3.
+Ratings move per the industry-discovery passes (INDUSTRIES.md); the current
+state per instance lives in its `metadata.evidence_rating` and the per-slice
+movement tables in `industries/*-demand.md`. The first canonical admission
+(E5) is recorded in `change-requests/` and `docs/distinctness-register.md`.
 
 ## 4. Provenance
 
