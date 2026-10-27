@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 28
+    entities: 34
   cross_cutting:
     entities: entities/
     schemas: schemas/
@@ -153,6 +153,36 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-population-health-program-manager
       path: entities/v1-alpha/population-health-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-policy-analyst
+      path: entities/v1-alpha/policy-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-citizen-services-operations-manager
+      path: entities/v1-alpha/citizen-services-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-procurement-manager
+      path: entities/v1-alpha/procurement-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-public-finance-manager
+      path: entities/v1-alpha/public-finance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-service-designer
+      path: entities/v1-alpha/service-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-27"
+    - id: roles:role-data-protection-officer
+      path: entities/v1-alpha/data-protection-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-27"

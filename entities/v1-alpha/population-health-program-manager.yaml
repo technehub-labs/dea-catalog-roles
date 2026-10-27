@@ -15,6 +15,7 @@ metadata:
   metamodel_version: v0.3.0
   industries:
     - health
+    - public-sector
 relationships:
   - id: roles:rel-php-requires-pm2-skill
     source_id: roles:role-population-health-program-manager
@@ -24,7 +25,8 @@ relationships:
     rationale: >-
       The role cannot be fulfilled without program management competency
       (SKL -> ROL "required by", OpenDEAM v0.3.0). Health discovery pass 1;
-      program management recurs enterprise-wide (tracked toward E2).
+      program management recurs enterprise-wide; public-sector pass
+      corroborates: E2.
     provenance:
       type: discovery
       reference: industries/health.yaml

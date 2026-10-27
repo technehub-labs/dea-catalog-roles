@@ -1,0 +1,33 @@
+id: roles:role-citizen-services-operations-manager
+type: Role
+name: Citizen Services Operations Manager
+description: >-
+  Runs citizen-facing service delivery: service centers and digital
+  channels, caseload and queue management, and the service standards
+  (waiting times, first-contact resolution) the agency publishes and
+  reports against.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - operations
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - public-sector
+relationships:
+  - id: roles:rel-csom-requires-ps-skill
+    source_id: roles:role-citizen-services-operations-manager
+    target_id: skills:skill-public-service-operations
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without public service operations
+      competency (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector
+      discovery pass 1.
+    provenance:
+      type: discovery
+      reference: industries/public-sector.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

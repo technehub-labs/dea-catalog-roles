@@ -1,0 +1,33 @@
+id: roles:role-data-protection-officer
+type: Role
+name: Data Protection Officer
+description: >-
+  Owns data-protection compliance: the record of processing, privacy
+  impact assessments, data-subject request handling, and the independent
+  advice and oversight reported to leadership and regulators.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - governance
+  - compliance
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - public-sector
+relationships:
+  - id: roles:rel-dpo-requires-dp-skill
+    source_id: roles:role-data-protection-officer
+    target_id: skills:skill-data-protection
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without data-protection competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector discovery
+      pass 1; recurs in any enterprise processing personal data at scale
+      (tracked toward E2).
+    provenance:
+      type: discovery
+      reference: industries/public-sector.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

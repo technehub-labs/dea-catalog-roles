@@ -1,0 +1,32 @@
+id: roles:role-policy-analyst
+type: Role
+name: Policy Analyst
+description: >-
+  Develops and evaluates policy options: evidence gathering and impact
+  analysis, consultation with stakeholders, and the implementation guidance
+  that turns an adopted policy into operable services.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+  - functional
+  - policy
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  industries:
+    - public-sector
+relationships:
+  - id: roles:rel-pa2-requires-policy-skill
+    source_id: roles:role-policy-analyst
+    target_id: skills:skill-policy-analysis
+    relationship_type: requires
+    status: proposed
+    rationale: >-
+      The role cannot be fulfilled without policy analysis competency
+      (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector discovery
+      pass 1.
+    provenance:
+      type: discovery
+      reference: industries/public-sector.yaml
+      asserted_by: catalog-seed
+      verification_status: unverified

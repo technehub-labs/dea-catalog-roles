@@ -16,6 +16,7 @@ metadata:
   industries:
     - banking
     - health
+    - public-sector
 relationships:
   - id: roles:rel-ia-requires-audit-skill
     source_id: roles:role-internal-auditor
@@ -26,7 +27,8 @@ relationships:
       The role cannot be fulfilled without internal audit competency
       (SKL -> ROL "required by", OpenDEAM v0.3.0). Banking discovery pass 1;
       recurs across all regulated industries. Health pass corroborates:
-      E2 (two independent industries).
+      E2 (two independent industries). Public-sector pass adds a third:
+      E3-track.
     provenance:
       type: discovery
       reference: industries/banking.yaml

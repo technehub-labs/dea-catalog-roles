@@ -15,6 +15,7 @@ metadata:
   metamodel_version: v0.3.0
   industries:
     - health
+    - public-sector
 relationships:
   - id: roles:rel-pem-requires-px-skill
     source_id: roles:role-patient-experience-manager
@@ -24,8 +25,8 @@ relationships:
     rationale: >-
       The role cannot be fulfilled without experience management competency
       (SKL -> ROL "required by", OpenDEAM v0.3.0). Health discovery pass 1;
-      patient-experience work generalizes to customer-experience roles
-      (tracked toward E2).
+      patient-experience work generalizes to customer-experience roles;
+      public-sector citizen-services pass corroborates: E2.
     provenance:
       type: discovery
       reference: industries/health.yaml

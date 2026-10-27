@@ -1,0 +1,22 @@
+id: public-sector
+name: Public Sector
+status: discovery-complete
+scope: >-
+  Public-sector operating model: citizen-facing services and benefits,
+  policy development and implementation, regulatory administration,
+  public-finance management, and inter-agency coordination. Excludes
+  state-owned enterprises operating in competitive markets (they follow
+  their industry's slice).
+sources:
+  - class: government-guidance
+    examples: >-
+      Public-administration operating-model literature; digital-government
+      guidance; public-finance management standards
+    stance: Corroborates public-service role recurrence across jurisdictions
+  - class: industry-specific
+    examples: Public-sector service-delivery and policy frameworks
+    stance: Evidences recurring public-service responsibilities; names never copied
+notes: >-
+  Discovery pass 1 (2026-10-27). Fourth slice. Notably corroborates the
+  regulated-industry cluster (compliance, audit) and the
+  citizen-facing-services cluster (experience, program management).
