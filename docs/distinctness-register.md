@@ -35,9 +35,23 @@ cluster.
 
 **Sweep outcome:** distinct; no merge.
 
+## Cluster: experience & program (swept 2026-10-27)
+
+| Role | Accountability (one line) | Distinct from | Distinctness argument |
+|---|---|---|---|
+| Patient Experience Manager | Patient/citizen feedback, service recovery, experience improvement | Service Designer | Operating and improving live services (feedback loops, complaint resolution) vs designing new or redesigned services (journeys, blueprints, prototypes). Different lifecycle stage of the same service. |
+| Patient Experience Manager | — | Relationship Manager | Experience of a service population (aggregate measures, service recovery) vs commercial ownership of a named-account portfolio (P&L accountability). Different success criteria. |
+| Patient Experience Manager | — | Citizen Services Operations Manager | Experience outcomes (satisfaction, service recovery) vs service delivery operations (queues, SLAs, caseload). PEM is accountable for how service feels; CSOM for whether it runs. |
+| Population Health Program Manager | Health-outcome programs for a defined population | Process Owner | Program = temporary, outcome-targeted, multi-workstream change initiative vs process = standing, repeatable operational flow. Different object and horizon. |
+| Population Health Program Manager | — | Change Initiative (model entity CHI) | Role vs initiative: the role persists across the programs it manages; an initiative is one instance. The ROL manages CHIs; it is not one. |
+| Population Health Program Manager | — | Product Owner | Program portfolio accountability (epidemiological targets, population outcomes) vs single-product value maximization (backlog, increments). Different value measure. |
+
+**Sweep outcome:** both candidates distinct from all adjacent roles; no merges. Service Designer vs Citizen Services Operations Manager boundary (design vs run) also clarified via the PEM/CSOM row. Sweep re-runs if a new role lands in the cluster.
+
 ## Pending clusters
 
 - operations (Service Assurance, Claims Operations, Payments Operations,
   Citizen Services Operations, NOC, Service Provisioning): sweep at next
   admission from that cluster
 - commercial (Relationship Manager, Procurement Manager): same
+- design (Service Designer, Clinical Informaticist): same
