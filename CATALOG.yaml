@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 367
+    entities: 427
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -1739,6 +1739,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-wardrobe-costuming-compliance-officer
       path: entities/v1-alpha/wardrobe-costuming-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-auditor
+      path: entities/v1-alpha/advertising-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-auditor
+      path: entities/v1-alpha/audience-analytics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-auditor
+      path: entities/v1-alpha/audience-development-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-auditor
+      path: entities/v1-alpha/brand-partnerships-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-auditor
+      path: entities/v1-alpha/broadcast-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-auditor
+      path: entities/v1-alpha/content-compliance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-auditor
+      path: entities/v1-alpha/content-localization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-auditor
+      path: entities/v1-alpha/content-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-auditor
+      path: entities/v1-alpha/content-rights-licensing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-auditor
+      path: entities/v1-alpha/creator-partnerships-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-auditor
+      path: entities/v1-alpha/digital-asset-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-auditor
+      path: entities/v1-alpha/editorial-standards-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-auditor
+      path: entities/v1-alpha/gaming-content-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-auditor
+      path: entities/v1-alpha/interactive-media-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-auditor
+      path: entities/v1-alpha/live-event-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-auditor
+      path: entities/v1-alpha/media-archive-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-auditor
+      path: entities/v1-alpha/media-supply-chain-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-auditor
+      path: entities/v1-alpha/metadata-cataloguing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-auditor
+      path: entities/v1-alpha/newsroom-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-auditor
+      path: entities/v1-alpha/ott-distribution-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-auditor
+      path: entities/v1-alpha/photojournalism-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-auditor
+      path: entities/v1-alpha/podcast-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-auditor
+      path: entities/v1-alpha/post-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-auditor
+      path: entities/v1-alpha/print-publishing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-auditor
+      path: entities/v1-alpha/programme-scheduling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-auditor
+      path: entities/v1-alpha/social-media-publishing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-auditor
+      path: entities/v1-alpha/studios-facilities-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-auditor
+      path: entities/v1-alpha/subscriber-growth-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-auditor
+      path: entities/v1-alpha/transcription-captioning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-auditor
+      path: entities/v1-alpha/video-streaming-platforms-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-compliance-officer
+      path: entities/v1-alpha/advertising-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-compliance-officer
+      path: entities/v1-alpha/audience-analytics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-compliance-officer
+      path: entities/v1-alpha/audience-development-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-compliance-officer
+      path: entities/v1-alpha/brand-partnerships-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-compliance-officer
+      path: entities/v1-alpha/broadcast-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-compliance-officer
+      path: entities/v1-alpha/content-compliance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-compliance-officer
+      path: entities/v1-alpha/content-localization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-compliance-officer
+      path: entities/v1-alpha/content-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-compliance-officer
+      path: entities/v1-alpha/content-rights-licensing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-compliance-officer
+      path: entities/v1-alpha/creator-partnerships-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-compliance-officer
+      path: entities/v1-alpha/digital-asset-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-compliance-officer
+      path: entities/v1-alpha/editorial-standards-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-compliance-officer
+      path: entities/v1-alpha/gaming-content-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-compliance-officer
+      path: entities/v1-alpha/interactive-media-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-compliance-officer
+      path: entities/v1-alpha/live-event-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-compliance-officer
+      path: entities/v1-alpha/media-archive-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-compliance-officer
+      path: entities/v1-alpha/media-supply-chain-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-compliance-officer
+      path: entities/v1-alpha/metadata-cataloguing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-compliance-officer
+      path: entities/v1-alpha/newsroom-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-compliance-officer
+      path: entities/v1-alpha/ott-distribution-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-compliance-officer
+      path: entities/v1-alpha/photojournalism-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-compliance-officer
+      path: entities/v1-alpha/podcast-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-compliance-officer
+      path: entities/v1-alpha/post-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-compliance-officer
+      path: entities/v1-alpha/print-publishing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-compliance-officer
+      path: entities/v1-alpha/programme-scheduling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-compliance-officer
+      path: entities/v1-alpha/social-media-publishing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-compliance-officer
+      path: entities/v1-alpha/studios-facilities-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-compliance-officer
+      path: entities/v1-alpha/subscriber-growth-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-compliance-officer
+      path: entities/v1-alpha/transcription-captioning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-compliance-officer
+      path: entities/v1-alpha/video-streaming-platforms-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
