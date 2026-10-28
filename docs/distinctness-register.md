@@ -48,10 +48,38 @@ cluster.
 
 **Sweep outcome:** both candidates distinct from all adjacent roles; no merges. Service Designer vs Citizen Services Operations Manager boundary (design vs run) also clarified via the PEM/CSOM row. Sweep re-runs if a new role lands in the cluster.
 
+## Cluster: commercial & sourcing (swept 2026-10-28)
+
+| Role | Accountability (one line) | Distinct from | Distinctness argument |
+|---|---|---|---|
+| Procurement Manager | Sourcing and procurement cycle within procurement law/policy | Relationship Manager | Buys under governed sourcing rules (competitive process, contract law) vs owns commercial relationships for revenue. Opposite-direction money flow; different control environment. |
+| Procurement Manager | — | Interconnect & Wholesale Manager | Buys goods/services for the enterprise's own operation vs sells/interconnects network capacity wholesale. Different side of the market. |
+| Procurement Manager | — | Public Finance Manager | Transaction-level sourcing accountability vs enterprise budget-cycle accountability. PM executes within budget; PFM owns the budget. |
+
+**Sweep outcome:** distinct; no merge.
+
+## Cluster: design (swept 2026-10-28)
+
+| Role | Accountability (one line) | Distinct from | Distinctness argument |
+|---|---|---|---|
+| Service Designer | End-to-end service design around user needs | Patient Experience Manager | Designs services (journeys, blueprints, prototypes) vs operates and improving live services (feedback, recovery). Already argued in the experience & program sweep; boundary reaffirmed. |
+| Service Designer | — | Clinical Informaticist | Designs service journeys and delivery mechanics for users vs bridges clinical practice and technology (CDS design, EHR workflow, clinical safety). Different object (service vs clinical system). |
+| Service Designer | — | Architect family | Designs the service as experienced (human-facing journey) vs architecture of systems realizing it. Complementary, not overlapping. |
+
+**Sweep outcome:** distinct; no merge.
+
+## Cluster: technical architecture (swept 2026-10-28)
+
+| Role | Accountability (one line) | Distinct from | Distinctness argument |
+|---|---|---|---|
+| Security Architect | Security architecture: threat modeling, guardrails, control mapping | Enterprise Architect | Enterprise-wide coherence across all layers vs security domain specifically. EA subsumes security concerns at strategy level; SA owns their technical enforcement. |
+| Security Architect | — | Solution Architect | Solution-scoped design within guardrails vs security guardrail design across solutions. SA sets constraints SlnA operates within. |
+| Security Architect | — | Data Architect | Security controls and threat model vs data models and ownership. Overlap only at data-security boundary; accountabilities distinct. |
+
+**Sweep outcome:** distinct; no merge.
+
 ## Pending clusters
 
 - operations (Service Assurance, Claims Operations, Payments Operations,
   Citizen Services Operations, NOC, Service Provisioning): sweep at next
   admission from that cluster
-- commercial (Relationship Manager, Procurement Manager): same
-- design (Service Designer, Clinical Informaticist): same

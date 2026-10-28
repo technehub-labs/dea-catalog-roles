@@ -1,33 +1,53 @@
 id: roles:role-service-designer
 type: Role
 name: Service Designer
-description: >-
-  Designs services end to end around user needs: journey mapping across
-  channels, service blueprinting with the teams that deliver, and the
-  prototype-and-test loop that validates a service before scaling it.
-version: 0.1.0
-lifecycle_status: proposed
+description: 'Designs services end to end around user needs: journey mapping across channels, service
+  blueprinting with the teams that deliver, and the prototype-and-test loop that validates a service before
+  scaling it.'
+version: 0.2.0
+lifecycle_status: active
 tags:
-  - functional
-  - design
+- functional
+- design
 metadata:
   catalog: technehub-labs/dea-catalog-roles
   metamodel_version: v0.3.0
   industries:
-    - public-sector
+  - public-sector
+  - technology
+  - entertainment
+  - healthcare
+  - consulting
+  evidence_rating: E5
+  evidence_ladder:
+  - stage: E1-recurrence
+    date: '2026-10-28'
+    reference: industries/public-sector.yaml
+  - stage: E2-corroboration
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv Designer-family experience domains (technology, entertainment,
+      healthcare, consulting)
+  - stage: E3-enterprise-generality
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv (domain recurrence; docs/family-recurrence-register.md usage
+      rules)
+  - stage: E4-distinctness
+    date: '2026-10-28'
+    reference: docs/distinctness-register.md
+  - stage: E5-review
+    date: '2026-10-28'
+    reference: change-requests/CR-DEA-ROL-11-admissions-corroborated-trio.md
 relationships:
-  - id: roles:rel-sd-requires-sd-skill
-    source_id: roles:role-service-designer
-    target_id: skills:skill-service-design
-    relationship_type: requires
-    status: proposed
-    rationale: >-
-      The role cannot be fulfilled without service design competency
-      (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector discovery
-      pass 1; recurs in any enterprise with multi-channel services
-      (tracked toward E2).
-    provenance:
-      type: discovery
-      reference: industries/public-sector.yaml
-      asserted_by: catalog-seed
-      verification_status: unverified
+- id: roles:rel-sd-requires-sd-skill
+  source_id: roles:role-service-designer
+  target_id: skills:skill-service-design
+  relationship_type: requires
+  status: proposed
+  rationale: The role cannot be fulfilled without service design competency (SKL -> ROL "required by",
+    OpenDEAM v0.3.0). Public-sector discovery pass 1; recurs in any enterprise with multi-channel services
+    (tracked toward E2).
+  provenance:
+    type: discovery
+    reference: industries/public-sector.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
