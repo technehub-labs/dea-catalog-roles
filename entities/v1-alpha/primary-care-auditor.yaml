@@ -1,0 +1,50 @@
+id: roles:role-primary-care-auditor
+type: Role
+name: Primary Care Auditor
+description: Independently reviews primary care controls and records, reporting findings and tracking
+  remediation within Healthcare assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- primary
+- healthcare
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Primary Care
+  org_unit: Primary Care Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-primary-care-auditor-requires-primary-care
+  source_id: roles:role-primary-care-auditor
+  target_id: skills:skill-primary-care
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-primary-care-auditor-requires-primary-care-secondary
+  source_id: roles:role-primary-care-auditor
+  target_id: skills:skill-primary-care-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

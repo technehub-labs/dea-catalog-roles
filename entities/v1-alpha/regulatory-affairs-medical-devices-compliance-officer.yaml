@@ -1,0 +1,50 @@
+id: roles:role-regulatory-affairs-medical-devices-compliance-officer
+type: Role
+name: Regulatory Affairs (Medical Devices) Compliance Officer
+description: Constrains and reviews regulatory affairs (medical devices) activity against regulatory and
+  policy obligations, escalating breaches in the Healthcare control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- regulatory
+- healthcare
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Affairs (Medical Devices)
+  org_unit: Regulatory Affairs (Medical Devices) Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-regulatory-affairs-medical-devices-compl-requires-regulatory-affairs-medical-dev
+  source_id: roles:role-regulatory-affairs-medical-devices-compliance-officer
+  target_id: skills:skill-regulatory-affairs-medical-devices
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-affairs-medical-devices-compl-requires-regulatory-affairs-medical-dev-secondary
+  source_id: roles:role-regulatory-affairs-medical-devices-compliance-officer
+  target_id: skills:skill-regulatory-affairs-medical-devices-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

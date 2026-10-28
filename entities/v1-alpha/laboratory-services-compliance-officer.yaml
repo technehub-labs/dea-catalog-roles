@@ -1,0 +1,50 @@
+id: roles:role-laboratory-services-compliance-officer
+type: Role
+name: Laboratory Services Compliance Officer
+description: Constrains and reviews laboratory services activity against regulatory and policy obligations,
+  escalating breaches in the Healthcare control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- laboratory
+- healthcare
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Laboratory Services
+  org_unit: Laboratory Services Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-laboratory-services-compliance-officer-requires-laboratory-services
+  source_id: roles:role-laboratory-services-compliance-officer
+  target_id: skills:skill-laboratory-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-laboratory-services-compliance-officer-requires-laboratory-services-secondary
+  source_id: roles:role-laboratory-services-compliance-officer
+  target_id: skills:skill-laboratory-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

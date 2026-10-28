@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 667
+    entities: 727
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -3239,6 +3239,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-workforce-scheduling-compliance-officer
       path: entities/v1-alpha/workforce-scheduling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-auditor
+      path: entities/v1-alpha/biomedical-engineering-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-auditor
+      path: entities/v1-alpha/blood-bank-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-auditor
+      path: entities/v1-alpha/care-coordination-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-auditor
+      path: entities/v1-alpha/clinical-governance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-auditor
+      path: entities/v1-alpha/clinical-informatics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-auditor
+      path: entities/v1-alpha/clinical-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-auditor
+      path: entities/v1-alpha/clinical-trials-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-auditor
+      path: entities/v1-alpha/community-health-outreach-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-auditor
+      path: entities/v1-alpha/diagnostic-imaging-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-auditor
+      path: entities/v1-alpha/emergency-care-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-auditor
+      path: entities/v1-alpha/genomics-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-auditor
+      path: entities/v1-alpha/healthcare-revenue-cycle-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-auditor
+      path: entities/v1-alpha/home-care-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-auditor
+      path: entities/v1-alpha/infection-prevention-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-auditor
+      path: entities/v1-alpha/laboratory-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-auditor
+      path: entities/v1-alpha/medical-coding-billing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-auditor
+      path: entities/v1-alpha/medical-staff-credentialing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-auditor
+      path: entities/v1-alpha/medical-supply-chain-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-auditor
+      path: entities/v1-alpha/mental-health-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-auditor
+      path: entities/v1-alpha/nursing-workforce-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-auditor
+      path: entities/v1-alpha/patient-access-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-auditor
+      path: entities/v1-alpha/patient-experience-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-auditor
+      path: entities/v1-alpha/patient-safety-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-auditor
+      path: entities/v1-alpha/pharmacy-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-auditor
+      path: entities/v1-alpha/population-health-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-auditor
+      path: entities/v1-alpha/primary-care-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-auditor
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-auditor
+      path: entities/v1-alpha/rehabilitation-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-auditor
+      path: entities/v1-alpha/surgical-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-auditor
+      path: entities/v1-alpha/telehealth-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-compliance-officer
+      path: entities/v1-alpha/biomedical-engineering-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-compliance-officer
+      path: entities/v1-alpha/blood-bank-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-compliance-officer
+      path: entities/v1-alpha/care-coordination-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-compliance-officer
+      path: entities/v1-alpha/clinical-governance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-compliance-officer
+      path: entities/v1-alpha/clinical-informatics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-compliance-officer
+      path: entities/v1-alpha/clinical-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-compliance-officer
+      path: entities/v1-alpha/clinical-trials-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-compliance-officer
+      path: entities/v1-alpha/community-health-outreach-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-compliance-officer
+      path: entities/v1-alpha/diagnostic-imaging-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-compliance-officer
+      path: entities/v1-alpha/emergency-care-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-compliance-officer
+      path: entities/v1-alpha/genomics-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-compliance-officer
+      path: entities/v1-alpha/healthcare-revenue-cycle-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-compliance-officer
+      path: entities/v1-alpha/home-care-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-compliance-officer
+      path: entities/v1-alpha/infection-prevention-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-compliance-officer
+      path: entities/v1-alpha/laboratory-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-compliance-officer
+      path: entities/v1-alpha/medical-coding-billing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-compliance-officer
+      path: entities/v1-alpha/medical-staff-credentialing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-compliance-officer
+      path: entities/v1-alpha/medical-supply-chain-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-compliance-officer
+      path: entities/v1-alpha/mental-health-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-compliance-officer
+      path: entities/v1-alpha/nursing-workforce-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-compliance-officer
+      path: entities/v1-alpha/patient-access-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-compliance-officer
+      path: entities/v1-alpha/patient-experience-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-compliance-officer
+      path: entities/v1-alpha/patient-safety-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-compliance-officer
+      path: entities/v1-alpha/pharmacy-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-compliance-officer
+      path: entities/v1-alpha/population-health-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-compliance-officer
+      path: entities/v1-alpha/primary-care-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-compliance-officer
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-compliance-officer
+      path: entities/v1-alpha/rehabilitation-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-compliance-officer
+      path: entities/v1-alpha/surgical-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-compliance-officer
+      path: entities/v1-alpha/telehealth-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

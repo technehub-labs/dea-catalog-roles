@@ -1,0 +1,50 @@
+id: roles:role-biomedical-engineering-compliance-officer
+type: Role
+name: Biomedical Engineering Compliance Officer
+description: Constrains and reviews biomedical engineering activity against regulatory and policy obligations,
+  escalating breaches in the Healthcare control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- biomedical
+- healthcare
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Biomedical Engineering
+  org_unit: Biomedical Engineering Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-biomedical-engineering-compliance-office-requires-biomedical-engineering
+  source_id: roles:role-biomedical-engineering-compliance-officer
+  target_id: skills:skill-biomedical-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-biomedical-engineering-compliance-office-requires-biomedical-engineering-secondary
+  source_id: roles:role-biomedical-engineering-compliance-officer
+  target_id: skills:skill-biomedical-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
