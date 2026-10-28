@@ -1,0 +1,50 @@
+id: roles:role-airport-operations-coach
+type: Role
+name: Airport Operations Coach
+description: Coaches Transport & Logistics teams and individuals on airport operations working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- airport
+- transport
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Airport Operations
+  org_unit: Airport Operations Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-airport-operations-coach-requires-airport-operations
+  source_id: roles:role-airport-operations-coach
+  target_id: skills:skill-airport-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-airport-operations-coach-requires-airport-operations-secondary
+  source_id: roles:role-airport-operations-coach
+  target_id: skills:skill-airport-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

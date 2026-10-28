@@ -1,0 +1,50 @@
+id: roles:role-rail-signalling-engineer
+type: Role
+name: Rail Signalling Engineer
+description: Builds, configures, and maintains rail signalling components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Transport & Logistics standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- rail
+- transport
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Rail Signalling
+  org_unit: Rail Signalling Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-rail-signalling-engineer-requires-rail-signalling
+  source_id: roles:role-rail-signalling-engineer
+  target_id: skills:skill-rail-signalling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rail-signalling-engineer-requires-rail-signalling-secondary
+  source_id: roles:role-rail-signalling-engineer
+  target_id: skills:skill-rail-signalling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

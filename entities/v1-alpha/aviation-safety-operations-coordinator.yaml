@@ -1,0 +1,50 @@
+id: roles:role-aviation-safety-operations-coordinator
+type: Role
+name: Aviation Safety Operations Coordinator
+description: Coordinates day-to-day aviation safety activities, schedules, and records, keeping Transport
+  & Logistics operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- aviation
+- transport
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Aviation Safety
+  org_unit: Aviation Safety Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-aviation-safety-operations-coordinator-requires-aviation-safety
+  source_id: roles:role-aviation-safety-operations-coordinator
+  target_id: skills:skill-aviation-safety
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-aviation-safety-operations-coordinator-requires-aviation-safety-secondary
+  source_id: roles:role-aviation-safety-operations-coordinator
+  target_id: skills:skill-aviation-safety-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

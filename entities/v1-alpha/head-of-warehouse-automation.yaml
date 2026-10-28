@@ -1,0 +1,50 @@
+id: roles:role-head-of-warehouse-automation
+type: Role
+name: Head of Warehouse Automation
+description: 'Owns the warehouse automation domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Transport & Logistics.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- warehouse
+- transport
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Warehouse Automation
+  org_unit: Warehouse Automation Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-head-of-warehouse-automation-requires-warehouse-automation
+  source_id: roles:role-head-of-warehouse-automation
+  target_id: skills:skill-warehouse-automation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-warehouse-automation-requires-warehouse-automation-secondary
+  source_id: roles:role-head-of-warehouse-automation
+  target_id: skills:skill-warehouse-automation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

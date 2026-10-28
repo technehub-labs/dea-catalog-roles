@@ -1,0 +1,50 @@
+id: roles:role-warehouse-operations-lead
+type: Role
+name: Warehouse Operations Lead
+description: Sets direction for warehouse operations teams, owns their outcomes, and represents warehouse
+  operations interests in Transport & Logistics governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- warehouse
+- transport
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Warehouse Operations
+  org_unit: Warehouse Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-warehouse-operations-lead-requires-warehouse-operations
+  source_id: roles:role-warehouse-operations-lead
+  target_id: skills:skill-warehouse-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-warehouse-operations-lead-requires-warehouse-operations-secondary
+  source_id: roles:role-warehouse-operations-lead
+  target_id: skills:skill-warehouse-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

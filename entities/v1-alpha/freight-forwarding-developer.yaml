@@ -1,0 +1,50 @@
+id: roles:role-freight-forwarding-developer
+type: Role
+name: Freight Forwarding Developer
+description: Implements and unit-tests freight forwarding capabilities, contributing code and configuration
+  within the Transport & Logistics delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- freight
+- transport
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Freight Forwarding
+  org_unit: Freight Forwarding Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-freight-forwarding-developer-requires-freight-forwarding
+  source_id: roles:role-freight-forwarding-developer
+  target_id: skills:skill-freight-forwarding
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-freight-forwarding-developer-requires-freight-forwarding-secondary
+  source_id: roles:role-freight-forwarding-developer
+  target_id: skills:skill-freight-forwarding-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

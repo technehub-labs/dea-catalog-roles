@@ -1,0 +1,50 @@
+id: roles:role-fleet-operations-lead
+type: Role
+name: Fleet Operations Lead
+description: Sets direction for fleet operations teams, owns their outcomes, and represents fleet operations
+  interests in Transport & Logistics governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- fleet
+- transport
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fleet Operations
+  org_unit: Fleet Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-fleet-operations-lead-requires-fleet-operations
+  source_id: roles:role-fleet-operations-lead
+  target_id: skills:skill-fleet-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fleet-operations-lead-requires-fleet-operations-secondary
+  source_id: roles:role-fleet-operations-lead
+  target_id: skills:skill-fleet-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

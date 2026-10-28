@@ -1,0 +1,50 @@
+id: roles:role-fleet-maintenance-lead
+type: Role
+name: Fleet Maintenance Lead
+description: Sets direction for fleet maintenance teams, owns their outcomes, and represents fleet maintenance
+  interests in Transport & Logistics governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- fleet
+- transport
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fleet Maintenance
+  org_unit: Fleet Maintenance Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-fleet-maintenance-lead-requires-fleet-maintenance
+  source_id: roles:role-fleet-maintenance-lead
+  target_id: skills:skill-fleet-maintenance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fleet-maintenance-lead-requires-fleet-maintenance-secondary
+  source_id: roles:role-fleet-maintenance-lead
+  target_id: skills:skill-fleet-maintenance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-track-infrastructure-maintenance-developer
+type: Role
+name: Track & Infrastructure Maintenance Developer
+description: Implements and unit-tests track & infrastructure maintenance capabilities, contributing code
+  and configuration within the Transport & Logistics delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- track
+- transport
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Track & Infrastructure Maintenance
+  org_unit: Track & Infrastructure Maintenance Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-track-infrastructure-maintenance-develop-requires-track-infrastructure-maintenan
+  source_id: roles:role-track-infrastructure-maintenance-developer
+  target_id: skills:skill-track-infrastructure-maintenance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-track-infrastructure-maintenance-develop-requires-track-infrastructure-maintenan-secondary
+  source_id: roles:role-track-infrastructure-maintenance-developer
+  target_id: skills:skill-track-infrastructure-maintenance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

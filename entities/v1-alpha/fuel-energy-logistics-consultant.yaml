@@ -1,0 +1,50 @@
+id: roles:role-fuel-energy-logistics-consultant
+type: Role
+name: Fuel & Energy Logistics Consultant
+description: Supports Transport & Logistics teams adopting fuel & energy logistics practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- fuel
+- transport
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fuel & Energy Logistics
+  org_unit: Fuel & Energy Logistics Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-fuel-energy-logistics-consultant-requires-fuel-energy-logistics
+  source_id: roles:role-fuel-energy-logistics-consultant
+  target_id: skills:skill-fuel-energy-logistics
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fuel-energy-logistics-consultant-requires-fuel-energy-logistics-secondary
+  source_id: roles:role-fuel-energy-logistics-consultant
+  target_id: skills:skill-fuel-energy-logistics-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

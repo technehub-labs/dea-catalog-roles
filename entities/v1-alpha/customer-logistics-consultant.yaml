@@ -1,0 +1,50 @@
+id: roles:role-customer-logistics-consultant
+type: Role
+name: Customer Logistics Consultant
+description: Supports Transport & Logistics teams adopting customer logistics practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- customer
+- transport
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customer Logistics
+  org_unit: Customer Logistics Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-customer-logistics-consultant-requires-customer-logistics
+  source_id: roles:role-customer-logistics-consultant
+  target_id: skills:skill-customer-logistics
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-customer-logistics-consultant-requires-customer-logistics-secondary
+  source_id: roles:role-customer-logistics-consultant
+  target_id: skills:skill-customer-logistics-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

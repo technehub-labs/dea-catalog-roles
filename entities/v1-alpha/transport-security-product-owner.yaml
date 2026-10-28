@@ -1,0 +1,50 @@
+id: roles:role-transport-security-product-owner
+type: Role
+name: Transport Security Product Owner
+description: Owns the transport security product backlog, prioritising against user value and Transport
+  & Logistics business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- transport
+- transport
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Transport Security
+  org_unit: Transport Security Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-transport-security-product-owner-requires-transport-security
+  source_id: roles:role-transport-security-product-owner
+  target_id: skills:skill-transport-security
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-transport-security-product-owner-requires-transport-security-secondary
+  source_id: roles:role-transport-security-product-owner
+  target_id: skills:skill-transport-security-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

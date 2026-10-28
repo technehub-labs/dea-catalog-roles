@@ -1,0 +1,50 @@
+id: roles:role-parcel-sorting-engineer
+type: Role
+name: Parcel Sorting Engineer
+description: Builds, configures, and maintains parcel sorting components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Transport & Logistics standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- parcel
+- transport
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Parcel Sorting
+  org_unit: Parcel Sorting Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-parcel-sorting-engineer-requires-parcel-sorting
+  source_id: roles:role-parcel-sorting-engineer
+  target_id: skills:skill-parcel-sorting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-parcel-sorting-engineer-requires-parcel-sorting-secondary
+  source_id: roles:role-parcel-sorting-engineer
+  target_id: skills:skill-parcel-sorting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

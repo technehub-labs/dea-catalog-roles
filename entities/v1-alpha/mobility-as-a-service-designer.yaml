@@ -1,0 +1,50 @@
+id: roles:role-mobility-as-a-service-designer
+type: Role
+name: Mobility-as-a-Service Designer
+description: Designs mobility-as-a-service solutions and interfaces, translating Transport & Logistics
+  requirements into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- mobility
+- transport
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mobility-as-a-Service
+  org_unit: Mobility-as-a-Service Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-mobility-as-a-service-designer-requires-mobility-as-a-service
+  source_id: roles:role-mobility-as-a-service-designer
+  target_id: skills:skill-mobility-as-a-service
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mobility-as-a-service-designer-requires-mobility-as-a-service-secondary
+  source_id: roles:role-mobility-as-a-service-designer
+  target_id: skills:skill-mobility-as-a-service-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

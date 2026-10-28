@@ -1,0 +1,50 @@
+id: roles:role-customs-border-clearance-designer
+type: Role
+name: Customs & Border Clearance Designer
+description: Designs customs & border clearance solutions and interfaces, translating Transport & Logistics
+  requirements into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- customs
+- transport
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customs & Border Clearance
+  org_unit: Customs & Border Clearance Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-customs-border-clearance-designer-requires-customs-border-clearance
+  source_id: roles:role-customs-border-clearance-designer
+  target_id: skills:skill-customs-border-clearance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-customs-border-clearance-designer-requires-customs-border-clearance-secondary
+  source_id: roles:role-customs-border-clearance-designer
+  target_id: skills:skill-customs-border-clearance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

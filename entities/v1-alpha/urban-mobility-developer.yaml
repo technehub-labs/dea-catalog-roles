@@ -1,0 +1,50 @@
+id: roles:role-urban-mobility-developer
+type: Role
+name: Urban Mobility Developer
+description: Implements and unit-tests urban mobility capabilities, contributing code and configuration
+  within the Transport & Logistics delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- urban
+- transport
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Urban Mobility
+  org_unit: Urban Mobility Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-urban-mobility-developer-requires-urban-mobility
+  source_id: roles:role-urban-mobility-developer
+  target_id: skills:skill-urban-mobility
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-urban-mobility-developer-requires-urban-mobility-secondary
+  source_id: roles:role-urban-mobility-developer
+  target_id: skills:skill-urban-mobility-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

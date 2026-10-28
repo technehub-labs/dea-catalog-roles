@@ -1,0 +1,50 @@
+id: roles:role-rail-operations-coach
+type: Role
+name: Rail Operations Coach
+description: Coaches Transport & Logistics teams and individuals on rail operations working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- rail
+- transport
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Rail Operations
+  org_unit: Rail Operations Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-rail-operations-coach-requires-rail-operations
+  source_id: roles:role-rail-operations-coach
+  target_id: skills:skill-rail-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rail-operations-coach-requires-rail-operations-secondary
+  source_id: roles:role-rail-operations-coach
+  target_id: skills:skill-rail-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
