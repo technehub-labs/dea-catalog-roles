@@ -1,0 +1,50 @@
+id: roles:role-head-of-machine-learning-systems
+type: Role
+name: Head of Machine Learning Systems
+description: 'Owns the machine learning systems domain at executive level: strategy, investment cases,
+  organisational design, and regulatory posture for Technology.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- machine
+- technology
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Machine Learning Systems
+  org_unit: Machine Learning Systems Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-head-of-machine-learning-systems-requires-machine-learning-systems
+  source_id: roles:role-head-of-machine-learning-systems
+  target_id: skills:skill-machine-learning-systems
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-machine-learning-systems-requires-machine-learning-systems-secondary
+  source_id: roles:role-head-of-machine-learning-systems
+  target_id: skills:skill-machine-learning-systems-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
