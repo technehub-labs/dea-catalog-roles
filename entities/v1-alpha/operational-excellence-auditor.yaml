@@ -1,0 +1,50 @@
+id: roles:role-operational-excellence-auditor
+type: Role
+name: Operational Excellence Auditor
+description: Independently reviews operational excellence controls and records, reporting findings and
+  tracking remediation within Consulting & Professional Services assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- operational
+- consulting
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Operational Excellence
+  org_unit: Operational Excellence Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-operational-excellence-auditor-requires-operational-excellence
+  source_id: roles:role-operational-excellence-auditor
+  target_id: skills:skill-operational-excellence
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-operational-excellence-auditor-requires-operational-excellence-secondary
+  source_id: roles:role-operational-excellence-auditor
+  target_id: skills:skill-operational-excellence-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-advisory-quality-compliance-officer
+type: Role
+name: Advisory Quality Compliance Officer
+description: Constrains and reviews advisory quality activity against regulatory and policy obligations,
+  escalating breaches in the Consulting & Professional Services control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- advisory
+- consulting
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Advisory Quality
+  org_unit: Advisory Quality Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-advisory-quality-compliance-officer-requires-advisory-quality
+  source_id: roles:role-advisory-quality-compliance-officer
+  target_id: skills:skill-advisory-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-advisory-quality-compliance-officer-requires-advisory-quality-secondary
+  source_id: roles:role-advisory-quality-compliance-officer
+  target_id: skills:skill-advisory-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

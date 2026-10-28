@@ -1,0 +1,50 @@
+id: roles:role-strategy-advisory-auditor
+type: Role
+name: Strategy Advisory Auditor
+description: Independently reviews strategy advisory controls and records, reporting findings and tracking
+  remediation within Consulting & Professional Services assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- strategy
+- consulting
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Strategy Advisory
+  org_unit: Strategy Advisory Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-strategy-advisory-auditor-requires-strategy-advisory
+  source_id: roles:role-strategy-advisory-auditor
+  target_id: skills:skill-strategy-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-strategy-advisory-auditor-requires-strategy-advisory-secondary
+  source_id: roles:role-strategy-advisory-auditor
+  target_id: skills:skill-strategy-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
