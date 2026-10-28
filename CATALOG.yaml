@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 2132
+    entities: 2570
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -10564,6 +10564,2196 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-ott-distribution-program-manager
       path: entities/v1-alpha/ott-distribution-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-administrator
+      path: entities/v1-alpha/aml-sanctions-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-administrator
+      path: entities/v1-alpha/asset-servicing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-administrator
+      path: entities/v1-alpha/capital-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-administrator
+      path: entities/v1-alpha/card-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-administrator
+      path: entities/v1-alpha/clearing-house-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-administrator
+      path: entities/v1-alpha/core-banking-systems-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-administrator
+      path: entities/v1-alpha/corporate-lending-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-administrator
+      path: entities/v1-alpha/credit-risk-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-administrator
+      path: entities/v1-alpha/custody-settlement-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-administrator
+      path: entities/v1-alpha/customer-kyc-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-administrator
+      path: entities/v1-alpha/digital-banking-channels-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-administrator
+      path: entities/v1-alpha/financial-accounting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-administrator
+      path: entities/v1-alpha/financial-crime-compliance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-administrator
+      path: entities/v1-alpha/fraud-risk-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-administrator
+      path: entities/v1-alpha/fund-administration-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-administrator
+      path: entities/v1-alpha/insurance-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-administrator
+      path: entities/v1-alpha/investor-relations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-administrator
+      path: entities/v1-alpha/islamic-finance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-administrator
+      path: entities/v1-alpha/liquidity-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-administrator
+      path: entities/v1-alpha/loan-origination-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-administrator
+      path: entities/v1-alpha/market-risk-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-administrator
+      path: entities/v1-alpha/mortgage-servicing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-administrator
+      path: entities/v1-alpha/open-banking-apis-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-administrator
+      path: entities/v1-alpha/payment-processing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-administrator
+      path: entities/v1-alpha/pension-administration-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-administrator
+      path: entities/v1-alpha/regulatory-reporting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-administrator
+      path: entities/v1-alpha/retail-banking-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-administrator
+      path: entities/v1-alpha/trade-finance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-administrator
+      path: entities/v1-alpha/treasury-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-administrator
+      path: entities/v1-alpha/wealth-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-analyst
+      path: entities/v1-alpha/aml-sanctions-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-analyst
+      path: entities/v1-alpha/asset-servicing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-analyst
+      path: entities/v1-alpha/capital-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-analyst
+      path: entities/v1-alpha/card-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-analyst
+      path: entities/v1-alpha/clearing-house-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-analyst
+      path: entities/v1-alpha/core-banking-systems-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-analyst
+      path: entities/v1-alpha/corporate-lending-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-analyst
+      path: entities/v1-alpha/credit-risk-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-analyst
+      path: entities/v1-alpha/custody-settlement-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-analyst
+      path: entities/v1-alpha/customer-kyc-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-analyst
+      path: entities/v1-alpha/digital-banking-channels-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-analyst
+      path: entities/v1-alpha/financial-accounting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-analyst
+      path: entities/v1-alpha/financial-crime-compliance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-analyst
+      path: entities/v1-alpha/fraud-risk-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-analyst
+      path: entities/v1-alpha/fund-administration-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-analyst
+      path: entities/v1-alpha/insurance-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-analyst
+      path: entities/v1-alpha/investor-relations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-analyst
+      path: entities/v1-alpha/islamic-finance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-analyst
+      path: entities/v1-alpha/liquidity-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-analyst
+      path: entities/v1-alpha/loan-origination-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-analyst
+      path: entities/v1-alpha/market-risk-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-analyst
+      path: entities/v1-alpha/mortgage-servicing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-analyst
+      path: entities/v1-alpha/open-banking-apis-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-analyst
+      path: entities/v1-alpha/payment-processing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-analyst
+      path: entities/v1-alpha/pension-administration-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-analyst
+      path: entities/v1-alpha/regulatory-reporting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-analyst
+      path: entities/v1-alpha/retail-banking-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-analyst
+      path: entities/v1-alpha/trade-finance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-analyst
+      path: entities/v1-alpha/treasury-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-analyst
+      path: entities/v1-alpha/wealth-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-architect
+      path: entities/v1-alpha/aml-sanctions-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-architect
+      path: entities/v1-alpha/asset-servicing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-architect
+      path: entities/v1-alpha/capital-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-architect
+      path: entities/v1-alpha/card-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-architect
+      path: entities/v1-alpha/clearing-house-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-architect
+      path: entities/v1-alpha/core-banking-systems-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-architect
+      path: entities/v1-alpha/corporate-lending-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-architect
+      path: entities/v1-alpha/credit-risk-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-architect
+      path: entities/v1-alpha/custody-settlement-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-architect
+      path: entities/v1-alpha/customer-kyc-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-architect
+      path: entities/v1-alpha/digital-banking-channels-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-architect
+      path: entities/v1-alpha/financial-accounting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-architect
+      path: entities/v1-alpha/financial-crime-compliance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-architect
+      path: entities/v1-alpha/fraud-risk-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-architect
+      path: entities/v1-alpha/fund-administration-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-architect
+      path: entities/v1-alpha/insurance-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-architect
+      path: entities/v1-alpha/investor-relations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-architect
+      path: entities/v1-alpha/islamic-finance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-architect
+      path: entities/v1-alpha/liquidity-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-architect
+      path: entities/v1-alpha/loan-origination-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-architect
+      path: entities/v1-alpha/market-risk-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-architect
+      path: entities/v1-alpha/mortgage-servicing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-architect
+      path: entities/v1-alpha/open-banking-apis-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-architect
+      path: entities/v1-alpha/payment-processing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-architect
+      path: entities/v1-alpha/pension-administration-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-architect
+      path: entities/v1-alpha/regulatory-reporting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-architect
+      path: entities/v1-alpha/retail-banking-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-architect
+      path: entities/v1-alpha/trade-finance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-architect
+      path: entities/v1-alpha/treasury-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-architect
+      path: entities/v1-alpha/wealth-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-coach
+      path: entities/v1-alpha/aml-sanctions-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-coach
+      path: entities/v1-alpha/asset-servicing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-coach
+      path: entities/v1-alpha/capital-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-coach
+      path: entities/v1-alpha/card-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-coach
+      path: entities/v1-alpha/clearing-house-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-coach
+      path: entities/v1-alpha/core-banking-systems-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-coach
+      path: entities/v1-alpha/corporate-lending-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-coach
+      path: entities/v1-alpha/credit-risk-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-coach
+      path: entities/v1-alpha/custody-settlement-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-coach
+      path: entities/v1-alpha/customer-kyc-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-coach
+      path: entities/v1-alpha/digital-banking-channels-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-coach
+      path: entities/v1-alpha/financial-accounting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-coach
+      path: entities/v1-alpha/financial-crime-compliance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-coach
+      path: entities/v1-alpha/fraud-risk-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-coach
+      path: entities/v1-alpha/fund-administration-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-coach
+      path: entities/v1-alpha/insurance-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-coach
+      path: entities/v1-alpha/investor-relations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-coach
+      path: entities/v1-alpha/islamic-finance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-coach
+      path: entities/v1-alpha/liquidity-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-coach
+      path: entities/v1-alpha/loan-origination-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-coach
+      path: entities/v1-alpha/market-risk-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-coach
+      path: entities/v1-alpha/mortgage-servicing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-coach
+      path: entities/v1-alpha/open-banking-apis-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-coach
+      path: entities/v1-alpha/payment-processing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-coach
+      path: entities/v1-alpha/pension-administration-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-coach
+      path: entities/v1-alpha/regulatory-reporting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-coach
+      path: entities/v1-alpha/retail-banking-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-coach
+      path: entities/v1-alpha/trade-finance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-coach
+      path: entities/v1-alpha/treasury-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-coach
+      path: entities/v1-alpha/wealth-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-consultant
+      path: entities/v1-alpha/aml-sanctions-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-consultant
+      path: entities/v1-alpha/asset-servicing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-consultant
+      path: entities/v1-alpha/capital-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-consultant
+      path: entities/v1-alpha/card-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-consultant
+      path: entities/v1-alpha/clearing-house-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-consultant
+      path: entities/v1-alpha/core-banking-systems-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-consultant
+      path: entities/v1-alpha/corporate-lending-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-consultant
+      path: entities/v1-alpha/credit-risk-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-consultant
+      path: entities/v1-alpha/custody-settlement-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-consultant
+      path: entities/v1-alpha/customer-kyc-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-consultant
+      path: entities/v1-alpha/digital-banking-channels-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-consultant
+      path: entities/v1-alpha/financial-accounting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-consultant
+      path: entities/v1-alpha/financial-crime-compliance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-consultant
+      path: entities/v1-alpha/fraud-risk-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-consultant
+      path: entities/v1-alpha/fund-administration-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-consultant
+      path: entities/v1-alpha/insurance-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-consultant
+      path: entities/v1-alpha/investor-relations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-consultant
+      path: entities/v1-alpha/islamic-finance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-consultant
+      path: entities/v1-alpha/liquidity-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-consultant
+      path: entities/v1-alpha/loan-origination-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-consultant
+      path: entities/v1-alpha/market-risk-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-consultant
+      path: entities/v1-alpha/mortgage-servicing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-consultant
+      path: entities/v1-alpha/open-banking-apis-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-consultant
+      path: entities/v1-alpha/payment-processing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-consultant
+      path: entities/v1-alpha/pension-administration-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-consultant
+      path: entities/v1-alpha/regulatory-reporting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-consultant
+      path: entities/v1-alpha/retail-banking-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-consultant
+      path: entities/v1-alpha/trade-finance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-consultant
+      path: entities/v1-alpha/treasury-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-consultant
+      path: entities/v1-alpha/wealth-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-designer
+      path: entities/v1-alpha/aml-sanctions-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-designer
+      path: entities/v1-alpha/asset-servicing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-designer
+      path: entities/v1-alpha/capital-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-designer
+      path: entities/v1-alpha/card-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-designer
+      path: entities/v1-alpha/clearing-house-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-designer
+      path: entities/v1-alpha/core-banking-systems-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-designer
+      path: entities/v1-alpha/corporate-lending-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-designer
+      path: entities/v1-alpha/credit-risk-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-designer
+      path: entities/v1-alpha/custody-settlement-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-designer
+      path: entities/v1-alpha/customer-kyc-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-designer
+      path: entities/v1-alpha/digital-banking-channels-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-designer
+      path: entities/v1-alpha/financial-accounting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-designer
+      path: entities/v1-alpha/financial-crime-compliance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-designer
+      path: entities/v1-alpha/fraud-risk-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-designer
+      path: entities/v1-alpha/fund-administration-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-designer
+      path: entities/v1-alpha/insurance-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-designer
+      path: entities/v1-alpha/investor-relations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-designer
+      path: entities/v1-alpha/islamic-finance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-designer
+      path: entities/v1-alpha/liquidity-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-designer
+      path: entities/v1-alpha/loan-origination-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-designer
+      path: entities/v1-alpha/market-risk-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-designer
+      path: entities/v1-alpha/mortgage-servicing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-designer
+      path: entities/v1-alpha/open-banking-apis-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-designer
+      path: entities/v1-alpha/payment-processing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-designer
+      path: entities/v1-alpha/pension-administration-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-designer
+      path: entities/v1-alpha/regulatory-reporting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-designer
+      path: entities/v1-alpha/retail-banking-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-designer
+      path: entities/v1-alpha/trade-finance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-designer
+      path: entities/v1-alpha/treasury-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-designer
+      path: entities/v1-alpha/wealth-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-developer
+      path: entities/v1-alpha/aml-sanctions-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-developer
+      path: entities/v1-alpha/asset-servicing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-developer
+      path: entities/v1-alpha/capital-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-developer
+      path: entities/v1-alpha/card-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-developer
+      path: entities/v1-alpha/clearing-house-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-developer
+      path: entities/v1-alpha/core-banking-systems-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-developer
+      path: entities/v1-alpha/corporate-lending-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-developer
+      path: entities/v1-alpha/credit-risk-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-developer
+      path: entities/v1-alpha/custody-settlement-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-developer
+      path: entities/v1-alpha/customer-kyc-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-developer
+      path: entities/v1-alpha/digital-banking-channels-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-developer
+      path: entities/v1-alpha/financial-accounting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-developer
+      path: entities/v1-alpha/financial-crime-compliance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-developer
+      path: entities/v1-alpha/fraud-risk-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-developer
+      path: entities/v1-alpha/fund-administration-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-developer
+      path: entities/v1-alpha/insurance-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-developer
+      path: entities/v1-alpha/investor-relations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-developer
+      path: entities/v1-alpha/islamic-finance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-developer
+      path: entities/v1-alpha/liquidity-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-developer
+      path: entities/v1-alpha/loan-origination-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-developer
+      path: entities/v1-alpha/market-risk-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-developer
+      path: entities/v1-alpha/mortgage-servicing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-developer
+      path: entities/v1-alpha/open-banking-apis-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-developer
+      path: entities/v1-alpha/payment-processing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-developer
+      path: entities/v1-alpha/pension-administration-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-developer
+      path: entities/v1-alpha/regulatory-reporting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-developer
+      path: entities/v1-alpha/retail-banking-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-developer
+      path: entities/v1-alpha/trade-finance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-developer
+      path: entities/v1-alpha/treasury-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-developer
+      path: entities/v1-alpha/wealth-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-engineer
+      path: entities/v1-alpha/aml-sanctions-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-engineer
+      path: entities/v1-alpha/asset-servicing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-engineer
+      path: entities/v1-alpha/capital-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-engineer
+      path: entities/v1-alpha/card-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-engineer
+      path: entities/v1-alpha/clearing-house-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-engineer
+      path: entities/v1-alpha/core-banking-systems-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-engineer
+      path: entities/v1-alpha/corporate-lending-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-engineer
+      path: entities/v1-alpha/credit-risk-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-engineer
+      path: entities/v1-alpha/custody-settlement-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-engineer
+      path: entities/v1-alpha/customer-kyc-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-engineer
+      path: entities/v1-alpha/digital-banking-channels-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-engineer
+      path: entities/v1-alpha/financial-accounting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-engineer
+      path: entities/v1-alpha/financial-crime-compliance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-engineer
+      path: entities/v1-alpha/fraud-risk-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-engineer
+      path: entities/v1-alpha/fund-administration-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-engineer
+      path: entities/v1-alpha/insurance-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-engineer
+      path: entities/v1-alpha/investor-relations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-engineer
+      path: entities/v1-alpha/islamic-finance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-engineer
+      path: entities/v1-alpha/liquidity-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-engineer
+      path: entities/v1-alpha/loan-origination-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-engineer
+      path: entities/v1-alpha/market-risk-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-engineer
+      path: entities/v1-alpha/mortgage-servicing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-engineer
+      path: entities/v1-alpha/open-banking-apis-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-engineer
+      path: entities/v1-alpha/payment-processing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-engineer
+      path: entities/v1-alpha/pension-administration-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-engineer
+      path: entities/v1-alpha/regulatory-reporting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-engineer
+      path: entities/v1-alpha/retail-banking-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-engineer
+      path: entities/v1-alpha/trade-finance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-engineer
+      path: entities/v1-alpha/treasury-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-engineer
+      path: entities/v1-alpha/wealth-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-aml-sanctions
+      path: entities/v1-alpha/head-of-aml-sanctions.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-asset-servicing
+      path: entities/v1-alpha/head-of-asset-servicing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-capital-management
+      path: entities/v1-alpha/head-of-capital-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-card-operations
+      path: entities/v1-alpha/head-of-card-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-clearing-house-operations
+      path: entities/v1-alpha/head-of-clearing-house-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-core-banking-systems
+      path: entities/v1-alpha/head-of-core-banking-systems.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-corporate-lending
+      path: entities/v1-alpha/head-of-corporate-lending.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-credit-risk
+      path: entities/v1-alpha/head-of-credit-risk.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-custody-settlement
+      path: entities/v1-alpha/head-of-custody-settlement.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-customer-kyc
+      path: entities/v1-alpha/head-of-customer-kyc.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-digital-banking-channels
+      path: entities/v1-alpha/head-of-digital-banking-channels.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-financial-accounting
+      path: entities/v1-alpha/head-of-financial-accounting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-financial-crime-compliance
+      path: entities/v1-alpha/head-of-financial-crime-compliance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fraud-risk-management
+      path: entities/v1-alpha/head-of-fraud-risk-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fund-administration
+      path: entities/v1-alpha/head-of-fund-administration.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-insurance-operations
+      path: entities/v1-alpha/head-of-insurance-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-investor-relations
+      path: entities/v1-alpha/head-of-investor-relations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-islamic-finance
+      path: entities/v1-alpha/head-of-islamic-finance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-liquidity-management
+      path: entities/v1-alpha/head-of-liquidity-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-loan-origination
+      path: entities/v1-alpha/head-of-loan-origination.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-market-risk
+      path: entities/v1-alpha/head-of-market-risk.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mortgage-servicing
+      path: entities/v1-alpha/head-of-mortgage-servicing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-open-banking-apis
+      path: entities/v1-alpha/head-of-open-banking-apis.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-payment-processing
+      path: entities/v1-alpha/head-of-payment-processing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-pension-administration
+      path: entities/v1-alpha/head-of-pension-administration.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-regulatory-reporting
+      path: entities/v1-alpha/head-of-regulatory-reporting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-retail-banking-operations
+      path: entities/v1-alpha/head-of-retail-banking-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-trade-finance
+      path: entities/v1-alpha/head-of-trade-finance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-treasury-management
+      path: entities/v1-alpha/head-of-treasury-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-wealth-management
+      path: entities/v1-alpha/head-of-wealth-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-lead
+      path: entities/v1-alpha/aml-sanctions-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-lead
+      path: entities/v1-alpha/asset-servicing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-lead
+      path: entities/v1-alpha/capital-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-lead
+      path: entities/v1-alpha/card-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-lead
+      path: entities/v1-alpha/clearing-house-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-lead
+      path: entities/v1-alpha/core-banking-systems-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-lead
+      path: entities/v1-alpha/corporate-lending-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-lead
+      path: entities/v1-alpha/credit-risk-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-lead
+      path: entities/v1-alpha/custody-settlement-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-lead
+      path: entities/v1-alpha/customer-kyc-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-lead
+      path: entities/v1-alpha/digital-banking-channels-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-lead
+      path: entities/v1-alpha/financial-accounting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-lead
+      path: entities/v1-alpha/financial-crime-compliance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-lead
+      path: entities/v1-alpha/fraud-risk-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-lead
+      path: entities/v1-alpha/fund-administration-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-lead
+      path: entities/v1-alpha/insurance-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-lead
+      path: entities/v1-alpha/investor-relations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-lead
+      path: entities/v1-alpha/islamic-finance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-lead
+      path: entities/v1-alpha/liquidity-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-lead
+      path: entities/v1-alpha/loan-origination-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-lead
+      path: entities/v1-alpha/market-risk-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-lead
+      path: entities/v1-alpha/mortgage-servicing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-lead
+      path: entities/v1-alpha/open-banking-apis-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-lead
+      path: entities/v1-alpha/payment-processing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-lead
+      path: entities/v1-alpha/pension-administration-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-lead
+      path: entities/v1-alpha/regulatory-reporting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-lead
+      path: entities/v1-alpha/retail-banking-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-lead
+      path: entities/v1-alpha/trade-finance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-lead
+      path: entities/v1-alpha/treasury-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-lead
+      path: entities/v1-alpha/wealth-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-manager
+      path: entities/v1-alpha/aml-sanctions-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-manager
+      path: entities/v1-alpha/asset-servicing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-manager
+      path: entities/v1-alpha/capital-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-manager
+      path: entities/v1-alpha/card-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-manager
+      path: entities/v1-alpha/clearing-house-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-manager
+      path: entities/v1-alpha/core-banking-systems-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-manager
+      path: entities/v1-alpha/corporate-lending-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-manager
+      path: entities/v1-alpha/custody-settlement-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-manager
+      path: entities/v1-alpha/customer-kyc-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-manager
+      path: entities/v1-alpha/digital-banking-channels-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-manager
+      path: entities/v1-alpha/financial-accounting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-manager
+      path: entities/v1-alpha/fraud-risk-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-manager
+      path: entities/v1-alpha/fund-administration-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-manager
+      path: entities/v1-alpha/insurance-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-manager
+      path: entities/v1-alpha/investor-relations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-manager
+      path: entities/v1-alpha/islamic-finance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-manager
+      path: entities/v1-alpha/liquidity-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-manager
+      path: entities/v1-alpha/loan-origination-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-manager
+      path: entities/v1-alpha/market-risk-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-manager
+      path: entities/v1-alpha/mortgage-servicing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-manager
+      path: entities/v1-alpha/open-banking-apis-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-manager
+      path: entities/v1-alpha/payment-processing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-manager
+      path: entities/v1-alpha/pension-administration-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-manager
+      path: entities/v1-alpha/regulatory-reporting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-manager
+      path: entities/v1-alpha/retail-banking-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-manager
+      path: entities/v1-alpha/trade-finance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-manager
+      path: entities/v1-alpha/treasury-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-manager
+      path: entities/v1-alpha/wealth-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-operations-coordinator
+      path: entities/v1-alpha/aml-sanctions-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-operations-coordinator
+      path: entities/v1-alpha/asset-servicing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-operations-coordinator
+      path: entities/v1-alpha/capital-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-operations-coordinator
+      path: entities/v1-alpha/card-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-operations-coordinator
+      path: entities/v1-alpha/clearing-house-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-operations-coordinator
+      path: entities/v1-alpha/core-banking-systems-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-operations-coordinator
+      path: entities/v1-alpha/corporate-lending-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-operations-coordinator
+      path: entities/v1-alpha/credit-risk-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-operations-coordinator
+      path: entities/v1-alpha/custody-settlement-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-operations-coordinator
+      path: entities/v1-alpha/customer-kyc-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-operations-coordinator
+      path: entities/v1-alpha/digital-banking-channels-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-operations-coordinator
+      path: entities/v1-alpha/financial-accounting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-operations-coordinator
+      path: entities/v1-alpha/financial-crime-compliance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-operations-coordinator
+      path: entities/v1-alpha/fraud-risk-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-operations-coordinator
+      path: entities/v1-alpha/fund-administration-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-operations-coordinator
+      path: entities/v1-alpha/insurance-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-operations-coordinator
+      path: entities/v1-alpha/investor-relations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-operations-coordinator
+      path: entities/v1-alpha/islamic-finance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-operations-coordinator
+      path: entities/v1-alpha/liquidity-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-operations-coordinator
+      path: entities/v1-alpha/loan-origination-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-operations-coordinator
+      path: entities/v1-alpha/market-risk-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-operations-coordinator
+      path: entities/v1-alpha/mortgage-servicing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-operations-coordinator
+      path: entities/v1-alpha/open-banking-apis-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-operations-coordinator
+      path: entities/v1-alpha/payment-processing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-operations-coordinator
+      path: entities/v1-alpha/pension-administration-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-operations-coordinator
+      path: entities/v1-alpha/regulatory-reporting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-operations-coordinator
+      path: entities/v1-alpha/retail-banking-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-operations-coordinator
+      path: entities/v1-alpha/trade-finance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-operations-coordinator
+      path: entities/v1-alpha/treasury-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-operations-coordinator
+      path: entities/v1-alpha/wealth-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-planner
+      path: entities/v1-alpha/aml-sanctions-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-planner
+      path: entities/v1-alpha/asset-servicing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-planner
+      path: entities/v1-alpha/capital-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-planner
+      path: entities/v1-alpha/card-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-planner
+      path: entities/v1-alpha/clearing-house-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-planner
+      path: entities/v1-alpha/core-banking-systems-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-planner
+      path: entities/v1-alpha/corporate-lending-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-planner
+      path: entities/v1-alpha/credit-risk-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-planner
+      path: entities/v1-alpha/custody-settlement-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-planner
+      path: entities/v1-alpha/customer-kyc-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-planner
+      path: entities/v1-alpha/digital-banking-channels-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-planner
+      path: entities/v1-alpha/financial-accounting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-planner
+      path: entities/v1-alpha/financial-crime-compliance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-planner
+      path: entities/v1-alpha/fraud-risk-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-planner
+      path: entities/v1-alpha/fund-administration-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-planner
+      path: entities/v1-alpha/insurance-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-planner
+      path: entities/v1-alpha/investor-relations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-planner
+      path: entities/v1-alpha/islamic-finance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-planner
+      path: entities/v1-alpha/liquidity-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-planner
+      path: entities/v1-alpha/loan-origination-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-planner
+      path: entities/v1-alpha/market-risk-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-planner
+      path: entities/v1-alpha/mortgage-servicing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-planner
+      path: entities/v1-alpha/open-banking-apis-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-planner
+      path: entities/v1-alpha/payment-processing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-planner
+      path: entities/v1-alpha/pension-administration-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-planner
+      path: entities/v1-alpha/regulatory-reporting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-planner
+      path: entities/v1-alpha/retail-banking-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-planner
+      path: entities/v1-alpha/trade-finance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-planner
+      path: entities/v1-alpha/treasury-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-planner
+      path: entities/v1-alpha/wealth-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-product-owner
+      path: entities/v1-alpha/aml-sanctions-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-product-owner
+      path: entities/v1-alpha/asset-servicing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-product-owner
+      path: entities/v1-alpha/capital-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-product-owner
+      path: entities/v1-alpha/card-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-product-owner
+      path: entities/v1-alpha/clearing-house-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-product-owner
+      path: entities/v1-alpha/core-banking-systems-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-product-owner
+      path: entities/v1-alpha/corporate-lending-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-product-owner
+      path: entities/v1-alpha/credit-risk-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-product-owner
+      path: entities/v1-alpha/custody-settlement-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-product-owner
+      path: entities/v1-alpha/customer-kyc-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-product-owner
+      path: entities/v1-alpha/digital-banking-channels-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-product-owner
+      path: entities/v1-alpha/financial-accounting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-product-owner
+      path: entities/v1-alpha/financial-crime-compliance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-product-owner
+      path: entities/v1-alpha/fraud-risk-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-product-owner
+      path: entities/v1-alpha/fund-administration-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-product-owner
+      path: entities/v1-alpha/insurance-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-product-owner
+      path: entities/v1-alpha/investor-relations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-product-owner
+      path: entities/v1-alpha/islamic-finance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-product-owner
+      path: entities/v1-alpha/liquidity-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-product-owner
+      path: entities/v1-alpha/loan-origination-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-product-owner
+      path: entities/v1-alpha/market-risk-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-product-owner
+      path: entities/v1-alpha/mortgage-servicing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-product-owner
+      path: entities/v1-alpha/open-banking-apis-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-product-owner
+      path: entities/v1-alpha/payment-processing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-product-owner
+      path: entities/v1-alpha/pension-administration-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-product-owner
+      path: entities/v1-alpha/regulatory-reporting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-product-owner
+      path: entities/v1-alpha/retail-banking-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-product-owner
+      path: entities/v1-alpha/trade-finance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-product-owner
+      path: entities/v1-alpha/treasury-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-product-owner
+      path: entities/v1-alpha/wealth-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-program-manager
+      path: entities/v1-alpha/aml-sanctions-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-program-manager
+      path: entities/v1-alpha/asset-servicing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-program-manager
+      path: entities/v1-alpha/capital-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-program-manager
+      path: entities/v1-alpha/card-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-program-manager
+      path: entities/v1-alpha/clearing-house-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-program-manager
+      path: entities/v1-alpha/core-banking-systems-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-program-manager
+      path: entities/v1-alpha/corporate-lending-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-program-manager
+      path: entities/v1-alpha/credit-risk-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-program-manager
+      path: entities/v1-alpha/custody-settlement-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-program-manager
+      path: entities/v1-alpha/customer-kyc-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-program-manager
+      path: entities/v1-alpha/digital-banking-channels-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-program-manager
+      path: entities/v1-alpha/financial-accounting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-program-manager
+      path: entities/v1-alpha/financial-crime-compliance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-program-manager
+      path: entities/v1-alpha/fraud-risk-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-program-manager
+      path: entities/v1-alpha/fund-administration-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-program-manager
+      path: entities/v1-alpha/insurance-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-program-manager
+      path: entities/v1-alpha/investor-relations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-program-manager
+      path: entities/v1-alpha/islamic-finance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-program-manager
+      path: entities/v1-alpha/liquidity-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-program-manager
+      path: entities/v1-alpha/loan-origination-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

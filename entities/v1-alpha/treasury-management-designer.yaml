@@ -1,0 +1,50 @@
+id: roles:role-treasury-management-designer
+type: Role
+name: Treasury Management Designer
+description: Designs treasury management solutions and interfaces, translating Finance & Banking requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- treasury
+- finance
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Treasury Management
+  org_unit: Treasury Management Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-treasury-management-designer-requires-treasury-management
+  source_id: roles:role-treasury-management-designer
+  target_id: skills:skill-treasury-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-treasury-management-designer-requires-treasury-management-secondary
+  source_id: roles:role-treasury-management-designer
+  target_id: skills:skill-treasury-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

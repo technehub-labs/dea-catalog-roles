@@ -1,0 +1,50 @@
+id: roles:role-core-banking-systems-engineer
+type: Role
+name: Core Banking Systems Engineer
+description: Builds, configures, and maintains core banking systems components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Finance & Banking standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- core
+- finance
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Core Banking Systems
+  org_unit: Core Banking Systems Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-core-banking-systems-engineer-requires-core-banking-systems
+  source_id: roles:role-core-banking-systems-engineer
+  target_id: skills:skill-core-banking-systems
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-core-banking-systems-engineer-requires-core-banking-systems-secondary
+  source_id: roles:role-core-banking-systems-engineer
+  target_id: skills:skill-core-banking-systems-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

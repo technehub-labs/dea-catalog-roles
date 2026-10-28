@@ -1,0 +1,50 @@
+id: roles:role-investor-relations-operations-coordinator
+type: Role
+name: Investor Relations Operations Coordinator
+description: Coordinates day-to-day investor relations activities, schedules, and records, keeping Finance
+  & Banking operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- investor
+- finance
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Investor Relations
+  org_unit: Investor Relations Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-investor-relations-operations-coordinato-requires-investor-relations
+  source_id: roles:role-investor-relations-operations-coordinator
+  target_id: skills:skill-investor-relations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-investor-relations-operations-coordinato-requires-investor-relations-secondary
+  source_id: roles:role-investor-relations-operations-coordinator
+  target_id: skills:skill-investor-relations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

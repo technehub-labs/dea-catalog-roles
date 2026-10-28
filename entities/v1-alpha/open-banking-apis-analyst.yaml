@@ -1,0 +1,50 @@
+id: roles:role-open-banking-apis-analyst
+type: Role
+name: Open Banking APIs Analyst
+description: Analyses open banking apis data and processes, producing insight and recommendations that
+  steer Finance & Banking planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- open
+- finance
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Open Banking APIs
+  org_unit: Open Banking APIs Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-open-banking-apis-analyst-requires-open-banking-apis
+  source_id: roles:role-open-banking-apis-analyst
+  target_id: skills:skill-open-banking-apis
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-open-banking-apis-analyst-requires-open-banking-apis-secondary
+  source_id: roles:role-open-banking-apis-analyst
+  target_id: skills:skill-open-banking-apis-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

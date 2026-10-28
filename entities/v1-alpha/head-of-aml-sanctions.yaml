@@ -1,0 +1,50 @@
+id: roles:role-head-of-aml-sanctions
+type: Role
+name: Head of AML & Sanctions
+description: 'Owns the aml & sanctions domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Finance & Banking.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- aml
+- finance
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: AML & Sanctions
+  org_unit: AML & Sanctions Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-head-of-aml-sanctions-requires-aml-sanctions
+  source_id: roles:role-head-of-aml-sanctions
+  target_id: skills:skill-aml-sanctions
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-aml-sanctions-requires-aml-sanctions-secondary
+  source_id: roles:role-head-of-aml-sanctions
+  target_id: skills:skill-aml-sanctions-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

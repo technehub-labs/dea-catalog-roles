@@ -1,0 +1,50 @@
+id: roles:role-islamic-finance-administrator
+type: Role
+name: Islamic Finance Administrator
+description: 'Administers islamic finance environments day to day: provisioning, access control, monitoring,
+  and routine change execution for Finance & Banking operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- islamic
+- finance
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Islamic Finance
+  org_unit: Islamic Finance Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-islamic-finance-administrator-requires-islamic-finance
+  source_id: roles:role-islamic-finance-administrator
+  target_id: skills:skill-islamic-finance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-islamic-finance-administrator-requires-islamic-finance-secondary
+  source_id: roles:role-islamic-finance-administrator
+  target_id: skills:skill-islamic-finance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

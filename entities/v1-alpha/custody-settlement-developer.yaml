@@ -1,0 +1,50 @@
+id: roles:role-custody-settlement-developer
+type: Role
+name: Custody & Settlement Developer
+description: Implements and unit-tests custody & settlement capabilities, contributing code and configuration
+  within the Finance & Banking delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- custody
+- finance
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Custody & Settlement
+  org_unit: Custody & Settlement Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-custody-settlement-developer-requires-custody-settlement
+  source_id: roles:role-custody-settlement-developer
+  target_id: skills:skill-custody-settlement
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-custody-settlement-developer-requires-custody-settlement-secondary
+  source_id: roles:role-custody-settlement-developer
+  target_id: skills:skill-custody-settlement-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

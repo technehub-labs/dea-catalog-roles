@@ -1,0 +1,50 @@
+id: roles:role-asset-servicing-lead
+type: Role
+name: Asset Servicing Lead
+description: Sets direction for asset servicing teams, owns their outcomes, and represents asset servicing
+  interests in Finance & Banking governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- asset
+- finance
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Asset Servicing
+  org_unit: Asset Servicing Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-asset-servicing-lead-requires-asset-servicing
+  source_id: roles:role-asset-servicing-lead
+  target_id: skills:skill-asset-servicing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-asset-servicing-lead-requires-asset-servicing-secondary
+  source_id: roles:role-asset-servicing-lead
+  target_id: skills:skill-asset-servicing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

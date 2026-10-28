@@ -1,0 +1,50 @@
+id: roles:role-fund-administration-planner
+type: Role
+name: Fund Administration Planner
+description: Plans capacity, schedule, and sequencing for fund administration activities, balancing demand,
+  budget, and dependencies in the Finance & Banking portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- fund
+- finance
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fund Administration
+  org_unit: Fund Administration Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-fund-administration-planner-requires-fund-administration
+  source_id: roles:role-fund-administration-planner
+  target_id: skills:skill-fund-administration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fund-administration-planner-requires-fund-administration-secondary
+  source_id: roles:role-fund-administration-planner
+  target_id: skills:skill-fund-administration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-retail-banking-operations-coach
+type: Role
+name: Retail Banking Operations Coach
+description: Coaches Finance & Banking teams and individuals on retail banking operations working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- retail
+- finance
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Retail Banking Operations
+  org_unit: Retail Banking Operations Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-retail-banking-operations-coach-requires-retail-banking-operations
+  source_id: roles:role-retail-banking-operations-coach
+  target_id: skills:skill-retail-banking-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-retail-banking-operations-coach-requires-retail-banking-operations-secondary
+  source_id: roles:role-retail-banking-operations-coach
+  target_id: skills:skill-retail-banking-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

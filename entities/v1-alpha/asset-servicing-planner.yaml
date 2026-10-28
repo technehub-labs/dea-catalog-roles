@@ -1,0 +1,50 @@
+id: roles:role-asset-servicing-planner
+type: Role
+name: Asset Servicing Planner
+description: Plans capacity, schedule, and sequencing for asset servicing activities, balancing demand,
+  budget, and dependencies in the Finance & Banking portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- asset
+- finance
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Asset Servicing
+  org_unit: Asset Servicing Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-asset-servicing-planner-requires-asset-servicing
+  source_id: roles:role-asset-servicing-planner
+  target_id: skills:skill-asset-servicing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-asset-servicing-planner-requires-asset-servicing-secondary
+  source_id: roles:role-asset-servicing-planner
+  target_id: skills:skill-asset-servicing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

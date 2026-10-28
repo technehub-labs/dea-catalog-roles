@@ -1,0 +1,50 @@
+id: roles:role-digital-banking-channels-lead
+type: Role
+name: Digital Banking Channels Lead
+description: Sets direction for digital banking channels teams, owns their outcomes, and represents digital
+  banking channels interests in Finance & Banking governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- digital
+- finance
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Digital Banking Channels
+  org_unit: Digital Banking Channels Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-digital-banking-channels-lead-requires-digital-banking-channels
+  source_id: roles:role-digital-banking-channels-lead
+  target_id: skills:skill-digital-banking-channels
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-digital-banking-channels-lead-requires-digital-banking-channels-secondary
+  source_id: roles:role-digital-banking-channels-lead
+  target_id: skills:skill-digital-banking-channels-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-open-banking-apis-lead
+type: Role
+name: Open Banking APIs Lead
+description: Sets direction for open banking apis teams, owns their outcomes, and represents open banking
+  apis interests in Finance & Banking governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- open
+- finance
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Open Banking APIs
+  org_unit: Open Banking APIs Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-open-banking-apis-lead-requires-open-banking-apis
+  source_id: roles:role-open-banking-apis-lead
+  target_id: skills:skill-open-banking-apis
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-open-banking-apis-lead-requires-open-banking-apis-secondary
+  source_id: roles:role-open-banking-apis-lead
+  target_id: skills:skill-open-banking-apis-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

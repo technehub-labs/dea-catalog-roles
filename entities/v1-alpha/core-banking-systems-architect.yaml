@@ -1,0 +1,50 @@
+id: roles:role-core-banking-systems-architect
+type: Role
+name: Core Banking Systems Architect
+description: 'Owns the target architecture for core banking systems: design standards, technology selection,
+  and the evolution roadmap that keeps core banking systems fit for the Finance & Banking operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- core
+- finance
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Core Banking Systems
+  org_unit: Core Banking Systems Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-core-banking-systems-architect-requires-core-banking-systems
+  source_id: roles:role-core-banking-systems-architect
+  target_id: skills:skill-core-banking-systems
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-core-banking-systems-architect-requires-core-banking-systems-secondary
+  source_id: roles:role-core-banking-systems-architect
+  target_id: skills:skill-core-banking-systems-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
