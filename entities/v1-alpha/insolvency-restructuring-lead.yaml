@@ -1,0 +1,50 @@
+id: roles:role-insolvency-restructuring-lead
+type: Role
+name: Insolvency & Restructuring Lead
+description: Sets direction for insolvency & restructuring teams, owns their outcomes, and represents
+  insolvency & restructuring interests in Legal & Regulatory governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- insolvency
+- legal-regulatory
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Insolvency & Restructuring
+  org_unit: Insolvency & Restructuring Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-insolvency-restructuring-lead-requires-insolvency-restructuring
+  source_id: roles:role-insolvency-restructuring-lead
+  target_id: skills:skill-insolvency-restructuring
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-insolvency-restructuring-lead-requires-insolvency-restructuring-secondary
+  source_id: roles:role-insolvency-restructuring-lead
+  target_id: skills:skill-insolvency-restructuring-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

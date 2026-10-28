@@ -1,0 +1,50 @@
+id: roles:role-court-administration-program-manager
+type: Role
+name: Court Administration Program Manager
+description: Coordinates multi-team court administration programmes across Legal & Regulatory, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- court
+- legal-regulatory
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Court Administration
+  org_unit: Court Administration Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-court-administration-program-manager-requires-court-administration
+  source_id: roles:role-court-administration-program-manager
+  target_id: skills:skill-court-administration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-court-administration-program-manager-requires-court-administration-secondary
+  source_id: roles:role-court-administration-program-manager
+  target_id: skills:skill-court-administration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

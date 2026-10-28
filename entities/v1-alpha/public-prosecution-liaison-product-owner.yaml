@@ -1,0 +1,50 @@
+id: roles:role-public-prosecution-liaison-product-owner
+type: Role
+name: Public Prosecution Liaison Product Owner
+description: Owns the public prosecution liaison product backlog, prioritising against user value and
+  Legal & Regulatory business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- public
+- legal-regulatory
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Public Prosecution Liaison
+  org_unit: Public Prosecution Liaison Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-public-prosecution-liaison-product-owner-requires-public-prosecution-liaison
+  source_id: roles:role-public-prosecution-liaison-product-owner
+  target_id: skills:skill-public-prosecution-liaison
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-public-prosecution-liaison-product-owner-requires-public-prosecution-liaison-secondary
+  source_id: roles:role-public-prosecution-liaison-product-owner
+  target_id: skills:skill-public-prosecution-liaison-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

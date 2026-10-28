@@ -1,0 +1,50 @@
+id: roles:role-consumer-protection-operations-coordinator
+type: Role
+name: Consumer Protection Operations Coordinator
+description: Coordinates day-to-day consumer protection activities, schedules, and records, keeping Legal
+  & Regulatory operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- consumer
+- legal-regulatory
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Consumer Protection
+  org_unit: Consumer Protection Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-consumer-protection-operations-coordinat-requires-consumer-protection
+  source_id: roles:role-consumer-protection-operations-coordinator
+  target_id: skills:skill-consumer-protection
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-consumer-protection-operations-coordinat-requires-consumer-protection-secondary
+  source_id: roles:role-consumer-protection-operations-coordinator
+  target_id: skills:skill-consumer-protection-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

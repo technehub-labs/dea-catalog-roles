@@ -1,0 +1,50 @@
+id: roles:role-notary-registries-product-owner
+type: Role
+name: Notary & Registries Product Owner
+description: Owns the notary & registries product backlog, prioritising against user value and Legal &
+  Regulatory business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- notary
+- legal-regulatory
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Notary & Registries
+  org_unit: Notary & Registries Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-notary-registries-product-owner-requires-notary-registries
+  source_id: roles:role-notary-registries-product-owner
+  target_id: skills:skill-notary-registries
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-notary-registries-product-owner-requires-notary-registries-secondary
+  source_id: roles:role-notary-registries-product-owner
+  target_id: skills:skill-notary-registries-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

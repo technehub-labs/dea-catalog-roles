@@ -1,0 +1,50 @@
+id: roles:role-policy-drafting-architect
+type: Role
+name: Policy Drafting Architect
+description: 'Owns the target architecture for policy drafting: design standards, technology selection,
+  and the evolution roadmap that keeps policy drafting fit for the Legal & Regulatory operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- policy
+- legal-regulatory
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Policy Drafting
+  org_unit: Policy Drafting Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-policy-drafting-architect-requires-policy-drafting
+  source_id: roles:role-policy-drafting-architect
+  target_id: skills:skill-policy-drafting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-policy-drafting-architect-requires-policy-drafting-secondary
+  source_id: roles:role-policy-drafting-architect
+  target_id: skills:skill-policy-drafting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

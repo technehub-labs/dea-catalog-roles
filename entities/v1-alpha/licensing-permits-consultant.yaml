@@ -1,0 +1,50 @@
+id: roles:role-licensing-permits-consultant
+type: Role
+name: Licensing & Permits Consultant
+description: Supports Legal & Regulatory teams adopting licensing & permits practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- licensing
+- legal-regulatory
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Licensing & Permits
+  org_unit: Licensing & Permits Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-licensing-permits-consultant-requires-licensing-permits
+  source_id: roles:role-licensing-permits-consultant
+  target_id: skills:skill-licensing-permits
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-licensing-permits-consultant-requires-licensing-permits-secondary
+  source_id: roles:role-licensing-permits-consultant
+  target_id: skills:skill-licensing-permits-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

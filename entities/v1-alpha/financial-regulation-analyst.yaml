@@ -1,0 +1,50 @@
+id: roles:role-financial-regulation-analyst
+type: Role
+name: Financial Regulation Analyst
+description: Analyses financial regulation data and processes, producing insight and recommendations that
+  steer Legal & Regulatory planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- financial
+- legal-regulatory
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Financial Regulation
+  org_unit: Financial Regulation Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-financial-regulation-analyst-requires-financial-regulation
+  source_id: roles:role-financial-regulation-analyst
+  target_id: skills:skill-financial-regulation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-financial-regulation-analyst-requires-financial-regulation-secondary
+  source_id: roles:role-financial-regulation-analyst
+  target_id: skills:skill-financial-regulation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

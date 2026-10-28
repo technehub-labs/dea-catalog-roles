@@ -1,0 +1,50 @@
+id: roles:role-telecom-regulation-product-owner
+type: Role
+name: Telecom Regulation Product Owner
+description: Owns the telecom regulation product backlog, prioritising against user value and Legal &
+  Regulatory business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- telecom
+- legal-regulatory
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Telecom Regulation
+  org_unit: Telecom Regulation Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-telecom-regulation-product-owner-requires-telecom-regulation
+  source_id: roles:role-telecom-regulation-product-owner
+  target_id: skills:skill-telecom-regulation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-telecom-regulation-product-owner-requires-telecom-regulation-secondary
+  source_id: roles:role-telecom-regulation-product-owner
+  target_id: skills:skill-telecom-regulation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

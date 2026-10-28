@@ -1,0 +1,50 @@
+id: roles:role-sanctions-advisory-planner
+type: Role
+name: Sanctions Advisory Planner
+description: Plans capacity, schedule, and sequencing for sanctions advisory activities, balancing demand,
+  budget, and dependencies in the Legal & Regulatory portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- sanctions
+- legal-regulatory
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Sanctions Advisory
+  org_unit: Sanctions Advisory Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-sanctions-advisory-planner-requires-sanctions-advisory
+  source_id: roles:role-sanctions-advisory-planner
+  target_id: skills:skill-sanctions-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-sanctions-advisory-planner-requires-sanctions-advisory-secondary
+  source_id: roles:role-sanctions-advisory-planner
+  target_id: skills:skill-sanctions-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

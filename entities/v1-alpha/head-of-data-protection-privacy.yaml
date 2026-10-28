@@ -1,0 +1,50 @@
+id: roles:role-head-of-data-protection-privacy
+type: Role
+name: Head of Data Protection & Privacy
+description: 'Owns the data protection & privacy domain at executive level: strategy, investment cases,
+  organisational design, and regulatory posture for Legal & Regulatory.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- data
+- legal-regulatory
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Data Protection & Privacy
+  org_unit: Data Protection & Privacy Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-head-of-data-protection-privacy-requires-data-protection-privacy
+  source_id: roles:role-head-of-data-protection-privacy
+  target_id: skills:skill-data-protection-privacy
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-data-protection-privacy-requires-data-protection-privacy-secondary
+  source_id: roles:role-head-of-data-protection-privacy
+  target_id: skills:skill-data-protection-privacy-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
