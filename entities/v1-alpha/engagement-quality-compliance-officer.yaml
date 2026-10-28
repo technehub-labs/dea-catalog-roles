@@ -1,0 +1,50 @@
+id: roles:role-engagement-quality-compliance-officer
+type: Role
+name: Engagement Quality Compliance Officer
+description: Constrains and reviews engagement quality activity against regulatory and policy obligations,
+  escalating breaches in the Audit & Assurance control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- engagement
+- audit
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Engagement Quality
+  org_unit: Engagement Quality Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-engagement-quality-compliance-officer-requires-engagement-quality
+  source_id: roles:role-engagement-quality-compliance-officer
+  target_id: skills:skill-engagement-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-engagement-quality-compliance-officer-requires-engagement-quality-secondary
+  source_id: roles:role-engagement-quality-compliance-officer
+  target_id: skills:skill-engagement-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-performance-auditing-auditor
+type: Role
+name: Performance Auditing Auditor
+description: Independently reviews performance auditing controls and records, reporting findings and tracking
+  remediation within Audit & Assurance assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- performance
+- audit
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Performance Auditing
+  org_unit: Performance Auditing Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-performance-auditing-auditor-requires-performance-auditing
+  source_id: roles:role-performance-auditing-auditor
+  target_id: skills:skill-performance-auditing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-performance-auditing-auditor-requires-performance-auditing-secondary
+  source_id: roles:role-performance-auditing-auditor
+  target_id: skills:skill-performance-auditing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
