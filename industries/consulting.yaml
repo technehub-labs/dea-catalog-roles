@@ -1,0 +1,15 @@
+id: consulting
+name: Consulting & Professional Services
+status: registered — discovery pass 2
+scope: >-
+  500 candidate roles across 30 operating-model domains (bulk ingestion
+  batch, CR-ROL-RICH-000). Slice register; candidate admission proceeds
+  per GOVERNANCE.md S4.
+sources:
+  - class: industry-specific
+    examples: Consulting & Professional Services operating-model literature and practice
+    stance: Evidences recurring responsibilities; names never copied
+notes: >-
+  Bulk batch discovery pass (2026-10-28). All 500 candidates are E1
+  (provenance type: discovery, asserted_by: catalog-seed, unverified)
+  pending per-role admission.
