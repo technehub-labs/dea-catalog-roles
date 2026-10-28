@@ -1,0 +1,50 @@
+id: roles:role-biomedical-engineering-auditor
+type: Role
+name: Biomedical Engineering Auditor
+description: Independently reviews biomedical engineering controls and records, reporting findings and
+  tracking remediation within Healthcare assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- biomedical
+- healthcare
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Biomedical Engineering
+  org_unit: Biomedical Engineering Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-biomedical-engineering-auditor-requires-biomedical-engineering
+  source_id: roles:role-biomedical-engineering-auditor
+  target_id: skills:skill-biomedical-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-biomedical-engineering-auditor-requires-biomedical-engineering-secondary
+  source_id: roles:role-biomedical-engineering-auditor
+  target_id: skills:skill-biomedical-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
