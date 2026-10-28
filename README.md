@@ -1,4 +1,4 @@
-# dea-catalog-roles
+# Roles (dea-catalog-roles)
 
 > DEA catalog for **Role** — OpenDEAM v0.3.0 (ADR-0003).
 
@@ -42,6 +42,38 @@ Content (entity instances) lands when the entity promotes from
 - `INDUSTRIES.md` + `industries/` — industry discovery program and per-industry
   registers/demand lists (first slice: telecom)
 - `change-requests/` — CR-DEA-ROL index and documents
+- `ingestion/` — bulk ingestion source + integrity manifest
+  (CR-ROL-RICH-000 batch: 6000 candidate roles, 12 industry slices × 500,
+  30 domains each); gated in CI by `validate-ingestion.yml`
+- `scripts/materialize_roles.py` — materializes admitted bulk rows as
+  entities (bounded by CR admission; existing instances win on collision)
+
+## Catalog scale
+
+| Metric | Value |
+|---|---|
+| Candidate Role entities in bulk batch | 6000 |
+| Industry slices | 12 (500 roles each, 30 domains per slice) |
+| Role functions (naming families) | 18 |
+| Taxonomy primary classes covered | 5 of 5 |
+| Seniority bands | 6 |
+| Primary SKL → ROL edges asserted | 6000 (+6000 secondary, unverified) |
+| Source schema | `schemas/role.schema.json` (OpenDEAM v0.3.0, ADR-0003) |
+
+## Rich role facets
+
+Bulk ingestion rows carry these facets beyond the base schema. Facets never
+widen identity or membership; they are provenance and classification only.
+
+| Facet | Schema home | Convention |
+|---|---|---|
+| `domain` | `metadata.domain` / `tags` | Operating-model domain the role is anchored in |
+| `function` | `metadata.function` / `tags` | Naming family (Engineer, Manager, Auditor, …) |
+| `org_unit` | `metadata.org_unit` | Organizational Unit alignment (`<Domain> Unit`) |
+| `seniority_band` / `seniority_level` | `tags seniority:<band>:<level>` | See TAXONOMY.md |
+| `industries` | `metadata.industries[]` | Primary evidence slice (provenance, not membership) |
+| `related_industries` | `metadata.industries[]` (additional) | Cross-industry recurrence evidence |
+| `secondary_skill_id` | second `relationships[]` edge | Secondary SKL → ROL requires edge, unverified |
 
 ## License
 

@@ -1,0 +1,22 @@
+# Validate the bulk ingestion source (CR-ROL-RICH-000 pipeline).
+
+name: validate-ingestion
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ingestion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: pip install pyyaml jsonschema
+      - run: python scripts/validate_ingestion.py
+      - name: entity schema validation (post-materialization)
+        run: python scripts/validate_entities.py
