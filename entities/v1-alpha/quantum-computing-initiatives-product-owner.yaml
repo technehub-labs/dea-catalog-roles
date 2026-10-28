@@ -1,0 +1,50 @@
+id: roles:role-quantum-computing-initiatives-product-owner
+type: Role
+name: Quantum Computing Initiatives Product Owner
+description: Owns the quantum computing initiatives product backlog, prioritising against user value and
+  Technology business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- quantum
+- technology
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Quantum Computing Initiatives
+  org_unit: Quantum Computing Initiatives Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-quantum-computing-initiatives-product-ow-requires-quantum-computing-initiatives
+  source_id: roles:role-quantum-computing-initiatives-product-owner
+  target_id: skills:skill-quantum-computing-initiatives
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-quantum-computing-initiatives-product-ow-requires-quantum-computing-initiatives-secondary
+  source_id: roles:role-quantum-computing-initiatives-product-owner
+  target_id: skills:skill-quantum-computing-initiatives-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

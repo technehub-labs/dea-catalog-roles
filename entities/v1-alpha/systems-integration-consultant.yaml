@@ -1,0 +1,50 @@
+id: roles:role-systems-integration-consultant
+type: Role
+name: Systems Integration Consultant
+description: Supports Technology teams adopting systems integration practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- systems
+- technology
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Systems Integration
+  org_unit: Systems Integration Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-systems-integration-consultant-requires-systems-integration
+  source_id: roles:role-systems-integration-consultant
+  target_id: skills:skill-systems-integration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-systems-integration-consultant-requires-systems-integration-secondary
+  source_id: roles:role-systems-integration-consultant
+  target_id: skills:skill-systems-integration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-edge-iot-solutions-planner
+type: Role
+name: Edge & IoT Solutions Planner
+description: Plans capacity, schedule, and sequencing for edge & iot solutions activities, balancing demand,
+  budget, and dependencies in the Technology portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- edge
+- technology
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Edge & IoT Solutions
+  org_unit: Edge & IoT Solutions Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-edge-iot-solutions-planner-requires-edge-iot-solutions
+  source_id: roles:role-edge-iot-solutions-planner
+  target_id: skills:skill-edge-iot-solutions
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-edge-iot-solutions-planner-requires-edge-iot-solutions-secondary
+  source_id: roles:role-edge-iot-solutions-planner
+  target_id: skills:skill-edge-iot-solutions-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

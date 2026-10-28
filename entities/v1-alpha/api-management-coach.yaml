@@ -1,0 +1,50 @@
+id: roles:role-api-management-coach
+type: Role
+name: API Management Coach
+description: Coaches Technology teams and individuals on api management working methods, improving practice
+  maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- api
+- technology
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: API Management
+  org_unit: API Management Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-api-management-coach-requires-api-management
+  source_id: roles:role-api-management-coach
+  target_id: skills:skill-api-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-api-management-coach-requires-api-management-secondary
+  source_id: roles:role-api-management-coach
+  target_id: skills:skill-api-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

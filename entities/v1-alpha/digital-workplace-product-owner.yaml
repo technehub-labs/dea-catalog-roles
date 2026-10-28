@@ -1,0 +1,50 @@
+id: roles:role-digital-workplace-product-owner
+type: Role
+name: Digital Workplace Product Owner
+description: Owns the digital workplace product backlog, prioritising against user value and Technology
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- digital
+- technology
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Digital Workplace
+  org_unit: Digital Workplace Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-digital-workplace-product-owner-requires-digital-workplace
+  source_id: roles:role-digital-workplace-product-owner
+  target_id: skills:skill-digital-workplace
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-digital-workplace-product-owner-requires-digital-workplace-secondary
+  source_id: roles:role-digital-workplace-product-owner
+  target_id: skills:skill-digital-workplace-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

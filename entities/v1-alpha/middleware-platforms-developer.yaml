@@ -1,0 +1,50 @@
+id: roles:role-middleware-platforms-developer
+type: Role
+name: Middleware Platforms Developer
+description: Implements and unit-tests middleware platforms capabilities, contributing code and configuration
+  within the Technology delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- middleware
+- technology
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Middleware Platforms
+  org_unit: Middleware Platforms Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-middleware-platforms-developer-requires-middleware-platforms
+  source_id: roles:role-middleware-platforms-developer
+  target_id: skills:skill-middleware-platforms
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-middleware-platforms-developer-requires-middleware-platforms-secondary
+  source_id: roles:role-middleware-platforms-developer
+  target_id: skills:skill-middleware-platforms-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

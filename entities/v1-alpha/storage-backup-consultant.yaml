@@ -1,0 +1,50 @@
+id: roles:role-storage-backup-consultant
+type: Role
+name: Storage & Backup Consultant
+description: Supports Technology teams adopting storage & backup practices, transferring methods and tools
+  through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- storage
+- technology
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Storage & Backup
+  org_unit: Storage & Backup Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-storage-backup-consultant-requires-storage-backup
+  source_id: roles:role-storage-backup-consultant
+  target_id: skills:skill-storage-backup
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-storage-backup-consultant-requires-storage-backup-secondary
+  source_id: roles:role-storage-backup-consultant
+  target_id: skills:skill-storage-backup-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

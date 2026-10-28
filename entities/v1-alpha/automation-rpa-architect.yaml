@@ -1,0 +1,50 @@
+id: roles:role-automation-rpa-architect
+type: Role
+name: Automation & RPA Architect
+description: 'Owns the target architecture for automation & rpa: design standards, technology selection,
+  and the evolution roadmap that keeps automation & rpa fit for the Technology operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- automation
+- technology
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Automation & RPA
+  org_unit: Automation & RPA Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-automation-rpa-architect-requires-automation-rpa
+  source_id: roles:role-automation-rpa-architect
+  target_id: skills:skill-automation-rpa
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-automation-rpa-architect-requires-automation-rpa-secondary
+  source_id: roles:role-automation-rpa-architect
+  target_id: skills:skill-automation-rpa-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

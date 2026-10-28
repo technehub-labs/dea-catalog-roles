@@ -1,0 +1,50 @@
+id: roles:role-enterprise-architecture-planner
+type: Role
+name: Enterprise Architecture Planner
+description: Plans capacity, schedule, and sequencing for enterprise architecture activities, balancing
+  demand, budget, and dependencies in the Technology portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- enterprise
+- technology
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Enterprise Architecture
+  org_unit: Enterprise Architecture Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-enterprise-architecture-planner-requires-enterprise-architecture
+  source_id: roles:role-enterprise-architecture-planner
+  target_id: skills:skill-enterprise-architecture
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-enterprise-architecture-planner-requires-enterprise-architecture-secondary
+  source_id: roles:role-enterprise-architecture-planner
+  target_id: skills:skill-enterprise-architecture-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

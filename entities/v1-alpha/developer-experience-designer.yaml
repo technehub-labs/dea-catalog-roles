@@ -1,0 +1,50 @@
+id: roles:role-developer-experience-designer
+type: Role
+name: Developer Experience Designer
+description: Designs developer experience solutions and interfaces, translating Technology requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- developer
+- technology
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Developer Experience
+  org_unit: Developer Experience Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-developer-experience-designer-requires-developer-experience
+  source_id: roles:role-developer-experience-designer
+  target_id: skills:skill-developer-experience
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-developer-experience-designer-requires-developer-experience-secondary
+  source_id: roles:role-developer-experience-designer
+  target_id: skills:skill-developer-experience-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

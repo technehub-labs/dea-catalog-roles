@@ -1,0 +1,50 @@
+id: roles:role-quantum-computing-initiatives-engineer
+type: Role
+name: Quantum Computing Initiatives Engineer
+description: Builds, configures, and maintains quantum computing initiatives components and pipelines,
+  resolving technical incidents and keeping delivery aligned with Technology standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- quantum
+- technology
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Quantum Computing Initiatives
+  org_unit: Quantum Computing Initiatives Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-quantum-computing-initiatives-engineer-requires-quantum-computing-initiatives
+  source_id: roles:role-quantum-computing-initiatives-engineer
+  target_id: skills:skill-quantum-computing-initiatives
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-quantum-computing-initiatives-engineer-requires-quantum-computing-initiatives-secondary
+  source_id: roles:role-quantum-computing-initiatives-engineer
+  target_id: skills:skill-quantum-computing-initiatives-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

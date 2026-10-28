@@ -1,0 +1,50 @@
+id: roles:role-edge-iot-solutions-developer
+type: Role
+name: Edge & IoT Solutions Developer
+description: Implements and unit-tests edge & iot solutions capabilities, contributing code and configuration
+  within the Technology delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- edge
+- technology
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Edge & IoT Solutions
+  org_unit: Edge & IoT Solutions Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-edge-iot-solutions-developer-requires-edge-iot-solutions
+  source_id: roles:role-edge-iot-solutions-developer
+  target_id: skills:skill-edge-iot-solutions
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-edge-iot-solutions-developer-requires-edge-iot-solutions-secondary
+  source_id: roles:role-edge-iot-solutions-developer
+  target_id: skills:skill-edge-iot-solutions-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

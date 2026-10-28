@@ -1,0 +1,50 @@
+id: roles:role-it-vendor-management-engineer
+type: Role
+name: IT Vendor Management Engineer
+description: Builds, configures, and maintains it vendor management components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Technology standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- it
+- technology
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: IT Vendor Management
+  org_unit: IT Vendor Management Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-it-vendor-management-engineer-requires-it-vendor-management
+  source_id: roles:role-it-vendor-management-engineer
+  target_id: skills:skill-it-vendor-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-it-vendor-management-engineer-requires-it-vendor-management-secondary
+  source_id: roles:role-it-vendor-management-engineer
+  target_id: skills:skill-it-vendor-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
