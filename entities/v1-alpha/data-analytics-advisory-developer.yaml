@@ -1,0 +1,50 @@
+id: roles:role-data-analytics-advisory-developer
+type: Role
+name: Data & Analytics Advisory Developer
+description: Implements and unit-tests data & analytics advisory capabilities, contributing code and configuration
+  within the Consulting & Professional Services delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- data
+- consulting
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Data & Analytics Advisory
+  org_unit: Data & Analytics Advisory Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-data-analytics-advisory-developer-requires-data-analytics-advisory
+  source_id: roles:role-data-analytics-advisory-developer
+  target_id: skills:skill-data-analytics-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-data-analytics-advisory-developer-requires-data-analytics-advisory-secondary
+  source_id: roles:role-data-analytics-advisory-developer
+  target_id: skills:skill-data-analytics-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

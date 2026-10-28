@@ -1,0 +1,50 @@
+id: roles:role-thought-leadership-analyst
+type: Role
+name: Thought Leadership Analyst
+description: Analyses thought leadership data and processes, producing insight and recommendations that
+  steer Consulting & Professional Services planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- thought
+- consulting
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Thought Leadership
+  org_unit: Thought Leadership Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-thought-leadership-analyst-requires-thought-leadership
+  source_id: roles:role-thought-leadership-analyst
+  target_id: skills:skill-thought-leadership
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-thought-leadership-analyst-requires-thought-leadership-secondary
+  source_id: roles:role-thought-leadership-analyst
+  target_id: skills:skill-thought-leadership-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-practice-development-developer
+type: Role
+name: Practice Development Developer
+description: Implements and unit-tests practice development capabilities, contributing code and configuration
+  within the Consulting & Professional Services delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- practice
+- consulting
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Practice Development
+  org_unit: Practice Development Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-practice-development-developer-requires-practice-development
+  source_id: roles:role-practice-development-developer
+  target_id: skills:skill-practice-development
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-practice-development-developer-requires-practice-development-secondary
+  source_id: roles:role-practice-development-developer
+  target_id: skills:skill-practice-development-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

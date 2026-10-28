@@ -1,0 +1,50 @@
+id: roles:role-human-capital-advisory-program-manager
+type: Role
+name: Human Capital Advisory Program Manager
+description: Coordinates multi-team human capital advisory programmes across Consulting & Professional
+  Services, managing interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- human
+- consulting
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Human Capital Advisory
+  org_unit: Human Capital Advisory Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-human-capital-advisory-program-manager-requires-human-capital-advisory
+  source_id: roles:role-human-capital-advisory-program-manager
+  target_id: skills:skill-human-capital-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-human-capital-advisory-program-manager-requires-human-capital-advisory-secondary
+  source_id: roles:role-human-capital-advisory-program-manager
+  target_id: skills:skill-human-capital-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

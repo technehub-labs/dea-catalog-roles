@@ -1,0 +1,50 @@
+id: roles:role-staffing-deployment-lead
+type: Role
+name: Staffing & Deployment Lead
+description: Sets direction for staffing & deployment teams, owns their outcomes, and represents staffing
+  & deployment interests in Consulting & Professional Services governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- staffing
+- consulting
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Staffing & Deployment
+  org_unit: Staffing & Deployment Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-staffing-deployment-lead-requires-staffing-deployment
+  source_id: roles:role-staffing-deployment-lead
+  target_id: skills:skill-staffing-deployment
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-staffing-deployment-lead-requires-staffing-deployment-secondary
+  source_id: roles:role-staffing-deployment-lead
+  target_id: skills:skill-staffing-deployment-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

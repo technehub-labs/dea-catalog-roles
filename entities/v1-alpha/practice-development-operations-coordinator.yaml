@@ -1,0 +1,50 @@
+id: roles:role-practice-development-operations-coordinator
+type: Role
+name: Practice Development Operations Coordinator
+description: Coordinates day-to-day practice development activities, schedules, and records, keeping Consulting
+  & Professional Services operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- practice
+- consulting
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Practice Development
+  org_unit: Practice Development Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-practice-development-operations-coordina-requires-practice-development
+  source_id: roles:role-practice-development-operations-coordinator
+  target_id: skills:skill-practice-development
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-practice-development-operations-coordina-requires-practice-development-secondary
+  source_id: roles:role-practice-development-operations-coordinator
+  target_id: skills:skill-practice-development-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

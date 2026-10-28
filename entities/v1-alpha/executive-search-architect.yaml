@@ -1,0 +1,51 @@
+id: roles:role-executive-search-architect
+type: Role
+name: Executive Search Architect
+description: 'Owns the target architecture for executive search: design standards, technology selection,
+  and the evolution roadmap that keeps executive search fit for the Consulting & Professional Services
+  operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- executive
+- consulting
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Executive Search
+  org_unit: Executive Search Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-executive-search-architect-requires-executive-search
+  source_id: roles:role-executive-search-architect
+  target_id: skills:skill-executive-search
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-executive-search-architect-requires-executive-search-secondary
+  source_id: roles:role-executive-search-architect
+  target_id: skills:skill-executive-search-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

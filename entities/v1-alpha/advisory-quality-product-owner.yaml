@@ -1,0 +1,50 @@
+id: roles:role-advisory-quality-product-owner
+type: Role
+name: Advisory Quality Product Owner
+description: Owns the advisory quality product backlog, prioritising against user value and Consulting
+  & Professional Services business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- advisory
+- consulting
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Advisory Quality
+  org_unit: Advisory Quality Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-advisory-quality-product-owner-requires-advisory-quality
+  source_id: roles:role-advisory-quality-product-owner
+  target_id: skills:skill-advisory-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-advisory-quality-product-owner-requires-advisory-quality-secondary
+  source_id: roles:role-advisory-quality-product-owner
+  target_id: skills:skill-advisory-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

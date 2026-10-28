@@ -1,0 +1,50 @@
+id: roles:role-interim-leadership-developer
+type: Role
+name: Interim Leadership Developer
+description: Implements and unit-tests interim leadership capabilities, contributing code and configuration
+  within the Consulting & Professional Services delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- interim
+- consulting
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Interim Leadership
+  org_unit: Interim Leadership Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-interim-leadership-developer-requires-interim-leadership
+  source_id: roles:role-interim-leadership-developer
+  target_id: skills:skill-interim-leadership
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-interim-leadership-developer-requires-interim-leadership-secondary
+  source_id: roles:role-interim-leadership-developer
+  target_id: skills:skill-interim-leadership-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

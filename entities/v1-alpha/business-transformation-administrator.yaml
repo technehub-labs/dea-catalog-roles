@@ -1,0 +1,50 @@
+id: roles:role-business-transformation-administrator
+type: Role
+name: Business Transformation Administrator
+description: 'Administers business transformation environments day to day: provisioning, access control,
+  monitoring, and routine change execution for Consulting & Professional Services operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- business
+- consulting
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Business Transformation
+  org_unit: Business Transformation Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-business-transformation-administrator-requires-business-transformation
+  source_id: roles:role-business-transformation-administrator
+  target_id: skills:skill-business-transformation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-business-transformation-administrator-requires-business-transformation-secondary
+  source_id: roles:role-business-transformation-administrator
+  target_id: skills:skill-business-transformation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

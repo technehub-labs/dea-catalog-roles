@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 5177
+    entities: 5587
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -25789,6 +25789,2056 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-licensing-permits-program-manager
       path: entities/v1-alpha/licensing-permits-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-administrator
+      path: entities/v1-alpha/advisory-quality-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-administrator
+      path: entities/v1-alpha/alumni-networks-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-administrator
+      path: entities/v1-alpha/business-transformation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-administrator
+      path: entities/v1-alpha/change-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-administrator
+      path: entities/v1-alpha/client-relationship-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-administrator
+      path: entities/v1-alpha/consulting-enablement-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-administrator
+      path: entities/v1-alpha/customer-experience-design-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-administrator
+      path: entities/v1-alpha/data-analytics-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-administrator
+      path: entities/v1-alpha/deal-advisory-m-a-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-administrator
+      path: entities/v1-alpha/executive-search-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-administrator
+      path: entities/v1-alpha/finance-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-administrator
+      path: entities/v1-alpha/human-capital-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-administrator
+      path: entities/v1-alpha/interim-leadership-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-administrator
+      path: entities/v1-alpha/knowledge-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-administrator
+      path: entities/v1-alpha/learning-development-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-administrator
+      path: entities/v1-alpha/managed-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-administrator
+      path: entities/v1-alpha/management-consulting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-administrator
+      path: entities/v1-alpha/operational-excellence-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-administrator
+      path: entities/v1-alpha/organisation-design-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-administrator
+      path: entities/v1-alpha/practice-development-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-administrator
+      path: entities/v1-alpha/pricing-rate-cards-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-administrator
+      path: entities/v1-alpha/proposal-bid-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-administrator
+      path: entities/v1-alpha/risk-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-administrator
+      path: entities/v1-alpha/staffing-deployment-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-administrator
+      path: entities/v1-alpha/strategy-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-administrator
+      path: entities/v1-alpha/supply-chain-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-administrator
+      path: entities/v1-alpha/sustainability-consulting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-administrator
+      path: entities/v1-alpha/talent-acquisition-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-administrator
+      path: entities/v1-alpha/technology-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-administrator
+      path: entities/v1-alpha/thought-leadership-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-analyst
+      path: entities/v1-alpha/advisory-quality-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-analyst
+      path: entities/v1-alpha/alumni-networks-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-analyst
+      path: entities/v1-alpha/business-transformation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-analyst
+      path: entities/v1-alpha/change-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-analyst
+      path: entities/v1-alpha/client-relationship-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-analyst
+      path: entities/v1-alpha/consulting-enablement-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-analyst
+      path: entities/v1-alpha/customer-experience-design-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-analyst
+      path: entities/v1-alpha/data-analytics-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-analyst
+      path: entities/v1-alpha/deal-advisory-m-a-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-analyst
+      path: entities/v1-alpha/executive-search-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-analyst
+      path: entities/v1-alpha/finance-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-analyst
+      path: entities/v1-alpha/human-capital-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-analyst
+      path: entities/v1-alpha/interim-leadership-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-analyst
+      path: entities/v1-alpha/knowledge-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-analyst
+      path: entities/v1-alpha/learning-development-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-analyst
+      path: entities/v1-alpha/managed-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-analyst
+      path: entities/v1-alpha/management-consulting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-analyst
+      path: entities/v1-alpha/operational-excellence-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-analyst
+      path: entities/v1-alpha/organisation-design-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-analyst
+      path: entities/v1-alpha/practice-development-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-analyst
+      path: entities/v1-alpha/pricing-rate-cards-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-analyst
+      path: entities/v1-alpha/proposal-bid-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-analyst
+      path: entities/v1-alpha/risk-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-analyst
+      path: entities/v1-alpha/staffing-deployment-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-analyst
+      path: entities/v1-alpha/strategy-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-analyst
+      path: entities/v1-alpha/supply-chain-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-analyst
+      path: entities/v1-alpha/sustainability-consulting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-analyst
+      path: entities/v1-alpha/talent-acquisition-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-analyst
+      path: entities/v1-alpha/technology-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-analyst
+      path: entities/v1-alpha/thought-leadership-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-architect
+      path: entities/v1-alpha/advisory-quality-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-architect
+      path: entities/v1-alpha/alumni-networks-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-architect
+      path: entities/v1-alpha/business-transformation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-architect
+      path: entities/v1-alpha/change-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-architect
+      path: entities/v1-alpha/client-relationship-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-architect
+      path: entities/v1-alpha/consulting-enablement-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-architect
+      path: entities/v1-alpha/customer-experience-design-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-architect
+      path: entities/v1-alpha/data-analytics-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-architect
+      path: entities/v1-alpha/deal-advisory-m-a-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-architect
+      path: entities/v1-alpha/executive-search-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-architect
+      path: entities/v1-alpha/finance-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-architect
+      path: entities/v1-alpha/human-capital-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-architect
+      path: entities/v1-alpha/interim-leadership-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-architect
+      path: entities/v1-alpha/knowledge-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-architect
+      path: entities/v1-alpha/learning-development-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-architect
+      path: entities/v1-alpha/managed-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-architect
+      path: entities/v1-alpha/management-consulting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-architect
+      path: entities/v1-alpha/operational-excellence-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-architect
+      path: entities/v1-alpha/organisation-design-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-architect
+      path: entities/v1-alpha/practice-development-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-architect
+      path: entities/v1-alpha/pricing-rate-cards-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-architect
+      path: entities/v1-alpha/proposal-bid-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-architect
+      path: entities/v1-alpha/risk-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-architect
+      path: entities/v1-alpha/staffing-deployment-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-architect
+      path: entities/v1-alpha/strategy-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-architect
+      path: entities/v1-alpha/supply-chain-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-architect
+      path: entities/v1-alpha/sustainability-consulting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-architect
+      path: entities/v1-alpha/talent-acquisition-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-architect
+      path: entities/v1-alpha/technology-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-architect
+      path: entities/v1-alpha/thought-leadership-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-coach
+      path: entities/v1-alpha/advisory-quality-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-coach
+      path: entities/v1-alpha/alumni-networks-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-coach
+      path: entities/v1-alpha/business-transformation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-coach
+      path: entities/v1-alpha/change-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-coach
+      path: entities/v1-alpha/client-relationship-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-coach
+      path: entities/v1-alpha/consulting-enablement-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-coach
+      path: entities/v1-alpha/customer-experience-design-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-coach
+      path: entities/v1-alpha/data-analytics-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-coach
+      path: entities/v1-alpha/deal-advisory-m-a-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-coach
+      path: entities/v1-alpha/executive-search-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-coach
+      path: entities/v1-alpha/finance-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-coach
+      path: entities/v1-alpha/human-capital-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-coach
+      path: entities/v1-alpha/interim-leadership-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-coach
+      path: entities/v1-alpha/knowledge-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-coach
+      path: entities/v1-alpha/learning-development-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-coach
+      path: entities/v1-alpha/managed-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-coach
+      path: entities/v1-alpha/management-consulting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-coach
+      path: entities/v1-alpha/operational-excellence-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-coach
+      path: entities/v1-alpha/organisation-design-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-coach
+      path: entities/v1-alpha/practice-development-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-coach
+      path: entities/v1-alpha/pricing-rate-cards-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-coach
+      path: entities/v1-alpha/proposal-bid-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-coach
+      path: entities/v1-alpha/risk-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-coach
+      path: entities/v1-alpha/staffing-deployment-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-coach
+      path: entities/v1-alpha/strategy-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-coach
+      path: entities/v1-alpha/supply-chain-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-coach
+      path: entities/v1-alpha/sustainability-consulting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-coach
+      path: entities/v1-alpha/talent-acquisition-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-coach
+      path: entities/v1-alpha/technology-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-coach
+      path: entities/v1-alpha/thought-leadership-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-consultant
+      path: entities/v1-alpha/advisory-quality-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-consultant
+      path: entities/v1-alpha/alumni-networks-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-consultant
+      path: entities/v1-alpha/business-transformation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-consultant
+      path: entities/v1-alpha/change-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-consultant
+      path: entities/v1-alpha/client-relationship-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-consultant
+      path: entities/v1-alpha/consulting-enablement-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-consultant
+      path: entities/v1-alpha/customer-experience-design-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-consultant
+      path: entities/v1-alpha/data-analytics-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-consultant
+      path: entities/v1-alpha/deal-advisory-m-a-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-consultant
+      path: entities/v1-alpha/executive-search-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-consultant
+      path: entities/v1-alpha/finance-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-consultant
+      path: entities/v1-alpha/human-capital-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-consultant
+      path: entities/v1-alpha/interim-leadership-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-consultant
+      path: entities/v1-alpha/knowledge-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-consultant
+      path: entities/v1-alpha/learning-development-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-consultant
+      path: entities/v1-alpha/managed-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-consultant
+      path: entities/v1-alpha/management-consulting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-consultant
+      path: entities/v1-alpha/operational-excellence-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-consultant
+      path: entities/v1-alpha/organisation-design-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-consultant
+      path: entities/v1-alpha/practice-development-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-consultant
+      path: entities/v1-alpha/pricing-rate-cards-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-consultant
+      path: entities/v1-alpha/proposal-bid-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-consultant
+      path: entities/v1-alpha/risk-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-consultant
+      path: entities/v1-alpha/staffing-deployment-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-consultant
+      path: entities/v1-alpha/strategy-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-consultant
+      path: entities/v1-alpha/supply-chain-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-consultant
+      path: entities/v1-alpha/sustainability-consulting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-consultant
+      path: entities/v1-alpha/talent-acquisition-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-consultant
+      path: entities/v1-alpha/technology-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-consultant
+      path: entities/v1-alpha/thought-leadership-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-designer
+      path: entities/v1-alpha/advisory-quality-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-designer
+      path: entities/v1-alpha/alumni-networks-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-designer
+      path: entities/v1-alpha/business-transformation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-designer
+      path: entities/v1-alpha/change-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-designer
+      path: entities/v1-alpha/client-relationship-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-designer
+      path: entities/v1-alpha/consulting-enablement-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-designer
+      path: entities/v1-alpha/customer-experience-design-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-designer
+      path: entities/v1-alpha/data-analytics-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-designer
+      path: entities/v1-alpha/deal-advisory-m-a-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-designer
+      path: entities/v1-alpha/executive-search-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-designer
+      path: entities/v1-alpha/finance-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-designer
+      path: entities/v1-alpha/human-capital-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-designer
+      path: entities/v1-alpha/interim-leadership-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-designer
+      path: entities/v1-alpha/knowledge-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-designer
+      path: entities/v1-alpha/learning-development-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-designer
+      path: entities/v1-alpha/managed-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-designer
+      path: entities/v1-alpha/management-consulting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-designer
+      path: entities/v1-alpha/operational-excellence-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-designer
+      path: entities/v1-alpha/organisation-design-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-designer
+      path: entities/v1-alpha/practice-development-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-designer
+      path: entities/v1-alpha/pricing-rate-cards-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-designer
+      path: entities/v1-alpha/proposal-bid-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-designer
+      path: entities/v1-alpha/risk-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-designer
+      path: entities/v1-alpha/staffing-deployment-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-designer
+      path: entities/v1-alpha/strategy-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-designer
+      path: entities/v1-alpha/supply-chain-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-designer
+      path: entities/v1-alpha/sustainability-consulting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-designer
+      path: entities/v1-alpha/talent-acquisition-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-designer
+      path: entities/v1-alpha/technology-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-designer
+      path: entities/v1-alpha/thought-leadership-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-developer
+      path: entities/v1-alpha/advisory-quality-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-developer
+      path: entities/v1-alpha/alumni-networks-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-developer
+      path: entities/v1-alpha/business-transformation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-developer
+      path: entities/v1-alpha/change-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-developer
+      path: entities/v1-alpha/client-relationship-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-developer
+      path: entities/v1-alpha/consulting-enablement-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-developer
+      path: entities/v1-alpha/customer-experience-design-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-developer
+      path: entities/v1-alpha/data-analytics-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-developer
+      path: entities/v1-alpha/deal-advisory-m-a-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-developer
+      path: entities/v1-alpha/executive-search-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-developer
+      path: entities/v1-alpha/finance-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-developer
+      path: entities/v1-alpha/human-capital-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-developer
+      path: entities/v1-alpha/interim-leadership-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-developer
+      path: entities/v1-alpha/knowledge-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-developer
+      path: entities/v1-alpha/learning-development-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-developer
+      path: entities/v1-alpha/managed-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-developer
+      path: entities/v1-alpha/management-consulting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-developer
+      path: entities/v1-alpha/operational-excellence-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-developer
+      path: entities/v1-alpha/organisation-design-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-developer
+      path: entities/v1-alpha/practice-development-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-developer
+      path: entities/v1-alpha/pricing-rate-cards-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-developer
+      path: entities/v1-alpha/proposal-bid-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-developer
+      path: entities/v1-alpha/risk-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-developer
+      path: entities/v1-alpha/staffing-deployment-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-developer
+      path: entities/v1-alpha/strategy-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-developer
+      path: entities/v1-alpha/supply-chain-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-developer
+      path: entities/v1-alpha/sustainability-consulting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-developer
+      path: entities/v1-alpha/talent-acquisition-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-developer
+      path: entities/v1-alpha/technology-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-developer
+      path: entities/v1-alpha/thought-leadership-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-engineer
+      path: entities/v1-alpha/advisory-quality-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-engineer
+      path: entities/v1-alpha/alumni-networks-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-engineer
+      path: entities/v1-alpha/business-transformation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-engineer
+      path: entities/v1-alpha/change-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-engineer
+      path: entities/v1-alpha/client-relationship-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-engineer
+      path: entities/v1-alpha/consulting-enablement-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-engineer
+      path: entities/v1-alpha/customer-experience-design-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-engineer
+      path: entities/v1-alpha/data-analytics-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-engineer
+      path: entities/v1-alpha/deal-advisory-m-a-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-engineer
+      path: entities/v1-alpha/executive-search-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-engineer
+      path: entities/v1-alpha/finance-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-engineer
+      path: entities/v1-alpha/human-capital-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-engineer
+      path: entities/v1-alpha/interim-leadership-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-engineer
+      path: entities/v1-alpha/knowledge-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-engineer
+      path: entities/v1-alpha/learning-development-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-engineer
+      path: entities/v1-alpha/managed-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-engineer
+      path: entities/v1-alpha/management-consulting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-engineer
+      path: entities/v1-alpha/operational-excellence-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-engineer
+      path: entities/v1-alpha/organisation-design-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-engineer
+      path: entities/v1-alpha/practice-development-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-engineer
+      path: entities/v1-alpha/pricing-rate-cards-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-engineer
+      path: entities/v1-alpha/proposal-bid-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-engineer
+      path: entities/v1-alpha/risk-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-engineer
+      path: entities/v1-alpha/staffing-deployment-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-engineer
+      path: entities/v1-alpha/strategy-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-engineer
+      path: entities/v1-alpha/supply-chain-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-engineer
+      path: entities/v1-alpha/sustainability-consulting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-engineer
+      path: entities/v1-alpha/talent-acquisition-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-engineer
+      path: entities/v1-alpha/technology-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-engineer
+      path: entities/v1-alpha/thought-leadership-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-lead
+      path: entities/v1-alpha/advisory-quality-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-lead
+      path: entities/v1-alpha/alumni-networks-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-lead
+      path: entities/v1-alpha/business-transformation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-lead
+      path: entities/v1-alpha/change-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-lead
+      path: entities/v1-alpha/client-relationship-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-lead
+      path: entities/v1-alpha/consulting-enablement-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-lead
+      path: entities/v1-alpha/customer-experience-design-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-lead
+      path: entities/v1-alpha/data-analytics-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-lead
+      path: entities/v1-alpha/deal-advisory-m-a-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-lead
+      path: entities/v1-alpha/executive-search-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-lead
+      path: entities/v1-alpha/finance-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-lead
+      path: entities/v1-alpha/human-capital-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-lead
+      path: entities/v1-alpha/interim-leadership-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-lead
+      path: entities/v1-alpha/knowledge-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-lead
+      path: entities/v1-alpha/learning-development-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-lead
+      path: entities/v1-alpha/managed-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-lead
+      path: entities/v1-alpha/management-consulting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-lead
+      path: entities/v1-alpha/operational-excellence-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-lead
+      path: entities/v1-alpha/organisation-design-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-lead
+      path: entities/v1-alpha/practice-development-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-lead
+      path: entities/v1-alpha/pricing-rate-cards-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-lead
+      path: entities/v1-alpha/proposal-bid-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-lead
+      path: entities/v1-alpha/risk-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-lead
+      path: entities/v1-alpha/staffing-deployment-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-lead
+      path: entities/v1-alpha/strategy-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-lead
+      path: entities/v1-alpha/supply-chain-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-lead
+      path: entities/v1-alpha/sustainability-consulting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-lead
+      path: entities/v1-alpha/talent-acquisition-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-lead
+      path: entities/v1-alpha/technology-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-lead
+      path: entities/v1-alpha/thought-leadership-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-manager
+      path: entities/v1-alpha/advisory-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-manager
+      path: entities/v1-alpha/alumni-networks-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-manager
+      path: entities/v1-alpha/business-transformation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-manager
+      path: entities/v1-alpha/change-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-manager
+      path: entities/v1-alpha/client-relationship-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-manager
+      path: entities/v1-alpha/consulting-enablement-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-manager
+      path: entities/v1-alpha/customer-experience-design-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-manager
+      path: entities/v1-alpha/data-analytics-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-manager
+      path: entities/v1-alpha/deal-advisory-m-a-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-manager
+      path: entities/v1-alpha/executive-search-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-manager
+      path: entities/v1-alpha/finance-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-manager
+      path: entities/v1-alpha/human-capital-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-manager
+      path: entities/v1-alpha/interim-leadership-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-manager
+      path: entities/v1-alpha/knowledge-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-manager
+      path: entities/v1-alpha/learning-development-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-manager
+      path: entities/v1-alpha/managed-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-manager
+      path: entities/v1-alpha/management-consulting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-manager
+      path: entities/v1-alpha/operational-excellence-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-manager
+      path: entities/v1-alpha/organisation-design-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-manager
+      path: entities/v1-alpha/practice-development-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-manager
+      path: entities/v1-alpha/pricing-rate-cards-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-manager
+      path: entities/v1-alpha/proposal-bid-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-manager
+      path: entities/v1-alpha/risk-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-manager
+      path: entities/v1-alpha/staffing-deployment-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-manager
+      path: entities/v1-alpha/strategy-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-manager
+      path: entities/v1-alpha/supply-chain-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-manager
+      path: entities/v1-alpha/sustainability-consulting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-manager
+      path: entities/v1-alpha/talent-acquisition-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-manager
+      path: entities/v1-alpha/technology-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-manager
+      path: entities/v1-alpha/thought-leadership-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-operations-coordinator
+      path: entities/v1-alpha/advisory-quality-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-operations-coordinator
+      path: entities/v1-alpha/alumni-networks-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-operations-coordinator
+      path: entities/v1-alpha/business-transformation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-operations-coordinator
+      path: entities/v1-alpha/change-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-operations-coordinator
+      path: entities/v1-alpha/client-relationship-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-operations-coordinator
+      path: entities/v1-alpha/consulting-enablement-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-operations-coordinator
+      path: entities/v1-alpha/customer-experience-design-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-operations-coordinator
+      path: entities/v1-alpha/data-analytics-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-operations-coordinator
+      path: entities/v1-alpha/deal-advisory-m-a-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-operations-coordinator
+      path: entities/v1-alpha/executive-search-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-operations-coordinator
+      path: entities/v1-alpha/finance-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-operations-coordinator
+      path: entities/v1-alpha/human-capital-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-operations-coordinator
+      path: entities/v1-alpha/interim-leadership-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-operations-coordinator
+      path: entities/v1-alpha/knowledge-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-operations-coordinator
+      path: entities/v1-alpha/learning-development-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-operations-coordinator
+      path: entities/v1-alpha/managed-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-operations-coordinator
+      path: entities/v1-alpha/management-consulting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-operations-coordinator
+      path: entities/v1-alpha/operational-excellence-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-operations-coordinator
+      path: entities/v1-alpha/organisation-design-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-operations-coordinator
+      path: entities/v1-alpha/practice-development-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-operations-coordinator
+      path: entities/v1-alpha/pricing-rate-cards-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-operations-coordinator
+      path: entities/v1-alpha/proposal-bid-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-operations-coordinator
+      path: entities/v1-alpha/risk-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-operations-coordinator
+      path: entities/v1-alpha/staffing-deployment-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-operations-coordinator
+      path: entities/v1-alpha/strategy-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-operations-coordinator
+      path: entities/v1-alpha/supply-chain-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-operations-coordinator
+      path: entities/v1-alpha/sustainability-consulting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-operations-coordinator
+      path: entities/v1-alpha/talent-acquisition-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-operations-coordinator
+      path: entities/v1-alpha/technology-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-operations-coordinator
+      path: entities/v1-alpha/thought-leadership-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-planner
+      path: entities/v1-alpha/advisory-quality-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-planner
+      path: entities/v1-alpha/alumni-networks-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-planner
+      path: entities/v1-alpha/business-transformation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-planner
+      path: entities/v1-alpha/change-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-planner
+      path: entities/v1-alpha/client-relationship-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-planner
+      path: entities/v1-alpha/consulting-enablement-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-planner
+      path: entities/v1-alpha/customer-experience-design-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-planner
+      path: entities/v1-alpha/data-analytics-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-planner
+      path: entities/v1-alpha/deal-advisory-m-a-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-planner
+      path: entities/v1-alpha/executive-search-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-planner
+      path: entities/v1-alpha/finance-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-planner
+      path: entities/v1-alpha/human-capital-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-planner
+      path: entities/v1-alpha/interim-leadership-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-planner
+      path: entities/v1-alpha/knowledge-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-planner
+      path: entities/v1-alpha/learning-development-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-planner
+      path: entities/v1-alpha/managed-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-planner
+      path: entities/v1-alpha/management-consulting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-planner
+      path: entities/v1-alpha/operational-excellence-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-planner
+      path: entities/v1-alpha/organisation-design-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-planner
+      path: entities/v1-alpha/practice-development-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-planner
+      path: entities/v1-alpha/pricing-rate-cards-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-planner
+      path: entities/v1-alpha/proposal-bid-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-planner
+      path: entities/v1-alpha/risk-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-planner
+      path: entities/v1-alpha/staffing-deployment-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-planner
+      path: entities/v1-alpha/strategy-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-planner
+      path: entities/v1-alpha/supply-chain-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-planner
+      path: entities/v1-alpha/sustainability-consulting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-planner
+      path: entities/v1-alpha/talent-acquisition-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-planner
+      path: entities/v1-alpha/technology-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-planner
+      path: entities/v1-alpha/thought-leadership-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-product-owner
+      path: entities/v1-alpha/advisory-quality-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-product-owner
+      path: entities/v1-alpha/alumni-networks-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-product-owner
+      path: entities/v1-alpha/business-transformation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-product-owner
+      path: entities/v1-alpha/change-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-product-owner
+      path: entities/v1-alpha/client-relationship-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-product-owner
+      path: entities/v1-alpha/consulting-enablement-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-product-owner
+      path: entities/v1-alpha/customer-experience-design-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-product-owner
+      path: entities/v1-alpha/data-analytics-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-product-owner
+      path: entities/v1-alpha/deal-advisory-m-a-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-product-owner
+      path: entities/v1-alpha/executive-search-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-product-owner
+      path: entities/v1-alpha/finance-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-product-owner
+      path: entities/v1-alpha/human-capital-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-product-owner
+      path: entities/v1-alpha/interim-leadership-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-product-owner
+      path: entities/v1-alpha/knowledge-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-product-owner
+      path: entities/v1-alpha/learning-development-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-product-owner
+      path: entities/v1-alpha/managed-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-product-owner
+      path: entities/v1-alpha/management-consulting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-product-owner
+      path: entities/v1-alpha/operational-excellence-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-product-owner
+      path: entities/v1-alpha/organisation-design-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-product-owner
+      path: entities/v1-alpha/practice-development-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-product-owner
+      path: entities/v1-alpha/pricing-rate-cards-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-product-owner
+      path: entities/v1-alpha/proposal-bid-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-product-owner
+      path: entities/v1-alpha/risk-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-product-owner
+      path: entities/v1-alpha/staffing-deployment-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-product-owner
+      path: entities/v1-alpha/strategy-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-product-owner
+      path: entities/v1-alpha/supply-chain-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-product-owner
+      path: entities/v1-alpha/sustainability-consulting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-product-owner
+      path: entities/v1-alpha/talent-acquisition-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-product-owner
+      path: entities/v1-alpha/technology-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-product-owner
+      path: entities/v1-alpha/thought-leadership-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-program-manager
+      path: entities/v1-alpha/advisory-quality-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-program-manager
+      path: entities/v1-alpha/alumni-networks-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-program-manager
+      path: entities/v1-alpha/business-transformation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-program-manager
+      path: entities/v1-alpha/change-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-program-manager
+      path: entities/v1-alpha/client-relationship-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-program-manager
+      path: entities/v1-alpha/consulting-enablement-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-program-manager
+      path: entities/v1-alpha/customer-experience-design-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-program-manager
+      path: entities/v1-alpha/data-analytics-advisory-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-program-manager
+      path: entities/v1-alpha/deal-advisory-m-a-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-program-manager
+      path: entities/v1-alpha/executive-search-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-program-manager
+      path: entities/v1-alpha/finance-advisory-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-program-manager
+      path: entities/v1-alpha/human-capital-advisory-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-program-manager
+      path: entities/v1-alpha/interim-leadership-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-program-manager
+      path: entities/v1-alpha/knowledge-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-program-manager
+      path: entities/v1-alpha/learning-development-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-program-manager
+      path: entities/v1-alpha/managed-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-program-manager
+      path: entities/v1-alpha/management-consulting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-program-manager
+      path: entities/v1-alpha/operational-excellence-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-program-manager
+      path: entities/v1-alpha/organisation-design-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-program-manager
+      path: entities/v1-alpha/practice-development-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
