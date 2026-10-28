@@ -1,0 +1,50 @@
+id: roles:role-fleet-operations-compliance-officer
+type: Role
+name: Fleet Operations Compliance Officer
+description: Constrains and reviews fleet operations activity against regulatory and policy obligations,
+  escalating breaches in the Transport & Logistics control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- fleet
+- transport
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fleet Operations
+  org_unit: Fleet Operations Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-fleet-operations-compliance-officer-requires-fleet-operations
+  source_id: roles:role-fleet-operations-compliance-officer
+  target_id: skills:skill-fleet-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fleet-operations-compliance-officer-requires-fleet-operations-secondary
+  source_id: roles:role-fleet-operations-compliance-officer
+  target_id: skills:skill-fleet-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
