@@ -5,8 +5,8 @@ description: >-
   Provides independent assurance to the board: audits the control
   environment against policy and regulation, reports findings with severity
   and agreed remediation, and tracks them to closure.
-version: 0.1.0
-lifecycle_status: proposed
+version: 0.2.0
+lifecycle_status: active
 tags:
   - governance
   - assurance
@@ -17,6 +17,23 @@ metadata:
     - banking
     - health
     - public-sector
+  evidence_rating: E5
+  evidence_ladder:
+    - stage: E1-recurrence
+      date: '2026-10-27'
+      reference: industries/banking.yaml
+    - stage: E2-corroboration
+      date: '2026-10-27'
+      reference: industries/health.yaml
+    - stage: E3-enterprise-generality
+      date: '2026-10-27'
+      reference: industries/public-sector.yaml
+    - stage: E4-distinctness
+      date: '2026-10-27'
+      reference: docs/distinctness-register.md
+    - stage: E5-review
+      date: '2026-10-27'
+      reference: change-requests/CR-DEA-ROL-03-admission-internal-auditor.md
 relationships:
   - id: roles:rel-ia-requires-audit-skill
     source_id: roles:role-internal-auditor
