@@ -1,31 +1,48 @@
 id: roles:role-network-operations-center-engineer
 type: Role
 name: Network Operations Center Engineer
-description: >-
-  Monitors and operates the production network from the NOC: detects,
-  diagnoses, and escalates network faults, executes maintenance windows, and
-  is first-line accountable for network availability and incident SLAs.
-version: 0.1.0
-lifecycle_status: proposed
+description: 'Monitors and operates the production network from the NOC: detects, diagnoses, and escalates
+  network faults, executes maintenance windows, and is first-line accountable for network availability
+  and incident SLAs.'
+version: 0.2.0
+lifecycle_status: active
 tags:
-  - technical
-  - operations
+- technical
+- operations
 metadata:
   catalog: technehub-labs/dea-catalog-roles
   metamodel_version: v0.3.0
   industries:
-    - telecom
+  - telecom
+  - technology
+  evidence_rating: E5
+  evidence_ladder:
+  - stage: E1-recurrence
+    date: '2026-10-28'
+    reference: industries/telecom.yaml
+  - stage: E2-corroboration
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv technology slice Network Operations Centre domain
+  - stage: E3-enterprise-generality
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv (domain recurrence; docs/family-recurrence-register.md usage
+      rules)
+  - stage: E4-distinctness
+    date: '2026-10-28'
+    reference: docs/distinctness-register.md
+  - stage: E5-review
+    date: '2026-10-28'
+    reference: change-requests/CR-DEA-ROL-12-admissions-second-trio.md
 relationships:
-  - id: roles:rel-noc-requires-noc-skill
-    source_id: roles:role-network-operations-center-engineer
-    target_id: skills:skill-network-operations
-    relationship_type: requires
-    status: proposed
-    rationale: >-
-      The role cannot be fulfilled without network operations competency
-      (SKL -> ROL "required by", OpenDEAM v0.3.0). Telco discovery pass 1.
-    provenance:
-      type: discovery
-      reference: industries/telecom.yaml
-      asserted_by: catalog-seed
-      verification_status: unverified
+- id: roles:rel-noc-requires-noc-skill
+  source_id: roles:role-network-operations-center-engineer
+  target_id: skills:skill-network-operations
+  relationship_type: requires
+  status: proposed
+  rationale: The role cannot be fulfilled without network operations competency (SKL -> ROL "required
+    by", OpenDEAM v0.3.0). Telco discovery pass 1.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

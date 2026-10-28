@@ -78,8 +78,18 @@ cluster.
 
 **Sweep outcome:** distinct; no merge.
 
+## Cluster: operations (swept 2026-10-28)
+
+| Role | Accountability (one line) | Distinct from | Distinctness argument |
+|---|---|---|---|
+| Network Operations Center Engineer | Monitors and operates the production network: fault detection, escalation, maintenance windows | Service Assurance Manager | Network-element operations (faults, availability of the network itself) vs end-to-end service quality (KPIs, degradation of the service as experienced). The NOC is a layer the assurance manager watches over. |
+| NOC Engineer | — | Service Provisioning Manager | Operates the live network vs executes the order-to-service flow. Provisioning changes the network's configuration; NOC runs its steady state. |
+| NOC Engineer | — | Platform Engineer | Network operations (telco/network domain) vs internal delivery-platform build and operation (infrastructure, pipelines, self-service). Different platform object. |
+| Relationship Manager | Owns named-account commercial relationships and their P&L | Interconnect & Wholesale Manager | Customer-facing revenue relationships (portfolio P&L) vs carrier-to-carrier interconnect and wholesale settlement. Different counterparty class and commercial mechanics. |
+
+**Sweep outcome:** distinct; no merge. (Relationship Manager row appended to the commercial & sourcing boundary set.)
+
 ## Pending clusters
 
-- operations (Service Assurance, Claims Operations, Payments Operations,
-  Citizen Services Operations, NOC, Service Provisioning): sweep at next
-  admission from that cluster
+- Claims Operations, Payments Operations, Citizen Services Operations:
+  sweep at next admission from that set

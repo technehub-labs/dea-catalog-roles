@@ -1,33 +1,49 @@
 id: roles:role-data-protection-officer
 type: Role
 name: Data Protection Officer
-description: >-
-  Owns data-protection compliance: the record of processing, privacy
-  impact assessments, data-subject request handling, and the independent
-  advice and oversight reported to leadership and regulators.
-version: 0.1.0
-lifecycle_status: proposed
+description: 'Owns data-protection compliance: the record of processing, privacy impact assessments, data-subject
+  request handling, and the independent advice and oversight reported to leadership and regulators.'
+version: 0.2.0
+lifecycle_status: active
 tags:
-  - governance
-  - compliance
+- governance
+- compliance
 metadata:
   catalog: technehub-labs/dea-catalog-roles
   metamodel_version: v0.3.0
   industries:
-    - public-sector
+  - public-sector
+  - legal-regulatory
+  evidence_rating: E5
+  evidence_ladder:
+  - stage: E1-recurrence
+    date: '2026-10-28'
+    reference: industries/public-sector.yaml
+  - stage: E2-corroboration
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv legal-regulatory slice Data Protection & Privacy domain (17
+      roles)
+  - stage: E3-enterprise-generality
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv (domain recurrence; docs/family-recurrence-register.md usage
+      rules)
+  - stage: E4-distinctness
+    date: '2026-10-28'
+    reference: docs/distinctness-register.md
+  - stage: E5-review
+    date: '2026-10-28'
+    reference: change-requests/CR-DEA-ROL-12-admissions-second-trio.md
 relationships:
-  - id: roles:rel-dpo-requires-dp-skill
-    source_id: roles:role-data-protection-officer
-    target_id: skills:skill-data-protection
-    relationship_type: requires
-    status: proposed
-    rationale: >-
-      The role cannot be fulfilled without data-protection competency
-      (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector discovery
-      pass 1; recurs in any enterprise processing personal data at scale
-      (tracked toward E2).
-    provenance:
-      type: discovery
-      reference: industries/public-sector.yaml
-      asserted_by: catalog-seed
-      verification_status: unverified
+- id: roles:rel-dpo-requires-dp-skill
+  source_id: roles:role-data-protection-officer
+  target_id: skills:skill-data-protection
+  relationship_type: requires
+  status: proposed
+  rationale: The role cannot be fulfilled without data-protection competency (SKL -> ROL "required by",
+    OpenDEAM v0.3.0). Public-sector discovery pass 1; recurs in any enterprise processing personal data
+    at scale (tracked toward E2).
+  provenance:
+    type: discovery
+    reference: industries/public-sector.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

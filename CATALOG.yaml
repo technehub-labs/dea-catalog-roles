@@ -69,8 +69,8 @@ catalog:
       last_modified: "2026-10-14"
     - id: roles:role-network-operations-center-engineer
       path: entities/v1-alpha/network-operations-center-engineer.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
     - id: roles:role-service-assurance-manager
       path: entities/v1-alpha/service-assurance-manager.yaml
@@ -1484,8 +1484,8 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-relationship-manager
       path: entities/v1-alpha/relationship-manager.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
     - id: roles:role-internal-auditor
       path: entities/v1-alpha/internal-auditor.yaml
@@ -1549,6 +1549,6 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-data-protection-officer
       path: entities/v1-alpha/data-protection-officer.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
