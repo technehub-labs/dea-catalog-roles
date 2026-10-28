@@ -1,0 +1,50 @@
+id: roles:role-head-of-operational-excellence
+type: Role
+name: Head of Operational Excellence
+description: 'Owns the operational excellence domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Consulting & Professional Services.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- operational
+- consulting
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Operational Excellence
+  org_unit: Operational Excellence Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-head-of-operational-excellence-requires-operational-excellence
+  source_id: roles:role-head-of-operational-excellence
+  target_id: skills:skill-operational-excellence
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-operational-excellence-requires-operational-excellence-secondary
+  source_id: roles:role-head-of-operational-excellence
+  target_id: skills:skill-operational-excellence-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

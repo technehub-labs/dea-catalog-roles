@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 815
+    entities: 845
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -3979,6 +3979,156 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-head-of-vendor-audit
       path: entities/v1-alpha/head-of-vendor-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-advisory-quality
+      path: entities/v1-alpha/head-of-advisory-quality.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-alumni-networks
+      path: entities/v1-alpha/head-of-alumni-networks.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-business-transformation
+      path: entities/v1-alpha/head-of-business-transformation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-change-management
+      path: entities/v1-alpha/head-of-change-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-client-relationship-management
+      path: entities/v1-alpha/head-of-client-relationship-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-consulting-enablement
+      path: entities/v1-alpha/head-of-consulting-enablement.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-customer-experience-design
+      path: entities/v1-alpha/head-of-customer-experience-design.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-data-analytics-advisory
+      path: entities/v1-alpha/head-of-data-analytics-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-deal-advisory-m-a
+      path: entities/v1-alpha/head-of-deal-advisory-m-a.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-executive-search
+      path: entities/v1-alpha/head-of-executive-search.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-finance-advisory
+      path: entities/v1-alpha/head-of-finance-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-human-capital-advisory
+      path: entities/v1-alpha/head-of-human-capital-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-interim-leadership
+      path: entities/v1-alpha/head-of-interim-leadership.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-knowledge-management
+      path: entities/v1-alpha/head-of-knowledge-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-learning-development
+      path: entities/v1-alpha/head-of-learning-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-managed-services
+      path: entities/v1-alpha/head-of-managed-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-management-consulting
+      path: entities/v1-alpha/head-of-management-consulting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-operational-excellence
+      path: entities/v1-alpha/head-of-operational-excellence.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-organisation-design
+      path: entities/v1-alpha/head-of-organisation-design.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-practice-development
+      path: entities/v1-alpha/head-of-practice-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-pricing-rate-cards
+      path: entities/v1-alpha/head-of-pricing-rate-cards.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-proposal-bid-management
+      path: entities/v1-alpha/head-of-proposal-bid-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-risk-advisory
+      path: entities/v1-alpha/head-of-risk-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-staffing-deployment
+      path: entities/v1-alpha/head-of-staffing-deployment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-strategy-advisory
+      path: entities/v1-alpha/head-of-strategy-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-supply-chain-advisory
+      path: entities/v1-alpha/head-of-supply-chain-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-sustainability-consulting
+      path: entities/v1-alpha/head-of-sustainability-consulting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-talent-acquisition
+      path: entities/v1-alpha/head-of-talent-acquisition.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-technology-advisory
+      path: entities/v1-alpha/head-of-technology-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-thought-leadership
+      path: entities/v1-alpha/head-of-thought-leadership.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

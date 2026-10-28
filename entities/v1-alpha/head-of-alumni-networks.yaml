@@ -1,0 +1,50 @@
+id: roles:role-head-of-alumni-networks
+type: Role
+name: Head of Alumni Networks
+description: 'Owns the alumni networks domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Consulting & Professional Services.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- alumni
+- consulting
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Alumni Networks
+  org_unit: Alumni Networks Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-head-of-alumni-networks-requires-alumni-networks
+  source_id: roles:role-head-of-alumni-networks
+  target_id: skills:skill-alumni-networks
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-alumni-networks-requires-alumni-networks-secondary
+  source_id: roles:role-head-of-alumni-networks
+  target_id: skills:skill-alumni-networks-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
