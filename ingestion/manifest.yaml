@@ -9,12 +9,12 @@ provenance:
   type: discovery
   asserted_by: catalog-seed
   verification_status: unverified
-collisions_with_existing: 340
+collisions_with_existing: 400
 notes: >-
   Rows are candidates only (lifecycle_status: proposed, version 0.1.0).
   Entities materialize per admission (GOVERNANCE.md S4); existing
   instances win on id collision (they carry richer evidence trails).
-  Collision count 340 = 7 pre-existing + cumulative batch admissions:
+  Collision count 400 = 7 pre-existing + cumulative batch admissions:
   3 pilot admissions (CR-DEA-ROL-5);
   30 technology Head-of admissions (CR-DEA-ROL-6);
   60 technology governance-tier admissions (CR-DEA-ROL-7);
@@ -22,4 +22,5 @@ notes: >-
   60 legal-regulatory governance-tier admissions (CR-DEA-ROL-9);
   60 consulting governance-tier admissions (CR-DEA-ROL-10);
   60 entertainment governance-tier (CR-DEA-ROL-13);
+  60 media governance-tier (CR-DEA-ROL-14);
   the gate fails on any unexplained collision-count change.
