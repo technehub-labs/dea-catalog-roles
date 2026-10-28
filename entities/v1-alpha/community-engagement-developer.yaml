@@ -1,0 +1,50 @@
+id: roles:role-community-engagement-developer
+type: Role
+name: Community Engagement Developer
+description: Implements and unit-tests community engagement capabilities, contributing code and configuration
+  within the Mining & Resources delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- community
+- mining
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Community Engagement
+  org_unit: Community Engagement Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-community-engagement-developer-requires-community-engagement
+  source_id: roles:role-community-engagement-developer
+  target_id: skills:skill-community-engagement
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-community-engagement-developer-requires-community-engagement-secondary
+  source_id: roles:role-community-engagement-developer
+  target_id: skills:skill-community-engagement-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-energy-power-supply-engineer
+type: Role
+name: Energy & Power Supply Engineer
+description: Builds, configures, and maintains energy & power supply components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Mining & Resources standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- energy
+- mining
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Energy & Power Supply
+  org_unit: Energy & Power Supply Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-energy-power-supply-engineer-requires-energy-power-supply
+  source_id: roles:role-energy-power-supply-engineer
+  target_id: skills:skill-energy-power-supply
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-energy-power-supply-engineer-requires-energy-power-supply-secondary
+  source_id: roles:role-energy-power-supply-engineer
+  target_id: skills:skill-energy-power-supply-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

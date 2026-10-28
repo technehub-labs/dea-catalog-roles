@@ -1,0 +1,50 @@
+id: roles:role-drill-blast-product-owner
+type: Role
+name: Drill & Blast Product Owner
+description: Owns the drill & blast product backlog, prioritising against user value and Mining & Resources
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- drill
+- mining
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Drill & Blast
+  org_unit: Drill & Blast Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-drill-blast-product-owner-requires-drill-blast
+  source_id: roles:role-drill-blast-product-owner
+  target_id: skills:skill-drill-blast
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-drill-blast-product-owner-requires-drill-blast-secondary
+  source_id: roles:role-drill-blast-product-owner
+  target_id: skills:skill-drill-blast-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

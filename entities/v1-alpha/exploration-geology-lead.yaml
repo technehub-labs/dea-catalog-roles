@@ -1,0 +1,50 @@
+id: roles:role-exploration-geology-lead
+type: Role
+name: Exploration & Geology Lead
+description: Sets direction for exploration & geology teams, owns their outcomes, and represents exploration
+  & geology interests in Mining & Resources governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- exploration
+- mining
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Exploration & Geology
+  org_unit: Exploration & Geology Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-exploration-geology-lead-requires-exploration-geology
+  source_id: roles:role-exploration-geology-lead
+  target_id: skills:skill-exploration-geology
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-exploration-geology-lead-requires-exploration-geology-secondary
+  source_id: roles:role-exploration-geology-lead
+  target_id: skills:skill-exploration-geology-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

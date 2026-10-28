@@ -1,0 +1,50 @@
+id: roles:role-occupational-health-safety-product-owner
+type: Role
+name: Occupational Health & Safety Product Owner
+description: Owns the occupational health & safety product backlog, prioritising against user value and
+  Mining & Resources business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- occupational
+- mining
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Occupational Health & Safety
+  org_unit: Occupational Health & Safety Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-occupational-health-safety-product-owner-requires-occupational-health-safety
+  source_id: roles:role-occupational-health-safety-product-owner
+  target_id: skills:skill-occupational-health-safety
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-occupational-health-safety-product-owner-requires-occupational-health-safety-secondary
+  source_id: roles:role-occupational-health-safety-product-owner
+  target_id: skills:skill-occupational-health-safety-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

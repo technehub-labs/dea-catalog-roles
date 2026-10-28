@@ -1,0 +1,50 @@
+id: roles:role-drill-blast-operations-coordinator
+type: Role
+name: Drill & Blast Operations Coordinator
+description: Coordinates day-to-day drill & blast activities, schedules, and records, keeping Mining &
+  Resources operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- drill
+- mining
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Drill & Blast
+  org_unit: Drill & Blast Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-drill-blast-operations-coordinator-requires-drill-blast
+  source_id: roles:role-drill-blast-operations-coordinator
+  target_id: skills:skill-drill-blast
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-drill-blast-operations-coordinator-requires-drill-blast-secondary
+  source_id: roles:role-drill-blast-operations-coordinator
+  target_id: skills:skill-drill-blast-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

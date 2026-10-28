@@ -1,0 +1,50 @@
+id: roles:role-mine-automation-lead
+type: Role
+name: Mine Automation Lead
+description: Sets direction for mine automation teams, owns their outcomes, and represents mine automation
+  interests in Mining & Resources governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- mine
+- mining
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mine Automation
+  org_unit: Mine Automation Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-mine-automation-lead-requires-mine-automation
+  source_id: roles:role-mine-automation-lead
+  target_id: skills:skill-mine-automation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mine-automation-lead-requires-mine-automation-secondary
+  source_id: roles:role-mine-automation-lead
+  target_id: skills:skill-mine-automation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-geotechnical-engineering-manager
+type: Role
+name: Geotechnical Engineering Manager
+description: 'Manages geotechnical engineering end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Mining & Resources operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- geotechnical
+- mining
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Geotechnical Engineering
+  org_unit: Geotechnical Engineering Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-geotechnical-engineering-manager-requires-geotechnical-engineering
+  source_id: roles:role-geotechnical-engineering-manager
+  target_id: skills:skill-geotechnical-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-geotechnical-engineering-manager-requires-geotechnical-engineering-secondary
+  source_id: roles:role-geotechnical-engineering-manager
+  target_id: skills:skill-geotechnical-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

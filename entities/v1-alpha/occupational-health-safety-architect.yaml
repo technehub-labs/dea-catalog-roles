@@ -1,0 +1,51 @@
+id: roles:role-occupational-health-safety-architect
+type: Role
+name: Occupational Health & Safety Architect
+description: 'Owns the target architecture for occupational health & safety: design standards, technology
+  selection, and the evolution roadmap that keeps occupational health & safety fit for the Mining & Resources
+  operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- occupational
+- mining
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Occupational Health & Safety
+  org_unit: Occupational Health & Safety Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-occupational-health-safety-architect-requires-occupational-health-safety
+  source_id: roles:role-occupational-health-safety-architect
+  target_id: skills:skill-occupational-health-safety
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-occupational-health-safety-architect-requires-occupational-health-safety-secondary
+  source_id: roles:role-occupational-health-safety-architect
+  target_id: skills:skill-occupational-health-safety-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

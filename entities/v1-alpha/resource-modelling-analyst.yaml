@@ -1,0 +1,50 @@
+id: roles:role-resource-modelling-analyst
+type: Role
+name: Resource Modelling Analyst
+description: Analyses resource modelling data and processes, producing insight and recommendations that
+  steer Mining & Resources planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- resource
+- mining
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Resource Modelling
+  org_unit: Resource Modelling Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-resource-modelling-analyst-requires-resource-modelling
+  source_id: roles:role-resource-modelling-analyst
+  target_id: skills:skill-resource-modelling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-resource-modelling-analyst-requires-resource-modelling-secondary
+  source_id: roles:role-resource-modelling-analyst
+  target_id: skills:skill-resource-modelling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

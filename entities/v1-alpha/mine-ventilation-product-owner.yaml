@@ -1,0 +1,50 @@
+id: roles:role-mine-ventilation-product-owner
+type: Role
+name: Mine Ventilation Product Owner
+description: Owns the mine ventilation product backlog, prioritising against user value and Mining & Resources
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- mine
+- mining
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mine Ventilation
+  org_unit: Mine Ventilation Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-mine-ventilation-product-owner-requires-mine-ventilation
+  source_id: roles:role-mine-ventilation-product-owner
+  target_id: skills:skill-mine-ventilation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mine-ventilation-product-owner-requires-mine-ventilation-secondary
+  source_id: roles:role-mine-ventilation-product-owner
+  target_id: skills:skill-mine-ventilation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

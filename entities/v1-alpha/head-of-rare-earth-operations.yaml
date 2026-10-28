@@ -1,0 +1,50 @@
+id: roles:role-head-of-rare-earth-operations
+type: Role
+name: Head of Rare Earth Operations
+description: 'Owns the rare earth operations domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Mining & Resources.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- rare
+- mining
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Rare Earth Operations
+  org_unit: Rare Earth Operations Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-head-of-rare-earth-operations-requires-rare-earth-operations
+  source_id: roles:role-head-of-rare-earth-operations
+  target_id: skills:skill-rare-earth-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-rare-earth-operations-requires-rare-earth-operations-secondary
+  source_id: roles:role-head-of-rare-earth-operations
+  target_id: skills:skill-rare-earth-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

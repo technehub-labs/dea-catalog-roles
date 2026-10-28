@@ -1,0 +1,50 @@
+id: roles:role-exploration-geology-designer
+type: Role
+name: Exploration & Geology Designer
+description: Designs exploration & geology solutions and interfaces, translating Mining & Resources requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- exploration
+- mining
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Exploration & Geology
+  org_unit: Exploration & Geology Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-exploration-geology-designer-requires-exploration-geology
+  source_id: roles:role-exploration-geology-designer
+  target_id: skills:skill-exploration-geology
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-exploration-geology-designer-requires-exploration-geology-secondary
+  source_id: roles:role-exploration-geology-designer
+  target_id: skills:skill-exploration-geology-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

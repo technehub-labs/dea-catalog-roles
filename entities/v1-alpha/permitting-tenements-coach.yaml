@@ -1,0 +1,50 @@
+id: roles:role-permitting-tenements-coach
+type: Role
+name: Permitting & Tenements Coach
+description: Coaches Mining & Resources teams and individuals on permitting & tenements working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- permitting
+- mining
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Permitting & Tenements
+  org_unit: Permitting & Tenements Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-permitting-tenements-coach-requires-permitting-tenements
+  source_id: roles:role-permitting-tenements-coach
+  target_id: skills:skill-permitting-tenements
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-permitting-tenements-coach-requires-permitting-tenements-secondary
+  source_id: roles:role-permitting-tenements-coach
+  target_id: skills:skill-permitting-tenements-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-processing-plant-maintenance-product-owner
+type: Role
+name: Processing Plant Maintenance Product Owner
+description: Owns the processing plant maintenance product backlog, prioritising against user value and
+  Mining & Resources business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- processing
+- mining
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Processing Plant Maintenance
+  org_unit: Processing Plant Maintenance Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-processing-plant-maintenance-product-own-requires-processing-plant-maintenance
+  source_id: roles:role-processing-plant-maintenance-product-owner
+  target_id: skills:skill-processing-plant-maintenance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-processing-plant-maintenance-product-own-requires-processing-plant-maintenance-secondary
+  source_id: roles:role-processing-plant-maintenance-product-owner
+  target_id: skills:skill-processing-plant-maintenance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

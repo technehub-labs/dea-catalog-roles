@@ -1,0 +1,50 @@
+id: roles:role-iron-ore-operations-product-owner
+type: Role
+name: Iron Ore Operations Product Owner
+description: Owns the iron ore operations product backlog, prioritising against user value and Mining
+  & Resources business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- iron
+- mining
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Iron Ore Operations
+  org_unit: Iron Ore Operations Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-iron-ore-operations-product-owner-requires-iron-ore-operations
+  source_id: roles:role-iron-ore-operations-product-owner
+  target_id: skills:skill-iron-ore-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-iron-ore-operations-product-owner-requires-iron-ore-operations-secondary
+  source_id: roles:role-iron-ore-operations-product-owner
+  target_id: skills:skill-iron-ore-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

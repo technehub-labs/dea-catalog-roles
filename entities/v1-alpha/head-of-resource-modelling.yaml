@@ -1,0 +1,50 @@
+id: roles:role-head-of-resource-modelling
+type: Role
+name: Head of Resource Modelling
+description: 'Owns the resource modelling domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Mining & Resources.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- resource
+- mining
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Resource Modelling
+  org_unit: Resource Modelling Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-head-of-resource-modelling-requires-resource-modelling
+  source_id: roles:role-head-of-resource-modelling
+  target_id: skills:skill-resource-modelling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-resource-modelling-requires-resource-modelling-secondary
+  source_id: roles:role-head-of-resource-modelling
+  target_id: skills:skill-resource-modelling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

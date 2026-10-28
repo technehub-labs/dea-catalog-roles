@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 2570
+    entities: 3010
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -12754,6 +12754,2206 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-loan-origination-program-manager
       path: entities/v1-alpha/loan-origination-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-administrator
+      path: entities/v1-alpha/closure-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-administrator
+      path: entities/v1-alpha/coal-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-administrator
+      path: entities/v1-alpha/community-engagement-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-administrator
+      path: entities/v1-alpha/contract-mining-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-administrator
+      path: entities/v1-alpha/copper-concentration-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-administrator
+      path: entities/v1-alpha/drill-blast-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-administrator
+      path: entities/v1-alpha/energy-power-supply-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-administrator
+      path: entities/v1-alpha/environmental-compliance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-administrator
+      path: entities/v1-alpha/exploration-geology-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-administrator
+      path: entities/v1-alpha/exploration-drilling-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-administrator
+      path: entities/v1-alpha/geotechnical-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-administrator
+      path: entities/v1-alpha/gold-processing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-administrator
+      path: entities/v1-alpha/haulage-fleet-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-administrator
+      path: entities/v1-alpha/iron-ore-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-administrator
+      path: entities/v1-alpha/metallurgy-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-administrator
+      path: entities/v1-alpha/mine-automation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-administrator
+      path: entities/v1-alpha/mine-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-administrator
+      path: entities/v1-alpha/mine-surveying-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-administrator
+      path: entities/v1-alpha/mine-ventilation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-administrator
+      path: entities/v1-alpha/mineral-processing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-administrator
+      path: entities/v1-alpha/occupational-health-safety-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-administrator
+      path: entities/v1-alpha/ore-extraction-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-administrator
+      path: entities/v1-alpha/permitting-tenements-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-administrator
+      path: entities/v1-alpha/processing-plant-maintenance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-administrator
+      path: entities/v1-alpha/rare-earth-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-administrator
+      path: entities/v1-alpha/resource-modelling-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-administrator
+      path: entities/v1-alpha/site-rehabilitation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-administrator
+      path: entities/v1-alpha/supply-logistics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-administrator
+      path: entities/v1-alpha/tailings-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-administrator
+      path: entities/v1-alpha/water-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-analyst
+      path: entities/v1-alpha/closure-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-analyst
+      path: entities/v1-alpha/coal-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-analyst
+      path: entities/v1-alpha/community-engagement-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-analyst
+      path: entities/v1-alpha/contract-mining-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-analyst
+      path: entities/v1-alpha/copper-concentration-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-analyst
+      path: entities/v1-alpha/drill-blast-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-analyst
+      path: entities/v1-alpha/energy-power-supply-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-analyst
+      path: entities/v1-alpha/environmental-compliance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-analyst
+      path: entities/v1-alpha/exploration-geology-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-analyst
+      path: entities/v1-alpha/exploration-drilling-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-analyst
+      path: entities/v1-alpha/geotechnical-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-analyst
+      path: entities/v1-alpha/gold-processing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-analyst
+      path: entities/v1-alpha/haulage-fleet-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-analyst
+      path: entities/v1-alpha/iron-ore-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-analyst
+      path: entities/v1-alpha/metallurgy-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-analyst
+      path: entities/v1-alpha/mine-automation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-analyst
+      path: entities/v1-alpha/mine-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-analyst
+      path: entities/v1-alpha/mine-surveying-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-analyst
+      path: entities/v1-alpha/mine-ventilation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-analyst
+      path: entities/v1-alpha/mineral-processing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-analyst
+      path: entities/v1-alpha/occupational-health-safety-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-analyst
+      path: entities/v1-alpha/ore-extraction-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-analyst
+      path: entities/v1-alpha/permitting-tenements-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-analyst
+      path: entities/v1-alpha/processing-plant-maintenance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-analyst
+      path: entities/v1-alpha/rare-earth-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-analyst
+      path: entities/v1-alpha/resource-modelling-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-analyst
+      path: entities/v1-alpha/site-rehabilitation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-analyst
+      path: entities/v1-alpha/supply-logistics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-analyst
+      path: entities/v1-alpha/tailings-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-analyst
+      path: entities/v1-alpha/water-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-architect
+      path: entities/v1-alpha/closure-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-architect
+      path: entities/v1-alpha/coal-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-architect
+      path: entities/v1-alpha/community-engagement-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-architect
+      path: entities/v1-alpha/contract-mining-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-architect
+      path: entities/v1-alpha/copper-concentration-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-architect
+      path: entities/v1-alpha/drill-blast-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-architect
+      path: entities/v1-alpha/energy-power-supply-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-architect
+      path: entities/v1-alpha/environmental-compliance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-architect
+      path: entities/v1-alpha/exploration-geology-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-architect
+      path: entities/v1-alpha/exploration-drilling-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-architect
+      path: entities/v1-alpha/geotechnical-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-architect
+      path: entities/v1-alpha/gold-processing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-architect
+      path: entities/v1-alpha/haulage-fleet-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-architect
+      path: entities/v1-alpha/iron-ore-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-architect
+      path: entities/v1-alpha/metallurgy-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-architect
+      path: entities/v1-alpha/mine-automation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-architect
+      path: entities/v1-alpha/mine-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-architect
+      path: entities/v1-alpha/mine-surveying-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-architect
+      path: entities/v1-alpha/mine-ventilation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-architect
+      path: entities/v1-alpha/mineral-processing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-architect
+      path: entities/v1-alpha/occupational-health-safety-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-architect
+      path: entities/v1-alpha/ore-extraction-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-architect
+      path: entities/v1-alpha/permitting-tenements-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-architect
+      path: entities/v1-alpha/processing-plant-maintenance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-architect
+      path: entities/v1-alpha/rare-earth-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-architect
+      path: entities/v1-alpha/resource-modelling-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-architect
+      path: entities/v1-alpha/site-rehabilitation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-architect
+      path: entities/v1-alpha/supply-logistics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-architect
+      path: entities/v1-alpha/tailings-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-architect
+      path: entities/v1-alpha/water-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-coach
+      path: entities/v1-alpha/closure-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-coach
+      path: entities/v1-alpha/coal-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-coach
+      path: entities/v1-alpha/community-engagement-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-coach
+      path: entities/v1-alpha/contract-mining-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-coach
+      path: entities/v1-alpha/copper-concentration-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-coach
+      path: entities/v1-alpha/drill-blast-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-coach
+      path: entities/v1-alpha/energy-power-supply-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-coach
+      path: entities/v1-alpha/environmental-compliance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-coach
+      path: entities/v1-alpha/exploration-geology-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-coach
+      path: entities/v1-alpha/exploration-drilling-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-coach
+      path: entities/v1-alpha/geotechnical-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-coach
+      path: entities/v1-alpha/gold-processing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-coach
+      path: entities/v1-alpha/haulage-fleet-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-coach
+      path: entities/v1-alpha/iron-ore-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-coach
+      path: entities/v1-alpha/metallurgy-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-coach
+      path: entities/v1-alpha/mine-automation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-coach
+      path: entities/v1-alpha/mine-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-coach
+      path: entities/v1-alpha/mine-surveying-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-coach
+      path: entities/v1-alpha/mine-ventilation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-coach
+      path: entities/v1-alpha/mineral-processing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-coach
+      path: entities/v1-alpha/occupational-health-safety-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-coach
+      path: entities/v1-alpha/ore-extraction-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-coach
+      path: entities/v1-alpha/permitting-tenements-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-coach
+      path: entities/v1-alpha/processing-plant-maintenance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-coach
+      path: entities/v1-alpha/rare-earth-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-coach
+      path: entities/v1-alpha/resource-modelling-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-coach
+      path: entities/v1-alpha/site-rehabilitation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-coach
+      path: entities/v1-alpha/supply-logistics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-coach
+      path: entities/v1-alpha/tailings-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-coach
+      path: entities/v1-alpha/water-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-consultant
+      path: entities/v1-alpha/closure-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-consultant
+      path: entities/v1-alpha/coal-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-consultant
+      path: entities/v1-alpha/community-engagement-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-consultant
+      path: entities/v1-alpha/contract-mining-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-consultant
+      path: entities/v1-alpha/copper-concentration-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-consultant
+      path: entities/v1-alpha/drill-blast-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-consultant
+      path: entities/v1-alpha/energy-power-supply-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-consultant
+      path: entities/v1-alpha/environmental-compliance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-consultant
+      path: entities/v1-alpha/exploration-geology-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-consultant
+      path: entities/v1-alpha/exploration-drilling-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-consultant
+      path: entities/v1-alpha/geotechnical-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-consultant
+      path: entities/v1-alpha/gold-processing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-consultant
+      path: entities/v1-alpha/haulage-fleet-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-consultant
+      path: entities/v1-alpha/iron-ore-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-consultant
+      path: entities/v1-alpha/metallurgy-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-consultant
+      path: entities/v1-alpha/mine-automation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-consultant
+      path: entities/v1-alpha/mine-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-consultant
+      path: entities/v1-alpha/mine-surveying-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-consultant
+      path: entities/v1-alpha/mine-ventilation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-consultant
+      path: entities/v1-alpha/mineral-processing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-consultant
+      path: entities/v1-alpha/occupational-health-safety-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-consultant
+      path: entities/v1-alpha/ore-extraction-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-consultant
+      path: entities/v1-alpha/permitting-tenements-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-consultant
+      path: entities/v1-alpha/processing-plant-maintenance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-consultant
+      path: entities/v1-alpha/rare-earth-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-consultant
+      path: entities/v1-alpha/resource-modelling-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-consultant
+      path: entities/v1-alpha/site-rehabilitation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-consultant
+      path: entities/v1-alpha/supply-logistics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-consultant
+      path: entities/v1-alpha/tailings-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-consultant
+      path: entities/v1-alpha/water-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-designer
+      path: entities/v1-alpha/closure-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-designer
+      path: entities/v1-alpha/coal-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-designer
+      path: entities/v1-alpha/community-engagement-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-designer
+      path: entities/v1-alpha/contract-mining-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-designer
+      path: entities/v1-alpha/copper-concentration-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-designer
+      path: entities/v1-alpha/drill-blast-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-designer
+      path: entities/v1-alpha/energy-power-supply-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-designer
+      path: entities/v1-alpha/environmental-compliance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-designer
+      path: entities/v1-alpha/exploration-geology-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-designer
+      path: entities/v1-alpha/exploration-drilling-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-designer
+      path: entities/v1-alpha/geotechnical-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-designer
+      path: entities/v1-alpha/gold-processing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-designer
+      path: entities/v1-alpha/haulage-fleet-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-designer
+      path: entities/v1-alpha/iron-ore-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-designer
+      path: entities/v1-alpha/metallurgy-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-designer
+      path: entities/v1-alpha/mine-automation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-designer
+      path: entities/v1-alpha/mine-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-designer
+      path: entities/v1-alpha/mine-surveying-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-designer
+      path: entities/v1-alpha/mine-ventilation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-designer
+      path: entities/v1-alpha/mineral-processing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-designer
+      path: entities/v1-alpha/occupational-health-safety-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-designer
+      path: entities/v1-alpha/ore-extraction-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-designer
+      path: entities/v1-alpha/permitting-tenements-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-designer
+      path: entities/v1-alpha/processing-plant-maintenance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-designer
+      path: entities/v1-alpha/rare-earth-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-designer
+      path: entities/v1-alpha/resource-modelling-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-designer
+      path: entities/v1-alpha/site-rehabilitation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-designer
+      path: entities/v1-alpha/supply-logistics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-designer
+      path: entities/v1-alpha/tailings-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-designer
+      path: entities/v1-alpha/water-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-developer
+      path: entities/v1-alpha/closure-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-developer
+      path: entities/v1-alpha/coal-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-developer
+      path: entities/v1-alpha/community-engagement-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-developer
+      path: entities/v1-alpha/contract-mining-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-developer
+      path: entities/v1-alpha/copper-concentration-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-developer
+      path: entities/v1-alpha/drill-blast-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-developer
+      path: entities/v1-alpha/energy-power-supply-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-developer
+      path: entities/v1-alpha/environmental-compliance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-developer
+      path: entities/v1-alpha/exploration-geology-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-developer
+      path: entities/v1-alpha/exploration-drilling-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-developer
+      path: entities/v1-alpha/geotechnical-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-developer
+      path: entities/v1-alpha/gold-processing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-developer
+      path: entities/v1-alpha/haulage-fleet-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-developer
+      path: entities/v1-alpha/iron-ore-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-developer
+      path: entities/v1-alpha/metallurgy-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-developer
+      path: entities/v1-alpha/mine-automation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-developer
+      path: entities/v1-alpha/mine-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-developer
+      path: entities/v1-alpha/mine-surveying-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-developer
+      path: entities/v1-alpha/mine-ventilation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-developer
+      path: entities/v1-alpha/mineral-processing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-developer
+      path: entities/v1-alpha/occupational-health-safety-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-developer
+      path: entities/v1-alpha/ore-extraction-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-developer
+      path: entities/v1-alpha/permitting-tenements-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-developer
+      path: entities/v1-alpha/processing-plant-maintenance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-developer
+      path: entities/v1-alpha/rare-earth-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-developer
+      path: entities/v1-alpha/resource-modelling-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-developer
+      path: entities/v1-alpha/site-rehabilitation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-developer
+      path: entities/v1-alpha/supply-logistics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-developer
+      path: entities/v1-alpha/tailings-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-developer
+      path: entities/v1-alpha/water-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-engineer
+      path: entities/v1-alpha/closure-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-engineer
+      path: entities/v1-alpha/coal-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-engineer
+      path: entities/v1-alpha/community-engagement-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-engineer
+      path: entities/v1-alpha/contract-mining-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-engineer
+      path: entities/v1-alpha/copper-concentration-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-engineer
+      path: entities/v1-alpha/drill-blast-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-engineer
+      path: entities/v1-alpha/energy-power-supply-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-engineer
+      path: entities/v1-alpha/environmental-compliance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-engineer
+      path: entities/v1-alpha/exploration-geology-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-engineer
+      path: entities/v1-alpha/exploration-drilling-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-engineer
+      path: entities/v1-alpha/geotechnical-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-engineer
+      path: entities/v1-alpha/gold-processing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-engineer
+      path: entities/v1-alpha/haulage-fleet-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-engineer
+      path: entities/v1-alpha/iron-ore-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-engineer
+      path: entities/v1-alpha/metallurgy-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-engineer
+      path: entities/v1-alpha/mine-automation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-engineer
+      path: entities/v1-alpha/mine-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-engineer
+      path: entities/v1-alpha/mine-surveying-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-engineer
+      path: entities/v1-alpha/mine-ventilation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-engineer
+      path: entities/v1-alpha/mineral-processing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-engineer
+      path: entities/v1-alpha/occupational-health-safety-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-engineer
+      path: entities/v1-alpha/ore-extraction-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-engineer
+      path: entities/v1-alpha/permitting-tenements-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-engineer
+      path: entities/v1-alpha/processing-plant-maintenance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-engineer
+      path: entities/v1-alpha/rare-earth-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-engineer
+      path: entities/v1-alpha/resource-modelling-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-engineer
+      path: entities/v1-alpha/site-rehabilitation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-engineer
+      path: entities/v1-alpha/supply-logistics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-engineer
+      path: entities/v1-alpha/tailings-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-engineer
+      path: entities/v1-alpha/water-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-closure-planning
+      path: entities/v1-alpha/head-of-closure-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-coal-operations
+      path: entities/v1-alpha/head-of-coal-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-community-engagement
+      path: entities/v1-alpha/head-of-community-engagement.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-contract-mining
+      path: entities/v1-alpha/head-of-contract-mining.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-copper-concentration
+      path: entities/v1-alpha/head-of-copper-concentration.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-drill-blast
+      path: entities/v1-alpha/head-of-drill-blast.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-energy-power-supply
+      path: entities/v1-alpha/head-of-energy-power-supply.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-environmental-compliance
+      path: entities/v1-alpha/head-of-environmental-compliance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-exploration-geology
+      path: entities/v1-alpha/head-of-exploration-geology.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-exploration-drilling
+      path: entities/v1-alpha/head-of-exploration-drilling.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-geotechnical-engineering
+      path: entities/v1-alpha/head-of-geotechnical-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-gold-processing
+      path: entities/v1-alpha/head-of-gold-processing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-haulage-fleet
+      path: entities/v1-alpha/head-of-haulage-fleet.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-iron-ore-operations
+      path: entities/v1-alpha/head-of-iron-ore-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-metallurgy
+      path: entities/v1-alpha/head-of-metallurgy.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mine-automation
+      path: entities/v1-alpha/head-of-mine-automation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mine-planning
+      path: entities/v1-alpha/head-of-mine-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mine-surveying
+      path: entities/v1-alpha/head-of-mine-surveying.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mine-ventilation
+      path: entities/v1-alpha/head-of-mine-ventilation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mineral-processing
+      path: entities/v1-alpha/head-of-mineral-processing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-occupational-health-safety
+      path: entities/v1-alpha/head-of-occupational-health-safety.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-ore-extraction
+      path: entities/v1-alpha/head-of-ore-extraction.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-permitting-tenements
+      path: entities/v1-alpha/head-of-permitting-tenements.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-processing-plant-maintenance
+      path: entities/v1-alpha/head-of-processing-plant-maintenance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-rare-earth-operations
+      path: entities/v1-alpha/head-of-rare-earth-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-resource-modelling
+      path: entities/v1-alpha/head-of-resource-modelling.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-site-rehabilitation
+      path: entities/v1-alpha/head-of-site-rehabilitation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-supply-logistics
+      path: entities/v1-alpha/head-of-supply-logistics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-tailings-management
+      path: entities/v1-alpha/head-of-tailings-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-water-management
+      path: entities/v1-alpha/head-of-water-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-lead
+      path: entities/v1-alpha/closure-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-lead
+      path: entities/v1-alpha/coal-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-lead
+      path: entities/v1-alpha/community-engagement-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-lead
+      path: entities/v1-alpha/contract-mining-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-lead
+      path: entities/v1-alpha/copper-concentration-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-lead
+      path: entities/v1-alpha/drill-blast-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-lead
+      path: entities/v1-alpha/energy-power-supply-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-lead
+      path: entities/v1-alpha/environmental-compliance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-lead
+      path: entities/v1-alpha/exploration-geology-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-lead
+      path: entities/v1-alpha/exploration-drilling-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-lead
+      path: entities/v1-alpha/geotechnical-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-lead
+      path: entities/v1-alpha/gold-processing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-lead
+      path: entities/v1-alpha/haulage-fleet-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-lead
+      path: entities/v1-alpha/iron-ore-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-lead
+      path: entities/v1-alpha/metallurgy-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-lead
+      path: entities/v1-alpha/mine-automation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-lead
+      path: entities/v1-alpha/mine-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-lead
+      path: entities/v1-alpha/mine-surveying-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-lead
+      path: entities/v1-alpha/mine-ventilation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-lead
+      path: entities/v1-alpha/mineral-processing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-lead
+      path: entities/v1-alpha/occupational-health-safety-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-lead
+      path: entities/v1-alpha/ore-extraction-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-lead
+      path: entities/v1-alpha/permitting-tenements-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-lead
+      path: entities/v1-alpha/processing-plant-maintenance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-lead
+      path: entities/v1-alpha/rare-earth-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-lead
+      path: entities/v1-alpha/resource-modelling-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-lead
+      path: entities/v1-alpha/site-rehabilitation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-lead
+      path: entities/v1-alpha/supply-logistics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-lead
+      path: entities/v1-alpha/tailings-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-lead
+      path: entities/v1-alpha/water-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-manager
+      path: entities/v1-alpha/closure-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-manager
+      path: entities/v1-alpha/coal-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-manager
+      path: entities/v1-alpha/community-engagement-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-manager
+      path: entities/v1-alpha/contract-mining-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-manager
+      path: entities/v1-alpha/copper-concentration-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-manager
+      path: entities/v1-alpha/drill-blast-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-manager
+      path: entities/v1-alpha/energy-power-supply-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-manager
+      path: entities/v1-alpha/environmental-compliance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-manager
+      path: entities/v1-alpha/exploration-geology-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-manager
+      path: entities/v1-alpha/exploration-drilling-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-manager
+      path: entities/v1-alpha/geotechnical-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-manager
+      path: entities/v1-alpha/gold-processing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-manager
+      path: entities/v1-alpha/haulage-fleet-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-manager
+      path: entities/v1-alpha/iron-ore-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-manager
+      path: entities/v1-alpha/metallurgy-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-manager
+      path: entities/v1-alpha/mine-automation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-manager
+      path: entities/v1-alpha/mine-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-manager
+      path: entities/v1-alpha/mine-surveying-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-manager
+      path: entities/v1-alpha/mine-ventilation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-manager
+      path: entities/v1-alpha/mineral-processing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-manager
+      path: entities/v1-alpha/occupational-health-safety-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-manager
+      path: entities/v1-alpha/ore-extraction-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-manager
+      path: entities/v1-alpha/permitting-tenements-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-manager
+      path: entities/v1-alpha/processing-plant-maintenance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-manager
+      path: entities/v1-alpha/rare-earth-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-manager
+      path: entities/v1-alpha/resource-modelling-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-manager
+      path: entities/v1-alpha/site-rehabilitation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-manager
+      path: entities/v1-alpha/supply-logistics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-manager
+      path: entities/v1-alpha/tailings-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-manager
+      path: entities/v1-alpha/water-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-operations-coordinator
+      path: entities/v1-alpha/closure-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-operations-coordinator
+      path: entities/v1-alpha/coal-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-operations-coordinator
+      path: entities/v1-alpha/community-engagement-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-operations-coordinator
+      path: entities/v1-alpha/contract-mining-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-operations-coordinator
+      path: entities/v1-alpha/copper-concentration-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-operations-coordinator
+      path: entities/v1-alpha/drill-blast-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-operations-coordinator
+      path: entities/v1-alpha/energy-power-supply-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-operations-coordinator
+      path: entities/v1-alpha/environmental-compliance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-operations-coordinator
+      path: entities/v1-alpha/exploration-geology-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-operations-coordinator
+      path: entities/v1-alpha/exploration-drilling-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-operations-coordinator
+      path: entities/v1-alpha/geotechnical-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-operations-coordinator
+      path: entities/v1-alpha/gold-processing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-operations-coordinator
+      path: entities/v1-alpha/haulage-fleet-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-operations-coordinator
+      path: entities/v1-alpha/iron-ore-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-operations-coordinator
+      path: entities/v1-alpha/metallurgy-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-operations-coordinator
+      path: entities/v1-alpha/mine-automation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-operations-coordinator
+      path: entities/v1-alpha/mine-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-operations-coordinator
+      path: entities/v1-alpha/mine-surveying-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-operations-coordinator
+      path: entities/v1-alpha/mine-ventilation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-operations-coordinator
+      path: entities/v1-alpha/mineral-processing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-operations-coordinator
+      path: entities/v1-alpha/occupational-health-safety-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-operations-coordinator
+      path: entities/v1-alpha/ore-extraction-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-operations-coordinator
+      path: entities/v1-alpha/permitting-tenements-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-operations-coordinator
+      path: entities/v1-alpha/processing-plant-maintenance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-operations-coordinator
+      path: entities/v1-alpha/rare-earth-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-operations-coordinator
+      path: entities/v1-alpha/resource-modelling-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-operations-coordinator
+      path: entities/v1-alpha/site-rehabilitation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-operations-coordinator
+      path: entities/v1-alpha/supply-logistics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-operations-coordinator
+      path: entities/v1-alpha/tailings-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-operations-coordinator
+      path: entities/v1-alpha/water-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-planner
+      path: entities/v1-alpha/closure-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-planner
+      path: entities/v1-alpha/coal-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-planner
+      path: entities/v1-alpha/community-engagement-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-planner
+      path: entities/v1-alpha/contract-mining-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-planner
+      path: entities/v1-alpha/copper-concentration-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-planner
+      path: entities/v1-alpha/drill-blast-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-planner
+      path: entities/v1-alpha/energy-power-supply-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-planner
+      path: entities/v1-alpha/environmental-compliance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-planner
+      path: entities/v1-alpha/exploration-geology-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-planner
+      path: entities/v1-alpha/exploration-drilling-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-planner
+      path: entities/v1-alpha/geotechnical-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-planner
+      path: entities/v1-alpha/gold-processing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-planner
+      path: entities/v1-alpha/haulage-fleet-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-planner
+      path: entities/v1-alpha/iron-ore-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-planner
+      path: entities/v1-alpha/metallurgy-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-planner
+      path: entities/v1-alpha/mine-automation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-planner
+      path: entities/v1-alpha/mine-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-planner
+      path: entities/v1-alpha/mine-surveying-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-planner
+      path: entities/v1-alpha/mine-ventilation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-planner
+      path: entities/v1-alpha/mineral-processing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-planner
+      path: entities/v1-alpha/occupational-health-safety-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-planner
+      path: entities/v1-alpha/ore-extraction-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-planner
+      path: entities/v1-alpha/permitting-tenements-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-planner
+      path: entities/v1-alpha/processing-plant-maintenance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-planner
+      path: entities/v1-alpha/rare-earth-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-planner
+      path: entities/v1-alpha/resource-modelling-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-planner
+      path: entities/v1-alpha/site-rehabilitation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-planner
+      path: entities/v1-alpha/supply-logistics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-planner
+      path: entities/v1-alpha/tailings-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-planner
+      path: entities/v1-alpha/water-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-product-owner
+      path: entities/v1-alpha/closure-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-product-owner
+      path: entities/v1-alpha/coal-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-product-owner
+      path: entities/v1-alpha/community-engagement-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-product-owner
+      path: entities/v1-alpha/contract-mining-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-product-owner
+      path: entities/v1-alpha/copper-concentration-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-product-owner
+      path: entities/v1-alpha/drill-blast-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-product-owner
+      path: entities/v1-alpha/energy-power-supply-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-product-owner
+      path: entities/v1-alpha/environmental-compliance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-product-owner
+      path: entities/v1-alpha/exploration-geology-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-product-owner
+      path: entities/v1-alpha/exploration-drilling-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-product-owner
+      path: entities/v1-alpha/geotechnical-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-product-owner
+      path: entities/v1-alpha/gold-processing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-product-owner
+      path: entities/v1-alpha/haulage-fleet-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-product-owner
+      path: entities/v1-alpha/iron-ore-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-product-owner
+      path: entities/v1-alpha/metallurgy-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-product-owner
+      path: entities/v1-alpha/mine-automation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-product-owner
+      path: entities/v1-alpha/mine-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-product-owner
+      path: entities/v1-alpha/mine-surveying-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-product-owner
+      path: entities/v1-alpha/mine-ventilation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-product-owner
+      path: entities/v1-alpha/mineral-processing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-product-owner
+      path: entities/v1-alpha/occupational-health-safety-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-product-owner
+      path: entities/v1-alpha/ore-extraction-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-product-owner
+      path: entities/v1-alpha/permitting-tenements-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-product-owner
+      path: entities/v1-alpha/processing-plant-maintenance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-product-owner
+      path: entities/v1-alpha/rare-earth-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-product-owner
+      path: entities/v1-alpha/resource-modelling-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-product-owner
+      path: entities/v1-alpha/site-rehabilitation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-product-owner
+      path: entities/v1-alpha/supply-logistics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-product-owner
+      path: entities/v1-alpha/tailings-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-product-owner
+      path: entities/v1-alpha/water-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-program-manager
+      path: entities/v1-alpha/closure-planning-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-program-manager
+      path: entities/v1-alpha/coal-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-program-manager
+      path: entities/v1-alpha/community-engagement-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-program-manager
+      path: entities/v1-alpha/contract-mining-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-program-manager
+      path: entities/v1-alpha/copper-concentration-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-program-manager
+      path: entities/v1-alpha/drill-blast-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-program-manager
+      path: entities/v1-alpha/energy-power-supply-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-program-manager
+      path: entities/v1-alpha/environmental-compliance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-program-manager
+      path: entities/v1-alpha/exploration-geology-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-program-manager
+      path: entities/v1-alpha/exploration-drilling-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-program-manager
+      path: entities/v1-alpha/geotechnical-engineering-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-program-manager
+      path: entities/v1-alpha/gold-processing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-program-manager
+      path: entities/v1-alpha/haulage-fleet-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-program-manager
+      path: entities/v1-alpha/iron-ore-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-program-manager
+      path: entities/v1-alpha/metallurgy-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-program-manager
+      path: entities/v1-alpha/mine-automation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-program-manager
+      path: entities/v1-alpha/mine-planning-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-program-manager
+      path: entities/v1-alpha/mine-surveying-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-program-manager
+      path: entities/v1-alpha/mine-ventilation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-program-manager
+      path: entities/v1-alpha/mineral-processing-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
