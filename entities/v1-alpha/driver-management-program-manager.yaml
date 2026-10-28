@@ -1,0 +1,50 @@
+id: roles:role-driver-management-program-manager
+type: Role
+name: Driver Management Program Manager
+description: Coordinates multi-team driver management programmes across Transport & Logistics, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- driver
+- transport
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Driver Management
+  org_unit: Driver Management Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-driver-management-program-manager-requires-driver-management
+  source_id: roles:role-driver-management-program-manager
+  target_id: skills:skill-driver-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-driver-management-program-manager-requires-driver-management-secondary
+  source_id: roles:role-driver-management-program-manager
+  target_id: skills:skill-driver-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

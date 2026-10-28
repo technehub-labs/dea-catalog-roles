@@ -1,0 +1,50 @@
+id: roles:role-head-of-mobility-as-a-service
+type: Role
+name: Head of Mobility-as-a-Service
+description: 'Owns the mobility-as-a-service domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Transport & Logistics.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- mobility
+- transport
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mobility-as-a-Service
+  org_unit: Mobility-as-a-Service Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-head-of-mobility-as-a-service-requires-mobility-as-a-service
+  source_id: roles:role-head-of-mobility-as-a-service
+  target_id: skills:skill-mobility-as-a-service
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-mobility-as-a-service-requires-mobility-as-a-service-secondary
+  source_id: roles:role-head-of-mobility-as-a-service
+  target_id: skills:skill-mobility-as-a-service-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

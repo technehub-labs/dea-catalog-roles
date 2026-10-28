@@ -1,0 +1,50 @@
+id: roles:role-logistics-networks-analyst
+type: Role
+name: Logistics Networks Analyst
+description: Analyses logistics networks data and processes, producing insight and recommendations that
+  steer Transport & Logistics planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- logistics
+- transport
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Logistics Networks
+  org_unit: Logistics Networks Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-logistics-networks-analyst-requires-logistics-networks
+  source_id: roles:role-logistics-networks-analyst
+  target_id: skills:skill-logistics-networks
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-logistics-networks-analyst-requires-logistics-networks-secondary
+  source_id: roles:role-logistics-networks-analyst
+  target_id: skills:skill-logistics-networks-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

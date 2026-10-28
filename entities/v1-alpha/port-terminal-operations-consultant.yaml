@@ -1,0 +1,50 @@
+id: roles:role-port-terminal-operations-consultant
+type: Role
+name: Port & Terminal Operations Consultant
+description: Supports Transport & Logistics teams adopting port & terminal operations practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- port
+- transport
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Port & Terminal Operations
+  org_unit: Port & Terminal Operations Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-port-terminal-operations-consultant-requires-port-terminal-operations
+  source_id: roles:role-port-terminal-operations-consultant
+  target_id: skills:skill-port-terminal-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-port-terminal-operations-consultant-requires-port-terminal-operations-secondary
+  source_id: roles:role-port-terminal-operations-consultant
+  target_id: skills:skill-port-terminal-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-passenger-services-analyst
+type: Role
+name: Passenger Services Analyst
+description: Analyses passenger services data and processes, producing insight and recommendations that
+  steer Transport & Logistics planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- passenger
+- transport
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Passenger Services
+  org_unit: Passenger Services Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-passenger-services-analyst-requires-passenger-services
+  source_id: roles:role-passenger-services-analyst
+  target_id: skills:skill-passenger-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-passenger-services-analyst-requires-passenger-services-secondary
+  source_id: roles:role-passenger-services-analyst
+  target_id: skills:skill-passenger-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

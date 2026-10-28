@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 3010
+    entities: 3450
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -14954,6 +14954,2206 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-mineral-processing-program-manager
       path: entities/v1-alpha/mineral-processing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-administrator
+      path: entities/v1-alpha/airport-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-administrator
+      path: entities/v1-alpha/aviation-safety-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-administrator
+      path: entities/v1-alpha/cold-chain-logistics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-administrator
+      path: entities/v1-alpha/customer-logistics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-administrator
+      path: entities/v1-alpha/customs-border-clearance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-administrator
+      path: entities/v1-alpha/delivery-partner-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-administrator
+      path: entities/v1-alpha/driver-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-administrator
+      path: entities/v1-alpha/fleet-maintenance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-administrator
+      path: entities/v1-alpha/fleet-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-administrator
+      path: entities/v1-alpha/freight-forwarding-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-administrator
+      path: entities/v1-alpha/fuel-energy-logistics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-administrator
+      path: entities/v1-alpha/hazardous-goods-transport-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-administrator
+      path: entities/v1-alpha/last-mile-delivery-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-administrator
+      path: entities/v1-alpha/logistics-networks-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-administrator
+      path: entities/v1-alpha/maritime-crewing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-administrator
+      path: entities/v1-alpha/mobility-as-a-service-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-administrator
+      path: entities/v1-alpha/parcel-sorting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-administrator
+      path: entities/v1-alpha/passenger-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-administrator
+      path: entities/v1-alpha/port-terminal-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-administrator
+      path: entities/v1-alpha/rail-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-administrator
+      path: entities/v1-alpha/rail-signalling-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-administrator
+      path: entities/v1-alpha/reverse-logistics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-administrator
+      path: entities/v1-alpha/route-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-administrator
+      path: entities/v1-alpha/supply-chain-visibility-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-administrator
+      path: entities/v1-alpha/track-infrastructure-maintenance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-administrator
+      path: entities/v1-alpha/traffic-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-administrator
+      path: entities/v1-alpha/transport-security-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-administrator
+      path: entities/v1-alpha/urban-mobility-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-administrator
+      path: entities/v1-alpha/warehouse-automation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-administrator
+      path: entities/v1-alpha/warehouse-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-analyst
+      path: entities/v1-alpha/airport-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-analyst
+      path: entities/v1-alpha/aviation-safety-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-analyst
+      path: entities/v1-alpha/cold-chain-logistics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-analyst
+      path: entities/v1-alpha/customer-logistics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-analyst
+      path: entities/v1-alpha/customs-border-clearance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-analyst
+      path: entities/v1-alpha/delivery-partner-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-analyst
+      path: entities/v1-alpha/driver-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-analyst
+      path: entities/v1-alpha/fleet-maintenance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-analyst
+      path: entities/v1-alpha/fleet-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-analyst
+      path: entities/v1-alpha/freight-forwarding-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-analyst
+      path: entities/v1-alpha/fuel-energy-logistics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-analyst
+      path: entities/v1-alpha/hazardous-goods-transport-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-analyst
+      path: entities/v1-alpha/last-mile-delivery-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-analyst
+      path: entities/v1-alpha/logistics-networks-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-analyst
+      path: entities/v1-alpha/maritime-crewing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-analyst
+      path: entities/v1-alpha/mobility-as-a-service-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-analyst
+      path: entities/v1-alpha/parcel-sorting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-analyst
+      path: entities/v1-alpha/passenger-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-analyst
+      path: entities/v1-alpha/port-terminal-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-analyst
+      path: entities/v1-alpha/rail-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-analyst
+      path: entities/v1-alpha/rail-signalling-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-analyst
+      path: entities/v1-alpha/reverse-logistics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-analyst
+      path: entities/v1-alpha/route-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-analyst
+      path: entities/v1-alpha/supply-chain-visibility-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-analyst
+      path: entities/v1-alpha/track-infrastructure-maintenance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-analyst
+      path: entities/v1-alpha/traffic-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-analyst
+      path: entities/v1-alpha/transport-security-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-analyst
+      path: entities/v1-alpha/urban-mobility-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-analyst
+      path: entities/v1-alpha/warehouse-automation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-analyst
+      path: entities/v1-alpha/warehouse-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-architect
+      path: entities/v1-alpha/airport-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-architect
+      path: entities/v1-alpha/aviation-safety-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-architect
+      path: entities/v1-alpha/cold-chain-logistics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-architect
+      path: entities/v1-alpha/customer-logistics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-architect
+      path: entities/v1-alpha/customs-border-clearance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-architect
+      path: entities/v1-alpha/delivery-partner-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-architect
+      path: entities/v1-alpha/driver-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-architect
+      path: entities/v1-alpha/fleet-maintenance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-architect
+      path: entities/v1-alpha/fleet-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-architect
+      path: entities/v1-alpha/freight-forwarding-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-architect
+      path: entities/v1-alpha/fuel-energy-logistics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-architect
+      path: entities/v1-alpha/hazardous-goods-transport-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-architect
+      path: entities/v1-alpha/last-mile-delivery-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-architect
+      path: entities/v1-alpha/logistics-networks-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-architect
+      path: entities/v1-alpha/maritime-crewing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-architect
+      path: entities/v1-alpha/mobility-as-a-service-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-architect
+      path: entities/v1-alpha/parcel-sorting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-architect
+      path: entities/v1-alpha/passenger-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-architect
+      path: entities/v1-alpha/port-terminal-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-architect
+      path: entities/v1-alpha/rail-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-architect
+      path: entities/v1-alpha/rail-signalling-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-architect
+      path: entities/v1-alpha/reverse-logistics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-architect
+      path: entities/v1-alpha/route-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-architect
+      path: entities/v1-alpha/supply-chain-visibility-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-architect
+      path: entities/v1-alpha/track-infrastructure-maintenance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-architect
+      path: entities/v1-alpha/traffic-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-architect
+      path: entities/v1-alpha/transport-security-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-architect
+      path: entities/v1-alpha/urban-mobility-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-architect
+      path: entities/v1-alpha/warehouse-automation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-architect
+      path: entities/v1-alpha/warehouse-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-coach
+      path: entities/v1-alpha/airport-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-coach
+      path: entities/v1-alpha/aviation-safety-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-coach
+      path: entities/v1-alpha/cold-chain-logistics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-coach
+      path: entities/v1-alpha/customer-logistics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-coach
+      path: entities/v1-alpha/customs-border-clearance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-coach
+      path: entities/v1-alpha/delivery-partner-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-coach
+      path: entities/v1-alpha/driver-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-coach
+      path: entities/v1-alpha/fleet-maintenance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-coach
+      path: entities/v1-alpha/fleet-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-coach
+      path: entities/v1-alpha/freight-forwarding-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-coach
+      path: entities/v1-alpha/fuel-energy-logistics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-coach
+      path: entities/v1-alpha/hazardous-goods-transport-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-coach
+      path: entities/v1-alpha/last-mile-delivery-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-coach
+      path: entities/v1-alpha/logistics-networks-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-coach
+      path: entities/v1-alpha/maritime-crewing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-coach
+      path: entities/v1-alpha/mobility-as-a-service-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-coach
+      path: entities/v1-alpha/parcel-sorting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-coach
+      path: entities/v1-alpha/passenger-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-coach
+      path: entities/v1-alpha/port-terminal-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-coach
+      path: entities/v1-alpha/rail-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-coach
+      path: entities/v1-alpha/rail-signalling-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-coach
+      path: entities/v1-alpha/reverse-logistics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-coach
+      path: entities/v1-alpha/route-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-coach
+      path: entities/v1-alpha/supply-chain-visibility-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-coach
+      path: entities/v1-alpha/track-infrastructure-maintenance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-coach
+      path: entities/v1-alpha/traffic-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-coach
+      path: entities/v1-alpha/transport-security-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-coach
+      path: entities/v1-alpha/urban-mobility-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-coach
+      path: entities/v1-alpha/warehouse-automation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-coach
+      path: entities/v1-alpha/warehouse-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-consultant
+      path: entities/v1-alpha/airport-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-consultant
+      path: entities/v1-alpha/aviation-safety-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-consultant
+      path: entities/v1-alpha/cold-chain-logistics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-consultant
+      path: entities/v1-alpha/customer-logistics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-consultant
+      path: entities/v1-alpha/customs-border-clearance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-consultant
+      path: entities/v1-alpha/delivery-partner-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-consultant
+      path: entities/v1-alpha/driver-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-consultant
+      path: entities/v1-alpha/fleet-maintenance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-consultant
+      path: entities/v1-alpha/fleet-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-consultant
+      path: entities/v1-alpha/freight-forwarding-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-consultant
+      path: entities/v1-alpha/fuel-energy-logistics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-consultant
+      path: entities/v1-alpha/hazardous-goods-transport-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-consultant
+      path: entities/v1-alpha/last-mile-delivery-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-consultant
+      path: entities/v1-alpha/logistics-networks-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-consultant
+      path: entities/v1-alpha/maritime-crewing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-consultant
+      path: entities/v1-alpha/mobility-as-a-service-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-consultant
+      path: entities/v1-alpha/parcel-sorting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-consultant
+      path: entities/v1-alpha/passenger-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-consultant
+      path: entities/v1-alpha/port-terminal-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-consultant
+      path: entities/v1-alpha/rail-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-consultant
+      path: entities/v1-alpha/rail-signalling-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-consultant
+      path: entities/v1-alpha/reverse-logistics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-consultant
+      path: entities/v1-alpha/route-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-consultant
+      path: entities/v1-alpha/supply-chain-visibility-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-consultant
+      path: entities/v1-alpha/track-infrastructure-maintenance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-consultant
+      path: entities/v1-alpha/traffic-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-consultant
+      path: entities/v1-alpha/transport-security-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-consultant
+      path: entities/v1-alpha/urban-mobility-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-consultant
+      path: entities/v1-alpha/warehouse-automation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-consultant
+      path: entities/v1-alpha/warehouse-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-designer
+      path: entities/v1-alpha/airport-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-designer
+      path: entities/v1-alpha/aviation-safety-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-designer
+      path: entities/v1-alpha/cold-chain-logistics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-designer
+      path: entities/v1-alpha/customer-logistics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-designer
+      path: entities/v1-alpha/customs-border-clearance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-designer
+      path: entities/v1-alpha/delivery-partner-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-designer
+      path: entities/v1-alpha/driver-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-designer
+      path: entities/v1-alpha/fleet-maintenance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-designer
+      path: entities/v1-alpha/fleet-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-designer
+      path: entities/v1-alpha/freight-forwarding-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-designer
+      path: entities/v1-alpha/fuel-energy-logistics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-designer
+      path: entities/v1-alpha/hazardous-goods-transport-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-designer
+      path: entities/v1-alpha/last-mile-delivery-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-designer
+      path: entities/v1-alpha/logistics-networks-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-designer
+      path: entities/v1-alpha/maritime-crewing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-designer
+      path: entities/v1-alpha/mobility-as-a-service-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-designer
+      path: entities/v1-alpha/parcel-sorting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-designer
+      path: entities/v1-alpha/passenger-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-designer
+      path: entities/v1-alpha/port-terminal-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-designer
+      path: entities/v1-alpha/rail-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-designer
+      path: entities/v1-alpha/rail-signalling-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-designer
+      path: entities/v1-alpha/reverse-logistics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-designer
+      path: entities/v1-alpha/route-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-designer
+      path: entities/v1-alpha/supply-chain-visibility-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-designer
+      path: entities/v1-alpha/track-infrastructure-maintenance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-designer
+      path: entities/v1-alpha/traffic-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-designer
+      path: entities/v1-alpha/transport-security-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-designer
+      path: entities/v1-alpha/urban-mobility-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-designer
+      path: entities/v1-alpha/warehouse-automation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-designer
+      path: entities/v1-alpha/warehouse-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-developer
+      path: entities/v1-alpha/airport-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-developer
+      path: entities/v1-alpha/aviation-safety-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-developer
+      path: entities/v1-alpha/cold-chain-logistics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-developer
+      path: entities/v1-alpha/customer-logistics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-developer
+      path: entities/v1-alpha/customs-border-clearance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-developer
+      path: entities/v1-alpha/delivery-partner-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-developer
+      path: entities/v1-alpha/driver-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-developer
+      path: entities/v1-alpha/fleet-maintenance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-developer
+      path: entities/v1-alpha/fleet-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-developer
+      path: entities/v1-alpha/freight-forwarding-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-developer
+      path: entities/v1-alpha/fuel-energy-logistics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-developer
+      path: entities/v1-alpha/hazardous-goods-transport-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-developer
+      path: entities/v1-alpha/last-mile-delivery-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-developer
+      path: entities/v1-alpha/logistics-networks-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-developer
+      path: entities/v1-alpha/maritime-crewing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-developer
+      path: entities/v1-alpha/mobility-as-a-service-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-developer
+      path: entities/v1-alpha/parcel-sorting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-developer
+      path: entities/v1-alpha/passenger-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-developer
+      path: entities/v1-alpha/port-terminal-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-developer
+      path: entities/v1-alpha/rail-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-developer
+      path: entities/v1-alpha/rail-signalling-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-developer
+      path: entities/v1-alpha/reverse-logistics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-developer
+      path: entities/v1-alpha/route-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-developer
+      path: entities/v1-alpha/supply-chain-visibility-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-developer
+      path: entities/v1-alpha/track-infrastructure-maintenance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-developer
+      path: entities/v1-alpha/traffic-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-developer
+      path: entities/v1-alpha/transport-security-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-developer
+      path: entities/v1-alpha/urban-mobility-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-developer
+      path: entities/v1-alpha/warehouse-automation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-developer
+      path: entities/v1-alpha/warehouse-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-engineer
+      path: entities/v1-alpha/airport-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-engineer
+      path: entities/v1-alpha/aviation-safety-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-engineer
+      path: entities/v1-alpha/cold-chain-logistics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-engineer
+      path: entities/v1-alpha/customer-logistics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-engineer
+      path: entities/v1-alpha/customs-border-clearance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-engineer
+      path: entities/v1-alpha/delivery-partner-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-engineer
+      path: entities/v1-alpha/driver-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-engineer
+      path: entities/v1-alpha/fleet-maintenance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-engineer
+      path: entities/v1-alpha/fleet-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-engineer
+      path: entities/v1-alpha/freight-forwarding-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-engineer
+      path: entities/v1-alpha/fuel-energy-logistics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-engineer
+      path: entities/v1-alpha/hazardous-goods-transport-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-engineer
+      path: entities/v1-alpha/last-mile-delivery-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-engineer
+      path: entities/v1-alpha/logistics-networks-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-engineer
+      path: entities/v1-alpha/maritime-crewing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-engineer
+      path: entities/v1-alpha/mobility-as-a-service-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-engineer
+      path: entities/v1-alpha/parcel-sorting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-engineer
+      path: entities/v1-alpha/passenger-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-engineer
+      path: entities/v1-alpha/port-terminal-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-engineer
+      path: entities/v1-alpha/rail-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-engineer
+      path: entities/v1-alpha/rail-signalling-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-engineer
+      path: entities/v1-alpha/reverse-logistics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-engineer
+      path: entities/v1-alpha/route-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-engineer
+      path: entities/v1-alpha/supply-chain-visibility-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-engineer
+      path: entities/v1-alpha/track-infrastructure-maintenance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-engineer
+      path: entities/v1-alpha/traffic-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-engineer
+      path: entities/v1-alpha/transport-security-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-engineer
+      path: entities/v1-alpha/urban-mobility-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-engineer
+      path: entities/v1-alpha/warehouse-automation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-engineer
+      path: entities/v1-alpha/warehouse-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-airport-operations
+      path: entities/v1-alpha/head-of-airport-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-aviation-safety
+      path: entities/v1-alpha/head-of-aviation-safety.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-cold-chain-logistics
+      path: entities/v1-alpha/head-of-cold-chain-logistics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-customer-logistics
+      path: entities/v1-alpha/head-of-customer-logistics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-customs-border-clearance
+      path: entities/v1-alpha/head-of-customs-border-clearance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-delivery-partner-management
+      path: entities/v1-alpha/head-of-delivery-partner-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-driver-management
+      path: entities/v1-alpha/head-of-driver-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fleet-maintenance
+      path: entities/v1-alpha/head-of-fleet-maintenance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fleet-operations
+      path: entities/v1-alpha/head-of-fleet-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-freight-forwarding
+      path: entities/v1-alpha/head-of-freight-forwarding.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fuel-energy-logistics
+      path: entities/v1-alpha/head-of-fuel-energy-logistics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-hazardous-goods-transport
+      path: entities/v1-alpha/head-of-hazardous-goods-transport.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-last-mile-delivery
+      path: entities/v1-alpha/head-of-last-mile-delivery.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-logistics-networks
+      path: entities/v1-alpha/head-of-logistics-networks.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-maritime-crewing
+      path: entities/v1-alpha/head-of-maritime-crewing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mobility-as-a-service
+      path: entities/v1-alpha/head-of-mobility-as-a-service.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-parcel-sorting
+      path: entities/v1-alpha/head-of-parcel-sorting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-passenger-services
+      path: entities/v1-alpha/head-of-passenger-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-port-terminal-operations
+      path: entities/v1-alpha/head-of-port-terminal-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-rail-operations
+      path: entities/v1-alpha/head-of-rail-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-rail-signalling
+      path: entities/v1-alpha/head-of-rail-signalling.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-reverse-logistics
+      path: entities/v1-alpha/head-of-reverse-logistics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-route-planning
+      path: entities/v1-alpha/head-of-route-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-supply-chain-visibility
+      path: entities/v1-alpha/head-of-supply-chain-visibility.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-track-infrastructure-maintenance
+      path: entities/v1-alpha/head-of-track-infrastructure-maintenance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-traffic-management
+      path: entities/v1-alpha/head-of-traffic-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-transport-security
+      path: entities/v1-alpha/head-of-transport-security.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-urban-mobility
+      path: entities/v1-alpha/head-of-urban-mobility.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-warehouse-automation
+      path: entities/v1-alpha/head-of-warehouse-automation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-warehouse-operations
+      path: entities/v1-alpha/head-of-warehouse-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-lead
+      path: entities/v1-alpha/airport-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-lead
+      path: entities/v1-alpha/aviation-safety-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-lead
+      path: entities/v1-alpha/cold-chain-logistics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-lead
+      path: entities/v1-alpha/customer-logistics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-lead
+      path: entities/v1-alpha/customs-border-clearance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-lead
+      path: entities/v1-alpha/delivery-partner-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-lead
+      path: entities/v1-alpha/driver-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-lead
+      path: entities/v1-alpha/fleet-maintenance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-lead
+      path: entities/v1-alpha/fleet-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-lead
+      path: entities/v1-alpha/freight-forwarding-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-lead
+      path: entities/v1-alpha/fuel-energy-logistics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-lead
+      path: entities/v1-alpha/hazardous-goods-transport-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-lead
+      path: entities/v1-alpha/last-mile-delivery-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-lead
+      path: entities/v1-alpha/logistics-networks-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-lead
+      path: entities/v1-alpha/maritime-crewing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-lead
+      path: entities/v1-alpha/mobility-as-a-service-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-lead
+      path: entities/v1-alpha/parcel-sorting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-lead
+      path: entities/v1-alpha/passenger-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-lead
+      path: entities/v1-alpha/port-terminal-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-lead
+      path: entities/v1-alpha/rail-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-lead
+      path: entities/v1-alpha/rail-signalling-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-lead
+      path: entities/v1-alpha/reverse-logistics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-lead
+      path: entities/v1-alpha/route-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-lead
+      path: entities/v1-alpha/supply-chain-visibility-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-lead
+      path: entities/v1-alpha/track-infrastructure-maintenance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-lead
+      path: entities/v1-alpha/traffic-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-lead
+      path: entities/v1-alpha/transport-security-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-lead
+      path: entities/v1-alpha/urban-mobility-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-lead
+      path: entities/v1-alpha/warehouse-automation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-lead
+      path: entities/v1-alpha/warehouse-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-manager
+      path: entities/v1-alpha/airport-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-manager
+      path: entities/v1-alpha/aviation-safety-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-manager
+      path: entities/v1-alpha/cold-chain-logistics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-manager
+      path: entities/v1-alpha/customer-logistics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-manager
+      path: entities/v1-alpha/customs-border-clearance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-manager
+      path: entities/v1-alpha/delivery-partner-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-manager
+      path: entities/v1-alpha/driver-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-manager
+      path: entities/v1-alpha/fleet-maintenance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-manager
+      path: entities/v1-alpha/fleet-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-manager
+      path: entities/v1-alpha/freight-forwarding-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-manager
+      path: entities/v1-alpha/fuel-energy-logistics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-manager
+      path: entities/v1-alpha/hazardous-goods-transport-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-manager
+      path: entities/v1-alpha/last-mile-delivery-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-manager
+      path: entities/v1-alpha/logistics-networks-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-manager
+      path: entities/v1-alpha/maritime-crewing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-manager
+      path: entities/v1-alpha/mobility-as-a-service-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-manager
+      path: entities/v1-alpha/parcel-sorting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-manager
+      path: entities/v1-alpha/passenger-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-manager
+      path: entities/v1-alpha/port-terminal-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-manager
+      path: entities/v1-alpha/rail-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-manager
+      path: entities/v1-alpha/rail-signalling-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-manager
+      path: entities/v1-alpha/reverse-logistics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-manager
+      path: entities/v1-alpha/route-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-manager
+      path: entities/v1-alpha/supply-chain-visibility-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-manager
+      path: entities/v1-alpha/track-infrastructure-maintenance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-manager
+      path: entities/v1-alpha/traffic-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-manager
+      path: entities/v1-alpha/transport-security-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-manager
+      path: entities/v1-alpha/urban-mobility-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-manager
+      path: entities/v1-alpha/warehouse-automation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-manager
+      path: entities/v1-alpha/warehouse-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-operations-coordinator
+      path: entities/v1-alpha/airport-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-operations-coordinator
+      path: entities/v1-alpha/aviation-safety-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-operations-coordinator
+      path: entities/v1-alpha/cold-chain-logistics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-operations-coordinator
+      path: entities/v1-alpha/customer-logistics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-operations-coordinator
+      path: entities/v1-alpha/customs-border-clearance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-operations-coordinator
+      path: entities/v1-alpha/delivery-partner-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-operations-coordinator
+      path: entities/v1-alpha/driver-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-operations-coordinator
+      path: entities/v1-alpha/fleet-maintenance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-operations-coordinator
+      path: entities/v1-alpha/fleet-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-operations-coordinator
+      path: entities/v1-alpha/freight-forwarding-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-operations-coordinator
+      path: entities/v1-alpha/fuel-energy-logistics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-operations-coordinator
+      path: entities/v1-alpha/hazardous-goods-transport-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-operations-coordinator
+      path: entities/v1-alpha/last-mile-delivery-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-operations-coordinator
+      path: entities/v1-alpha/logistics-networks-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-operations-coordinator
+      path: entities/v1-alpha/maritime-crewing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-operations-coordinator
+      path: entities/v1-alpha/mobility-as-a-service-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-operations-coordinator
+      path: entities/v1-alpha/parcel-sorting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-operations-coordinator
+      path: entities/v1-alpha/passenger-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-operations-coordinator
+      path: entities/v1-alpha/port-terminal-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-operations-coordinator
+      path: entities/v1-alpha/rail-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-operations-coordinator
+      path: entities/v1-alpha/rail-signalling-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-operations-coordinator
+      path: entities/v1-alpha/reverse-logistics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-operations-coordinator
+      path: entities/v1-alpha/route-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-operations-coordinator
+      path: entities/v1-alpha/supply-chain-visibility-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-operations-coordinator
+      path: entities/v1-alpha/track-infrastructure-maintenance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-operations-coordinator
+      path: entities/v1-alpha/traffic-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-operations-coordinator
+      path: entities/v1-alpha/transport-security-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-operations-coordinator
+      path: entities/v1-alpha/urban-mobility-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-operations-coordinator
+      path: entities/v1-alpha/warehouse-automation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-operations-coordinator
+      path: entities/v1-alpha/warehouse-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-planner
+      path: entities/v1-alpha/airport-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-planner
+      path: entities/v1-alpha/aviation-safety-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-planner
+      path: entities/v1-alpha/cold-chain-logistics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-planner
+      path: entities/v1-alpha/customer-logistics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-planner
+      path: entities/v1-alpha/customs-border-clearance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-planner
+      path: entities/v1-alpha/delivery-partner-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-planner
+      path: entities/v1-alpha/driver-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-planner
+      path: entities/v1-alpha/fleet-maintenance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-planner
+      path: entities/v1-alpha/fleet-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-planner
+      path: entities/v1-alpha/freight-forwarding-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-planner
+      path: entities/v1-alpha/fuel-energy-logistics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-planner
+      path: entities/v1-alpha/hazardous-goods-transport-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-planner
+      path: entities/v1-alpha/last-mile-delivery-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-planner
+      path: entities/v1-alpha/logistics-networks-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-planner
+      path: entities/v1-alpha/maritime-crewing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-planner
+      path: entities/v1-alpha/mobility-as-a-service-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-planner
+      path: entities/v1-alpha/parcel-sorting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-planner
+      path: entities/v1-alpha/passenger-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-planner
+      path: entities/v1-alpha/port-terminal-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-planner
+      path: entities/v1-alpha/rail-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-planner
+      path: entities/v1-alpha/rail-signalling-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-planner
+      path: entities/v1-alpha/reverse-logistics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-planner
+      path: entities/v1-alpha/route-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-planner
+      path: entities/v1-alpha/supply-chain-visibility-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-planner
+      path: entities/v1-alpha/track-infrastructure-maintenance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-planner
+      path: entities/v1-alpha/traffic-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-planner
+      path: entities/v1-alpha/transport-security-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-planner
+      path: entities/v1-alpha/urban-mobility-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-planner
+      path: entities/v1-alpha/warehouse-automation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-planner
+      path: entities/v1-alpha/warehouse-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-product-owner
+      path: entities/v1-alpha/airport-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-product-owner
+      path: entities/v1-alpha/aviation-safety-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-product-owner
+      path: entities/v1-alpha/cold-chain-logistics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-product-owner
+      path: entities/v1-alpha/customer-logistics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-product-owner
+      path: entities/v1-alpha/customs-border-clearance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-product-owner
+      path: entities/v1-alpha/delivery-partner-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-product-owner
+      path: entities/v1-alpha/driver-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-product-owner
+      path: entities/v1-alpha/fleet-maintenance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-product-owner
+      path: entities/v1-alpha/fleet-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-product-owner
+      path: entities/v1-alpha/freight-forwarding-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-product-owner
+      path: entities/v1-alpha/fuel-energy-logistics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-product-owner
+      path: entities/v1-alpha/hazardous-goods-transport-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-product-owner
+      path: entities/v1-alpha/last-mile-delivery-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-product-owner
+      path: entities/v1-alpha/logistics-networks-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-product-owner
+      path: entities/v1-alpha/maritime-crewing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-product-owner
+      path: entities/v1-alpha/mobility-as-a-service-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-product-owner
+      path: entities/v1-alpha/parcel-sorting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-product-owner
+      path: entities/v1-alpha/passenger-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-product-owner
+      path: entities/v1-alpha/port-terminal-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-product-owner
+      path: entities/v1-alpha/rail-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-product-owner
+      path: entities/v1-alpha/rail-signalling-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-product-owner
+      path: entities/v1-alpha/reverse-logistics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-product-owner
+      path: entities/v1-alpha/route-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-product-owner
+      path: entities/v1-alpha/supply-chain-visibility-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-product-owner
+      path: entities/v1-alpha/track-infrastructure-maintenance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-product-owner
+      path: entities/v1-alpha/traffic-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-product-owner
+      path: entities/v1-alpha/transport-security-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-product-owner
+      path: entities/v1-alpha/urban-mobility-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-product-owner
+      path: entities/v1-alpha/warehouse-automation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-product-owner
+      path: entities/v1-alpha/warehouse-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-program-manager
+      path: entities/v1-alpha/airport-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-program-manager
+      path: entities/v1-alpha/aviation-safety-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-program-manager
+      path: entities/v1-alpha/cold-chain-logistics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-program-manager
+      path: entities/v1-alpha/customer-logistics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-program-manager
+      path: entities/v1-alpha/customs-border-clearance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-program-manager
+      path: entities/v1-alpha/delivery-partner-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-program-manager
+      path: entities/v1-alpha/driver-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-program-manager
+      path: entities/v1-alpha/fleet-maintenance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-program-manager
+      path: entities/v1-alpha/fleet-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-program-manager
+      path: entities/v1-alpha/freight-forwarding-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-program-manager
+      path: entities/v1-alpha/fuel-energy-logistics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-program-manager
+      path: entities/v1-alpha/hazardous-goods-transport-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-program-manager
+      path: entities/v1-alpha/last-mile-delivery-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-program-manager
+      path: entities/v1-alpha/logistics-networks-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-program-manager
+      path: entities/v1-alpha/maritime-crewing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-program-manager
+      path: entities/v1-alpha/mobility-as-a-service-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-program-manager
+      path: entities/v1-alpha/parcel-sorting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-program-manager
+      path: entities/v1-alpha/passenger-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-program-manager
+      path: entities/v1-alpha/port-terminal-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-program-manager
+      path: entities/v1-alpha/rail-operations-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

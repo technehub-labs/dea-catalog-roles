@@ -1,0 +1,50 @@
+id: roles:role-maritime-crewing-program-manager
+type: Role
+name: Maritime Crewing Program Manager
+description: Coordinates multi-team maritime crewing programmes across Transport & Logistics, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- maritime
+- transport
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Maritime Crewing
+  org_unit: Maritime Crewing Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-maritime-crewing-program-manager-requires-maritime-crewing
+  source_id: roles:role-maritime-crewing-program-manager
+  target_id: skills:skill-maritime-crewing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-maritime-crewing-program-manager-requires-maritime-crewing-secondary
+  source_id: roles:role-maritime-crewing-program-manager
+  target_id: skills:skill-maritime-crewing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

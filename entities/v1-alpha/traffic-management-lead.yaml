@@ -1,0 +1,50 @@
+id: roles:role-traffic-management-lead
+type: Role
+name: Traffic Management Lead
+description: Sets direction for traffic management teams, owns their outcomes, and represents traffic
+  management interests in Transport & Logistics governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- traffic
+- transport
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Traffic Management
+  org_unit: Traffic Management Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-traffic-management-lead-requires-traffic-management
+  source_id: roles:role-traffic-management-lead
+  target_id: skills:skill-traffic-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-traffic-management-lead-requires-traffic-management-secondary
+  source_id: roles:role-traffic-management-lead
+  target_id: skills:skill-traffic-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-parcel-sorting-operations-coordinator
+type: Role
+name: Parcel Sorting Operations Coordinator
+description: Coordinates day-to-day parcel sorting activities, schedules, and records, keeping Transport
+  & Logistics operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- parcel
+- transport
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Parcel Sorting
+  org_unit: Parcel Sorting Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-parcel-sorting-operations-coordinator-requires-parcel-sorting
+  source_id: roles:role-parcel-sorting-operations-coordinator
+  target_id: skills:skill-parcel-sorting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-parcel-sorting-operations-coordinator-requires-parcel-sorting-secondary
+  source_id: roles:role-parcel-sorting-operations-coordinator
+  target_id: skills:skill-parcel-sorting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

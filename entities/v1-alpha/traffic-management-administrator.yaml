@@ -1,0 +1,50 @@
+id: roles:role-traffic-management-administrator
+type: Role
+name: Traffic Management Administrator
+description: 'Administers traffic management environments day to day: provisioning, access control, monitoring,
+  and routine change execution for Transport & Logistics operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- traffic
+- transport
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Traffic Management
+  org_unit: Traffic Management Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-traffic-management-administrator-requires-traffic-management
+  source_id: roles:role-traffic-management-administrator
+  target_id: skills:skill-traffic-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-traffic-management-administrator-requires-traffic-management-secondary
+  source_id: roles:role-traffic-management-administrator
+  target_id: skills:skill-traffic-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

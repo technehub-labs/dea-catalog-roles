@@ -1,0 +1,50 @@
+id: roles:role-rail-signalling-product-owner
+type: Role
+name: Rail Signalling Product Owner
+description: Owns the rail signalling product backlog, prioritising against user value and Transport &
+  Logistics business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- rail
+- transport
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Rail Signalling
+  org_unit: Rail Signalling Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-rail-signalling-product-owner-requires-rail-signalling
+  source_id: roles:role-rail-signalling-product-owner
+  target_id: skills:skill-rail-signalling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rail-signalling-product-owner-requires-rail-signalling-secondary
+  source_id: roles:role-rail-signalling-product-owner
+  target_id: skills:skill-rail-signalling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

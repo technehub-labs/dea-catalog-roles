@@ -1,0 +1,50 @@
+id: roles:role-route-planning-designer
+type: Role
+name: Route Planning Designer
+description: Designs route planning solutions and interfaces, translating Transport & Logistics requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- route
+- transport
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Route Planning
+  org_unit: Route Planning Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-route-planning-designer-requires-route-planning
+  source_id: roles:role-route-planning-designer
+  target_id: skills:skill-route-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-route-planning-designer-requires-route-planning-secondary
+  source_id: roles:role-route-planning-designer
+  target_id: skills:skill-route-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

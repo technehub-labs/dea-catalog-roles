@@ -1,0 +1,50 @@
+id: roles:role-mobility-as-a-service-developer
+type: Role
+name: Mobility-as-a-Service Developer
+description: Implements and unit-tests mobility-as-a-service capabilities, contributing code and configuration
+  within the Transport & Logistics delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- mobility
+- transport
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mobility-as-a-Service
+  org_unit: Mobility-as-a-Service Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-mobility-as-a-service-developer-requires-mobility-as-a-service
+  source_id: roles:role-mobility-as-a-service-developer
+  target_id: skills:skill-mobility-as-a-service
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mobility-as-a-service-developer-requires-mobility-as-a-service-secondary
+  source_id: roles:role-mobility-as-a-service-developer
+  target_id: skills:skill-mobility-as-a-service-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-aviation-safety-consultant
+type: Role
+name: Aviation Safety Consultant
+description: Supports Transport & Logistics teams adopting aviation safety practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- aviation
+- transport
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Aviation Safety
+  org_unit: Aviation Safety Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-aviation-safety-consultant-requires-aviation-safety
+  source_id: roles:role-aviation-safety-consultant
+  target_id: skills:skill-aviation-safety
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-aviation-safety-consultant-requires-aviation-safety-secondary
+  source_id: roles:role-aviation-safety-consultant
+  target_id: skills:skill-aviation-safety-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

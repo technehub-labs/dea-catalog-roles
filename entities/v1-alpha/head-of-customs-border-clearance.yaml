@@ -1,0 +1,50 @@
+id: roles:role-head-of-customs-border-clearance
+type: Role
+name: Head of Customs & Border Clearance
+description: 'Owns the customs & border clearance domain at executive level: strategy, investment cases,
+  organisational design, and regulatory posture for Transport & Logistics.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- customs
+- transport
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customs & Border Clearance
+  org_unit: Customs & Border Clearance Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-head-of-customs-border-clearance-requires-customs-border-clearance
+  source_id: roles:role-head-of-customs-border-clearance
+  target_id: skills:skill-customs-border-clearance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-customs-border-clearance-requires-customs-border-clearance-secondary
+  source_id: roles:role-head-of-customs-border-clearance
+  target_id: skills:skill-customs-border-clearance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

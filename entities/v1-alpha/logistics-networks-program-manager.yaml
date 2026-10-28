@@ -1,0 +1,50 @@
+id: roles:role-logistics-networks-program-manager
+type: Role
+name: Logistics Networks Program Manager
+description: Coordinates multi-team logistics networks programmes across Transport & Logistics, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- logistics
+- transport
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Logistics Networks
+  org_unit: Logistics Networks Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-logistics-networks-program-manager-requires-logistics-networks
+  source_id: roles:role-logistics-networks-program-manager
+  target_id: skills:skill-logistics-networks
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-logistics-networks-program-manager-requires-logistics-networks-secondary
+  source_id: roles:role-logistics-networks-program-manager
+  target_id: skills:skill-logistics-networks-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

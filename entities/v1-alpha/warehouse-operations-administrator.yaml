@@ -1,0 +1,50 @@
+id: roles:role-warehouse-operations-administrator
+type: Role
+name: Warehouse Operations Administrator
+description: 'Administers warehouse operations environments day to day: provisioning, access control,
+  monitoring, and routine change execution for Transport & Logistics operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- warehouse
+- transport
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Warehouse Operations
+  org_unit: Warehouse Operations Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-warehouse-operations-administrator-requires-warehouse-operations
+  source_id: roles:role-warehouse-operations-administrator
+  target_id: skills:skill-warehouse-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-warehouse-operations-administrator-requires-warehouse-operations-secondary
+  source_id: roles:role-warehouse-operations-administrator
+  target_id: skills:skill-warehouse-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

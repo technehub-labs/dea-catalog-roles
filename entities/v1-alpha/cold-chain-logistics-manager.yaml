@@ -1,0 +1,50 @@
+id: roles:role-cold-chain-logistics-manager
+type: Role
+name: Cold Chain Logistics Manager
+description: 'Manages cold chain logistics end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Transport & Logistics operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- cold
+- transport
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Cold Chain Logistics
+  org_unit: Cold Chain Logistics Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-cold-chain-logistics-manager-requires-cold-chain-logistics
+  source_id: roles:role-cold-chain-logistics-manager
+  target_id: skills:skill-cold-chain-logistics
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-cold-chain-logistics-manager-requires-cold-chain-logistics-secondary
+  source_id: roles:role-cold-chain-logistics-manager
+  target_id: skills:skill-cold-chain-logistics-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

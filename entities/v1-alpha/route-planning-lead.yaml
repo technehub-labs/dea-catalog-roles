@@ -1,0 +1,50 @@
+id: roles:role-route-planning-lead
+type: Role
+name: Route Planning Lead
+description: Sets direction for route planning teams, owns their outcomes, and represents route planning
+  interests in Transport & Logistics governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- route
+- transport
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Route Planning
+  org_unit: Route Planning Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-route-planning-lead-requires-route-planning
+  source_id: roles:role-route-planning-lead
+  target_id: skills:skill-route-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-route-planning-lead-requires-route-planning-secondary
+  source_id: roles:role-route-planning-lead
+  target_id: skills:skill-route-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

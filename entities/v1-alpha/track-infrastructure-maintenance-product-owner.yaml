@@ -1,0 +1,50 @@
+id: roles:role-track-infrastructure-maintenance-product-owner
+type: Role
+name: Track & Infrastructure Maintenance Product Owner
+description: Owns the track & infrastructure maintenance product backlog, prioritising against user value
+  and Transport & Logistics business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- track
+- transport
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Track & Infrastructure Maintenance
+  org_unit: Track & Infrastructure Maintenance Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-track-infrastructure-maintenance-product-requires-track-infrastructure-maintenan
+  source_id: roles:role-track-infrastructure-maintenance-product-owner
+  target_id: skills:skill-track-infrastructure-maintenance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-track-infrastructure-maintenance-product-requires-track-infrastructure-maintenan-secondary
+  source_id: roles:role-track-infrastructure-maintenance-product-owner
+  target_id: skills:skill-track-infrastructure-maintenance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

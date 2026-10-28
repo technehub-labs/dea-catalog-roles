@@ -1,0 +1,50 @@
+id: roles:role-maritime-crewing-engineer
+type: Role
+name: Maritime Crewing Engineer
+description: Builds, configures, and maintains maritime crewing components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Transport & Logistics standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- maritime
+- transport
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Maritime Crewing
+  org_unit: Maritime Crewing Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-maritime-crewing-engineer-requires-maritime-crewing
+  source_id: roles:role-maritime-crewing-engineer
+  target_id: skills:skill-maritime-crewing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-maritime-crewing-engineer-requires-maritime-crewing-secondary
+  source_id: roles:role-maritime-crewing-engineer
+  target_id: skills:skill-maritime-crewing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

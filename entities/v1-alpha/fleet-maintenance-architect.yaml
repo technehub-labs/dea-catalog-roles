@@ -1,0 +1,50 @@
+id: roles:role-fleet-maintenance-architect
+type: Role
+name: Fleet Maintenance Architect
+description: 'Owns the target architecture for fleet maintenance: design standards, technology selection,
+  and the evolution roadmap that keeps fleet maintenance fit for the Transport & Logistics operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- fleet
+- transport
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fleet Maintenance
+  org_unit: Fleet Maintenance Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-fleet-maintenance-architect-requires-fleet-maintenance
+  source_id: roles:role-fleet-maintenance-architect
+  target_id: skills:skill-fleet-maintenance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fleet-maintenance-architect-requires-fleet-maintenance-secondary
+  source_id: roles:role-fleet-maintenance-architect
+  target_id: skills:skill-fleet-maintenance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
