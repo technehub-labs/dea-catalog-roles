@@ -1,0 +1,50 @@
+id: roles:role-film-production-architect
+type: Role
+name: Film Production Architect
+description: 'Owns the target architecture for film production: design standards, technology selection,
+  and the evolution roadmap that keeps film production fit for the Entertainment operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- film
+- entertainment
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Film Production
+  org_unit: Film Production Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-film-production-architect-requires-film-production
+  source_id: roles:role-film-production-architect
+  target_id: skills:skill-film-production
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-film-production-architect-requires-film-production-secondary
+  source_id: roles:role-film-production-architect
+  target_id: skills:skill-film-production-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

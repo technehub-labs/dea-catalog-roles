@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 1252
+    entities: 1692
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -6164,6 +6164,2206 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-observability-program-manager
       path: entities/v1-alpha/observability-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-administrator
+      path: entities/v1-alpha/animation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-administrator
+      path: entities/v1-alpha/awards-campaigns-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-administrator
+      path: entities/v1-alpha/casting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-administrator
+      path: entities/v1-alpha/celebrity-brand-partnerships-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-administrator
+      path: entities/v1-alpha/character-design-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-administrator
+      path: entities/v1-alpha/digital-content-creation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-administrator
+      path: entities/v1-alpha/fan-engagement-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-administrator
+      path: entities/v1-alpha/festival-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-administrator
+      path: entities/v1-alpha/film-production-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-administrator
+      path: entities/v1-alpha/game-development-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-administrator
+      path: entities/v1-alpha/immersive-experiences-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-administrator
+      path: entities/v1-alpha/live-events-touring-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-administrator
+      path: entities/v1-alpha/location-scouting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-administrator
+      path: entities/v1-alpha/merchandising-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-administrator
+      path: entities/v1-alpha/music-publishing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-administrator
+      path: entities/v1-alpha/post-production-sound-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-administrator
+      path: entities/v1-alpha/production-finance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-administrator
+      path: entities/v1-alpha/script-development-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-administrator
+      path: entities/v1-alpha/stage-design-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-administrator
+      path: entities/v1-alpha/streaming-content-acquisition-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-administrator
+      path: entities/v1-alpha/stunt-coordination-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-administrator
+      path: entities/v1-alpha/talent-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-administrator
+      path: entities/v1-alpha/talent-recruitment-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-administrator
+      path: entities/v1-alpha/television-production-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-administrator
+      path: entities/v1-alpha/theatre-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-administrator
+      path: entities/v1-alpha/theme-park-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-administrator
+      path: entities/v1-alpha/touring-logistics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-administrator
+      path: entities/v1-alpha/venue-programming-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-administrator
+      path: entities/v1-alpha/visual-effects-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-administrator
+      path: entities/v1-alpha/wardrobe-costuming-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-analyst
+      path: entities/v1-alpha/animation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-analyst
+      path: entities/v1-alpha/awards-campaigns-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-analyst
+      path: entities/v1-alpha/casting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-analyst
+      path: entities/v1-alpha/celebrity-brand-partnerships-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-analyst
+      path: entities/v1-alpha/character-design-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-analyst
+      path: entities/v1-alpha/digital-content-creation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-analyst
+      path: entities/v1-alpha/fan-engagement-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-analyst
+      path: entities/v1-alpha/festival-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-analyst
+      path: entities/v1-alpha/film-production-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-analyst
+      path: entities/v1-alpha/game-development-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-analyst
+      path: entities/v1-alpha/immersive-experiences-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-analyst
+      path: entities/v1-alpha/live-events-touring-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-analyst
+      path: entities/v1-alpha/location-scouting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-analyst
+      path: entities/v1-alpha/merchandising-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-analyst
+      path: entities/v1-alpha/music-publishing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-analyst
+      path: entities/v1-alpha/post-production-sound-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-analyst
+      path: entities/v1-alpha/production-finance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-analyst
+      path: entities/v1-alpha/script-development-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-analyst
+      path: entities/v1-alpha/stage-design-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-analyst
+      path: entities/v1-alpha/streaming-content-acquisition-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-analyst
+      path: entities/v1-alpha/stunt-coordination-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-analyst
+      path: entities/v1-alpha/talent-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-analyst
+      path: entities/v1-alpha/talent-recruitment-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-analyst
+      path: entities/v1-alpha/television-production-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-analyst
+      path: entities/v1-alpha/theatre-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-analyst
+      path: entities/v1-alpha/theme-park-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-analyst
+      path: entities/v1-alpha/touring-logistics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-analyst
+      path: entities/v1-alpha/venue-programming-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-analyst
+      path: entities/v1-alpha/visual-effects-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-analyst
+      path: entities/v1-alpha/wardrobe-costuming-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-architect
+      path: entities/v1-alpha/animation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-architect
+      path: entities/v1-alpha/awards-campaigns-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-architect
+      path: entities/v1-alpha/casting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-architect
+      path: entities/v1-alpha/celebrity-brand-partnerships-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-architect
+      path: entities/v1-alpha/character-design-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-architect
+      path: entities/v1-alpha/digital-content-creation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-architect
+      path: entities/v1-alpha/fan-engagement-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-architect
+      path: entities/v1-alpha/festival-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-architect
+      path: entities/v1-alpha/film-production-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-architect
+      path: entities/v1-alpha/game-development-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-architect
+      path: entities/v1-alpha/immersive-experiences-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-architect
+      path: entities/v1-alpha/live-events-touring-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-architect
+      path: entities/v1-alpha/location-scouting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-architect
+      path: entities/v1-alpha/merchandising-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-architect
+      path: entities/v1-alpha/music-publishing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-architect
+      path: entities/v1-alpha/post-production-sound-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-architect
+      path: entities/v1-alpha/production-finance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-architect
+      path: entities/v1-alpha/script-development-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-architect
+      path: entities/v1-alpha/stage-design-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-architect
+      path: entities/v1-alpha/streaming-content-acquisition-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-architect
+      path: entities/v1-alpha/stunt-coordination-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-architect
+      path: entities/v1-alpha/talent-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-architect
+      path: entities/v1-alpha/talent-recruitment-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-architect
+      path: entities/v1-alpha/television-production-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-architect
+      path: entities/v1-alpha/theatre-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-architect
+      path: entities/v1-alpha/theme-park-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-architect
+      path: entities/v1-alpha/touring-logistics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-architect
+      path: entities/v1-alpha/venue-programming-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-architect
+      path: entities/v1-alpha/visual-effects-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-architect
+      path: entities/v1-alpha/wardrobe-costuming-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-coach
+      path: entities/v1-alpha/animation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-coach
+      path: entities/v1-alpha/awards-campaigns-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-coach
+      path: entities/v1-alpha/casting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-coach
+      path: entities/v1-alpha/celebrity-brand-partnerships-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-coach
+      path: entities/v1-alpha/character-design-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-coach
+      path: entities/v1-alpha/digital-content-creation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-coach
+      path: entities/v1-alpha/fan-engagement-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-coach
+      path: entities/v1-alpha/festival-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-coach
+      path: entities/v1-alpha/film-production-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-coach
+      path: entities/v1-alpha/game-development-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-coach
+      path: entities/v1-alpha/immersive-experiences-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-coach
+      path: entities/v1-alpha/live-events-touring-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-coach
+      path: entities/v1-alpha/location-scouting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-coach
+      path: entities/v1-alpha/merchandising-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-coach
+      path: entities/v1-alpha/music-publishing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-coach
+      path: entities/v1-alpha/post-production-sound-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-coach
+      path: entities/v1-alpha/production-finance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-coach
+      path: entities/v1-alpha/script-development-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-coach
+      path: entities/v1-alpha/stage-design-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-coach
+      path: entities/v1-alpha/streaming-content-acquisition-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-coach
+      path: entities/v1-alpha/stunt-coordination-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-coach
+      path: entities/v1-alpha/talent-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-coach
+      path: entities/v1-alpha/talent-recruitment-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-coach
+      path: entities/v1-alpha/television-production-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-coach
+      path: entities/v1-alpha/theatre-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-coach
+      path: entities/v1-alpha/theme-park-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-coach
+      path: entities/v1-alpha/touring-logistics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-coach
+      path: entities/v1-alpha/venue-programming-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-coach
+      path: entities/v1-alpha/visual-effects-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-coach
+      path: entities/v1-alpha/wardrobe-costuming-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-consultant
+      path: entities/v1-alpha/animation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-consultant
+      path: entities/v1-alpha/awards-campaigns-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-consultant
+      path: entities/v1-alpha/casting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-consultant
+      path: entities/v1-alpha/celebrity-brand-partnerships-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-consultant
+      path: entities/v1-alpha/character-design-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-consultant
+      path: entities/v1-alpha/digital-content-creation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-consultant
+      path: entities/v1-alpha/fan-engagement-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-consultant
+      path: entities/v1-alpha/festival-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-consultant
+      path: entities/v1-alpha/film-production-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-consultant
+      path: entities/v1-alpha/game-development-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-consultant
+      path: entities/v1-alpha/immersive-experiences-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-consultant
+      path: entities/v1-alpha/live-events-touring-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-consultant
+      path: entities/v1-alpha/location-scouting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-consultant
+      path: entities/v1-alpha/merchandising-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-consultant
+      path: entities/v1-alpha/music-publishing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-consultant
+      path: entities/v1-alpha/post-production-sound-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-consultant
+      path: entities/v1-alpha/production-finance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-consultant
+      path: entities/v1-alpha/script-development-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-consultant
+      path: entities/v1-alpha/stage-design-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-consultant
+      path: entities/v1-alpha/streaming-content-acquisition-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-consultant
+      path: entities/v1-alpha/stunt-coordination-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-consultant
+      path: entities/v1-alpha/talent-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-consultant
+      path: entities/v1-alpha/talent-recruitment-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-consultant
+      path: entities/v1-alpha/television-production-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-consultant
+      path: entities/v1-alpha/theatre-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-consultant
+      path: entities/v1-alpha/theme-park-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-consultant
+      path: entities/v1-alpha/touring-logistics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-consultant
+      path: entities/v1-alpha/venue-programming-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-consultant
+      path: entities/v1-alpha/visual-effects-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-consultant
+      path: entities/v1-alpha/wardrobe-costuming-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-designer
+      path: entities/v1-alpha/animation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-designer
+      path: entities/v1-alpha/awards-campaigns-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-designer
+      path: entities/v1-alpha/casting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-designer
+      path: entities/v1-alpha/celebrity-brand-partnerships-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-designer
+      path: entities/v1-alpha/character-design-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-designer
+      path: entities/v1-alpha/digital-content-creation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-designer
+      path: entities/v1-alpha/fan-engagement-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-designer
+      path: entities/v1-alpha/festival-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-designer
+      path: entities/v1-alpha/film-production-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-designer
+      path: entities/v1-alpha/game-development-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-designer
+      path: entities/v1-alpha/immersive-experiences-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-designer
+      path: entities/v1-alpha/live-events-touring-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-designer
+      path: entities/v1-alpha/location-scouting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-designer
+      path: entities/v1-alpha/merchandising-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-designer
+      path: entities/v1-alpha/music-publishing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-designer
+      path: entities/v1-alpha/post-production-sound-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-designer
+      path: entities/v1-alpha/production-finance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-designer
+      path: entities/v1-alpha/script-development-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-designer
+      path: entities/v1-alpha/stage-design-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-designer
+      path: entities/v1-alpha/streaming-content-acquisition-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-designer
+      path: entities/v1-alpha/stunt-coordination-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-designer
+      path: entities/v1-alpha/talent-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-designer
+      path: entities/v1-alpha/talent-recruitment-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-designer
+      path: entities/v1-alpha/television-production-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-designer
+      path: entities/v1-alpha/theatre-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-designer
+      path: entities/v1-alpha/theme-park-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-designer
+      path: entities/v1-alpha/touring-logistics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-designer
+      path: entities/v1-alpha/venue-programming-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-designer
+      path: entities/v1-alpha/visual-effects-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-designer
+      path: entities/v1-alpha/wardrobe-costuming-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-developer
+      path: entities/v1-alpha/animation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-developer
+      path: entities/v1-alpha/awards-campaigns-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-developer
+      path: entities/v1-alpha/casting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-developer
+      path: entities/v1-alpha/celebrity-brand-partnerships-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-developer
+      path: entities/v1-alpha/character-design-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-developer
+      path: entities/v1-alpha/digital-content-creation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-developer
+      path: entities/v1-alpha/fan-engagement-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-developer
+      path: entities/v1-alpha/festival-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-developer
+      path: entities/v1-alpha/film-production-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-developer
+      path: entities/v1-alpha/game-development-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-developer
+      path: entities/v1-alpha/immersive-experiences-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-developer
+      path: entities/v1-alpha/live-events-touring-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-developer
+      path: entities/v1-alpha/location-scouting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-developer
+      path: entities/v1-alpha/merchandising-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-developer
+      path: entities/v1-alpha/music-publishing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-developer
+      path: entities/v1-alpha/post-production-sound-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-developer
+      path: entities/v1-alpha/production-finance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-developer
+      path: entities/v1-alpha/script-development-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-developer
+      path: entities/v1-alpha/stage-design-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-developer
+      path: entities/v1-alpha/streaming-content-acquisition-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-developer
+      path: entities/v1-alpha/stunt-coordination-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-developer
+      path: entities/v1-alpha/talent-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-developer
+      path: entities/v1-alpha/talent-recruitment-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-developer
+      path: entities/v1-alpha/television-production-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-developer
+      path: entities/v1-alpha/theatre-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-developer
+      path: entities/v1-alpha/theme-park-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-developer
+      path: entities/v1-alpha/touring-logistics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-developer
+      path: entities/v1-alpha/venue-programming-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-developer
+      path: entities/v1-alpha/visual-effects-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-developer
+      path: entities/v1-alpha/wardrobe-costuming-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-engineer
+      path: entities/v1-alpha/animation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-engineer
+      path: entities/v1-alpha/awards-campaigns-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-engineer
+      path: entities/v1-alpha/casting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-engineer
+      path: entities/v1-alpha/celebrity-brand-partnerships-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-engineer
+      path: entities/v1-alpha/character-design-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-engineer
+      path: entities/v1-alpha/digital-content-creation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-engineer
+      path: entities/v1-alpha/fan-engagement-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-engineer
+      path: entities/v1-alpha/festival-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-engineer
+      path: entities/v1-alpha/film-production-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-engineer
+      path: entities/v1-alpha/game-development-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-engineer
+      path: entities/v1-alpha/immersive-experiences-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-engineer
+      path: entities/v1-alpha/live-events-touring-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-engineer
+      path: entities/v1-alpha/location-scouting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-engineer
+      path: entities/v1-alpha/merchandising-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-engineer
+      path: entities/v1-alpha/music-publishing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-engineer
+      path: entities/v1-alpha/post-production-sound-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-engineer
+      path: entities/v1-alpha/production-finance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-engineer
+      path: entities/v1-alpha/script-development-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-engineer
+      path: entities/v1-alpha/stage-design-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-engineer
+      path: entities/v1-alpha/streaming-content-acquisition-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-engineer
+      path: entities/v1-alpha/stunt-coordination-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-engineer
+      path: entities/v1-alpha/talent-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-engineer
+      path: entities/v1-alpha/talent-recruitment-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-engineer
+      path: entities/v1-alpha/television-production-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-engineer
+      path: entities/v1-alpha/theatre-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-engineer
+      path: entities/v1-alpha/theme-park-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-engineer
+      path: entities/v1-alpha/touring-logistics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-engineer
+      path: entities/v1-alpha/venue-programming-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-engineer
+      path: entities/v1-alpha/visual-effects-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-engineer
+      path: entities/v1-alpha/wardrobe-costuming-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-animation
+      path: entities/v1-alpha/head-of-animation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-awards-campaigns
+      path: entities/v1-alpha/head-of-awards-campaigns.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-casting
+      path: entities/v1-alpha/head-of-casting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-celebrity-brand-partnerships
+      path: entities/v1-alpha/head-of-celebrity-brand-partnerships.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-character-design
+      path: entities/v1-alpha/head-of-character-design.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-digital-content-creation
+      path: entities/v1-alpha/head-of-digital-content-creation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fan-engagement
+      path: entities/v1-alpha/head-of-fan-engagement.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-festival-operations
+      path: entities/v1-alpha/head-of-festival-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-film-production
+      path: entities/v1-alpha/head-of-film-production.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-game-development
+      path: entities/v1-alpha/head-of-game-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-immersive-experiences
+      path: entities/v1-alpha/head-of-immersive-experiences.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-live-events-touring
+      path: entities/v1-alpha/head-of-live-events-touring.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-location-scouting
+      path: entities/v1-alpha/head-of-location-scouting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-merchandising
+      path: entities/v1-alpha/head-of-merchandising.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-music-publishing
+      path: entities/v1-alpha/head-of-music-publishing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-post-production-sound
+      path: entities/v1-alpha/head-of-post-production-sound.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-production-finance
+      path: entities/v1-alpha/head-of-production-finance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-script-development
+      path: entities/v1-alpha/head-of-script-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-stage-design
+      path: entities/v1-alpha/head-of-stage-design.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-streaming-content-acquisition
+      path: entities/v1-alpha/head-of-streaming-content-acquisition.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-stunt-coordination
+      path: entities/v1-alpha/head-of-stunt-coordination.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-talent-management
+      path: entities/v1-alpha/head-of-talent-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-talent-recruitment
+      path: entities/v1-alpha/head-of-talent-recruitment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-television-production
+      path: entities/v1-alpha/head-of-television-production.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-theatre-operations
+      path: entities/v1-alpha/head-of-theatre-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-theme-park-operations
+      path: entities/v1-alpha/head-of-theme-park-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-touring-logistics
+      path: entities/v1-alpha/head-of-touring-logistics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-venue-programming
+      path: entities/v1-alpha/head-of-venue-programming.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-visual-effects
+      path: entities/v1-alpha/head-of-visual-effects.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-wardrobe-costuming
+      path: entities/v1-alpha/head-of-wardrobe-costuming.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-lead
+      path: entities/v1-alpha/animation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-lead
+      path: entities/v1-alpha/awards-campaigns-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-lead
+      path: entities/v1-alpha/casting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-lead
+      path: entities/v1-alpha/celebrity-brand-partnerships-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-lead
+      path: entities/v1-alpha/character-design-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-lead
+      path: entities/v1-alpha/digital-content-creation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-lead
+      path: entities/v1-alpha/fan-engagement-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-lead
+      path: entities/v1-alpha/festival-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-lead
+      path: entities/v1-alpha/film-production-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-lead
+      path: entities/v1-alpha/game-development-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-lead
+      path: entities/v1-alpha/immersive-experiences-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-lead
+      path: entities/v1-alpha/live-events-touring-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-lead
+      path: entities/v1-alpha/location-scouting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-lead
+      path: entities/v1-alpha/merchandising-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-lead
+      path: entities/v1-alpha/music-publishing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-lead
+      path: entities/v1-alpha/post-production-sound-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-lead
+      path: entities/v1-alpha/production-finance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-lead
+      path: entities/v1-alpha/script-development-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-lead
+      path: entities/v1-alpha/stage-design-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-lead
+      path: entities/v1-alpha/streaming-content-acquisition-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-lead
+      path: entities/v1-alpha/stunt-coordination-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-lead
+      path: entities/v1-alpha/talent-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-lead
+      path: entities/v1-alpha/talent-recruitment-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-lead
+      path: entities/v1-alpha/television-production-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-lead
+      path: entities/v1-alpha/theatre-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-lead
+      path: entities/v1-alpha/theme-park-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-lead
+      path: entities/v1-alpha/touring-logistics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-lead
+      path: entities/v1-alpha/venue-programming-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-lead
+      path: entities/v1-alpha/visual-effects-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-lead
+      path: entities/v1-alpha/wardrobe-costuming-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-manager
+      path: entities/v1-alpha/animation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-manager
+      path: entities/v1-alpha/awards-campaigns-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-manager
+      path: entities/v1-alpha/casting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-manager
+      path: entities/v1-alpha/celebrity-brand-partnerships-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-manager
+      path: entities/v1-alpha/character-design-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-manager
+      path: entities/v1-alpha/digital-content-creation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-manager
+      path: entities/v1-alpha/fan-engagement-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-manager
+      path: entities/v1-alpha/festival-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-manager
+      path: entities/v1-alpha/film-production-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-manager
+      path: entities/v1-alpha/game-development-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-manager
+      path: entities/v1-alpha/immersive-experiences-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-manager
+      path: entities/v1-alpha/live-events-touring-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-manager
+      path: entities/v1-alpha/location-scouting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-manager
+      path: entities/v1-alpha/merchandising-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-manager
+      path: entities/v1-alpha/music-publishing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-manager
+      path: entities/v1-alpha/post-production-sound-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-manager
+      path: entities/v1-alpha/production-finance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-manager
+      path: entities/v1-alpha/script-development-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-manager
+      path: entities/v1-alpha/stage-design-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-manager
+      path: entities/v1-alpha/streaming-content-acquisition-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-manager
+      path: entities/v1-alpha/stunt-coordination-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-manager
+      path: entities/v1-alpha/talent-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-manager
+      path: entities/v1-alpha/talent-recruitment-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-manager
+      path: entities/v1-alpha/television-production-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-manager
+      path: entities/v1-alpha/theatre-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-manager
+      path: entities/v1-alpha/theme-park-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-manager
+      path: entities/v1-alpha/touring-logistics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-manager
+      path: entities/v1-alpha/venue-programming-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-manager
+      path: entities/v1-alpha/visual-effects-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-manager
+      path: entities/v1-alpha/wardrobe-costuming-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-operations-coordinator
+      path: entities/v1-alpha/animation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-operations-coordinator
+      path: entities/v1-alpha/awards-campaigns-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-operations-coordinator
+      path: entities/v1-alpha/casting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-operations-coordinator
+      path: entities/v1-alpha/celebrity-brand-partnerships-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-operations-coordinator
+      path: entities/v1-alpha/character-design-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-operations-coordinator
+      path: entities/v1-alpha/digital-content-creation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-operations-coordinator
+      path: entities/v1-alpha/fan-engagement-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-operations-coordinator
+      path: entities/v1-alpha/festival-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-operations-coordinator
+      path: entities/v1-alpha/film-production-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-operations-coordinator
+      path: entities/v1-alpha/game-development-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-operations-coordinator
+      path: entities/v1-alpha/immersive-experiences-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-operations-coordinator
+      path: entities/v1-alpha/live-events-touring-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-operations-coordinator
+      path: entities/v1-alpha/location-scouting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-operations-coordinator
+      path: entities/v1-alpha/merchandising-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-operations-coordinator
+      path: entities/v1-alpha/music-publishing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-operations-coordinator
+      path: entities/v1-alpha/post-production-sound-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-operations-coordinator
+      path: entities/v1-alpha/production-finance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-operations-coordinator
+      path: entities/v1-alpha/script-development-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-operations-coordinator
+      path: entities/v1-alpha/stage-design-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-operations-coordinator
+      path: entities/v1-alpha/streaming-content-acquisition-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-operations-coordinator
+      path: entities/v1-alpha/stunt-coordination-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-operations-coordinator
+      path: entities/v1-alpha/talent-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-operations-coordinator
+      path: entities/v1-alpha/talent-recruitment-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-operations-coordinator
+      path: entities/v1-alpha/television-production-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-operations-coordinator
+      path: entities/v1-alpha/theatre-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-operations-coordinator
+      path: entities/v1-alpha/theme-park-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-operations-coordinator
+      path: entities/v1-alpha/touring-logistics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-operations-coordinator
+      path: entities/v1-alpha/venue-programming-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-operations-coordinator
+      path: entities/v1-alpha/visual-effects-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-operations-coordinator
+      path: entities/v1-alpha/wardrobe-costuming-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-planner
+      path: entities/v1-alpha/animation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-planner
+      path: entities/v1-alpha/awards-campaigns-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-planner
+      path: entities/v1-alpha/casting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-planner
+      path: entities/v1-alpha/celebrity-brand-partnerships-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-planner
+      path: entities/v1-alpha/character-design-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-planner
+      path: entities/v1-alpha/digital-content-creation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-planner
+      path: entities/v1-alpha/fan-engagement-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-planner
+      path: entities/v1-alpha/festival-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-planner
+      path: entities/v1-alpha/film-production-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-planner
+      path: entities/v1-alpha/game-development-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-planner
+      path: entities/v1-alpha/immersive-experiences-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-planner
+      path: entities/v1-alpha/live-events-touring-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-planner
+      path: entities/v1-alpha/location-scouting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-planner
+      path: entities/v1-alpha/merchandising-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-planner
+      path: entities/v1-alpha/music-publishing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-planner
+      path: entities/v1-alpha/post-production-sound-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-planner
+      path: entities/v1-alpha/production-finance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-planner
+      path: entities/v1-alpha/script-development-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-planner
+      path: entities/v1-alpha/stage-design-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-planner
+      path: entities/v1-alpha/streaming-content-acquisition-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-planner
+      path: entities/v1-alpha/stunt-coordination-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-planner
+      path: entities/v1-alpha/talent-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-planner
+      path: entities/v1-alpha/talent-recruitment-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-planner
+      path: entities/v1-alpha/television-production-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-planner
+      path: entities/v1-alpha/theatre-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-planner
+      path: entities/v1-alpha/theme-park-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-planner
+      path: entities/v1-alpha/touring-logistics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-planner
+      path: entities/v1-alpha/venue-programming-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-planner
+      path: entities/v1-alpha/visual-effects-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-planner
+      path: entities/v1-alpha/wardrobe-costuming-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-product-owner
+      path: entities/v1-alpha/animation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-product-owner
+      path: entities/v1-alpha/awards-campaigns-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-product-owner
+      path: entities/v1-alpha/casting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-product-owner
+      path: entities/v1-alpha/celebrity-brand-partnerships-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-product-owner
+      path: entities/v1-alpha/character-design-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-product-owner
+      path: entities/v1-alpha/digital-content-creation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-product-owner
+      path: entities/v1-alpha/fan-engagement-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-product-owner
+      path: entities/v1-alpha/festival-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-product-owner
+      path: entities/v1-alpha/film-production-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-product-owner
+      path: entities/v1-alpha/game-development-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-product-owner
+      path: entities/v1-alpha/immersive-experiences-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-product-owner
+      path: entities/v1-alpha/live-events-touring-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-product-owner
+      path: entities/v1-alpha/location-scouting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-product-owner
+      path: entities/v1-alpha/merchandising-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-product-owner
+      path: entities/v1-alpha/music-publishing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-product-owner
+      path: entities/v1-alpha/post-production-sound-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-product-owner
+      path: entities/v1-alpha/production-finance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-product-owner
+      path: entities/v1-alpha/script-development-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-product-owner
+      path: entities/v1-alpha/stage-design-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-product-owner
+      path: entities/v1-alpha/streaming-content-acquisition-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-product-owner
+      path: entities/v1-alpha/stunt-coordination-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-product-owner
+      path: entities/v1-alpha/talent-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-product-owner
+      path: entities/v1-alpha/talent-recruitment-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-product-owner
+      path: entities/v1-alpha/television-production-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-product-owner
+      path: entities/v1-alpha/theatre-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-product-owner
+      path: entities/v1-alpha/theme-park-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-product-owner
+      path: entities/v1-alpha/touring-logistics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-product-owner
+      path: entities/v1-alpha/venue-programming-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-product-owner
+      path: entities/v1-alpha/visual-effects-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-product-owner
+      path: entities/v1-alpha/wardrobe-costuming-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-program-manager
+      path: entities/v1-alpha/animation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-program-manager
+      path: entities/v1-alpha/awards-campaigns-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-program-manager
+      path: entities/v1-alpha/casting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-program-manager
+      path: entities/v1-alpha/celebrity-brand-partnerships-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-program-manager
+      path: entities/v1-alpha/character-design-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-program-manager
+      path: entities/v1-alpha/digital-content-creation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-program-manager
+      path: entities/v1-alpha/fan-engagement-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-program-manager
+      path: entities/v1-alpha/festival-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-program-manager
+      path: entities/v1-alpha/film-production-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-program-manager
+      path: entities/v1-alpha/game-development-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-program-manager
+      path: entities/v1-alpha/immersive-experiences-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-program-manager
+      path: entities/v1-alpha/live-events-touring-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-program-manager
+      path: entities/v1-alpha/location-scouting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-program-manager
+      path: entities/v1-alpha/merchandising-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-program-manager
+      path: entities/v1-alpha/music-publishing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-program-manager
+      path: entities/v1-alpha/post-production-sound-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-program-manager
+      path: entities/v1-alpha/production-finance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-program-manager
+      path: entities/v1-alpha/script-development-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-program-manager
+      path: entities/v1-alpha/stage-design-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-program-manager
+      path: entities/v1-alpha/streaming-content-acquisition-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

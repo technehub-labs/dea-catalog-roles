@@ -1,0 +1,50 @@
+id: roles:role-visual-effects-consultant
+type: Role
+name: Visual Effects Consultant
+description: Supports Entertainment teams adopting visual effects practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- visual
+- entertainment
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Visual Effects
+  org_unit: Visual Effects Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-visual-effects-consultant-requires-visual-effects
+  source_id: roles:role-visual-effects-consultant
+  target_id: skills:skill-visual-effects
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-visual-effects-consultant-requires-visual-effects-secondary
+  source_id: roles:role-visual-effects-consultant
+  target_id: skills:skill-visual-effects-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

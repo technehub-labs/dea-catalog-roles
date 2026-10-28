@@ -1,0 +1,50 @@
+id: roles:role-character-design-operations-coordinator
+type: Role
+name: Character Design Operations Coordinator
+description: Coordinates day-to-day character design activities, schedules, and records, keeping Entertainment
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- character
+- entertainment
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Character Design
+  org_unit: Character Design Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-character-design-operations-coordinator-requires-character-design
+  source_id: roles:role-character-design-operations-coordinator
+  target_id: skills:skill-character-design
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-character-design-operations-coordinator-requires-character-design-secondary
+  source_id: roles:role-character-design-operations-coordinator
+  target_id: skills:skill-character-design-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

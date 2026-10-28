@@ -1,0 +1,50 @@
+id: roles:role-stunt-coordination-lead
+type: Role
+name: Stunt Coordination Lead
+description: Sets direction for stunt coordination teams, owns their outcomes, and represents stunt coordination
+  interests in Entertainment governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- stunt
+- entertainment
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Stunt Coordination
+  org_unit: Stunt Coordination Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-stunt-coordination-lead-requires-stunt-coordination
+  source_id: roles:role-stunt-coordination-lead
+  target_id: skills:skill-stunt-coordination
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-stunt-coordination-lead-requires-stunt-coordination-secondary
+  source_id: roles:role-stunt-coordination-lead
+  target_id: skills:skill-stunt-coordination-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

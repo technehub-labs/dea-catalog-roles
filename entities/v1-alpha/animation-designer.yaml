@@ -1,0 +1,50 @@
+id: roles:role-animation-designer
+type: Role
+name: Animation Designer
+description: Designs animation solutions and interfaces, translating Entertainment requirements into usable,
+  consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- animation
+- entertainment
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Animation
+  org_unit: Animation Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-animation-designer-requires-animation
+  source_id: roles:role-animation-designer
+  target_id: skills:skill-animation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-animation-designer-requires-animation-secondary
+  source_id: roles:role-animation-designer
+  target_id: skills:skill-animation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

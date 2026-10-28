@@ -1,0 +1,50 @@
+id: roles:role-character-design-coach
+type: Role
+name: Character Design Coach
+description: Coaches Entertainment teams and individuals on character design working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- character
+- entertainment
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Character Design
+  org_unit: Character Design Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-character-design-coach-requires-character-design
+  source_id: roles:role-character-design-coach
+  target_id: skills:skill-character-design
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-character-design-coach-requires-character-design-secondary
+  source_id: roles:role-character-design-coach
+  target_id: skills:skill-character-design-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

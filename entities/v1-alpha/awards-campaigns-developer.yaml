@@ -1,0 +1,50 @@
+id: roles:role-awards-campaigns-developer
+type: Role
+name: Awards Campaigns Developer
+description: Implements and unit-tests awards campaigns capabilities, contributing code and configuration
+  within the Entertainment delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- awards
+- entertainment
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Awards Campaigns
+  org_unit: Awards Campaigns Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-awards-campaigns-developer-requires-awards-campaigns
+  source_id: roles:role-awards-campaigns-developer
+  target_id: skills:skill-awards-campaigns
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-awards-campaigns-developer-requires-awards-campaigns-secondary
+  source_id: roles:role-awards-campaigns-developer
+  target_id: skills:skill-awards-campaigns-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

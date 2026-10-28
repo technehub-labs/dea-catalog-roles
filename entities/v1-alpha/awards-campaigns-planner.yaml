@@ -1,0 +1,50 @@
+id: roles:role-awards-campaigns-planner
+type: Role
+name: Awards Campaigns Planner
+description: Plans capacity, schedule, and sequencing for awards campaigns activities, balancing demand,
+  budget, and dependencies in the Entertainment portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- awards
+- entertainment
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Awards Campaigns
+  org_unit: Awards Campaigns Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-awards-campaigns-planner-requires-awards-campaigns
+  source_id: roles:role-awards-campaigns-planner
+  target_id: skills:skill-awards-campaigns
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-awards-campaigns-planner-requires-awards-campaigns-secondary
+  source_id: roles:role-awards-campaigns-planner
+  target_id: skills:skill-awards-campaigns-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

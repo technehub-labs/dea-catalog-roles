@@ -1,0 +1,50 @@
+id: roles:role-character-design-designer
+type: Role
+name: Character Design Designer
+description: Designs character design solutions and interfaces, translating Entertainment requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- character
+- entertainment
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Character Design
+  org_unit: Character Design Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-character-design-designer-requires-character-design
+  source_id: roles:role-character-design-designer
+  target_id: skills:skill-character-design
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-character-design-designer-requires-character-design-secondary
+  source_id: roles:role-character-design-designer
+  target_id: skills:skill-character-design-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

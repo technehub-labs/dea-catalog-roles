@@ -1,0 +1,50 @@
+id: roles:role-stunt-coordination-designer
+type: Role
+name: Stunt Coordination Designer
+description: Designs stunt coordination solutions and interfaces, translating Entertainment requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- stunt
+- entertainment
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Stunt Coordination
+  org_unit: Stunt Coordination Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-stunt-coordination-designer-requires-stunt-coordination
+  source_id: roles:role-stunt-coordination-designer
+  target_id: skills:skill-stunt-coordination
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-stunt-coordination-designer-requires-stunt-coordination-secondary
+  source_id: roles:role-stunt-coordination-designer
+  target_id: skills:skill-stunt-coordination-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-talent-recruitment-developer
+type: Role
+name: Talent Recruitment Developer
+description: Implements and unit-tests talent recruitment capabilities, contributing code and configuration
+  within the Entertainment delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- talent
+- entertainment
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Talent Recruitment
+  org_unit: Talent Recruitment Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-talent-recruitment-developer-requires-talent-recruitment
+  source_id: roles:role-talent-recruitment-developer
+  target_id: skills:skill-talent-recruitment
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-talent-recruitment-developer-requires-talent-recruitment-secondary
+  source_id: roles:role-talent-recruitment-developer
+  target_id: skills:skill-talent-recruitment-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

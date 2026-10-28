@@ -1,0 +1,50 @@
+id: roles:role-television-production-operations-coordinator
+type: Role
+name: Television Production Operations Coordinator
+description: Coordinates day-to-day television production activities, schedules, and records, keeping
+  Entertainment operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- television
+- entertainment
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Television Production
+  org_unit: Television Production Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-television-production-operations-coordin-requires-television-production
+  source_id: roles:role-television-production-operations-coordinator
+  target_id: skills:skill-television-production
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-television-production-operations-coordin-requires-television-production-secondary
+  source_id: roles:role-television-production-operations-coordinator
+  target_id: skills:skill-television-production-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

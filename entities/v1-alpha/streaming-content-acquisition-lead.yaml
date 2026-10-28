@@ -1,0 +1,50 @@
+id: roles:role-streaming-content-acquisition-lead
+type: Role
+name: Streaming Content Acquisition Lead
+description: Sets direction for streaming content acquisition teams, owns their outcomes, and represents
+  streaming content acquisition interests in Entertainment governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- streaming
+- entertainment
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Streaming Content Acquisition
+  org_unit: Streaming Content Acquisition Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-streaming-content-acquisition-lead-requires-streaming-content-acquisition
+  source_id: roles:role-streaming-content-acquisition-lead
+  target_id: skills:skill-streaming-content-acquisition
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-streaming-content-acquisition-lead-requires-streaming-content-acquisition-secondary
+  source_id: roles:role-streaming-content-acquisition-lead
+  target_id: skills:skill-streaming-content-acquisition-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

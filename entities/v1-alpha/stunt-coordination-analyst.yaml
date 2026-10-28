@@ -1,0 +1,50 @@
+id: roles:role-stunt-coordination-analyst
+type: Role
+name: Stunt Coordination Analyst
+description: Analyses stunt coordination data and processes, producing insight and recommendations that
+  steer Entertainment planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- stunt
+- entertainment
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Stunt Coordination
+  org_unit: Stunt Coordination Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-stunt-coordination-analyst-requires-stunt-coordination
+  source_id: roles:role-stunt-coordination-analyst
+  target_id: skills:skill-stunt-coordination
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-stunt-coordination-analyst-requires-stunt-coordination-secondary
+  source_id: roles:role-stunt-coordination-analyst
+  target_id: skills:skill-stunt-coordination-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

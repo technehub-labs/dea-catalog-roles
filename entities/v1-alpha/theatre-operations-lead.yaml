@@ -1,0 +1,50 @@
+id: roles:role-theatre-operations-lead
+type: Role
+name: Theatre Operations Lead
+description: Sets direction for theatre operations teams, owns their outcomes, and represents theatre
+  operations interests in Entertainment governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- theatre
+- entertainment
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Theatre Operations
+  org_unit: Theatre Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-theatre-operations-lead-requires-theatre-operations
+  source_id: roles:role-theatre-operations-lead
+  target_id: skills:skill-theatre-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-theatre-operations-lead-requires-theatre-operations-secondary
+  source_id: roles:role-theatre-operations-lead
+  target_id: skills:skill-theatre-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
