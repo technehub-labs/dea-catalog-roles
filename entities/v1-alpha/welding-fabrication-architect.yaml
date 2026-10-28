@@ -1,0 +1,50 @@
+id: roles:role-welding-fabrication-architect
+type: Role
+name: Welding & Fabrication Architect
+description: 'Owns the target architecture for welding & fabrication: design standards, technology selection,
+  and the evolution roadmap that keeps welding & fabrication fit for the Manufacturing operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- welding
+- manufacturing
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Welding & Fabrication
+  org_unit: Welding & Fabrication Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-welding-fabrication-architect-requires-welding-fabrication
+  source_id: roles:role-welding-fabrication-architect
+  target_id: skills:skill-welding-fabrication
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-welding-fabrication-architect-requires-welding-fabrication-secondary
+  source_id: roles:role-welding-fabrication-architect
+  target_id: skills:skill-welding-fabrication-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-manufacturing-data-systems-analyst
+type: Role
+name: Manufacturing Data Systems Analyst
+description: Analyses manufacturing data systems data and processes, producing insight and recommendations
+  that steer Manufacturing planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- manufacturing
+- manufacturing
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Manufacturing Data Systems
+  org_unit: Manufacturing Data Systems Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-manufacturing-data-systems-analyst-requires-manufacturing-data-systems
+  source_id: roles:role-manufacturing-data-systems-analyst
+  target_id: skills:skill-manufacturing-data-systems
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-manufacturing-data-systems-analyst-requires-manufacturing-data-systems-secondary
+  source_id: roles:role-manufacturing-data-systems-analyst
+  target_id: skills:skill-manufacturing-data-systems-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

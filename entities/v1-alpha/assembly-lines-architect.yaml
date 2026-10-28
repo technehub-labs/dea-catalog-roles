@@ -1,0 +1,50 @@
+id: roles:role-assembly-lines-architect
+type: Role
+name: Assembly Lines Architect
+description: 'Owns the target architecture for assembly lines: design standards, technology selection,
+  and the evolution roadmap that keeps assembly lines fit for the Manufacturing operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- assembly
+- manufacturing
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Assembly Lines
+  org_unit: Assembly Lines Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-assembly-lines-architect-requires-assembly-lines
+  source_id: roles:role-assembly-lines-architect
+  target_id: skills:skill-assembly-lines
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-assembly-lines-architect-requires-assembly-lines-secondary
+  source_id: roles:role-assembly-lines-architect
+  target_id: skills:skill-assembly-lines-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

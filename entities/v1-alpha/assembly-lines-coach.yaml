@@ -1,0 +1,50 @@
+id: roles:role-assembly-lines-coach
+type: Role
+name: Assembly Lines Coach
+description: Coaches Manufacturing teams and individuals on assembly lines working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- assembly
+- manufacturing
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Assembly Lines
+  org_unit: Assembly Lines Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-assembly-lines-coach-requires-assembly-lines
+  source_id: roles:role-assembly-lines-coach
+  target_id: skills:skill-assembly-lines
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-assembly-lines-coach-requires-assembly-lines-secondary
+  source_id: roles:role-assembly-lines-coach
+  target_id: skills:skill-assembly-lines-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 3450
+    entities: 3889
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -17154,6 +17154,2201 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-rail-operations-program-manager
       path: entities/v1-alpha/rail-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-administrator
+      path: entities/v1-alpha/additive-manufacturing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-administrator
+      path: entities/v1-alpha/assembly-lines-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-administrator
+      path: entities/v1-alpha/cnc-machining-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-administrator
+      path: entities/v1-alpha/capacity-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-administrator
+      path: entities/v1-alpha/contract-manufacturing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-administrator
+      path: entities/v1-alpha/ehs-sustainability-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-administrator
+      path: entities/v1-alpha/energy-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-administrator
+      path: entities/v1-alpha/factory-automation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-administrator
+      path: entities/v1-alpha/industrial-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-administrator
+      path: entities/v1-alpha/injection-moulding-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-administrator
+      path: entities/v1-alpha/lean-manufacturing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-administrator
+      path: entities/v1-alpha/manufacturing-data-systems-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-administrator
+      path: entities/v1-alpha/new-product-introduction-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-administrator
+      path: entities/v1-alpha/packaging-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-administrator
+      path: entities/v1-alpha/paint-surface-treatment-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-administrator
+      path: entities/v1-alpha/plant-maintenance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-administrator
+      path: entities/v1-alpha/plant-utilities-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-administrator
+      path: entities/v1-alpha/procurement-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-administrator
+      path: entities/v1-alpha/product-industrialization-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-administrator
+      path: entities/v1-alpha/product-traceability-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-administrator
+      path: entities/v1-alpha/production-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-administrator
+      path: entities/v1-alpha/production-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-administrator
+      path: entities/v1-alpha/quality-control-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-administrator
+      path: entities/v1-alpha/robotics-integration-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-administrator
+      path: entities/v1-alpha/scrap-rework-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-administrator
+      path: entities/v1-alpha/supplier-quality-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-administrator
+      path: entities/v1-alpha/supply-chain-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-administrator
+      path: entities/v1-alpha/tooling-fixtures-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-administrator
+      path: entities/v1-alpha/welding-fabrication-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-administrator
+      path: entities/v1-alpha/workforce-scheduling-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-analyst
+      path: entities/v1-alpha/additive-manufacturing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-analyst
+      path: entities/v1-alpha/assembly-lines-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-analyst
+      path: entities/v1-alpha/cnc-machining-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-analyst
+      path: entities/v1-alpha/capacity-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-analyst
+      path: entities/v1-alpha/contract-manufacturing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-analyst
+      path: entities/v1-alpha/ehs-sustainability-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-analyst
+      path: entities/v1-alpha/energy-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-analyst
+      path: entities/v1-alpha/factory-automation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-analyst
+      path: entities/v1-alpha/industrial-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-analyst
+      path: entities/v1-alpha/injection-moulding-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-analyst
+      path: entities/v1-alpha/lean-manufacturing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-analyst
+      path: entities/v1-alpha/manufacturing-data-systems-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-analyst
+      path: entities/v1-alpha/new-product-introduction-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-analyst
+      path: entities/v1-alpha/packaging-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-analyst
+      path: entities/v1-alpha/paint-surface-treatment-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-analyst
+      path: entities/v1-alpha/plant-maintenance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-analyst
+      path: entities/v1-alpha/plant-utilities-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-analyst
+      path: entities/v1-alpha/procurement-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-analyst
+      path: entities/v1-alpha/product-industrialization-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-analyst
+      path: entities/v1-alpha/product-traceability-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-analyst
+      path: entities/v1-alpha/production-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-analyst
+      path: entities/v1-alpha/production-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-analyst
+      path: entities/v1-alpha/quality-control-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-analyst
+      path: entities/v1-alpha/robotics-integration-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-analyst
+      path: entities/v1-alpha/scrap-rework-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-analyst
+      path: entities/v1-alpha/supplier-quality-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-analyst
+      path: entities/v1-alpha/supply-chain-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-analyst
+      path: entities/v1-alpha/tooling-fixtures-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-analyst
+      path: entities/v1-alpha/welding-fabrication-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-analyst
+      path: entities/v1-alpha/workforce-scheduling-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-architect
+      path: entities/v1-alpha/additive-manufacturing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-architect
+      path: entities/v1-alpha/assembly-lines-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-architect
+      path: entities/v1-alpha/cnc-machining-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-architect
+      path: entities/v1-alpha/capacity-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-architect
+      path: entities/v1-alpha/contract-manufacturing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-architect
+      path: entities/v1-alpha/ehs-sustainability-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-architect
+      path: entities/v1-alpha/energy-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-architect
+      path: entities/v1-alpha/factory-automation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-architect
+      path: entities/v1-alpha/industrial-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-architect
+      path: entities/v1-alpha/injection-moulding-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-architect
+      path: entities/v1-alpha/lean-manufacturing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-architect
+      path: entities/v1-alpha/manufacturing-data-systems-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-architect
+      path: entities/v1-alpha/new-product-introduction-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-architect
+      path: entities/v1-alpha/packaging-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-architect
+      path: entities/v1-alpha/paint-surface-treatment-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-architect
+      path: entities/v1-alpha/plant-maintenance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-architect
+      path: entities/v1-alpha/plant-utilities-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-architect
+      path: entities/v1-alpha/procurement-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-architect
+      path: entities/v1-alpha/product-industrialization-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-architect
+      path: entities/v1-alpha/product-traceability-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-architect
+      path: entities/v1-alpha/production-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-architect
+      path: entities/v1-alpha/production-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-architect
+      path: entities/v1-alpha/quality-control-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-architect
+      path: entities/v1-alpha/robotics-integration-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-architect
+      path: entities/v1-alpha/scrap-rework-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-architect
+      path: entities/v1-alpha/supplier-quality-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-architect
+      path: entities/v1-alpha/supply-chain-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-architect
+      path: entities/v1-alpha/tooling-fixtures-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-architect
+      path: entities/v1-alpha/welding-fabrication-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-architect
+      path: entities/v1-alpha/workforce-scheduling-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-coach
+      path: entities/v1-alpha/additive-manufacturing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-coach
+      path: entities/v1-alpha/assembly-lines-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-coach
+      path: entities/v1-alpha/cnc-machining-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-coach
+      path: entities/v1-alpha/capacity-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-coach
+      path: entities/v1-alpha/contract-manufacturing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-coach
+      path: entities/v1-alpha/ehs-sustainability-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-coach
+      path: entities/v1-alpha/energy-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-coach
+      path: entities/v1-alpha/factory-automation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-coach
+      path: entities/v1-alpha/industrial-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-coach
+      path: entities/v1-alpha/injection-moulding-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-coach
+      path: entities/v1-alpha/lean-manufacturing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-coach
+      path: entities/v1-alpha/manufacturing-data-systems-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-coach
+      path: entities/v1-alpha/new-product-introduction-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-coach
+      path: entities/v1-alpha/packaging-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-coach
+      path: entities/v1-alpha/paint-surface-treatment-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-coach
+      path: entities/v1-alpha/plant-maintenance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-coach
+      path: entities/v1-alpha/plant-utilities-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-coach
+      path: entities/v1-alpha/procurement-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-coach
+      path: entities/v1-alpha/product-industrialization-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-coach
+      path: entities/v1-alpha/product-traceability-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-coach
+      path: entities/v1-alpha/production-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-coach
+      path: entities/v1-alpha/production-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-coach
+      path: entities/v1-alpha/quality-control-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-coach
+      path: entities/v1-alpha/robotics-integration-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-coach
+      path: entities/v1-alpha/scrap-rework-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-coach
+      path: entities/v1-alpha/supplier-quality-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-coach
+      path: entities/v1-alpha/supply-chain-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-coach
+      path: entities/v1-alpha/tooling-fixtures-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-coach
+      path: entities/v1-alpha/welding-fabrication-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-coach
+      path: entities/v1-alpha/workforce-scheduling-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-consultant
+      path: entities/v1-alpha/additive-manufacturing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-consultant
+      path: entities/v1-alpha/assembly-lines-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-consultant
+      path: entities/v1-alpha/cnc-machining-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-consultant
+      path: entities/v1-alpha/capacity-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-consultant
+      path: entities/v1-alpha/contract-manufacturing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-consultant
+      path: entities/v1-alpha/ehs-sustainability-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-consultant
+      path: entities/v1-alpha/energy-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-consultant
+      path: entities/v1-alpha/factory-automation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-consultant
+      path: entities/v1-alpha/industrial-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-consultant
+      path: entities/v1-alpha/injection-moulding-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-consultant
+      path: entities/v1-alpha/lean-manufacturing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-consultant
+      path: entities/v1-alpha/manufacturing-data-systems-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-consultant
+      path: entities/v1-alpha/new-product-introduction-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-consultant
+      path: entities/v1-alpha/packaging-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-consultant
+      path: entities/v1-alpha/paint-surface-treatment-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-consultant
+      path: entities/v1-alpha/plant-maintenance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-consultant
+      path: entities/v1-alpha/plant-utilities-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-consultant
+      path: entities/v1-alpha/procurement-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-consultant
+      path: entities/v1-alpha/product-industrialization-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-consultant
+      path: entities/v1-alpha/product-traceability-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-consultant
+      path: entities/v1-alpha/production-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-consultant
+      path: entities/v1-alpha/production-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-consultant
+      path: entities/v1-alpha/quality-control-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-consultant
+      path: entities/v1-alpha/robotics-integration-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-consultant
+      path: entities/v1-alpha/scrap-rework-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-consultant
+      path: entities/v1-alpha/supplier-quality-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-consultant
+      path: entities/v1-alpha/supply-chain-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-consultant
+      path: entities/v1-alpha/tooling-fixtures-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-consultant
+      path: entities/v1-alpha/welding-fabrication-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-consultant
+      path: entities/v1-alpha/workforce-scheduling-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-designer
+      path: entities/v1-alpha/additive-manufacturing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-designer
+      path: entities/v1-alpha/assembly-lines-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-designer
+      path: entities/v1-alpha/cnc-machining-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-designer
+      path: entities/v1-alpha/capacity-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-designer
+      path: entities/v1-alpha/contract-manufacturing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-designer
+      path: entities/v1-alpha/ehs-sustainability-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-designer
+      path: entities/v1-alpha/energy-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-designer
+      path: entities/v1-alpha/factory-automation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-designer
+      path: entities/v1-alpha/industrial-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-designer
+      path: entities/v1-alpha/injection-moulding-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-designer
+      path: entities/v1-alpha/lean-manufacturing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-designer
+      path: entities/v1-alpha/manufacturing-data-systems-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-designer
+      path: entities/v1-alpha/new-product-introduction-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-designer
+      path: entities/v1-alpha/packaging-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-designer
+      path: entities/v1-alpha/paint-surface-treatment-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-designer
+      path: entities/v1-alpha/plant-maintenance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-designer
+      path: entities/v1-alpha/plant-utilities-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-designer
+      path: entities/v1-alpha/procurement-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-designer
+      path: entities/v1-alpha/product-industrialization-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-designer
+      path: entities/v1-alpha/product-traceability-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-designer
+      path: entities/v1-alpha/production-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-designer
+      path: entities/v1-alpha/production-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-designer
+      path: entities/v1-alpha/quality-control-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-designer
+      path: entities/v1-alpha/robotics-integration-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-designer
+      path: entities/v1-alpha/scrap-rework-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-designer
+      path: entities/v1-alpha/supplier-quality-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-designer
+      path: entities/v1-alpha/supply-chain-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-designer
+      path: entities/v1-alpha/tooling-fixtures-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-designer
+      path: entities/v1-alpha/welding-fabrication-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-designer
+      path: entities/v1-alpha/workforce-scheduling-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-developer
+      path: entities/v1-alpha/additive-manufacturing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-developer
+      path: entities/v1-alpha/assembly-lines-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-developer
+      path: entities/v1-alpha/cnc-machining-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-developer
+      path: entities/v1-alpha/capacity-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-developer
+      path: entities/v1-alpha/contract-manufacturing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-developer
+      path: entities/v1-alpha/ehs-sustainability-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-developer
+      path: entities/v1-alpha/energy-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-developer
+      path: entities/v1-alpha/factory-automation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-developer
+      path: entities/v1-alpha/industrial-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-developer
+      path: entities/v1-alpha/injection-moulding-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-developer
+      path: entities/v1-alpha/lean-manufacturing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-developer
+      path: entities/v1-alpha/manufacturing-data-systems-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-developer
+      path: entities/v1-alpha/new-product-introduction-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-developer
+      path: entities/v1-alpha/packaging-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-developer
+      path: entities/v1-alpha/paint-surface-treatment-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-developer
+      path: entities/v1-alpha/plant-maintenance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-developer
+      path: entities/v1-alpha/plant-utilities-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-developer
+      path: entities/v1-alpha/procurement-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-developer
+      path: entities/v1-alpha/product-industrialization-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-developer
+      path: entities/v1-alpha/product-traceability-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-developer
+      path: entities/v1-alpha/production-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-developer
+      path: entities/v1-alpha/production-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-developer
+      path: entities/v1-alpha/quality-control-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-developer
+      path: entities/v1-alpha/robotics-integration-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-developer
+      path: entities/v1-alpha/scrap-rework-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-developer
+      path: entities/v1-alpha/supplier-quality-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-developer
+      path: entities/v1-alpha/supply-chain-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-developer
+      path: entities/v1-alpha/tooling-fixtures-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-developer
+      path: entities/v1-alpha/welding-fabrication-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-developer
+      path: entities/v1-alpha/workforce-scheduling-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-engineer
+      path: entities/v1-alpha/additive-manufacturing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-engineer
+      path: entities/v1-alpha/assembly-lines-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-engineer
+      path: entities/v1-alpha/cnc-machining-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-engineer
+      path: entities/v1-alpha/capacity-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-engineer
+      path: entities/v1-alpha/contract-manufacturing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-engineer
+      path: entities/v1-alpha/ehs-sustainability-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-engineer
+      path: entities/v1-alpha/energy-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-engineer
+      path: entities/v1-alpha/factory-automation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-engineer
+      path: entities/v1-alpha/industrial-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-engineer
+      path: entities/v1-alpha/injection-moulding-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-engineer
+      path: entities/v1-alpha/lean-manufacturing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-engineer
+      path: entities/v1-alpha/manufacturing-data-systems-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-engineer
+      path: entities/v1-alpha/new-product-introduction-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-engineer
+      path: entities/v1-alpha/packaging-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-engineer
+      path: entities/v1-alpha/paint-surface-treatment-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-engineer
+      path: entities/v1-alpha/plant-maintenance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-engineer
+      path: entities/v1-alpha/plant-utilities-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-engineer
+      path: entities/v1-alpha/procurement-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-engineer
+      path: entities/v1-alpha/product-industrialization-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-engineer
+      path: entities/v1-alpha/product-traceability-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-engineer
+      path: entities/v1-alpha/production-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-engineer
+      path: entities/v1-alpha/production-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-engineer
+      path: entities/v1-alpha/quality-control-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-engineer
+      path: entities/v1-alpha/robotics-integration-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-engineer
+      path: entities/v1-alpha/scrap-rework-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-engineer
+      path: entities/v1-alpha/supplier-quality-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-engineer
+      path: entities/v1-alpha/supply-chain-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-engineer
+      path: entities/v1-alpha/tooling-fixtures-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-engineer
+      path: entities/v1-alpha/welding-fabrication-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-engineer
+      path: entities/v1-alpha/workforce-scheduling-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-additive-manufacturing
+      path: entities/v1-alpha/head-of-additive-manufacturing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-assembly-lines
+      path: entities/v1-alpha/head-of-assembly-lines.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-cnc-machining
+      path: entities/v1-alpha/head-of-cnc-machining.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-capacity-management
+      path: entities/v1-alpha/head-of-capacity-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-contract-manufacturing
+      path: entities/v1-alpha/head-of-contract-manufacturing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-ehs-sustainability
+      path: entities/v1-alpha/head-of-ehs-sustainability.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-energy-management
+      path: entities/v1-alpha/head-of-energy-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-factory-automation
+      path: entities/v1-alpha/head-of-factory-automation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-industrial-engineering
+      path: entities/v1-alpha/head-of-industrial-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-injection-moulding
+      path: entities/v1-alpha/head-of-injection-moulding.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-lean-manufacturing
+      path: entities/v1-alpha/head-of-lean-manufacturing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-manufacturing-data-systems
+      path: entities/v1-alpha/head-of-manufacturing-data-systems.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-new-product-introduction
+      path: entities/v1-alpha/head-of-new-product-introduction.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-packaging-operations
+      path: entities/v1-alpha/head-of-packaging-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-paint-surface-treatment
+      path: entities/v1-alpha/head-of-paint-surface-treatment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-plant-maintenance
+      path: entities/v1-alpha/head-of-plant-maintenance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-plant-utilities
+      path: entities/v1-alpha/head-of-plant-utilities.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-procurement
+      path: entities/v1-alpha/head-of-procurement.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-product-industrialization
+      path: entities/v1-alpha/head-of-product-industrialization.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-product-traceability
+      path: entities/v1-alpha/head-of-product-traceability.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-production-operations
+      path: entities/v1-alpha/head-of-production-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-production-planning
+      path: entities/v1-alpha/head-of-production-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-quality-control
+      path: entities/v1-alpha/head-of-quality-control.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-robotics-integration
+      path: entities/v1-alpha/head-of-robotics-integration.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-scrap-rework
+      path: entities/v1-alpha/head-of-scrap-rework.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-supplier-quality
+      path: entities/v1-alpha/head-of-supplier-quality.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-supply-chain-planning
+      path: entities/v1-alpha/head-of-supply-chain-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-tooling-fixtures
+      path: entities/v1-alpha/head-of-tooling-fixtures.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-welding-fabrication
+      path: entities/v1-alpha/head-of-welding-fabrication.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-workforce-scheduling
+      path: entities/v1-alpha/head-of-workforce-scheduling.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-lead
+      path: entities/v1-alpha/additive-manufacturing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-lead
+      path: entities/v1-alpha/assembly-lines-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-lead
+      path: entities/v1-alpha/cnc-machining-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-lead
+      path: entities/v1-alpha/capacity-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-lead
+      path: entities/v1-alpha/contract-manufacturing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-lead
+      path: entities/v1-alpha/ehs-sustainability-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-lead
+      path: entities/v1-alpha/energy-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-lead
+      path: entities/v1-alpha/factory-automation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-lead
+      path: entities/v1-alpha/industrial-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-lead
+      path: entities/v1-alpha/injection-moulding-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-lead
+      path: entities/v1-alpha/lean-manufacturing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-lead
+      path: entities/v1-alpha/manufacturing-data-systems-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-lead
+      path: entities/v1-alpha/new-product-introduction-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-lead
+      path: entities/v1-alpha/packaging-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-lead
+      path: entities/v1-alpha/paint-surface-treatment-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-lead
+      path: entities/v1-alpha/plant-maintenance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-lead
+      path: entities/v1-alpha/plant-utilities-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-lead
+      path: entities/v1-alpha/procurement-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-lead
+      path: entities/v1-alpha/product-industrialization-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-lead
+      path: entities/v1-alpha/product-traceability-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-lead
+      path: entities/v1-alpha/production-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-lead
+      path: entities/v1-alpha/production-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-lead
+      path: entities/v1-alpha/quality-control-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-lead
+      path: entities/v1-alpha/robotics-integration-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-lead
+      path: entities/v1-alpha/scrap-rework-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-lead
+      path: entities/v1-alpha/supplier-quality-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-lead
+      path: entities/v1-alpha/supply-chain-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-lead
+      path: entities/v1-alpha/tooling-fixtures-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-lead
+      path: entities/v1-alpha/welding-fabrication-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-lead
+      path: entities/v1-alpha/workforce-scheduling-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-manager
+      path: entities/v1-alpha/additive-manufacturing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-manager
+      path: entities/v1-alpha/assembly-lines-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-manager
+      path: entities/v1-alpha/cnc-machining-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-manager
+      path: entities/v1-alpha/capacity-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-manager
+      path: entities/v1-alpha/contract-manufacturing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-manager
+      path: entities/v1-alpha/ehs-sustainability-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-manager
+      path: entities/v1-alpha/energy-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-manager
+      path: entities/v1-alpha/factory-automation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-manager
+      path: entities/v1-alpha/industrial-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-manager
+      path: entities/v1-alpha/injection-moulding-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-manager
+      path: entities/v1-alpha/lean-manufacturing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-manager
+      path: entities/v1-alpha/manufacturing-data-systems-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-manager
+      path: entities/v1-alpha/new-product-introduction-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-manager
+      path: entities/v1-alpha/packaging-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-manager
+      path: entities/v1-alpha/paint-surface-treatment-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-manager
+      path: entities/v1-alpha/plant-maintenance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-manager
+      path: entities/v1-alpha/plant-utilities-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-manager
+      path: entities/v1-alpha/product-industrialization-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-manager
+      path: entities/v1-alpha/product-traceability-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-manager
+      path: entities/v1-alpha/production-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-manager
+      path: entities/v1-alpha/production-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-manager
+      path: entities/v1-alpha/quality-control-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-manager
+      path: entities/v1-alpha/robotics-integration-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-manager
+      path: entities/v1-alpha/scrap-rework-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-manager
+      path: entities/v1-alpha/supplier-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-manager
+      path: entities/v1-alpha/supply-chain-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-manager
+      path: entities/v1-alpha/tooling-fixtures-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-manager
+      path: entities/v1-alpha/welding-fabrication-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-manager
+      path: entities/v1-alpha/workforce-scheduling-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-operations-coordinator
+      path: entities/v1-alpha/additive-manufacturing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-operations-coordinator
+      path: entities/v1-alpha/assembly-lines-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-operations-coordinator
+      path: entities/v1-alpha/cnc-machining-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-operations-coordinator
+      path: entities/v1-alpha/capacity-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-operations-coordinator
+      path: entities/v1-alpha/contract-manufacturing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-operations-coordinator
+      path: entities/v1-alpha/ehs-sustainability-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-operations-coordinator
+      path: entities/v1-alpha/energy-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-operations-coordinator
+      path: entities/v1-alpha/factory-automation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-operations-coordinator
+      path: entities/v1-alpha/industrial-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-operations-coordinator
+      path: entities/v1-alpha/injection-moulding-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-operations-coordinator
+      path: entities/v1-alpha/lean-manufacturing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-operations-coordinator
+      path: entities/v1-alpha/manufacturing-data-systems-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-operations-coordinator
+      path: entities/v1-alpha/new-product-introduction-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-operations-coordinator
+      path: entities/v1-alpha/packaging-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-operations-coordinator
+      path: entities/v1-alpha/paint-surface-treatment-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-operations-coordinator
+      path: entities/v1-alpha/plant-maintenance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-operations-coordinator
+      path: entities/v1-alpha/plant-utilities-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-operations-coordinator
+      path: entities/v1-alpha/procurement-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-operations-coordinator
+      path: entities/v1-alpha/product-industrialization-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-operations-coordinator
+      path: entities/v1-alpha/product-traceability-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-operations-coordinator
+      path: entities/v1-alpha/production-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-operations-coordinator
+      path: entities/v1-alpha/production-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-operations-coordinator
+      path: entities/v1-alpha/quality-control-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-operations-coordinator
+      path: entities/v1-alpha/robotics-integration-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-operations-coordinator
+      path: entities/v1-alpha/scrap-rework-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-operations-coordinator
+      path: entities/v1-alpha/supplier-quality-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-operations-coordinator
+      path: entities/v1-alpha/supply-chain-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-operations-coordinator
+      path: entities/v1-alpha/tooling-fixtures-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-operations-coordinator
+      path: entities/v1-alpha/welding-fabrication-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-operations-coordinator
+      path: entities/v1-alpha/workforce-scheduling-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-planner
+      path: entities/v1-alpha/additive-manufacturing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-planner
+      path: entities/v1-alpha/assembly-lines-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-planner
+      path: entities/v1-alpha/cnc-machining-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-planner
+      path: entities/v1-alpha/capacity-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-planner
+      path: entities/v1-alpha/contract-manufacturing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-planner
+      path: entities/v1-alpha/ehs-sustainability-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-planner
+      path: entities/v1-alpha/energy-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-planner
+      path: entities/v1-alpha/factory-automation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-planner
+      path: entities/v1-alpha/industrial-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-planner
+      path: entities/v1-alpha/injection-moulding-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-planner
+      path: entities/v1-alpha/lean-manufacturing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-planner
+      path: entities/v1-alpha/manufacturing-data-systems-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-planner
+      path: entities/v1-alpha/new-product-introduction-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-planner
+      path: entities/v1-alpha/packaging-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-planner
+      path: entities/v1-alpha/paint-surface-treatment-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-planner
+      path: entities/v1-alpha/plant-maintenance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-planner
+      path: entities/v1-alpha/plant-utilities-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-planner
+      path: entities/v1-alpha/procurement-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-planner
+      path: entities/v1-alpha/product-industrialization-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-planner
+      path: entities/v1-alpha/product-traceability-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-planner
+      path: entities/v1-alpha/production-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-planner
+      path: entities/v1-alpha/production-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-planner
+      path: entities/v1-alpha/quality-control-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-planner
+      path: entities/v1-alpha/robotics-integration-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-planner
+      path: entities/v1-alpha/scrap-rework-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-planner
+      path: entities/v1-alpha/supplier-quality-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-planner
+      path: entities/v1-alpha/supply-chain-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-planner
+      path: entities/v1-alpha/tooling-fixtures-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-planner
+      path: entities/v1-alpha/welding-fabrication-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-planner
+      path: entities/v1-alpha/workforce-scheduling-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-product-owner
+      path: entities/v1-alpha/additive-manufacturing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-product-owner
+      path: entities/v1-alpha/assembly-lines-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-product-owner
+      path: entities/v1-alpha/cnc-machining-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-product-owner
+      path: entities/v1-alpha/capacity-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-product-owner
+      path: entities/v1-alpha/contract-manufacturing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-product-owner
+      path: entities/v1-alpha/ehs-sustainability-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-product-owner
+      path: entities/v1-alpha/energy-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-product-owner
+      path: entities/v1-alpha/factory-automation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-product-owner
+      path: entities/v1-alpha/industrial-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-product-owner
+      path: entities/v1-alpha/injection-moulding-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-product-owner
+      path: entities/v1-alpha/lean-manufacturing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-product-owner
+      path: entities/v1-alpha/manufacturing-data-systems-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-product-owner
+      path: entities/v1-alpha/new-product-introduction-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-product-owner
+      path: entities/v1-alpha/packaging-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-product-owner
+      path: entities/v1-alpha/paint-surface-treatment-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-product-owner
+      path: entities/v1-alpha/plant-maintenance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-product-owner
+      path: entities/v1-alpha/plant-utilities-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-product-owner
+      path: entities/v1-alpha/procurement-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-product-owner
+      path: entities/v1-alpha/product-industrialization-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-product-owner
+      path: entities/v1-alpha/product-traceability-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-product-owner
+      path: entities/v1-alpha/production-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-product-owner
+      path: entities/v1-alpha/production-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-product-owner
+      path: entities/v1-alpha/quality-control-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-product-owner
+      path: entities/v1-alpha/robotics-integration-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-product-owner
+      path: entities/v1-alpha/scrap-rework-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-product-owner
+      path: entities/v1-alpha/supplier-quality-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-product-owner
+      path: entities/v1-alpha/supply-chain-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-product-owner
+      path: entities/v1-alpha/tooling-fixtures-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-product-owner
+      path: entities/v1-alpha/welding-fabrication-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-product-owner
+      path: entities/v1-alpha/workforce-scheduling-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-program-manager
+      path: entities/v1-alpha/additive-manufacturing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-program-manager
+      path: entities/v1-alpha/assembly-lines-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-program-manager
+      path: entities/v1-alpha/cnc-machining-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-program-manager
+      path: entities/v1-alpha/capacity-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-program-manager
+      path: entities/v1-alpha/contract-manufacturing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-program-manager
+      path: entities/v1-alpha/ehs-sustainability-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-program-manager
+      path: entities/v1-alpha/energy-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-program-manager
+      path: entities/v1-alpha/factory-automation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-program-manager
+      path: entities/v1-alpha/industrial-engineering-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-program-manager
+      path: entities/v1-alpha/injection-moulding-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-program-manager
+      path: entities/v1-alpha/lean-manufacturing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-program-manager
+      path: entities/v1-alpha/manufacturing-data-systems-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-program-manager
+      path: entities/v1-alpha/new-product-introduction-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-program-manager
+      path: entities/v1-alpha/packaging-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-program-manager
+      path: entities/v1-alpha/paint-surface-treatment-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-program-manager
+      path: entities/v1-alpha/plant-maintenance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-program-manager
+      path: entities/v1-alpha/plant-utilities-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-program-manager
+      path: entities/v1-alpha/procurement-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-program-manager
+      path: entities/v1-alpha/product-industrialization-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-program-manager
+      path: entities/v1-alpha/product-traceability-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

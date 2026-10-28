@@ -1,0 +1,50 @@
+id: roles:role-product-traceability-developer
+type: Role
+name: Product Traceability Developer
+description: Implements and unit-tests product traceability capabilities, contributing code and configuration
+  within the Manufacturing delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- product
+- manufacturing
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Product Traceability
+  org_unit: Product Traceability Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-product-traceability-developer-requires-product-traceability
+  source_id: roles:role-product-traceability-developer
+  target_id: skills:skill-product-traceability
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-product-traceability-developer-requires-product-traceability-secondary
+  source_id: roles:role-product-traceability-developer
+  target_id: skills:skill-product-traceability-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

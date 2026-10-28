@@ -1,0 +1,50 @@
+id: roles:role-supply-chain-planning-architect
+type: Role
+name: Supply Chain Planning Architect
+description: 'Owns the target architecture for supply chain planning: design standards, technology selection,
+  and the evolution roadmap that keeps supply chain planning fit for the Manufacturing operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- supply
+- manufacturing
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Supply Chain Planning
+  org_unit: Supply Chain Planning Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-supply-chain-planning-architect-requires-supply-chain-planning
+  source_id: roles:role-supply-chain-planning-architect
+  target_id: skills:skill-supply-chain-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-supply-chain-planning-architect-requires-supply-chain-planning-secondary
+  source_id: roles:role-supply-chain-planning-architect
+  target_id: skills:skill-supply-chain-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

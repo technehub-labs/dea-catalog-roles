@@ -1,0 +1,50 @@
+id: roles:role-plant-utilities-analyst
+type: Role
+name: Plant Utilities Analyst
+description: Analyses plant utilities data and processes, producing insight and recommendations that steer
+  Manufacturing planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- plant
+- manufacturing
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Plant Utilities
+  org_unit: Plant Utilities Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-plant-utilities-analyst-requires-plant-utilities
+  source_id: roles:role-plant-utilities-analyst
+  target_id: skills:skill-plant-utilities
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-plant-utilities-analyst-requires-plant-utilities-secondary
+  source_id: roles:role-plant-utilities-analyst
+  target_id: skills:skill-plant-utilities-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

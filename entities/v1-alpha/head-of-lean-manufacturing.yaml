@@ -1,0 +1,50 @@
+id: roles:role-head-of-lean-manufacturing
+type: Role
+name: Head of Lean Manufacturing
+description: 'Owns the lean manufacturing domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Manufacturing.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- lean
+- manufacturing
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Lean Manufacturing
+  org_unit: Lean Manufacturing Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-head-of-lean-manufacturing-requires-lean-manufacturing
+  source_id: roles:role-head-of-lean-manufacturing
+  target_id: skills:skill-lean-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-lean-manufacturing-requires-lean-manufacturing-secondary
+  source_id: roles:role-head-of-lean-manufacturing
+  target_id: skills:skill-lean-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

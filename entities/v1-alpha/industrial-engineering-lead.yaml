@@ -1,0 +1,50 @@
+id: roles:role-industrial-engineering-lead
+type: Role
+name: Industrial Engineering Lead
+description: Sets direction for industrial engineering teams, owns their outcomes, and represents industrial
+  engineering interests in Manufacturing governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- industrial
+- manufacturing
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Industrial Engineering
+  org_unit: Industrial Engineering Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-industrial-engineering-lead-requires-industrial-engineering
+  source_id: roles:role-industrial-engineering-lead
+  target_id: skills:skill-industrial-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-industrial-engineering-lead-requires-industrial-engineering-secondary
+  source_id: roles:role-industrial-engineering-lead
+  target_id: skills:skill-industrial-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

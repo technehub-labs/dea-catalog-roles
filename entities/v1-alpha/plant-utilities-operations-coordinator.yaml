@@ -1,0 +1,50 @@
+id: roles:role-plant-utilities-operations-coordinator
+type: Role
+name: Plant Utilities Operations Coordinator
+description: Coordinates day-to-day plant utilities activities, schedules, and records, keeping Manufacturing
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- plant
+- manufacturing
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Plant Utilities
+  org_unit: Plant Utilities Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-plant-utilities-operations-coordinator-requires-plant-utilities
+  source_id: roles:role-plant-utilities-operations-coordinator
+  target_id: skills:skill-plant-utilities
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-plant-utilities-operations-coordinator-requires-plant-utilities-secondary
+  source_id: roles:role-plant-utilities-operations-coordinator
+  target_id: skills:skill-plant-utilities-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

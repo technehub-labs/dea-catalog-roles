@@ -1,0 +1,50 @@
+id: roles:role-injection-moulding-lead
+type: Role
+name: Injection Moulding Lead
+description: Sets direction for injection moulding teams, owns their outcomes, and represents injection
+  moulding interests in Manufacturing governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- injection
+- manufacturing
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Injection Moulding
+  org_unit: Injection Moulding Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-injection-moulding-lead-requires-injection-moulding
+  source_id: roles:role-injection-moulding-lead
+  target_id: skills:skill-injection-moulding
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-injection-moulding-lead-requires-injection-moulding-secondary
+  source_id: roles:role-injection-moulding-lead
+  target_id: skills:skill-injection-moulding-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

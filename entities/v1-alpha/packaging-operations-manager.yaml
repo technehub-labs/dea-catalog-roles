@@ -1,0 +1,50 @@
+id: roles:role-packaging-operations-manager
+type: Role
+name: Packaging Operations Manager
+description: 'Manages packaging operations end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Manufacturing operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- packaging
+- manufacturing
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Packaging Operations
+  org_unit: Packaging Operations Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-packaging-operations-manager-requires-packaging-operations
+  source_id: roles:role-packaging-operations-manager
+  target_id: skills:skill-packaging-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-packaging-operations-manager-requires-packaging-operations-secondary
+  source_id: roles:role-packaging-operations-manager
+  target_id: skills:skill-packaging-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

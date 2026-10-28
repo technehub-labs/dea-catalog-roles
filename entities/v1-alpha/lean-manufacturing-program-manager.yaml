@@ -1,0 +1,50 @@
+id: roles:role-lean-manufacturing-program-manager
+type: Role
+name: Lean Manufacturing Program Manager
+description: Coordinates multi-team lean manufacturing programmes across Manufacturing, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- lean
+- manufacturing
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Lean Manufacturing
+  org_unit: Lean Manufacturing Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-lean-manufacturing-program-manager-requires-lean-manufacturing
+  source_id: roles:role-lean-manufacturing-program-manager
+  target_id: skills:skill-lean-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-lean-manufacturing-program-manager-requires-lean-manufacturing-secondary
+  source_id: roles:role-lean-manufacturing-program-manager
+  target_id: skills:skill-lean-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-product-industrialization-operations-coordinator
+type: Role
+name: Product Industrialization Operations Coordinator
+description: Coordinates day-to-day product industrialization activities, schedules, and records, keeping
+  Manufacturing operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- product
+- manufacturing
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Product Industrialization
+  org_unit: Product Industrialization Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-product-industrialization-operations-coo-requires-product-industrialization
+  source_id: roles:role-product-industrialization-operations-coordinator
+  target_id: skills:skill-product-industrialization
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-product-industrialization-operations-coo-requires-product-industrialization-secondary
+  source_id: roles:role-product-industrialization-operations-coordinator
+  target_id: skills:skill-product-industrialization-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

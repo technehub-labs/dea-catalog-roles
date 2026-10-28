@@ -1,0 +1,50 @@
+id: roles:role-scrap-rework-coach
+type: Role
+name: Scrap & Rework Coach
+description: Coaches Manufacturing teams and individuals on scrap & rework working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- scrap
+- manufacturing
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Scrap & Rework
+  org_unit: Scrap & Rework Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-scrap-rework-coach-requires-scrap-rework
+  source_id: roles:role-scrap-rework-coach
+  target_id: skills:skill-scrap-rework
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-scrap-rework-coach-requires-scrap-rework-secondary
+  source_id: roles:role-scrap-rework-coach
+  target_id: skills:skill-scrap-rework-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-tooling-fixtures-analyst
+type: Role
+name: Tooling & Fixtures Analyst
+description: Analyses tooling & fixtures data and processes, producing insight and recommendations that
+  steer Manufacturing planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- tooling
+- manufacturing
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Tooling & Fixtures
+  org_unit: Tooling & Fixtures Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-tooling-fixtures-analyst-requires-tooling-fixtures
+  source_id: roles:role-tooling-fixtures-analyst
+  target_id: skills:skill-tooling-fixtures
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-tooling-fixtures-analyst-requires-tooling-fixtures-secondary
+  source_id: roles:role-tooling-fixtures-analyst
+  target_id: skills:skill-tooling-fixtures-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

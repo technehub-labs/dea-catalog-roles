@@ -1,0 +1,50 @@
+id: roles:role-additive-manufacturing-developer
+type: Role
+name: Additive Manufacturing Developer
+description: Implements and unit-tests additive manufacturing capabilities, contributing code and configuration
+  within the Manufacturing delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- additive
+- manufacturing
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Additive Manufacturing
+  org_unit: Additive Manufacturing Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-additive-manufacturing-developer-requires-additive-manufacturing
+  source_id: roles:role-additive-manufacturing-developer
+  target_id: skills:skill-additive-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-additive-manufacturing-developer-requires-additive-manufacturing-secondary
+  source_id: roles:role-additive-manufacturing-developer
+  target_id: skills:skill-additive-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

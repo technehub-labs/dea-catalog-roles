@@ -1,0 +1,50 @@
+id: roles:role-head-of-product-industrialization
+type: Role
+name: Head of Product Industrialization
+description: 'Owns the product industrialization domain at executive level: strategy, investment cases,
+  organisational design, and regulatory posture for Manufacturing.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- product
+- manufacturing
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Product Industrialization
+  org_unit: Product Industrialization Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-head-of-product-industrialization-requires-product-industrialization
+  source_id: roles:role-head-of-product-industrialization
+  target_id: skills:skill-product-industrialization
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-product-industrialization-requires-product-industrialization-secondary
+  source_id: roles:role-head-of-product-industrialization
+  target_id: skills:skill-product-industrialization-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

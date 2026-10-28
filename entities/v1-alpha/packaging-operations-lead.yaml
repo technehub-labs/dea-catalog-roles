@@ -1,0 +1,50 @@
+id: roles:role-packaging-operations-lead
+type: Role
+name: Packaging Operations Lead
+description: Sets direction for packaging operations teams, owns their outcomes, and represents packaging
+  operations interests in Manufacturing governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- packaging
+- manufacturing
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Packaging Operations
+  org_unit: Packaging Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-packaging-operations-lead-requires-packaging-operations
+  source_id: roles:role-packaging-operations-lead
+  target_id: skills:skill-packaging-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-packaging-operations-lead-requires-packaging-operations-secondary
+  source_id: roles:role-packaging-operations-lead
+  target_id: skills:skill-packaging-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
