@@ -1,0 +1,50 @@
+id: roles:role-content-localization-auditor
+type: Role
+name: Content Localization Auditor
+description: Independently reviews content localization controls and records, reporting findings and tracking
+  remediation within Media assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- content
+- media
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Content Localization
+  org_unit: Content Localization Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-content-localization-auditor-requires-content-localization
+  source_id: roles:role-content-localization-auditor
+  target_id: skills:skill-content-localization
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-content-localization-auditor-requires-content-localization-secondary
+  source_id: roles:role-content-localization-auditor
+  target_id: skills:skill-content-localization-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

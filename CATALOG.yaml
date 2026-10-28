@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 367
+    entities: 845
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -1739,6 +1739,2396 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-wardrobe-costuming-compliance-officer
       path: entities/v1-alpha/wardrobe-costuming-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-auditor
+      path: entities/v1-alpha/advertising-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-auditor
+      path: entities/v1-alpha/audience-analytics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-auditor
+      path: entities/v1-alpha/audience-development-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-auditor
+      path: entities/v1-alpha/brand-partnerships-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-auditor
+      path: entities/v1-alpha/broadcast-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-auditor
+      path: entities/v1-alpha/content-compliance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-auditor
+      path: entities/v1-alpha/content-localization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-auditor
+      path: entities/v1-alpha/content-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-auditor
+      path: entities/v1-alpha/content-rights-licensing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-auditor
+      path: entities/v1-alpha/creator-partnerships-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-auditor
+      path: entities/v1-alpha/digital-asset-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-auditor
+      path: entities/v1-alpha/editorial-standards-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-auditor
+      path: entities/v1-alpha/gaming-content-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-auditor
+      path: entities/v1-alpha/interactive-media-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-auditor
+      path: entities/v1-alpha/live-event-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-auditor
+      path: entities/v1-alpha/media-archive-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-auditor
+      path: entities/v1-alpha/media-supply-chain-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-auditor
+      path: entities/v1-alpha/metadata-cataloguing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-auditor
+      path: entities/v1-alpha/newsroom-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-auditor
+      path: entities/v1-alpha/ott-distribution-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-auditor
+      path: entities/v1-alpha/photojournalism-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-auditor
+      path: entities/v1-alpha/podcast-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-auditor
+      path: entities/v1-alpha/post-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-auditor
+      path: entities/v1-alpha/print-publishing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-auditor
+      path: entities/v1-alpha/programme-scheduling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-auditor
+      path: entities/v1-alpha/social-media-publishing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-auditor
+      path: entities/v1-alpha/studios-facilities-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-auditor
+      path: entities/v1-alpha/subscriber-growth-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-auditor
+      path: entities/v1-alpha/transcription-captioning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-auditor
+      path: entities/v1-alpha/video-streaming-platforms-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-compliance-officer
+      path: entities/v1-alpha/advertising-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-compliance-officer
+      path: entities/v1-alpha/audience-analytics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-compliance-officer
+      path: entities/v1-alpha/audience-development-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-compliance-officer
+      path: entities/v1-alpha/brand-partnerships-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-compliance-officer
+      path: entities/v1-alpha/broadcast-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-compliance-officer
+      path: entities/v1-alpha/content-compliance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-compliance-officer
+      path: entities/v1-alpha/content-localization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-compliance-officer
+      path: entities/v1-alpha/content-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-compliance-officer
+      path: entities/v1-alpha/content-rights-licensing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-compliance-officer
+      path: entities/v1-alpha/creator-partnerships-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-compliance-officer
+      path: entities/v1-alpha/digital-asset-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-compliance-officer
+      path: entities/v1-alpha/editorial-standards-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-compliance-officer
+      path: entities/v1-alpha/gaming-content-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-compliance-officer
+      path: entities/v1-alpha/interactive-media-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-compliance-officer
+      path: entities/v1-alpha/live-event-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-compliance-officer
+      path: entities/v1-alpha/media-archive-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-compliance-officer
+      path: entities/v1-alpha/media-supply-chain-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-compliance-officer
+      path: entities/v1-alpha/metadata-cataloguing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-compliance-officer
+      path: entities/v1-alpha/newsroom-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-compliance-officer
+      path: entities/v1-alpha/ott-distribution-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-compliance-officer
+      path: entities/v1-alpha/photojournalism-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-compliance-officer
+      path: entities/v1-alpha/podcast-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-compliance-officer
+      path: entities/v1-alpha/post-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-compliance-officer
+      path: entities/v1-alpha/print-publishing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-compliance-officer
+      path: entities/v1-alpha/programme-scheduling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-compliance-officer
+      path: entities/v1-alpha/social-media-publishing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-compliance-officer
+      path: entities/v1-alpha/studios-facilities-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-compliance-officer
+      path: entities/v1-alpha/subscriber-growth-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-compliance-officer
+      path: entities/v1-alpha/transcription-captioning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-compliance-officer
+      path: entities/v1-alpha/video-streaming-platforms-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-auditor
+      path: entities/v1-alpha/aml-sanctions-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-auditor
+      path: entities/v1-alpha/asset-servicing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-auditor
+      path: entities/v1-alpha/capital-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-auditor
+      path: entities/v1-alpha/card-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-auditor
+      path: entities/v1-alpha/clearing-house-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-auditor
+      path: entities/v1-alpha/core-banking-systems-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-auditor
+      path: entities/v1-alpha/corporate-lending-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-auditor
+      path: entities/v1-alpha/credit-risk-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-auditor
+      path: entities/v1-alpha/custody-settlement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-auditor
+      path: entities/v1-alpha/customer-kyc-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-auditor
+      path: entities/v1-alpha/digital-banking-channels-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-auditor
+      path: entities/v1-alpha/financial-accounting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-auditor
+      path: entities/v1-alpha/financial-crime-compliance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-auditor
+      path: entities/v1-alpha/fraud-risk-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-auditor
+      path: entities/v1-alpha/fund-administration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-auditor
+      path: entities/v1-alpha/insurance-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-auditor
+      path: entities/v1-alpha/investor-relations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-auditor
+      path: entities/v1-alpha/islamic-finance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-auditor
+      path: entities/v1-alpha/liquidity-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-auditor
+      path: entities/v1-alpha/loan-origination-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-auditor
+      path: entities/v1-alpha/market-risk-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-auditor
+      path: entities/v1-alpha/mortgage-servicing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-auditor
+      path: entities/v1-alpha/open-banking-apis-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-auditor
+      path: entities/v1-alpha/payment-processing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-auditor
+      path: entities/v1-alpha/pension-administration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-auditor
+      path: entities/v1-alpha/regulatory-reporting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-auditor
+      path: entities/v1-alpha/retail-banking-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-auditor
+      path: entities/v1-alpha/trade-finance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-auditor
+      path: entities/v1-alpha/treasury-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-auditor
+      path: entities/v1-alpha/wealth-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aml-sanctions-compliance-officer
+      path: entities/v1-alpha/aml-sanctions-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-asset-servicing-compliance-officer
+      path: entities/v1-alpha/asset-servicing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capital-management-compliance-officer
+      path: entities/v1-alpha/capital-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-card-operations-compliance-officer
+      path: entities/v1-alpha/card-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clearing-house-operations-compliance-officer
+      path: entities/v1-alpha/clearing-house-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-core-banking-systems-compliance-officer
+      path: entities/v1-alpha/core-banking-systems-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-lending-compliance-officer
+      path: entities/v1-alpha/corporate-lending-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-credit-risk-compliance-officer
+      path: entities/v1-alpha/credit-risk-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-custody-settlement-compliance-officer
+      path: entities/v1-alpha/custody-settlement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-kyc-compliance-officer
+      path: entities/v1-alpha/customer-kyc-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-banking-channels-compliance-officer
+      path: entities/v1-alpha/digital-banking-channels-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-accounting-compliance-officer
+      path: entities/v1-alpha/financial-accounting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-crime-compliance-compliance-officer
+      path: entities/v1-alpha/financial-crime-compliance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-risk-management-compliance-officer
+      path: entities/v1-alpha/fraud-risk-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fund-administration-compliance-officer
+      path: entities/v1-alpha/fund-administration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insurance-operations-compliance-officer
+      path: entities/v1-alpha/insurance-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investor-relations-compliance-officer
+      path: entities/v1-alpha/investor-relations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-islamic-finance-compliance-officer
+      path: entities/v1-alpha/islamic-finance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-liquidity-management-compliance-officer
+      path: entities/v1-alpha/liquidity-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-loan-origination-compliance-officer
+      path: entities/v1-alpha/loan-origination-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-market-risk-compliance-officer
+      path: entities/v1-alpha/market-risk-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mortgage-servicing-compliance-officer
+      path: entities/v1-alpha/mortgage-servicing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-banking-apis-compliance-officer
+      path: entities/v1-alpha/open-banking-apis-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-payment-processing-compliance-officer
+      path: entities/v1-alpha/payment-processing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pension-administration-compliance-officer
+      path: entities/v1-alpha/pension-administration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-reporting-compliance-officer
+      path: entities/v1-alpha/regulatory-reporting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-retail-banking-operations-compliance-officer
+      path: entities/v1-alpha/retail-banking-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-finance-compliance-officer
+      path: entities/v1-alpha/trade-finance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-treasury-management-compliance-officer
+      path: entities/v1-alpha/treasury-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wealth-management-compliance-officer
+      path: entities/v1-alpha/wealth-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-auditor
+      path: entities/v1-alpha/closure-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-auditor
+      path: entities/v1-alpha/coal-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-auditor
+      path: entities/v1-alpha/community-engagement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-auditor
+      path: entities/v1-alpha/contract-mining-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-auditor
+      path: entities/v1-alpha/copper-concentration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-auditor
+      path: entities/v1-alpha/drill-blast-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-auditor
+      path: entities/v1-alpha/energy-power-supply-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-auditor
+      path: entities/v1-alpha/environmental-compliance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-auditor
+      path: entities/v1-alpha/exploration-geology-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-auditor
+      path: entities/v1-alpha/exploration-drilling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-auditor
+      path: entities/v1-alpha/geotechnical-engineering-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-auditor
+      path: entities/v1-alpha/gold-processing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-auditor
+      path: entities/v1-alpha/haulage-fleet-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-auditor
+      path: entities/v1-alpha/iron-ore-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-auditor
+      path: entities/v1-alpha/metallurgy-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-auditor
+      path: entities/v1-alpha/mine-automation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-auditor
+      path: entities/v1-alpha/mine-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-auditor
+      path: entities/v1-alpha/mine-surveying-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-auditor
+      path: entities/v1-alpha/mine-ventilation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-auditor
+      path: entities/v1-alpha/mineral-processing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-auditor
+      path: entities/v1-alpha/occupational-health-safety-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-auditor
+      path: entities/v1-alpha/ore-extraction-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-auditor
+      path: entities/v1-alpha/permitting-tenements-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-auditor
+      path: entities/v1-alpha/processing-plant-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-auditor
+      path: entities/v1-alpha/rare-earth-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-auditor
+      path: entities/v1-alpha/resource-modelling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-auditor
+      path: entities/v1-alpha/site-rehabilitation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-auditor
+      path: entities/v1-alpha/supply-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-auditor
+      path: entities/v1-alpha/tailings-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-auditor
+      path: entities/v1-alpha/water-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-compliance-officer
+      path: entities/v1-alpha/closure-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-compliance-officer
+      path: entities/v1-alpha/coal-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-compliance-officer
+      path: entities/v1-alpha/community-engagement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-compliance-officer
+      path: entities/v1-alpha/contract-mining-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-compliance-officer
+      path: entities/v1-alpha/copper-concentration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-compliance-officer
+      path: entities/v1-alpha/drill-blast-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-compliance-officer
+      path: entities/v1-alpha/energy-power-supply-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-compliance-officer
+      path: entities/v1-alpha/environmental-compliance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-compliance-officer
+      path: entities/v1-alpha/exploration-geology-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-compliance-officer
+      path: entities/v1-alpha/exploration-drilling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-compliance-officer
+      path: entities/v1-alpha/geotechnical-engineering-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-compliance-officer
+      path: entities/v1-alpha/gold-processing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-compliance-officer
+      path: entities/v1-alpha/haulage-fleet-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-compliance-officer
+      path: entities/v1-alpha/iron-ore-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-compliance-officer
+      path: entities/v1-alpha/metallurgy-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-compliance-officer
+      path: entities/v1-alpha/mine-automation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-compliance-officer
+      path: entities/v1-alpha/mine-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-compliance-officer
+      path: entities/v1-alpha/mine-surveying-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-compliance-officer
+      path: entities/v1-alpha/mine-ventilation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-compliance-officer
+      path: entities/v1-alpha/mineral-processing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-compliance-officer
+      path: entities/v1-alpha/occupational-health-safety-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-compliance-officer
+      path: entities/v1-alpha/ore-extraction-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-compliance-officer
+      path: entities/v1-alpha/permitting-tenements-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-compliance-officer
+      path: entities/v1-alpha/processing-plant-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-compliance-officer
+      path: entities/v1-alpha/rare-earth-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-compliance-officer
+      path: entities/v1-alpha/resource-modelling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-compliance-officer
+      path: entities/v1-alpha/site-rehabilitation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-compliance-officer
+      path: entities/v1-alpha/supply-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-compliance-officer
+      path: entities/v1-alpha/tailings-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-compliance-officer
+      path: entities/v1-alpha/water-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-auditor
+      path: entities/v1-alpha/airport-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-auditor
+      path: entities/v1-alpha/aviation-safety-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-auditor
+      path: entities/v1-alpha/cold-chain-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-auditor
+      path: entities/v1-alpha/customer-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-auditor
+      path: entities/v1-alpha/customs-border-clearance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-auditor
+      path: entities/v1-alpha/delivery-partner-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-auditor
+      path: entities/v1-alpha/driver-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-auditor
+      path: entities/v1-alpha/fleet-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-auditor
+      path: entities/v1-alpha/fleet-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-auditor
+      path: entities/v1-alpha/freight-forwarding-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-auditor
+      path: entities/v1-alpha/fuel-energy-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-auditor
+      path: entities/v1-alpha/hazardous-goods-transport-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-auditor
+      path: entities/v1-alpha/last-mile-delivery-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-auditor
+      path: entities/v1-alpha/logistics-networks-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-auditor
+      path: entities/v1-alpha/maritime-crewing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-auditor
+      path: entities/v1-alpha/mobility-as-a-service-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-auditor
+      path: entities/v1-alpha/parcel-sorting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-auditor
+      path: entities/v1-alpha/passenger-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-auditor
+      path: entities/v1-alpha/port-terminal-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-auditor
+      path: entities/v1-alpha/rail-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-auditor
+      path: entities/v1-alpha/rail-signalling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-auditor
+      path: entities/v1-alpha/reverse-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-auditor
+      path: entities/v1-alpha/route-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-auditor
+      path: entities/v1-alpha/supply-chain-visibility-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-auditor
+      path: entities/v1-alpha/track-infrastructure-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-auditor
+      path: entities/v1-alpha/traffic-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-auditor
+      path: entities/v1-alpha/transport-security-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-auditor
+      path: entities/v1-alpha/urban-mobility-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-auditor
+      path: entities/v1-alpha/warehouse-automation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-auditor
+      path: entities/v1-alpha/warehouse-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-compliance-officer
+      path: entities/v1-alpha/airport-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-compliance-officer
+      path: entities/v1-alpha/aviation-safety-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-compliance-officer
+      path: entities/v1-alpha/cold-chain-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-compliance-officer
+      path: entities/v1-alpha/customer-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-compliance-officer
+      path: entities/v1-alpha/customs-border-clearance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-compliance-officer
+      path: entities/v1-alpha/delivery-partner-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-compliance-officer
+      path: entities/v1-alpha/driver-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-compliance-officer
+      path: entities/v1-alpha/fleet-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-compliance-officer
+      path: entities/v1-alpha/fleet-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-compliance-officer
+      path: entities/v1-alpha/freight-forwarding-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-compliance-officer
+      path: entities/v1-alpha/fuel-energy-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-compliance-officer
+      path: entities/v1-alpha/hazardous-goods-transport-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-compliance-officer
+      path: entities/v1-alpha/last-mile-delivery-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-compliance-officer
+      path: entities/v1-alpha/logistics-networks-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-compliance-officer
+      path: entities/v1-alpha/maritime-crewing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-compliance-officer
+      path: entities/v1-alpha/mobility-as-a-service-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-compliance-officer
+      path: entities/v1-alpha/parcel-sorting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-compliance-officer
+      path: entities/v1-alpha/passenger-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-compliance-officer
+      path: entities/v1-alpha/port-terminal-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-compliance-officer
+      path: entities/v1-alpha/rail-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-compliance-officer
+      path: entities/v1-alpha/rail-signalling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-compliance-officer
+      path: entities/v1-alpha/reverse-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-compliance-officer
+      path: entities/v1-alpha/route-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-compliance-officer
+      path: entities/v1-alpha/supply-chain-visibility-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-compliance-officer
+      path: entities/v1-alpha/track-infrastructure-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-compliance-officer
+      path: entities/v1-alpha/traffic-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-compliance-officer
+      path: entities/v1-alpha/transport-security-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-compliance-officer
+      path: entities/v1-alpha/urban-mobility-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-compliance-officer
+      path: entities/v1-alpha/warehouse-automation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-compliance-officer
+      path: entities/v1-alpha/warehouse-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-auditor
+      path: entities/v1-alpha/additive-manufacturing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-auditor
+      path: entities/v1-alpha/assembly-lines-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-auditor
+      path: entities/v1-alpha/cnc-machining-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-auditor
+      path: entities/v1-alpha/capacity-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-auditor
+      path: entities/v1-alpha/contract-manufacturing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-auditor
+      path: entities/v1-alpha/ehs-sustainability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-auditor
+      path: entities/v1-alpha/energy-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-auditor
+      path: entities/v1-alpha/factory-automation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-auditor
+      path: entities/v1-alpha/industrial-engineering-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-auditor
+      path: entities/v1-alpha/injection-moulding-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-auditor
+      path: entities/v1-alpha/lean-manufacturing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-auditor
+      path: entities/v1-alpha/manufacturing-data-systems-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-auditor
+      path: entities/v1-alpha/new-product-introduction-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-auditor
+      path: entities/v1-alpha/packaging-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-auditor
+      path: entities/v1-alpha/paint-surface-treatment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-auditor
+      path: entities/v1-alpha/plant-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-auditor
+      path: entities/v1-alpha/plant-utilities-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-auditor
+      path: entities/v1-alpha/procurement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-auditor
+      path: entities/v1-alpha/product-industrialization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-auditor
+      path: entities/v1-alpha/product-traceability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-auditor
+      path: entities/v1-alpha/production-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-auditor
+      path: entities/v1-alpha/production-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-auditor
+      path: entities/v1-alpha/quality-control-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-auditor
+      path: entities/v1-alpha/robotics-integration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-auditor
+      path: entities/v1-alpha/scrap-rework-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-auditor
+      path: entities/v1-alpha/supplier-quality-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-auditor
+      path: entities/v1-alpha/supply-chain-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-auditor
+      path: entities/v1-alpha/tooling-fixtures-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-auditor
+      path: entities/v1-alpha/welding-fabrication-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-auditor
+      path: entities/v1-alpha/workforce-scheduling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-compliance-officer
+      path: entities/v1-alpha/additive-manufacturing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-compliance-officer
+      path: entities/v1-alpha/assembly-lines-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-compliance-officer
+      path: entities/v1-alpha/cnc-machining-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-compliance-officer
+      path: entities/v1-alpha/capacity-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-compliance-officer
+      path: entities/v1-alpha/contract-manufacturing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-compliance-officer
+      path: entities/v1-alpha/ehs-sustainability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-compliance-officer
+      path: entities/v1-alpha/energy-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-compliance-officer
+      path: entities/v1-alpha/factory-automation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-compliance-officer
+      path: entities/v1-alpha/industrial-engineering-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-compliance-officer
+      path: entities/v1-alpha/injection-moulding-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-compliance-officer
+      path: entities/v1-alpha/lean-manufacturing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-compliance-officer
+      path: entities/v1-alpha/manufacturing-data-systems-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-compliance-officer
+      path: entities/v1-alpha/new-product-introduction-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-compliance-officer
+      path: entities/v1-alpha/packaging-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-compliance-officer
+      path: entities/v1-alpha/paint-surface-treatment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-compliance-officer
+      path: entities/v1-alpha/plant-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-compliance-officer
+      path: entities/v1-alpha/plant-utilities-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-compliance-officer
+      path: entities/v1-alpha/procurement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-compliance-officer
+      path: entities/v1-alpha/product-industrialization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-compliance-officer
+      path: entities/v1-alpha/product-traceability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-compliance-officer
+      path: entities/v1-alpha/production-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-compliance-officer
+      path: entities/v1-alpha/production-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-compliance-officer
+      path: entities/v1-alpha/quality-control-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-compliance-officer
+      path: entities/v1-alpha/robotics-integration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-compliance-officer
+      path: entities/v1-alpha/scrap-rework-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-compliance-officer
+      path: entities/v1-alpha/supplier-quality-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-compliance-officer
+      path: entities/v1-alpha/supply-chain-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-compliance-officer
+      path: entities/v1-alpha/tooling-fixtures-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-compliance-officer
+      path: entities/v1-alpha/welding-fabrication-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-compliance-officer
+      path: entities/v1-alpha/workforce-scheduling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-auditor
+      path: entities/v1-alpha/biomedical-engineering-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-auditor
+      path: entities/v1-alpha/blood-bank-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-auditor
+      path: entities/v1-alpha/care-coordination-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-auditor
+      path: entities/v1-alpha/clinical-governance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-auditor
+      path: entities/v1-alpha/clinical-informatics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-auditor
+      path: entities/v1-alpha/clinical-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-auditor
+      path: entities/v1-alpha/clinical-trials-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-auditor
+      path: entities/v1-alpha/community-health-outreach-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-auditor
+      path: entities/v1-alpha/diagnostic-imaging-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-auditor
+      path: entities/v1-alpha/emergency-care-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-auditor
+      path: entities/v1-alpha/genomics-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-auditor
+      path: entities/v1-alpha/healthcare-revenue-cycle-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-auditor
+      path: entities/v1-alpha/home-care-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-auditor
+      path: entities/v1-alpha/infection-prevention-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-auditor
+      path: entities/v1-alpha/laboratory-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-auditor
+      path: entities/v1-alpha/medical-coding-billing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-auditor
+      path: entities/v1-alpha/medical-staff-credentialing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-auditor
+      path: entities/v1-alpha/medical-supply-chain-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-auditor
+      path: entities/v1-alpha/mental-health-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-auditor
+      path: entities/v1-alpha/nursing-workforce-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-auditor
+      path: entities/v1-alpha/patient-access-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-auditor
+      path: entities/v1-alpha/patient-experience-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-auditor
+      path: entities/v1-alpha/patient-safety-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-auditor
+      path: entities/v1-alpha/pharmacy-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-auditor
+      path: entities/v1-alpha/population-health-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-auditor
+      path: entities/v1-alpha/primary-care-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-auditor
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-auditor
+      path: entities/v1-alpha/rehabilitation-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-auditor
+      path: entities/v1-alpha/surgical-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-auditor
+      path: entities/v1-alpha/telehealth-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-compliance-officer
+      path: entities/v1-alpha/biomedical-engineering-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-compliance-officer
+      path: entities/v1-alpha/blood-bank-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-compliance-officer
+      path: entities/v1-alpha/care-coordination-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-compliance-officer
+      path: entities/v1-alpha/clinical-governance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-compliance-officer
+      path: entities/v1-alpha/clinical-informatics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-compliance-officer
+      path: entities/v1-alpha/clinical-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-compliance-officer
+      path: entities/v1-alpha/clinical-trials-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-compliance-officer
+      path: entities/v1-alpha/community-health-outreach-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-compliance-officer
+      path: entities/v1-alpha/diagnostic-imaging-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-compliance-officer
+      path: entities/v1-alpha/emergency-care-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-compliance-officer
+      path: entities/v1-alpha/genomics-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-compliance-officer
+      path: entities/v1-alpha/healthcare-revenue-cycle-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-compliance-officer
+      path: entities/v1-alpha/home-care-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-compliance-officer
+      path: entities/v1-alpha/infection-prevention-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-compliance-officer
+      path: entities/v1-alpha/laboratory-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-compliance-officer
+      path: entities/v1-alpha/medical-coding-billing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-compliance-officer
+      path: entities/v1-alpha/medical-staff-credentialing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-compliance-officer
+      path: entities/v1-alpha/medical-supply-chain-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-compliance-officer
+      path: entities/v1-alpha/mental-health-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-compliance-officer
+      path: entities/v1-alpha/nursing-workforce-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-compliance-officer
+      path: entities/v1-alpha/patient-access-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-compliance-officer
+      path: entities/v1-alpha/patient-experience-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-compliance-officer
+      path: entities/v1-alpha/patient-safety-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-compliance-officer
+      path: entities/v1-alpha/pharmacy-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-compliance-officer
+      path: entities/v1-alpha/population-health-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-compliance-officer
+      path: entities/v1-alpha/primary-care-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-compliance-officer
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-compliance-officer
+      path: entities/v1-alpha/rehabilitation-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-compliance-officer
+      path: entities/v1-alpha/surgical-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-compliance-officer
+      path: entities/v1-alpha/telehealth-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-auditor
+      path: entities/v1-alpha/5g-core-network-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-auditor
+      path: entities/v1-alpha/bss-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-auditor
+      path: entities/v1-alpha/cell-site-deployment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-auditor
+      path: entities/v1-alpha/charging-billing-mediation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-auditor
+      path: entities/v1-alpha/customer-field-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-auditor
+      path: entities/v1-alpha/edge-computing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-auditor
+      path: entities/v1-alpha/ftth-rollout-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-auditor
+      path: entities/v1-alpha/fibre-transport-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-auditor
+      path: entities/v1-alpha/fixed-wireless-access-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-auditor
+      path: entities/v1-alpha/interconnect-roaming-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-auditor
+      path: entities/v1-alpha/microwave-backhaul-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-auditor
+      path: entities/v1-alpha/mobile-core-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-auditor
+      path: entities/v1-alpha/network-inventory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-auditor
+      path: entities/v1-alpha/network-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-auditor
+      path: entities/v1-alpha/network-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-auditor
+      path: entities/v1-alpha/network-security-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-auditor
+      path: entities/v1-alpha/network-slicing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-auditor
+      path: entities/v1-alpha/network-virtualization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-auditor
+      path: entities/v1-alpha/number-portability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-auditor
+      path: entities/v1-alpha/oss-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-auditor
+      path: entities/v1-alpha/private-networks-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-auditor
+      path: entities/v1-alpha/quality-of-service-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-auditor
+      path: entities/v1-alpha/rf-spectrum-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-auditor
+      path: entities/v1-alpha/radio-access-network-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-auditor
+      path: entities/v1-alpha/satellite-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-auditor
+      path: entities/v1-alpha/service-assurance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-auditor
+      path: entities/v1-alpha/submarine-cable-systems-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-auditor
+      path: entities/v1-alpha/subscriber-data-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-auditor
+      path: entities/v1-alpha/telco-cloud-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-compliance-officer
+      path: entities/v1-alpha/5g-core-network-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-compliance-officer
+      path: entities/v1-alpha/bss-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-compliance-officer
+      path: entities/v1-alpha/cell-site-deployment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-compliance-officer
+      path: entities/v1-alpha/charging-billing-mediation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-compliance-officer
+      path: entities/v1-alpha/customer-field-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-compliance-officer
+      path: entities/v1-alpha/edge-computing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-compliance-officer
+      path: entities/v1-alpha/ftth-rollout-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-compliance-officer
+      path: entities/v1-alpha/fibre-transport-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-compliance-officer
+      path: entities/v1-alpha/fixed-wireless-access-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-compliance-officer
+      path: entities/v1-alpha/interconnect-roaming-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-compliance-officer
+      path: entities/v1-alpha/microwave-backhaul-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-compliance-officer
+      path: entities/v1-alpha/mobile-core-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-compliance-officer
+      path: entities/v1-alpha/network-inventory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-compliance-officer
+      path: entities/v1-alpha/network-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-compliance-officer
+      path: entities/v1-alpha/network-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-compliance-officer
+      path: entities/v1-alpha/network-security-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-compliance-officer
+      path: entities/v1-alpha/network-slicing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-compliance-officer
+      path: entities/v1-alpha/network-virtualization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-compliance-officer
+      path: entities/v1-alpha/number-portability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-compliance-officer
+      path: entities/v1-alpha/oss-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-compliance-officer
+      path: entities/v1-alpha/private-networks-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-compliance-officer
+      path: entities/v1-alpha/quality-of-service-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-compliance-officer
+      path: entities/v1-alpha/rf-spectrum-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-compliance-officer
+      path: entities/v1-alpha/radio-access-network-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-compliance-officer
+      path: entities/v1-alpha/satellite-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-compliance-officer
+      path: entities/v1-alpha/service-assurance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-compliance-officer
+      path: entities/v1-alpha/submarine-cable-systems-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-compliance-officer
+      path: entities/v1-alpha/subscriber-data-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-compliance-officer
+      path: entities/v1-alpha/telco-cloud-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-assurance-analytics
+      path: entities/v1-alpha/head-of-assurance-analytics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-assurance-technology
+      path: entities/v1-alpha/head-of-assurance-technology.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-data-analytics
+      path: entities/v1-alpha/head-of-audit-data-analytics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-methodology
+      path: entities/v1-alpha/head-of-audit-methodology.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-planning
+      path: entities/v1-alpha/head-of-audit-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-reporting
+      path: entities/v1-alpha/head-of-audit-reporting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-compliance-testing
+      path: entities/v1-alpha/head-of-compliance-testing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-continuous-auditing
+      path: entities/v1-alpha/head-of-continuous-auditing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-control-self-assessment
+      path: entities/v1-alpha/head-of-control-self-assessment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-engagement-quality
+      path: entities/v1-alpha/head-of-engagement-quality.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-external-audit
+      path: entities/v1-alpha/head-of-external-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-financial-attestation
+      path: entities/v1-alpha/head-of-financial-attestation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-forensic-accounting
+      path: entities/v1-alpha/head-of-forensic-accounting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fraud-examinations
+      path: entities/v1-alpha/head-of-fraud-examinations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-governance-reviews
+      path: entities/v1-alpha/head-of-governance-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-it-audit
+      path: entities/v1-alpha/head-of-it-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-internal-audit
+      path: entities/v1-alpha/head-of-internal-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-internal-controls
+      path: entities/v1-alpha/head-of-internal-controls.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-investigations
+      path: entities/v1-alpha/head-of-investigations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-model-validation
+      path: entities/v1-alpha/head-of-model-validation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-operational-reviews
+      path: entities/v1-alpha/head-of-operational-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-performance-auditing
+      path: entities/v1-alpha/head-of-performance-auditing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-process-auditing
+      path: entities/v1-alpha/head-of-process-auditing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-quality-assurance-reviews
+      path: entities/v1-alpha/head-of-quality-assurance-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-regulatory-examinations
+      path: entities/v1-alpha/head-of-regulatory-examinations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-risk-assessment
+      path: entities/v1-alpha/head-of-risk-assessment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-sustainability-assurance
+      path: entities/v1-alpha/head-of-sustainability-assurance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-tax-audit
+      path: entities/v1-alpha/head-of-tax-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-third-party-risk-reviews
+      path: entities/v1-alpha/head-of-third-party-risk-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-vendor-audit
+      path: entities/v1-alpha/head-of-vendor-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-advisory-quality
+      path: entities/v1-alpha/head-of-advisory-quality.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-alumni-networks
+      path: entities/v1-alpha/head-of-alumni-networks.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-business-transformation
+      path: entities/v1-alpha/head-of-business-transformation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-change-management
+      path: entities/v1-alpha/head-of-change-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-client-relationship-management
+      path: entities/v1-alpha/head-of-client-relationship-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-consulting-enablement
+      path: entities/v1-alpha/head-of-consulting-enablement.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-customer-experience-design
+      path: entities/v1-alpha/head-of-customer-experience-design.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-data-analytics-advisory
+      path: entities/v1-alpha/head-of-data-analytics-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-deal-advisory-m-a
+      path: entities/v1-alpha/head-of-deal-advisory-m-a.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-executive-search
+      path: entities/v1-alpha/head-of-executive-search.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-finance-advisory
+      path: entities/v1-alpha/head-of-finance-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-human-capital-advisory
+      path: entities/v1-alpha/head-of-human-capital-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-interim-leadership
+      path: entities/v1-alpha/head-of-interim-leadership.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-knowledge-management
+      path: entities/v1-alpha/head-of-knowledge-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-learning-development
+      path: entities/v1-alpha/head-of-learning-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-managed-services
+      path: entities/v1-alpha/head-of-managed-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-management-consulting
+      path: entities/v1-alpha/head-of-management-consulting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-operational-excellence
+      path: entities/v1-alpha/head-of-operational-excellence.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-organisation-design
+      path: entities/v1-alpha/head-of-organisation-design.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-practice-development
+      path: entities/v1-alpha/head-of-practice-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-pricing-rate-cards
+      path: entities/v1-alpha/head-of-pricing-rate-cards.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-proposal-bid-management
+      path: entities/v1-alpha/head-of-proposal-bid-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-risk-advisory
+      path: entities/v1-alpha/head-of-risk-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-staffing-deployment
+      path: entities/v1-alpha/head-of-staffing-deployment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-strategy-advisory
+      path: entities/v1-alpha/head-of-strategy-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-supply-chain-advisory
+      path: entities/v1-alpha/head-of-supply-chain-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-sustainability-consulting
+      path: entities/v1-alpha/head-of-sustainability-consulting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-talent-acquisition
+      path: entities/v1-alpha/head-of-talent-acquisition.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-technology-advisory
+      path: entities/v1-alpha/head-of-technology-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-thought-leadership
+      path: entities/v1-alpha/head-of-thought-leadership.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

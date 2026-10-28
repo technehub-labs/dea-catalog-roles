@@ -1,0 +1,50 @@
+id: roles:role-freight-forwarding-auditor
+type: Role
+name: Freight Forwarding Auditor
+description: Independently reviews freight forwarding controls and records, reporting findings and tracking
+  remediation within Transport & Logistics assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- freight
+- transport
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Freight Forwarding
+  org_unit: Freight Forwarding Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-freight-forwarding-auditor-requires-freight-forwarding
+  source_id: roles:role-freight-forwarding-auditor
+  target_id: skills:skill-freight-forwarding
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-freight-forwarding-auditor-requires-freight-forwarding-secondary
+  source_id: roles:role-freight-forwarding-auditor
+  target_id: skills:skill-freight-forwarding-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-digital-asset-management-auditor
+type: Role
+name: Digital Asset Management Auditor
+description: Independently reviews digital asset management controls and records, reporting findings and
+  tracking remediation within Media assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- digital
+- media
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Digital Asset Management
+  org_unit: Digital Asset Management Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-digital-asset-management-auditor-requires-digital-asset-management
+  source_id: roles:role-digital-asset-management-auditor
+  target_id: skills:skill-digital-asset-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-digital-asset-management-auditor-requires-digital-asset-management-secondary
+  source_id: roles:role-digital-asset-management-auditor
+  target_id: skills:skill-digital-asset-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

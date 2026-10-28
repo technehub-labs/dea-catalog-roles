@@ -1,0 +1,50 @@
+id: roles:role-cell-site-deployment-compliance-officer
+type: Role
+name: Cell Site Deployment Compliance Officer
+description: Constrains and reviews cell site deployment activity against regulatory and policy obligations,
+  escalating breaches in the Telecommunications control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- cell
+- telecom
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Cell Site Deployment
+  org_unit: Cell Site Deployment Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-cell-site-deployment-compliance-officer-requires-cell-site-deployment
+  source_id: roles:role-cell-site-deployment-compliance-officer
+  target_id: skills:skill-cell-site-deployment
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-cell-site-deployment-compliance-officer-requires-cell-site-deployment-secondary
+  source_id: roles:role-cell-site-deployment-compliance-officer
+  target_id: skills:skill-cell-site-deployment-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

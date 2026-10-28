@@ -1,0 +1,50 @@
+id: roles:role-regulatory-reporting-auditor
+type: Role
+name: Regulatory Reporting Auditor
+description: Independently reviews regulatory reporting controls and records, reporting findings and tracking
+  remediation within Finance & Banking assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- regulatory
+- finance
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Reporting
+  org_unit: Regulatory Reporting Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-regulatory-reporting-auditor-requires-regulatory-reporting
+  source_id: roles:role-regulatory-reporting-auditor
+  target_id: skills:skill-regulatory-reporting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-reporting-auditor-requires-regulatory-reporting-secondary
+  source_id: roles:role-regulatory-reporting-auditor
+  target_id: skills:skill-regulatory-reporting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

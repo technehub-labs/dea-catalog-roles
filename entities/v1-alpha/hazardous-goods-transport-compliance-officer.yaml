@@ -1,0 +1,50 @@
+id: roles:role-hazardous-goods-transport-compliance-officer
+type: Role
+name: Hazardous Goods Transport Compliance Officer
+description: Constrains and reviews hazardous goods transport activity against regulatory and policy obligations,
+  escalating breaches in the Transport & Logistics control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- hazardous
+- transport
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Hazardous Goods Transport
+  org_unit: Hazardous Goods Transport Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-hazardous-goods-transport-compliance-off-requires-hazardous-goods-transport
+  source_id: roles:role-hazardous-goods-transport-compliance-officer
+  target_id: skills:skill-hazardous-goods-transport
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-hazardous-goods-transport-compliance-off-requires-hazardous-goods-transport-secondary
+  source_id: roles:role-hazardous-goods-transport-compliance-officer
+  target_id: skills:skill-hazardous-goods-transport-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

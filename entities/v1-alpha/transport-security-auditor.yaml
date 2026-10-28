@@ -1,0 +1,50 @@
+id: roles:role-transport-security-auditor
+type: Role
+name: Transport Security Auditor
+description: Independently reviews transport security controls and records, reporting findings and tracking
+  remediation within Transport & Logistics assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- transport
+- transport
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Transport Security
+  org_unit: Transport Security Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-transport-security-auditor-requires-transport-security
+  source_id: roles:role-transport-security-auditor
+  target_id: skills:skill-transport-security
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-transport-security-auditor-requires-transport-security-secondary
+  source_id: roles:role-transport-security-auditor
+  target_id: skills:skill-transport-security-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-aviation-safety-compliance-officer
+type: Role
+name: Aviation Safety Compliance Officer
+description: Constrains and reviews aviation safety activity against regulatory and policy obligations,
+  escalating breaches in the Transport & Logistics control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- aviation
+- transport
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Aviation Safety
+  org_unit: Aviation Safety Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-aviation-safety-compliance-officer-requires-aviation-safety
+  source_id: roles:role-aviation-safety-compliance-officer
+  target_id: skills:skill-aviation-safety
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-aviation-safety-compliance-officer-requires-aviation-safety-secondary
+  source_id: roles:role-aviation-safety-compliance-officer
+  target_id: skills:skill-aviation-safety-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

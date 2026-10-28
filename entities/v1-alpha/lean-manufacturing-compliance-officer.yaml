@@ -1,0 +1,50 @@
+id: roles:role-lean-manufacturing-compliance-officer
+type: Role
+name: Lean Manufacturing Compliance Officer
+description: Constrains and reviews lean manufacturing activity against regulatory and policy obligations,
+  escalating breaches in the Manufacturing control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- lean
+- manufacturing
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Lean Manufacturing
+  org_unit: Lean Manufacturing Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-lean-manufacturing-compliance-officer-requires-lean-manufacturing
+  source_id: roles:role-lean-manufacturing-compliance-officer
+  target_id: skills:skill-lean-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-lean-manufacturing-compliance-officer-requires-lean-manufacturing-secondary
+  source_id: roles:role-lean-manufacturing-compliance-officer
+  target_id: skills:skill-lean-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

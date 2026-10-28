@@ -1,0 +1,50 @@
+id: roles:role-geotechnical-engineering-compliance-officer
+type: Role
+name: Geotechnical Engineering Compliance Officer
+description: Constrains and reviews geotechnical engineering activity against regulatory and policy obligations,
+  escalating breaches in the Mining & Resources control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- geotechnical
+- mining
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Geotechnical Engineering
+  org_unit: Geotechnical Engineering Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-geotechnical-engineering-compliance-offi-requires-geotechnical-engineering
+  source_id: roles:role-geotechnical-engineering-compliance-officer
+  target_id: skills:skill-geotechnical-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-geotechnical-engineering-compliance-offi-requires-geotechnical-engineering-secondary
+  source_id: roles:role-geotechnical-engineering-compliance-officer
+  target_id: skills:skill-geotechnical-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
