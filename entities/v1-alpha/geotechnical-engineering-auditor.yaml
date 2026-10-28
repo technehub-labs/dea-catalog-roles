@@ -1,0 +1,50 @@
+id: roles:role-geotechnical-engineering-auditor
+type: Role
+name: Geotechnical Engineering Auditor
+description: Independently reviews geotechnical engineering controls and records, reporting findings and
+  tracking remediation within Mining & Resources assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- geotechnical
+- mining
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Geotechnical Engineering
+  org_unit: Geotechnical Engineering Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-geotechnical-engineering-auditor-requires-geotechnical-engineering
+  source_id: roles:role-geotechnical-engineering-auditor
+  target_id: skills:skill-geotechnical-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-geotechnical-engineering-auditor-requires-geotechnical-engineering-secondary
+  source_id: roles:role-geotechnical-engineering-auditor
+  target_id: skills:skill-geotechnical-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

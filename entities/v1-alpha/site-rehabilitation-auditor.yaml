@@ -1,0 +1,50 @@
+id: roles:role-site-rehabilitation-auditor
+type: Role
+name: Site Rehabilitation Auditor
+description: Independently reviews site rehabilitation controls and records, reporting findings and tracking
+  remediation within Mining & Resources assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- site
+- mining
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Site Rehabilitation
+  org_unit: Site Rehabilitation Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-site-rehabilitation-auditor-requires-site-rehabilitation
+  source_id: roles:role-site-rehabilitation-auditor
+  target_id: skills:skill-site-rehabilitation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-site-rehabilitation-auditor-requires-site-rehabilitation-secondary
+  source_id: roles:role-site-rehabilitation-auditor
+  target_id: skills:skill-site-rehabilitation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
