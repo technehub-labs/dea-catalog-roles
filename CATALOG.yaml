@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 487
+    entities: 547
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -2339,6 +2339,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-wealth-management-compliance-officer
       path: entities/v1-alpha/wealth-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-auditor
+      path: entities/v1-alpha/closure-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-auditor
+      path: entities/v1-alpha/coal-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-auditor
+      path: entities/v1-alpha/community-engagement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-auditor
+      path: entities/v1-alpha/contract-mining-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-auditor
+      path: entities/v1-alpha/copper-concentration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-auditor
+      path: entities/v1-alpha/drill-blast-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-auditor
+      path: entities/v1-alpha/energy-power-supply-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-auditor
+      path: entities/v1-alpha/environmental-compliance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-auditor
+      path: entities/v1-alpha/exploration-geology-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-auditor
+      path: entities/v1-alpha/exploration-drilling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-auditor
+      path: entities/v1-alpha/geotechnical-engineering-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-auditor
+      path: entities/v1-alpha/gold-processing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-auditor
+      path: entities/v1-alpha/haulage-fleet-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-auditor
+      path: entities/v1-alpha/iron-ore-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-auditor
+      path: entities/v1-alpha/metallurgy-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-auditor
+      path: entities/v1-alpha/mine-automation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-auditor
+      path: entities/v1-alpha/mine-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-auditor
+      path: entities/v1-alpha/mine-surveying-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-auditor
+      path: entities/v1-alpha/mine-ventilation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-auditor
+      path: entities/v1-alpha/mineral-processing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-auditor
+      path: entities/v1-alpha/occupational-health-safety-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-auditor
+      path: entities/v1-alpha/ore-extraction-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-auditor
+      path: entities/v1-alpha/permitting-tenements-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-auditor
+      path: entities/v1-alpha/processing-plant-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-auditor
+      path: entities/v1-alpha/rare-earth-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-auditor
+      path: entities/v1-alpha/resource-modelling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-auditor
+      path: entities/v1-alpha/site-rehabilitation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-auditor
+      path: entities/v1-alpha/supply-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-auditor
+      path: entities/v1-alpha/tailings-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-auditor
+      path: entities/v1-alpha/water-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-closure-planning-compliance-officer
+      path: entities/v1-alpha/closure-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-coal-operations-compliance-officer
+      path: entities/v1-alpha/coal-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-engagement-compliance-officer
+      path: entities/v1-alpha/community-engagement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-mining-compliance-officer
+      path: entities/v1-alpha/contract-mining-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-copper-concentration-compliance-officer
+      path: entities/v1-alpha/copper-concentration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-drill-blast-compliance-officer
+      path: entities/v1-alpha/drill-blast-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-power-supply-compliance-officer
+      path: entities/v1-alpha/energy-power-supply-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-compliance-compliance-officer
+      path: entities/v1-alpha/environmental-compliance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-geology-compliance-officer
+      path: entities/v1-alpha/exploration-geology-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-exploration-drilling-compliance-officer
+      path: entities/v1-alpha/exploration-drilling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-geotechnical-engineering-compliance-officer
+      path: entities/v1-alpha/geotechnical-engineering-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gold-processing-compliance-officer
+      path: entities/v1-alpha/gold-processing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-haulage-fleet-compliance-officer
+      path: entities/v1-alpha/haulage-fleet-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-iron-ore-operations-compliance-officer
+      path: entities/v1-alpha/iron-ore-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metallurgy-compliance-officer
+      path: entities/v1-alpha/metallurgy-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-automation-compliance-officer
+      path: entities/v1-alpha/mine-automation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-planning-compliance-officer
+      path: entities/v1-alpha/mine-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-surveying-compliance-officer
+      path: entities/v1-alpha/mine-surveying-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mine-ventilation-compliance-officer
+      path: entities/v1-alpha/mine-ventilation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mineral-processing-compliance-officer
+      path: entities/v1-alpha/mineral-processing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-occupational-health-safety-compliance-officer
+      path: entities/v1-alpha/occupational-health-safety-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ore-extraction-compliance-officer
+      path: entities/v1-alpha/ore-extraction-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-permitting-tenements-compliance-officer
+      path: entities/v1-alpha/permitting-tenements-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-processing-plant-maintenance-compliance-officer
+      path: entities/v1-alpha/processing-plant-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rare-earth-operations-compliance-officer
+      path: entities/v1-alpha/rare-earth-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-resource-modelling-compliance-officer
+      path: entities/v1-alpha/resource-modelling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-rehabilitation-compliance-officer
+      path: entities/v1-alpha/site-rehabilitation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-logistics-compliance-officer
+      path: entities/v1-alpha/supply-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tailings-management-compliance-officer
+      path: entities/v1-alpha/tailings-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-water-management-compliance-officer
+      path: entities/v1-alpha/water-management-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

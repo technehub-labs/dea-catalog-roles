@@ -1,0 +1,50 @@
+id: roles:role-metallurgy-compliance-officer
+type: Role
+name: Metallurgy Compliance Officer
+description: Constrains and reviews metallurgy activity against regulatory and policy obligations, escalating
+  breaches in the Mining & Resources control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- metallurgy
+- mining
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Metallurgy
+  org_unit: Metallurgy Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-metallurgy-compliance-officer-requires-metallurgy
+  source_id: roles:role-metallurgy-compliance-officer
+  target_id: skills:skill-metallurgy
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-metallurgy-compliance-officer-requires-metallurgy-secondary
+  source_id: roles:role-metallurgy-compliance-officer
+  target_id: skills:skill-metallurgy-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
