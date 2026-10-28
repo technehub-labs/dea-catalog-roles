@@ -1,0 +1,50 @@
+id: roles:role-advisory-quality-designer
+type: Role
+name: Advisory Quality Designer
+description: Designs advisory quality solutions and interfaces, translating Consulting & Professional
+  Services requirements into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- advisory
+- consulting
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Advisory Quality
+  org_unit: Advisory Quality Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-advisory-quality-designer-requires-advisory-quality
+  source_id: roles:role-advisory-quality-designer
+  target_id: skills:skill-advisory-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-advisory-quality-designer-requires-advisory-quality-secondary
+  source_id: roles:role-advisory-quality-designer
+  target_id: skills:skill-advisory-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

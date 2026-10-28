@@ -1,0 +1,50 @@
+id: roles:role-data-analytics-advisory-lead
+type: Role
+name: Data & Analytics Advisory Lead
+description: Sets direction for data & analytics advisory teams, owns their outcomes, and represents data
+  & analytics advisory interests in Consulting & Professional Services governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- data
+- consulting
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Data & Analytics Advisory
+  org_unit: Data & Analytics Advisory Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-data-analytics-advisory-lead-requires-data-analytics-advisory
+  source_id: roles:role-data-analytics-advisory-lead
+  target_id: skills:skill-data-analytics-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-data-analytics-advisory-lead-requires-data-analytics-advisory-secondary
+  source_id: roles:role-data-analytics-advisory-lead
+  target_id: skills:skill-data-analytics-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

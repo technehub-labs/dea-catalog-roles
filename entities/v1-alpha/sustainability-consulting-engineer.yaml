@@ -1,0 +1,50 @@
+id: roles:role-sustainability-consulting-engineer
+type: Role
+name: Sustainability Consulting Engineer
+description: Builds, configures, and maintains sustainability consulting components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Consulting & Professional Services standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- sustainability
+- consulting
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Sustainability Consulting
+  org_unit: Sustainability Consulting Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-sustainability-consulting-engineer-requires-sustainability-consulting
+  source_id: roles:role-sustainability-consulting-engineer
+  target_id: skills:skill-sustainability-consulting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-sustainability-consulting-engineer-requires-sustainability-consulting-secondary
+  source_id: roles:role-sustainability-consulting-engineer
+  target_id: skills:skill-sustainability-consulting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-human-capital-advisory-lead
+type: Role
+name: Human Capital Advisory Lead
+description: Sets direction for human capital advisory teams, owns their outcomes, and represents human
+  capital advisory interests in Consulting & Professional Services governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- human
+- consulting
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Human Capital Advisory
+  org_unit: Human Capital Advisory Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-human-capital-advisory-lead-requires-human-capital-advisory
+  source_id: roles:role-human-capital-advisory-lead
+  target_id: skills:skill-human-capital-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-human-capital-advisory-lead-requires-human-capital-advisory-secondary
+  source_id: roles:role-human-capital-advisory-lead
+  target_id: skills:skill-human-capital-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-alumni-networks-consultant
+type: Role
+name: Alumni Networks Consultant
+description: Supports Consulting & Professional Services teams adopting alumni networks practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- alumni
+- consulting
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Alumni Networks
+  org_unit: Alumni Networks Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-alumni-networks-consultant-requires-alumni-networks
+  source_id: roles:role-alumni-networks-consultant
+  target_id: skills:skill-alumni-networks
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-alumni-networks-consultant-requires-alumni-networks-secondary
+  source_id: roles:role-alumni-networks-consultant
+  target_id: skills:skill-alumni-networks-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

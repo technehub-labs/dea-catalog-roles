@@ -1,0 +1,50 @@
+id: roles:role-supply-chain-advisory-planner
+type: Role
+name: Supply Chain Advisory Planner
+description: Plans capacity, schedule, and sequencing for supply chain advisory activities, balancing
+  demand, budget, and dependencies in the Consulting & Professional Services portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- supply
+- consulting
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Supply Chain Advisory
+  org_unit: Supply Chain Advisory Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-supply-chain-advisory-planner-requires-supply-chain-advisory
+  source_id: roles:role-supply-chain-advisory-planner
+  target_id: skills:skill-supply-chain-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-supply-chain-advisory-planner-requires-supply-chain-advisory-secondary
+  source_id: roles:role-supply-chain-advisory-planner
+  target_id: skills:skill-supply-chain-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

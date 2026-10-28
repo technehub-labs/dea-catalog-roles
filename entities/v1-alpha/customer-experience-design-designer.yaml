@@ -1,0 +1,50 @@
+id: roles:role-customer-experience-design-designer
+type: Role
+name: Customer Experience Design Designer
+description: Designs customer experience design solutions and interfaces, translating Consulting & Professional
+  Services requirements into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- customer
+- consulting
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customer Experience Design
+  org_unit: Customer Experience Design Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-customer-experience-design-designer-requires-customer-experience-design
+  source_id: roles:role-customer-experience-design-designer
+  target_id: skills:skill-customer-experience-design
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-customer-experience-design-designer-requires-customer-experience-design-secondary
+  source_id: roles:role-customer-experience-design-designer
+  target_id: skills:skill-customer-experience-design-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

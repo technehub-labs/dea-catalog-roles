@@ -1,0 +1,50 @@
+id: roles:role-managed-services-consultant
+type: Role
+name: Managed Services Consultant
+description: Supports Consulting & Professional Services teams adopting managed services practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- managed
+- consulting
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Managed Services
+  org_unit: Managed Services Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-managed-services-consultant-requires-managed-services
+  source_id: roles:role-managed-services-consultant
+  target_id: skills:skill-managed-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-managed-services-consultant-requires-managed-services-secondary
+  source_id: roles:role-managed-services-consultant
+  target_id: skills:skill-managed-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

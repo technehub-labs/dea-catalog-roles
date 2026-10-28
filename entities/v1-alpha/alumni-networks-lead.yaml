@@ -1,0 +1,50 @@
+id: roles:role-alumni-networks-lead
+type: Role
+name: Alumni Networks Lead
+description: Sets direction for alumni networks teams, owns their outcomes, and represents alumni networks
+  interests in Consulting & Professional Services governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- alumni
+- consulting
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Alumni Networks
+  org_unit: Alumni Networks Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-alumni-networks-lead-requires-alumni-networks
+  source_id: roles:role-alumni-networks-lead
+  target_id: skills:skill-alumni-networks
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-alumni-networks-lead-requires-alumni-networks-secondary
+  source_id: roles:role-alumni-networks-lead
+  target_id: skills:skill-alumni-networks-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

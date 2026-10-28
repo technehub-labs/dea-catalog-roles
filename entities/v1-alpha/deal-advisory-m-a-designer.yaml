@@ -1,0 +1,50 @@
+id: roles:role-deal-advisory-m-a-designer
+type: Role
+name: Deal Advisory & M&A Designer
+description: Designs deal advisory & m&a solutions and interfaces, translating Consulting & Professional
+  Services requirements into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- deal
+- consulting
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Deal Advisory & M&A
+  org_unit: Deal Advisory & M&A Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-deal-advisory-m-a-designer-requires-deal-advisory-m-a
+  source_id: roles:role-deal-advisory-m-a-designer
+  target_id: skills:skill-deal-advisory-m-a
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-deal-advisory-m-a-designer-requires-deal-advisory-m-a-secondary
+  source_id: roles:role-deal-advisory-m-a-designer
+  target_id: skills:skill-deal-advisory-m-a-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

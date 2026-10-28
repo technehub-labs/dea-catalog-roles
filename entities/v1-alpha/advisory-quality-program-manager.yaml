@@ -1,0 +1,50 @@
+id: roles:role-advisory-quality-program-manager
+type: Role
+name: Advisory Quality Program Manager
+description: Coordinates multi-team advisory quality programmes across Consulting & Professional Services,
+  managing interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- advisory
+- consulting
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Advisory Quality
+  org_unit: Advisory Quality Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-advisory-quality-program-manager-requires-advisory-quality
+  source_id: roles:role-advisory-quality-program-manager
+  target_id: skills:skill-advisory-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-advisory-quality-program-manager-requires-advisory-quality-secondary
+  source_id: roles:role-advisory-quality-program-manager
+  target_id: skills:skill-advisory-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

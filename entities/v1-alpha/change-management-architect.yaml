@@ -1,0 +1,51 @@
+id: roles:role-change-management-architect
+type: Role
+name: Change Management Architect
+description: 'Owns the target architecture for change management: design standards, technology selection,
+  and the evolution roadmap that keeps change management fit for the Consulting & Professional Services
+  operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- change
+- consulting
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Change Management
+  org_unit: Change Management Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-change-management-architect-requires-change-management
+  source_id: roles:role-change-management-architect
+  target_id: skills:skill-change-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-change-management-architect-requires-change-management-secondary
+  source_id: roles:role-change-management-architect
+  target_id: skills:skill-change-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

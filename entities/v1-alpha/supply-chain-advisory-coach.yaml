@@ -1,0 +1,50 @@
+id: roles:role-supply-chain-advisory-coach
+type: Role
+name: Supply Chain Advisory Coach
+description: Coaches Consulting & Professional Services teams and individuals on supply chain advisory
+  working methods, improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- supply
+- consulting
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Supply Chain Advisory
+  org_unit: Supply Chain Advisory Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-supply-chain-advisory-coach-requires-supply-chain-advisory
+  source_id: roles:role-supply-chain-advisory-coach
+  target_id: skills:skill-supply-chain-advisory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-supply-chain-advisory-coach-requires-supply-chain-advisory-secondary
+  source_id: roles:role-supply-chain-advisory-coach
+  target_id: skills:skill-supply-chain-advisory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

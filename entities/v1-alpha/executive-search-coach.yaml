@@ -1,0 +1,50 @@
+id: roles:role-executive-search-coach
+type: Role
+name: Executive Search Coach
+description: Coaches Consulting & Professional Services teams and individuals on executive search working
+  methods, improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- executive
+- consulting
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Executive Search
+  org_unit: Executive Search Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-executive-search-coach-requires-executive-search
+  source_id: roles:role-executive-search-coach
+  target_id: skills:skill-executive-search
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-executive-search-coach-requires-executive-search-secondary
+  source_id: roles:role-executive-search-coach
+  target_id: skills:skill-executive-search-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-operational-excellence-operations-coordinator
+type: Role
+name: Operational Excellence Operations Coordinator
+description: Coordinates day-to-day operational excellence activities, schedules, and records, keeping
+  Consulting & Professional Services operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- operational
+- consulting
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Operational Excellence
+  org_unit: Operational Excellence Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-operational-excellence-operations-coordi-requires-operational-excellence
+  source_id: roles:role-operational-excellence-operations-coordinator
+  target_id: skills:skill-operational-excellence
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-operational-excellence-operations-coordi-requires-operational-excellence-secondary
+  source_id: roles:role-operational-excellence-operations-coordinator
+  target_id: skills:skill-operational-excellence-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
