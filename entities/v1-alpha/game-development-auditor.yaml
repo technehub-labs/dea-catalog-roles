@@ -1,0 +1,50 @@
+id: roles:role-game-development-auditor
+type: Role
+name: Game Development Auditor
+description: Independently reviews game development controls and records, reporting findings and tracking
+  remediation within Entertainment assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- game
+- entertainment
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Game Development
+  org_unit: Game Development Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-game-development-auditor-requires-game-development
+  source_id: roles:role-game-development-auditor
+  target_id: skills:skill-game-development
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-game-development-auditor-requires-game-development-secondary
+  source_id: roles:role-game-development-auditor
+  target_id: skills:skill-game-development-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
