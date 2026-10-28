@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 187
+    entities: 247
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -839,6 +839,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-vendor-audit-compliance-officer
       path: entities/v1-alpha/vendor-audit-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-auditor
+      path: entities/v1-alpha/administrative-justice-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-auditor
+      path: entities/v1-alpha/competition-law-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-auditor
+      path: entities/v1-alpha/consumer-protection-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-auditor
+      path: entities/v1-alpha/contract-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-auditor
+      path: entities/v1-alpha/corporate-counsel-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-auditor
+      path: entities/v1-alpha/court-administration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-auditor
+      path: entities/v1-alpha/data-protection-privacy-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-auditor
+      path: entities/v1-alpha/employment-law-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-auditor
+      path: entities/v1-alpha/energy-regulation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-auditor
+      path: entities/v1-alpha/environmental-law-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-auditor
+      path: entities/v1-alpha/ethics-conduct-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-auditor
+      path: entities/v1-alpha/financial-regulation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-auditor
+      path: entities/v1-alpha/governance-board-affairs-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-auditor
+      path: entities/v1-alpha/health-regulation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-auditor
+      path: entities/v1-alpha/insolvency-restructuring-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-auditor
+      path: entities/v1-alpha/intellectual-property-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-auditor
+      path: entities/v1-alpha/legal-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-auditor
+      path: entities/v1-alpha/legal-research-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-auditor
+      path: entities/v1-alpha/legislative-monitoring-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-auditor
+      path: entities/v1-alpha/licensing-permits-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-auditor
+      path: entities/v1-alpha/litigation-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-auditor
+      path: entities/v1-alpha/notary-registries-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-auditor
+      path: entities/v1-alpha/policy-drafting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-auditor
+      path: entities/v1-alpha/public-prosecution-liaison-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-auditor
+      path: entities/v1-alpha/regulatory-affairs-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-auditor
+      path: entities/v1-alpha/sanctions-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-auditor
+      path: entities/v1-alpha/standard-setting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-auditor
+      path: entities/v1-alpha/tax-law-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-auditor
+      path: entities/v1-alpha/telecom-regulation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-auditor
+      path: entities/v1-alpha/trade-compliance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-compliance-officer
+      path: entities/v1-alpha/administrative-justice-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-compliance-officer
+      path: entities/v1-alpha/competition-law-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-compliance-officer
+      path: entities/v1-alpha/consumer-protection-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-compliance-officer
+      path: entities/v1-alpha/contract-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-compliance-officer
+      path: entities/v1-alpha/corporate-counsel-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-compliance-officer
+      path: entities/v1-alpha/court-administration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-compliance-officer
+      path: entities/v1-alpha/data-protection-privacy-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-compliance-officer
+      path: entities/v1-alpha/employment-law-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-compliance-officer
+      path: entities/v1-alpha/energy-regulation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-compliance-officer
+      path: entities/v1-alpha/environmental-law-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-compliance-officer
+      path: entities/v1-alpha/ethics-conduct-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-compliance-officer
+      path: entities/v1-alpha/financial-regulation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-compliance-officer
+      path: entities/v1-alpha/governance-board-affairs-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-compliance-officer
+      path: entities/v1-alpha/health-regulation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-compliance-officer
+      path: entities/v1-alpha/insolvency-restructuring-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-compliance-officer
+      path: entities/v1-alpha/intellectual-property-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-compliance-officer
+      path: entities/v1-alpha/legal-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-compliance-officer
+      path: entities/v1-alpha/legal-research-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-compliance-officer
+      path: entities/v1-alpha/legislative-monitoring-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-compliance-officer
+      path: entities/v1-alpha/licensing-permits-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-compliance-officer
+      path: entities/v1-alpha/litigation-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-compliance-officer
+      path: entities/v1-alpha/notary-registries-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-compliance-officer
+      path: entities/v1-alpha/policy-drafting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-compliance-officer
+      path: entities/v1-alpha/public-prosecution-liaison-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-compliance-officer
+      path: entities/v1-alpha/regulatory-affairs-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-compliance-officer
+      path: entities/v1-alpha/sanctions-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-compliance-officer
+      path: entities/v1-alpha/standard-setting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-compliance-officer
+      path: entities/v1-alpha/tax-law-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-compliance-officer
+      path: entities/v1-alpha/telecom-regulation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-compliance-officer
+      path: entities/v1-alpha/trade-compliance-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
