@@ -1,0 +1,50 @@
+id: roles:role-third-party-risk-reviews-product-owner
+type: Role
+name: Third-Party Risk Reviews Product Owner
+description: Owns the third-party risk reviews product backlog, prioritising against user value and Audit
+  & Assurance business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- third
+- audit
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Third-Party Risk Reviews
+  org_unit: Third-Party Risk Reviews Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-third-party-risk-reviews-product-owner-requires-third-party-risk-reviews
+  source_id: roles:role-third-party-risk-reviews-product-owner
+  target_id: skills:skill-third-party-risk-reviews
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-third-party-risk-reviews-product-owner-requires-third-party-risk-reviews-secondary
+  source_id: roles:role-third-party-risk-reviews-product-owner
+  target_id: skills:skill-third-party-risk-reviews-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

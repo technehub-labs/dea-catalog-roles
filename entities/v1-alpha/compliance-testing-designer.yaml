@@ -1,0 +1,50 @@
+id: roles:role-compliance-testing-designer
+type: Role
+name: Compliance Testing Designer
+description: Designs compliance testing solutions and interfaces, translating Audit & Assurance requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- compliance
+- audit
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Compliance Testing
+  org_unit: Compliance Testing Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-compliance-testing-designer-requires-compliance-testing
+  source_id: roles:role-compliance-testing-designer
+  target_id: skills:skill-compliance-testing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-compliance-testing-designer-requires-compliance-testing-secondary
+  source_id: roles:role-compliance-testing-designer
+  target_id: skills:skill-compliance-testing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

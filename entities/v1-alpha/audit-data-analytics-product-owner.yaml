@@ -1,0 +1,50 @@
+id: roles:role-audit-data-analytics-product-owner
+type: Role
+name: Audit Data Analytics Product Owner
+description: Owns the audit data analytics product backlog, prioritising against user value and Audit
+  & Assurance business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- audit
+- audit
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Audit Data Analytics
+  org_unit: Audit Data Analytics Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-audit-data-analytics-product-owner-requires-audit-data-analytics
+  source_id: roles:role-audit-data-analytics-product-owner
+  target_id: skills:skill-audit-data-analytics
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-audit-data-analytics-product-owner-requires-audit-data-analytics-secondary
+  source_id: roles:role-audit-data-analytics-product-owner
+  target_id: skills:skill-audit-data-analytics-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

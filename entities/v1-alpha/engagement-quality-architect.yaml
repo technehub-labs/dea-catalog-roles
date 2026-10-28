@@ -1,0 +1,50 @@
+id: roles:role-engagement-quality-architect
+type: Role
+name: Engagement Quality Architect
+description: 'Owns the target architecture for engagement quality: design standards, technology selection,
+  and the evolution roadmap that keeps engagement quality fit for the Audit & Assurance operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- engagement
+- audit
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Engagement Quality
+  org_unit: Engagement Quality Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-engagement-quality-architect-requires-engagement-quality
+  source_id: roles:role-engagement-quality-architect
+  target_id: skills:skill-engagement-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-engagement-quality-architect-requires-engagement-quality-secondary
+  source_id: roles:role-engagement-quality-architect
+  target_id: skills:skill-engagement-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

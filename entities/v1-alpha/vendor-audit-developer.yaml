@@ -1,0 +1,50 @@
+id: roles:role-vendor-audit-developer
+type: Role
+name: Vendor Audit Developer
+description: Implements and unit-tests vendor audit capabilities, contributing code and configuration
+  within the Audit & Assurance delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- vendor
+- audit
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Vendor Audit
+  org_unit: Vendor Audit Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-vendor-audit-developer-requires-vendor-audit
+  source_id: roles:role-vendor-audit-developer
+  target_id: skills:skill-vendor-audit
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-vendor-audit-developer-requires-vendor-audit-secondary
+  source_id: roles:role-vendor-audit-developer
+  target_id: skills:skill-vendor-audit-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

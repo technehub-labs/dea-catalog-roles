@@ -1,0 +1,50 @@
+id: roles:role-audit-methodology-product-owner
+type: Role
+name: Audit Methodology Product Owner
+description: Owns the audit methodology product backlog, prioritising against user value and Audit & Assurance
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- audit
+- audit
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Audit Methodology
+  org_unit: Audit Methodology Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-audit-methodology-product-owner-requires-audit-methodology
+  source_id: roles:role-audit-methodology-product-owner
+  target_id: skills:skill-audit-methodology
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-audit-methodology-product-owner-requires-audit-methodology-secondary
+  source_id: roles:role-audit-methodology-product-owner
+  target_id: skills:skill-audit-methodology-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

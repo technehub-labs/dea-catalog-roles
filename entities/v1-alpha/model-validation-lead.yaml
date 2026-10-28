@@ -1,0 +1,50 @@
+id: roles:role-model-validation-lead
+type: Role
+name: Model Validation Lead
+description: Sets direction for model validation teams, owns their outcomes, and represents model validation
+  interests in Audit & Assurance governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- model
+- audit
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Model Validation
+  org_unit: Model Validation Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-model-validation-lead-requires-model-validation
+  source_id: roles:role-model-validation-lead
+  target_id: skills:skill-model-validation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-model-validation-lead-requires-model-validation-secondary
+  source_id: roles:role-model-validation-lead
+  target_id: skills:skill-model-validation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

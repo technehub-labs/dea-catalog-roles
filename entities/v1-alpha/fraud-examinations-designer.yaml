@@ -1,0 +1,50 @@
+id: roles:role-fraud-examinations-designer
+type: Role
+name: Fraud Examinations Designer
+description: Designs fraud examinations solutions and interfaces, translating Audit & Assurance requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- fraud
+- audit
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fraud Examinations
+  org_unit: Fraud Examinations Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-fraud-examinations-designer-requires-fraud-examinations
+  source_id: roles:role-fraud-examinations-designer
+  target_id: skills:skill-fraud-examinations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fraud-examinations-designer-requires-fraud-examinations-secondary
+  source_id: roles:role-fraud-examinations-designer
+  target_id: skills:skill-fraud-examinations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-continuous-auditing-product-owner
+type: Role
+name: Continuous Auditing Product Owner
+description: Owns the continuous auditing product backlog, prioritising against user value and Audit &
+  Assurance business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- continuous
+- audit
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Continuous Auditing
+  org_unit: Continuous Auditing Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-continuous-auditing-product-owner-requires-continuous-auditing
+  source_id: roles:role-continuous-auditing-product-owner
+  target_id: skills:skill-continuous-auditing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-continuous-auditing-product-owner-requires-continuous-auditing-secondary
+  source_id: roles:role-continuous-auditing-product-owner
+  target_id: skills:skill-continuous-auditing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

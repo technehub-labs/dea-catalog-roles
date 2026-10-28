@@ -1,0 +1,50 @@
+id: roles:role-internal-audit-lead
+type: Role
+name: Internal Audit Lead
+description: Sets direction for internal audit teams, owns their outcomes, and represents internal audit
+  interests in Audit & Assurance governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- internal
+- audit
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Internal Audit
+  org_unit: Internal Audit Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-internal-audit-lead-requires-internal-audit
+  source_id: roles:role-internal-audit-lead
+  target_id: skills:skill-internal-audit
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-internal-audit-lead-requires-internal-audit-secondary
+  source_id: roles:role-internal-audit-lead
+  target_id: skills:skill-internal-audit-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

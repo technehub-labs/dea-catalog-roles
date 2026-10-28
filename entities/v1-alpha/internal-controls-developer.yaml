@@ -1,0 +1,50 @@
+id: roles:role-internal-controls-developer
+type: Role
+name: Internal Controls Developer
+description: Implements and unit-tests internal controls capabilities, contributing code and configuration
+  within the Audit & Assurance delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- internal
+- audit
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Internal Controls
+  org_unit: Internal Controls Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-internal-controls-developer-requires-internal-controls
+  source_id: roles:role-internal-controls-developer
+  target_id: skills:skill-internal-controls
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-internal-controls-developer-requires-internal-controls-secondary
+  source_id: roles:role-internal-controls-developer
+  target_id: skills:skill-internal-controls-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

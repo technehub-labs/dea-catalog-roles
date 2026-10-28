@@ -1,0 +1,50 @@
+id: roles:role-audit-methodology-coach
+type: Role
+name: Audit Methodology Coach
+description: Coaches Audit & Assurance teams and individuals on audit methodology working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- audit
+- audit
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Audit Methodology
+  org_unit: Audit Methodology Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-audit-methodology-coach-requires-audit-methodology
+  source_id: roles:role-audit-methodology-coach
+  target_id: skills:skill-audit-methodology
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-audit-methodology-coach-requires-audit-methodology-secondary
+  source_id: roles:role-audit-methodology-coach
+  target_id: skills:skill-audit-methodology-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

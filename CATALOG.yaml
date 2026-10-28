@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 4327
+    entities: 4737
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -21539,6 +21539,2056 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-nursing-workforce-program-manager
       path: entities/v1-alpha/nursing-workforce-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-administrator
+      path: entities/v1-alpha/assurance-analytics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-administrator
+      path: entities/v1-alpha/assurance-technology-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-administrator
+      path: entities/v1-alpha/audit-data-analytics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-administrator
+      path: entities/v1-alpha/audit-methodology-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-administrator
+      path: entities/v1-alpha/audit-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-administrator
+      path: entities/v1-alpha/audit-reporting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-administrator
+      path: entities/v1-alpha/compliance-testing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-administrator
+      path: entities/v1-alpha/continuous-auditing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-administrator
+      path: entities/v1-alpha/control-self-assessment-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-administrator
+      path: entities/v1-alpha/engagement-quality-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-administrator
+      path: entities/v1-alpha/external-audit-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-administrator
+      path: entities/v1-alpha/financial-attestation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-administrator
+      path: entities/v1-alpha/forensic-accounting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-administrator
+      path: entities/v1-alpha/fraud-examinations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-administrator
+      path: entities/v1-alpha/governance-reviews-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-administrator
+      path: entities/v1-alpha/it-audit-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-administrator
+      path: entities/v1-alpha/internal-audit-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-administrator
+      path: entities/v1-alpha/internal-controls-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-administrator
+      path: entities/v1-alpha/investigations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-administrator
+      path: entities/v1-alpha/model-validation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-administrator
+      path: entities/v1-alpha/operational-reviews-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-administrator
+      path: entities/v1-alpha/performance-auditing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-administrator
+      path: entities/v1-alpha/process-auditing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-administrator
+      path: entities/v1-alpha/quality-assurance-reviews-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-administrator
+      path: entities/v1-alpha/regulatory-examinations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-administrator
+      path: entities/v1-alpha/risk-assessment-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-administrator
+      path: entities/v1-alpha/sustainability-assurance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-administrator
+      path: entities/v1-alpha/tax-audit-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-administrator
+      path: entities/v1-alpha/third-party-risk-reviews-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-administrator
+      path: entities/v1-alpha/vendor-audit-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-analyst
+      path: entities/v1-alpha/assurance-analytics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-analyst
+      path: entities/v1-alpha/assurance-technology-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-analyst
+      path: entities/v1-alpha/audit-data-analytics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-analyst
+      path: entities/v1-alpha/audit-methodology-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-analyst
+      path: entities/v1-alpha/audit-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-analyst
+      path: entities/v1-alpha/audit-reporting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-analyst
+      path: entities/v1-alpha/compliance-testing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-analyst
+      path: entities/v1-alpha/continuous-auditing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-analyst
+      path: entities/v1-alpha/control-self-assessment-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-analyst
+      path: entities/v1-alpha/engagement-quality-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-analyst
+      path: entities/v1-alpha/external-audit-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-analyst
+      path: entities/v1-alpha/financial-attestation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-analyst
+      path: entities/v1-alpha/forensic-accounting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-analyst
+      path: entities/v1-alpha/fraud-examinations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-analyst
+      path: entities/v1-alpha/governance-reviews-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-analyst
+      path: entities/v1-alpha/it-audit-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-analyst
+      path: entities/v1-alpha/internal-audit-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-analyst
+      path: entities/v1-alpha/internal-controls-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-analyst
+      path: entities/v1-alpha/investigations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-analyst
+      path: entities/v1-alpha/model-validation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-analyst
+      path: entities/v1-alpha/operational-reviews-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-analyst
+      path: entities/v1-alpha/performance-auditing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-analyst
+      path: entities/v1-alpha/process-auditing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-analyst
+      path: entities/v1-alpha/quality-assurance-reviews-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-analyst
+      path: entities/v1-alpha/regulatory-examinations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-analyst
+      path: entities/v1-alpha/risk-assessment-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-analyst
+      path: entities/v1-alpha/sustainability-assurance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-analyst
+      path: entities/v1-alpha/tax-audit-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-analyst
+      path: entities/v1-alpha/third-party-risk-reviews-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-analyst
+      path: entities/v1-alpha/vendor-audit-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-architect
+      path: entities/v1-alpha/assurance-analytics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-architect
+      path: entities/v1-alpha/assurance-technology-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-architect
+      path: entities/v1-alpha/audit-data-analytics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-architect
+      path: entities/v1-alpha/audit-methodology-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-architect
+      path: entities/v1-alpha/audit-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-architect
+      path: entities/v1-alpha/audit-reporting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-architect
+      path: entities/v1-alpha/compliance-testing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-architect
+      path: entities/v1-alpha/continuous-auditing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-architect
+      path: entities/v1-alpha/control-self-assessment-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-architect
+      path: entities/v1-alpha/engagement-quality-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-architect
+      path: entities/v1-alpha/external-audit-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-architect
+      path: entities/v1-alpha/financial-attestation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-architect
+      path: entities/v1-alpha/forensic-accounting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-architect
+      path: entities/v1-alpha/fraud-examinations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-architect
+      path: entities/v1-alpha/governance-reviews-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-architect
+      path: entities/v1-alpha/it-audit-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-architect
+      path: entities/v1-alpha/internal-audit-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-architect
+      path: entities/v1-alpha/internal-controls-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-architect
+      path: entities/v1-alpha/investigations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-architect
+      path: entities/v1-alpha/model-validation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-architect
+      path: entities/v1-alpha/operational-reviews-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-architect
+      path: entities/v1-alpha/performance-auditing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-architect
+      path: entities/v1-alpha/process-auditing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-architect
+      path: entities/v1-alpha/quality-assurance-reviews-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-architect
+      path: entities/v1-alpha/regulatory-examinations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-architect
+      path: entities/v1-alpha/risk-assessment-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-architect
+      path: entities/v1-alpha/sustainability-assurance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-architect
+      path: entities/v1-alpha/tax-audit-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-architect
+      path: entities/v1-alpha/third-party-risk-reviews-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-architect
+      path: entities/v1-alpha/vendor-audit-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-coach
+      path: entities/v1-alpha/assurance-analytics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-coach
+      path: entities/v1-alpha/assurance-technology-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-coach
+      path: entities/v1-alpha/audit-data-analytics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-coach
+      path: entities/v1-alpha/audit-methodology-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-coach
+      path: entities/v1-alpha/audit-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-coach
+      path: entities/v1-alpha/audit-reporting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-coach
+      path: entities/v1-alpha/compliance-testing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-coach
+      path: entities/v1-alpha/continuous-auditing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-coach
+      path: entities/v1-alpha/control-self-assessment-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-coach
+      path: entities/v1-alpha/engagement-quality-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-coach
+      path: entities/v1-alpha/external-audit-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-coach
+      path: entities/v1-alpha/financial-attestation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-coach
+      path: entities/v1-alpha/forensic-accounting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-coach
+      path: entities/v1-alpha/fraud-examinations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-coach
+      path: entities/v1-alpha/governance-reviews-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-coach
+      path: entities/v1-alpha/it-audit-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-coach
+      path: entities/v1-alpha/internal-audit-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-coach
+      path: entities/v1-alpha/internal-controls-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-coach
+      path: entities/v1-alpha/investigations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-coach
+      path: entities/v1-alpha/model-validation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-coach
+      path: entities/v1-alpha/operational-reviews-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-coach
+      path: entities/v1-alpha/performance-auditing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-coach
+      path: entities/v1-alpha/process-auditing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-coach
+      path: entities/v1-alpha/quality-assurance-reviews-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-coach
+      path: entities/v1-alpha/regulatory-examinations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-coach
+      path: entities/v1-alpha/risk-assessment-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-coach
+      path: entities/v1-alpha/sustainability-assurance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-coach
+      path: entities/v1-alpha/tax-audit-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-coach
+      path: entities/v1-alpha/third-party-risk-reviews-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-coach
+      path: entities/v1-alpha/vendor-audit-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-consultant
+      path: entities/v1-alpha/assurance-analytics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-consultant
+      path: entities/v1-alpha/assurance-technology-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-consultant
+      path: entities/v1-alpha/audit-data-analytics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-consultant
+      path: entities/v1-alpha/audit-methodology-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-consultant
+      path: entities/v1-alpha/audit-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-consultant
+      path: entities/v1-alpha/audit-reporting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-consultant
+      path: entities/v1-alpha/compliance-testing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-consultant
+      path: entities/v1-alpha/continuous-auditing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-consultant
+      path: entities/v1-alpha/control-self-assessment-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-consultant
+      path: entities/v1-alpha/engagement-quality-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-consultant
+      path: entities/v1-alpha/external-audit-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-consultant
+      path: entities/v1-alpha/financial-attestation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-consultant
+      path: entities/v1-alpha/forensic-accounting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-consultant
+      path: entities/v1-alpha/fraud-examinations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-consultant
+      path: entities/v1-alpha/governance-reviews-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-consultant
+      path: entities/v1-alpha/it-audit-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-consultant
+      path: entities/v1-alpha/internal-audit-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-consultant
+      path: entities/v1-alpha/internal-controls-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-consultant
+      path: entities/v1-alpha/investigations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-consultant
+      path: entities/v1-alpha/model-validation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-consultant
+      path: entities/v1-alpha/operational-reviews-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-consultant
+      path: entities/v1-alpha/performance-auditing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-consultant
+      path: entities/v1-alpha/process-auditing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-consultant
+      path: entities/v1-alpha/quality-assurance-reviews-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-consultant
+      path: entities/v1-alpha/regulatory-examinations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-consultant
+      path: entities/v1-alpha/risk-assessment-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-consultant
+      path: entities/v1-alpha/sustainability-assurance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-consultant
+      path: entities/v1-alpha/tax-audit-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-consultant
+      path: entities/v1-alpha/third-party-risk-reviews-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-consultant
+      path: entities/v1-alpha/vendor-audit-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-designer
+      path: entities/v1-alpha/assurance-analytics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-designer
+      path: entities/v1-alpha/assurance-technology-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-designer
+      path: entities/v1-alpha/audit-data-analytics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-designer
+      path: entities/v1-alpha/audit-methodology-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-designer
+      path: entities/v1-alpha/audit-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-designer
+      path: entities/v1-alpha/audit-reporting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-designer
+      path: entities/v1-alpha/compliance-testing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-designer
+      path: entities/v1-alpha/continuous-auditing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-designer
+      path: entities/v1-alpha/control-self-assessment-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-designer
+      path: entities/v1-alpha/engagement-quality-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-designer
+      path: entities/v1-alpha/external-audit-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-designer
+      path: entities/v1-alpha/financial-attestation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-designer
+      path: entities/v1-alpha/forensic-accounting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-designer
+      path: entities/v1-alpha/fraud-examinations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-designer
+      path: entities/v1-alpha/governance-reviews-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-designer
+      path: entities/v1-alpha/it-audit-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-designer
+      path: entities/v1-alpha/internal-audit-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-designer
+      path: entities/v1-alpha/internal-controls-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-designer
+      path: entities/v1-alpha/investigations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-designer
+      path: entities/v1-alpha/model-validation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-designer
+      path: entities/v1-alpha/operational-reviews-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-designer
+      path: entities/v1-alpha/performance-auditing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-designer
+      path: entities/v1-alpha/process-auditing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-designer
+      path: entities/v1-alpha/quality-assurance-reviews-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-designer
+      path: entities/v1-alpha/regulatory-examinations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-designer
+      path: entities/v1-alpha/risk-assessment-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-designer
+      path: entities/v1-alpha/sustainability-assurance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-designer
+      path: entities/v1-alpha/tax-audit-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-designer
+      path: entities/v1-alpha/third-party-risk-reviews-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-designer
+      path: entities/v1-alpha/vendor-audit-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-developer
+      path: entities/v1-alpha/assurance-analytics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-developer
+      path: entities/v1-alpha/assurance-technology-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-developer
+      path: entities/v1-alpha/audit-data-analytics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-developer
+      path: entities/v1-alpha/audit-methodology-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-developer
+      path: entities/v1-alpha/audit-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-developer
+      path: entities/v1-alpha/audit-reporting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-developer
+      path: entities/v1-alpha/compliance-testing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-developer
+      path: entities/v1-alpha/continuous-auditing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-developer
+      path: entities/v1-alpha/control-self-assessment-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-developer
+      path: entities/v1-alpha/engagement-quality-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-developer
+      path: entities/v1-alpha/external-audit-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-developer
+      path: entities/v1-alpha/financial-attestation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-developer
+      path: entities/v1-alpha/forensic-accounting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-developer
+      path: entities/v1-alpha/fraud-examinations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-developer
+      path: entities/v1-alpha/governance-reviews-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-developer
+      path: entities/v1-alpha/it-audit-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-developer
+      path: entities/v1-alpha/internal-audit-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-developer
+      path: entities/v1-alpha/internal-controls-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-developer
+      path: entities/v1-alpha/investigations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-developer
+      path: entities/v1-alpha/model-validation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-developer
+      path: entities/v1-alpha/operational-reviews-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-developer
+      path: entities/v1-alpha/performance-auditing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-developer
+      path: entities/v1-alpha/process-auditing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-developer
+      path: entities/v1-alpha/quality-assurance-reviews-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-developer
+      path: entities/v1-alpha/regulatory-examinations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-developer
+      path: entities/v1-alpha/risk-assessment-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-developer
+      path: entities/v1-alpha/sustainability-assurance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-developer
+      path: entities/v1-alpha/tax-audit-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-developer
+      path: entities/v1-alpha/third-party-risk-reviews-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-developer
+      path: entities/v1-alpha/vendor-audit-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-engineer
+      path: entities/v1-alpha/assurance-analytics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-engineer
+      path: entities/v1-alpha/assurance-technology-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-engineer
+      path: entities/v1-alpha/audit-data-analytics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-engineer
+      path: entities/v1-alpha/audit-methodology-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-engineer
+      path: entities/v1-alpha/audit-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-engineer
+      path: entities/v1-alpha/audit-reporting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-engineer
+      path: entities/v1-alpha/compliance-testing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-engineer
+      path: entities/v1-alpha/continuous-auditing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-engineer
+      path: entities/v1-alpha/control-self-assessment-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-engineer
+      path: entities/v1-alpha/engagement-quality-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-engineer
+      path: entities/v1-alpha/external-audit-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-engineer
+      path: entities/v1-alpha/financial-attestation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-engineer
+      path: entities/v1-alpha/forensic-accounting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-engineer
+      path: entities/v1-alpha/fraud-examinations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-engineer
+      path: entities/v1-alpha/governance-reviews-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-engineer
+      path: entities/v1-alpha/it-audit-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-engineer
+      path: entities/v1-alpha/internal-audit-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-engineer
+      path: entities/v1-alpha/internal-controls-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-engineer
+      path: entities/v1-alpha/investigations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-engineer
+      path: entities/v1-alpha/model-validation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-engineer
+      path: entities/v1-alpha/operational-reviews-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-engineer
+      path: entities/v1-alpha/performance-auditing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-engineer
+      path: entities/v1-alpha/process-auditing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-engineer
+      path: entities/v1-alpha/quality-assurance-reviews-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-engineer
+      path: entities/v1-alpha/regulatory-examinations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-engineer
+      path: entities/v1-alpha/risk-assessment-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-engineer
+      path: entities/v1-alpha/sustainability-assurance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-engineer
+      path: entities/v1-alpha/tax-audit-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-engineer
+      path: entities/v1-alpha/third-party-risk-reviews-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-engineer
+      path: entities/v1-alpha/vendor-audit-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-lead
+      path: entities/v1-alpha/assurance-analytics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-lead
+      path: entities/v1-alpha/assurance-technology-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-lead
+      path: entities/v1-alpha/audit-data-analytics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-lead
+      path: entities/v1-alpha/audit-methodology-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-lead
+      path: entities/v1-alpha/audit-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-lead
+      path: entities/v1-alpha/audit-reporting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-lead
+      path: entities/v1-alpha/compliance-testing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-lead
+      path: entities/v1-alpha/continuous-auditing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-lead
+      path: entities/v1-alpha/control-self-assessment-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-lead
+      path: entities/v1-alpha/engagement-quality-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-lead
+      path: entities/v1-alpha/external-audit-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-lead
+      path: entities/v1-alpha/financial-attestation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-lead
+      path: entities/v1-alpha/forensic-accounting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-lead
+      path: entities/v1-alpha/fraud-examinations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-lead
+      path: entities/v1-alpha/governance-reviews-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-lead
+      path: entities/v1-alpha/it-audit-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-lead
+      path: entities/v1-alpha/internal-audit-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-lead
+      path: entities/v1-alpha/internal-controls-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-lead
+      path: entities/v1-alpha/investigations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-lead
+      path: entities/v1-alpha/model-validation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-lead
+      path: entities/v1-alpha/operational-reviews-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-lead
+      path: entities/v1-alpha/performance-auditing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-lead
+      path: entities/v1-alpha/process-auditing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-lead
+      path: entities/v1-alpha/quality-assurance-reviews-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-lead
+      path: entities/v1-alpha/regulatory-examinations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-lead
+      path: entities/v1-alpha/risk-assessment-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-lead
+      path: entities/v1-alpha/sustainability-assurance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-lead
+      path: entities/v1-alpha/tax-audit-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-lead
+      path: entities/v1-alpha/third-party-risk-reviews-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-lead
+      path: entities/v1-alpha/vendor-audit-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-manager
+      path: entities/v1-alpha/assurance-analytics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-manager
+      path: entities/v1-alpha/assurance-technology-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-manager
+      path: entities/v1-alpha/audit-data-analytics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-manager
+      path: entities/v1-alpha/audit-methodology-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-manager
+      path: entities/v1-alpha/audit-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-manager
+      path: entities/v1-alpha/audit-reporting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-manager
+      path: entities/v1-alpha/compliance-testing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-manager
+      path: entities/v1-alpha/continuous-auditing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-manager
+      path: entities/v1-alpha/control-self-assessment-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-manager
+      path: entities/v1-alpha/engagement-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-manager
+      path: entities/v1-alpha/external-audit-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-manager
+      path: entities/v1-alpha/financial-attestation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-manager
+      path: entities/v1-alpha/forensic-accounting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-manager
+      path: entities/v1-alpha/fraud-examinations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-manager
+      path: entities/v1-alpha/governance-reviews-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-manager
+      path: entities/v1-alpha/it-audit-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-manager
+      path: entities/v1-alpha/internal-audit-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-manager
+      path: entities/v1-alpha/internal-controls-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-manager
+      path: entities/v1-alpha/investigations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-manager
+      path: entities/v1-alpha/model-validation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-manager
+      path: entities/v1-alpha/operational-reviews-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-manager
+      path: entities/v1-alpha/performance-auditing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-manager
+      path: entities/v1-alpha/process-auditing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-manager
+      path: entities/v1-alpha/quality-assurance-reviews-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-manager
+      path: entities/v1-alpha/regulatory-examinations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-manager
+      path: entities/v1-alpha/risk-assessment-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-manager
+      path: entities/v1-alpha/sustainability-assurance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-manager
+      path: entities/v1-alpha/tax-audit-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-manager
+      path: entities/v1-alpha/third-party-risk-reviews-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-manager
+      path: entities/v1-alpha/vendor-audit-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-operations-coordinator
+      path: entities/v1-alpha/assurance-analytics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-operations-coordinator
+      path: entities/v1-alpha/assurance-technology-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-operations-coordinator
+      path: entities/v1-alpha/audit-data-analytics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-operations-coordinator
+      path: entities/v1-alpha/audit-methodology-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-operations-coordinator
+      path: entities/v1-alpha/audit-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-operations-coordinator
+      path: entities/v1-alpha/audit-reporting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-operations-coordinator
+      path: entities/v1-alpha/compliance-testing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-operations-coordinator
+      path: entities/v1-alpha/continuous-auditing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-operations-coordinator
+      path: entities/v1-alpha/control-self-assessment-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-operations-coordinator
+      path: entities/v1-alpha/engagement-quality-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-operations-coordinator
+      path: entities/v1-alpha/external-audit-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-operations-coordinator
+      path: entities/v1-alpha/financial-attestation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-operations-coordinator
+      path: entities/v1-alpha/forensic-accounting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-operations-coordinator
+      path: entities/v1-alpha/fraud-examinations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-operations-coordinator
+      path: entities/v1-alpha/governance-reviews-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-operations-coordinator
+      path: entities/v1-alpha/it-audit-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-operations-coordinator
+      path: entities/v1-alpha/internal-audit-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-operations-coordinator
+      path: entities/v1-alpha/internal-controls-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-operations-coordinator
+      path: entities/v1-alpha/investigations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-operations-coordinator
+      path: entities/v1-alpha/model-validation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-operations-coordinator
+      path: entities/v1-alpha/operational-reviews-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-operations-coordinator
+      path: entities/v1-alpha/performance-auditing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-operations-coordinator
+      path: entities/v1-alpha/process-auditing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-operations-coordinator
+      path: entities/v1-alpha/quality-assurance-reviews-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-operations-coordinator
+      path: entities/v1-alpha/regulatory-examinations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-operations-coordinator
+      path: entities/v1-alpha/risk-assessment-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-operations-coordinator
+      path: entities/v1-alpha/sustainability-assurance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-operations-coordinator
+      path: entities/v1-alpha/tax-audit-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-operations-coordinator
+      path: entities/v1-alpha/third-party-risk-reviews-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-operations-coordinator
+      path: entities/v1-alpha/vendor-audit-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-planner
+      path: entities/v1-alpha/assurance-analytics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-planner
+      path: entities/v1-alpha/assurance-technology-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-planner
+      path: entities/v1-alpha/audit-data-analytics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-planner
+      path: entities/v1-alpha/audit-methodology-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-planner
+      path: entities/v1-alpha/audit-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-planner
+      path: entities/v1-alpha/audit-reporting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-planner
+      path: entities/v1-alpha/compliance-testing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-planner
+      path: entities/v1-alpha/continuous-auditing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-planner
+      path: entities/v1-alpha/control-self-assessment-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-planner
+      path: entities/v1-alpha/engagement-quality-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-planner
+      path: entities/v1-alpha/external-audit-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-planner
+      path: entities/v1-alpha/financial-attestation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-planner
+      path: entities/v1-alpha/forensic-accounting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-planner
+      path: entities/v1-alpha/fraud-examinations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-planner
+      path: entities/v1-alpha/governance-reviews-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-planner
+      path: entities/v1-alpha/it-audit-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-planner
+      path: entities/v1-alpha/internal-audit-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-planner
+      path: entities/v1-alpha/internal-controls-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-planner
+      path: entities/v1-alpha/investigations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-planner
+      path: entities/v1-alpha/model-validation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-planner
+      path: entities/v1-alpha/operational-reviews-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-planner
+      path: entities/v1-alpha/performance-auditing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-planner
+      path: entities/v1-alpha/process-auditing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-planner
+      path: entities/v1-alpha/quality-assurance-reviews-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-planner
+      path: entities/v1-alpha/regulatory-examinations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-planner
+      path: entities/v1-alpha/risk-assessment-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-planner
+      path: entities/v1-alpha/sustainability-assurance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-planner
+      path: entities/v1-alpha/tax-audit-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-planner
+      path: entities/v1-alpha/third-party-risk-reviews-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-planner
+      path: entities/v1-alpha/vendor-audit-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-product-owner
+      path: entities/v1-alpha/assurance-analytics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-product-owner
+      path: entities/v1-alpha/assurance-technology-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-product-owner
+      path: entities/v1-alpha/audit-data-analytics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-product-owner
+      path: entities/v1-alpha/audit-methodology-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-product-owner
+      path: entities/v1-alpha/audit-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-product-owner
+      path: entities/v1-alpha/audit-reporting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-product-owner
+      path: entities/v1-alpha/compliance-testing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-product-owner
+      path: entities/v1-alpha/continuous-auditing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-product-owner
+      path: entities/v1-alpha/control-self-assessment-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-product-owner
+      path: entities/v1-alpha/engagement-quality-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-product-owner
+      path: entities/v1-alpha/external-audit-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-product-owner
+      path: entities/v1-alpha/financial-attestation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-product-owner
+      path: entities/v1-alpha/forensic-accounting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-product-owner
+      path: entities/v1-alpha/fraud-examinations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-product-owner
+      path: entities/v1-alpha/governance-reviews-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-product-owner
+      path: entities/v1-alpha/it-audit-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-product-owner
+      path: entities/v1-alpha/internal-audit-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-product-owner
+      path: entities/v1-alpha/internal-controls-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-product-owner
+      path: entities/v1-alpha/investigations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-product-owner
+      path: entities/v1-alpha/model-validation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-reviews-product-owner
+      path: entities/v1-alpha/operational-reviews-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-performance-auditing-product-owner
+      path: entities/v1-alpha/performance-auditing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-process-auditing-product-owner
+      path: entities/v1-alpha/process-auditing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-assurance-reviews-product-owner
+      path: entities/v1-alpha/quality-assurance-reviews-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-examinations-product-owner
+      path: entities/v1-alpha/regulatory-examinations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-assessment-product-owner
+      path: entities/v1-alpha/risk-assessment-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-assurance-product-owner
+      path: entities/v1-alpha/sustainability-assurance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-audit-product-owner
+      path: entities/v1-alpha/tax-audit-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-third-party-risk-reviews-product-owner
+      path: entities/v1-alpha/third-party-risk-reviews-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-vendor-audit-product-owner
+      path: entities/v1-alpha/vendor-audit-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-analytics-program-manager
+      path: entities/v1-alpha/assurance-analytics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assurance-technology-program-manager
+      path: entities/v1-alpha/assurance-technology-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-data-analytics-program-manager
+      path: entities/v1-alpha/audit-data-analytics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-methodology-program-manager
+      path: entities/v1-alpha/audit-methodology-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-planning-program-manager
+      path: entities/v1-alpha/audit-planning-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audit-reporting-program-manager
+      path: entities/v1-alpha/audit-reporting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-compliance-testing-program-manager
+      path: entities/v1-alpha/compliance-testing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-continuous-auditing-program-manager
+      path: entities/v1-alpha/continuous-auditing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-control-self-assessment-program-manager
+      path: entities/v1-alpha/control-self-assessment-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-engagement-quality-program-manager
+      path: entities/v1-alpha/engagement-quality-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-external-audit-program-manager
+      path: entities/v1-alpha/external-audit-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-attestation-program-manager
+      path: entities/v1-alpha/financial-attestation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-forensic-accounting-program-manager
+      path: entities/v1-alpha/forensic-accounting-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fraud-examinations-program-manager
+      path: entities/v1-alpha/fraud-examinations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-reviews-program-manager
+      path: entities/v1-alpha/governance-reviews-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-audit-program-manager
+      path: entities/v1-alpha/it-audit-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-audit-program-manager
+      path: entities/v1-alpha/internal-audit-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-internal-controls-program-manager
+      path: entities/v1-alpha/internal-controls-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-investigations-program-manager
+      path: entities/v1-alpha/investigations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-model-validation-program-manager
+      path: entities/v1-alpha/model-validation-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

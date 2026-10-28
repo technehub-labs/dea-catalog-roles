@@ -1,0 +1,50 @@
+id: roles:role-sustainability-assurance-consultant
+type: Role
+name: Sustainability Assurance Consultant
+description: Supports Audit & Assurance teams adopting sustainability assurance practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- sustainability
+- audit
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Sustainability Assurance
+  org_unit: Sustainability Assurance Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-sustainability-assurance-consultant-requires-sustainability-assurance
+  source_id: roles:role-sustainability-assurance-consultant
+  target_id: skills:skill-sustainability-assurance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-sustainability-assurance-consultant-requires-sustainability-assurance-secondary
+  source_id: roles:role-sustainability-assurance-consultant
+  target_id: skills:skill-sustainability-assurance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

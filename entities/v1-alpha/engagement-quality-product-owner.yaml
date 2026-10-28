@@ -1,0 +1,50 @@
+id: roles:role-engagement-quality-product-owner
+type: Role
+name: Engagement Quality Product Owner
+description: Owns the engagement quality product backlog, prioritising against user value and Audit &
+  Assurance business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- engagement
+- audit
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Engagement Quality
+  org_unit: Engagement Quality Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-engagement-quality-product-owner-requires-engagement-quality
+  source_id: roles:role-engagement-quality-product-owner
+  target_id: skills:skill-engagement-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-engagement-quality-product-owner-requires-engagement-quality-secondary
+  source_id: roles:role-engagement-quality-product-owner
+  target_id: skills:skill-engagement-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

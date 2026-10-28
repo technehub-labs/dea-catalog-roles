@@ -1,0 +1,50 @@
+id: roles:role-it-audit-analyst
+type: Role
+name: IT Audit Analyst
+description: Analyses it audit data and processes, producing insight and recommendations that steer Audit
+  & Assurance planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- it
+- audit
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: IT Audit
+  org_unit: IT Audit Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-it-audit-analyst-requires-it-audit
+  source_id: roles:role-it-audit-analyst
+  target_id: skills:skill-it-audit
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-it-audit-analyst-requires-it-audit-secondary
+  source_id: roles:role-it-audit-analyst
+  target_id: skills:skill-it-audit-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

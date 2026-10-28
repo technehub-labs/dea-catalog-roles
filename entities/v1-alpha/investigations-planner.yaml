@@ -1,0 +1,50 @@
+id: roles:role-investigations-planner
+type: Role
+name: Investigations Planner
+description: Plans capacity, schedule, and sequencing for investigations activities, balancing demand,
+  budget, and dependencies in the Audit & Assurance portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- investigations
+- audit
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Investigations
+  org_unit: Investigations Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-investigations-planner-requires-investigations
+  source_id: roles:role-investigations-planner
+  target_id: skills:skill-investigations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-investigations-planner-requires-investigations-secondary
+  source_id: roles:role-investigations-planner
+  target_id: skills:skill-investigations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-audit-planning-lead
+type: Role
+name: Audit Planning Lead
+description: Sets direction for audit planning teams, owns their outcomes, and represents audit planning
+  interests in Audit & Assurance governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- audit
+- audit
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Audit Planning
+  org_unit: Audit Planning Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-audit-planning-lead-requires-audit-planning
+  source_id: roles:role-audit-planning-lead
+  target_id: skills:skill-audit-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-audit-planning-lead-requires-audit-planning-secondary
+  source_id: roles:role-audit-planning-lead
+  target_id: skills:skill-audit-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
