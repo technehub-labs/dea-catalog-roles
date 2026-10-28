@@ -9,7 +9,7 @@ provenance:
   type: discovery
   asserted_by: catalog-seed
   verification_status: unverified
-collisions_with_existing: 3423
+collisions_with_existing: 3862
 notes: >-
   Rows are candidates only (lifecycle_status: proposed, version 0.1.0).
   Entities materialize per admission (GOVERNANCE.md S4); existing
@@ -37,4 +37,5 @@ notes: >-
   438 finance wave-2 admissions (CR-DEA-ROL-26);
   440 mining wave-2 admissions (CR-DEA-ROL-27);
   440 transport wave-2 admissions (CR-DEA-ROL-28);
+  439 manufacturing wave-2 admissions (CR-DEA-ROL-29);
   the gate fails on any unexplained collision-count change.

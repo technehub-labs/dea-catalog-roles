@@ -1,0 +1,50 @@
+id: roles:role-packaging-operations-designer
+type: Role
+name: Packaging Operations Designer
+description: Designs packaging operations solutions and interfaces, translating Manufacturing requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- packaging
+- manufacturing
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Packaging Operations
+  org_unit: Packaging Operations Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-packaging-operations-designer-requires-packaging-operations
+  source_id: roles:role-packaging-operations-designer
+  target_id: skills:skill-packaging-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-packaging-operations-designer-requires-packaging-operations-secondary
+  source_id: roles:role-packaging-operations-designer
+  target_id: skills:skill-packaging-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

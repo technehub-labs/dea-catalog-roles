@@ -1,0 +1,50 @@
+id: roles:role-supplier-quality-architect
+type: Role
+name: Supplier Quality Architect
+description: 'Owns the target architecture for supplier quality: design standards, technology selection,
+  and the evolution roadmap that keeps supplier quality fit for the Manufacturing operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- supplier
+- manufacturing
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Supplier Quality
+  org_unit: Supplier Quality Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-supplier-quality-architect-requires-supplier-quality
+  source_id: roles:role-supplier-quality-architect
+  target_id: skills:skill-supplier-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-supplier-quality-architect-requires-supplier-quality-secondary
+  source_id: roles:role-supplier-quality-architect
+  target_id: skills:skill-supplier-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

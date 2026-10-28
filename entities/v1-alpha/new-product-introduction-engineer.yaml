@@ -1,0 +1,50 @@
+id: roles:role-new-product-introduction-engineer
+type: Role
+name: New Product Introduction Engineer
+description: Builds, configures, and maintains new product introduction components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Manufacturing standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- new
+- manufacturing
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: New Product Introduction
+  org_unit: New Product Introduction Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-new-product-introduction-engineer-requires-new-product-introduction
+  source_id: roles:role-new-product-introduction-engineer
+  target_id: skills:skill-new-product-introduction
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-new-product-introduction-engineer-requires-new-product-introduction-secondary
+  source_id: roles:role-new-product-introduction-engineer
+  target_id: skills:skill-new-product-introduction-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

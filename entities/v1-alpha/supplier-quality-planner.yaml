@@ -1,0 +1,50 @@
+id: roles:role-supplier-quality-planner
+type: Role
+name: Supplier Quality Planner
+description: Plans capacity, schedule, and sequencing for supplier quality activities, balancing demand,
+  budget, and dependencies in the Manufacturing portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- supplier
+- manufacturing
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Supplier Quality
+  org_unit: Supplier Quality Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-supplier-quality-planner-requires-supplier-quality
+  source_id: roles:role-supplier-quality-planner
+  target_id: skills:skill-supplier-quality
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-supplier-quality-planner-requires-supplier-quality-secondary
+  source_id: roles:role-supplier-quality-planner
+  target_id: skills:skill-supplier-quality-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

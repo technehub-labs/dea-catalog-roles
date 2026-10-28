@@ -1,0 +1,50 @@
+id: roles:role-additive-manufacturing-lead
+type: Role
+name: Additive Manufacturing Lead
+description: Sets direction for additive manufacturing teams, owns their outcomes, and represents additive
+  manufacturing interests in Manufacturing governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- additive
+- manufacturing
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Additive Manufacturing
+  org_unit: Additive Manufacturing Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-additive-manufacturing-lead-requires-additive-manufacturing
+  source_id: roles:role-additive-manufacturing-lead
+  target_id: skills:skill-additive-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-additive-manufacturing-lead-requires-additive-manufacturing-secondary
+  source_id: roles:role-additive-manufacturing-lead
+  target_id: skills:skill-additive-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

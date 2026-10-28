@@ -1,0 +1,50 @@
+id: roles:role-robotics-integration-administrator
+type: Role
+name: Robotics Integration Administrator
+description: 'Administers robotics integration environments day to day: provisioning, access control,
+  monitoring, and routine change execution for Manufacturing operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- robotics
+- manufacturing
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Robotics Integration
+  org_unit: Robotics Integration Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-robotics-integration-administrator-requires-robotics-integration
+  source_id: roles:role-robotics-integration-administrator
+  target_id: skills:skill-robotics-integration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-robotics-integration-administrator-requires-robotics-integration-secondary
+  source_id: roles:role-robotics-integration-administrator
+  target_id: skills:skill-robotics-integration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

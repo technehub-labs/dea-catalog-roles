@@ -1,0 +1,50 @@
+id: roles:role-workforce-scheduling-lead
+type: Role
+name: Workforce Scheduling Lead
+description: Sets direction for workforce scheduling teams, owns their outcomes, and represents workforce
+  scheduling interests in Manufacturing governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- workforce
+- manufacturing
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Workforce Scheduling
+  org_unit: Workforce Scheduling Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-workforce-scheduling-lead-requires-workforce-scheduling
+  source_id: roles:role-workforce-scheduling-lead
+  target_id: skills:skill-workforce-scheduling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-workforce-scheduling-lead-requires-workforce-scheduling-secondary
+  source_id: roles:role-workforce-scheduling-lead
+  target_id: skills:skill-workforce-scheduling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

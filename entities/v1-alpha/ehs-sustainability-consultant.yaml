@@ -1,0 +1,50 @@
+id: roles:role-ehs-sustainability-consultant
+type: Role
+name: EHS & Sustainability Consultant
+description: Supports Manufacturing teams adopting ehs & sustainability practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- ehs
+- manufacturing
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: EHS & Sustainability
+  org_unit: EHS & Sustainability Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-ehs-sustainability-consultant-requires-ehs-sustainability
+  source_id: roles:role-ehs-sustainability-consultant
+  target_id: skills:skill-ehs-sustainability
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-ehs-sustainability-consultant-requires-ehs-sustainability-secondary
+  source_id: roles:role-ehs-sustainability-consultant
+  target_id: skills:skill-ehs-sustainability-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-ehs-sustainability-operations-coordinator
+type: Role
+name: EHS & Sustainability Operations Coordinator
+description: Coordinates day-to-day ehs & sustainability activities, schedules, and records, keeping Manufacturing
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- ehs
+- manufacturing
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: EHS & Sustainability
+  org_unit: EHS & Sustainability Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-ehs-sustainability-operations-coordinato-requires-ehs-sustainability
+  source_id: roles:role-ehs-sustainability-operations-coordinator
+  target_id: skills:skill-ehs-sustainability
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-ehs-sustainability-operations-coordinato-requires-ehs-sustainability-secondary
+  source_id: roles:role-ehs-sustainability-operations-coordinator
+  target_id: skills:skill-ehs-sustainability-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

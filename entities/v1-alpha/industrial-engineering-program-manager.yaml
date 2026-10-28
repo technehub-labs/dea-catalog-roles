@@ -1,0 +1,50 @@
+id: roles:role-industrial-engineering-program-manager
+type: Role
+name: Industrial Engineering Program Manager
+description: Coordinates multi-team industrial engineering programmes across Manufacturing, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- industrial
+- manufacturing
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Industrial Engineering
+  org_unit: Industrial Engineering Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-industrial-engineering-program-manager-requires-industrial-engineering
+  source_id: roles:role-industrial-engineering-program-manager
+  target_id: skills:skill-industrial-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-industrial-engineering-program-manager-requires-industrial-engineering-secondary
+  source_id: roles:role-industrial-engineering-program-manager
+  target_id: skills:skill-industrial-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

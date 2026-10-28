@@ -1,0 +1,50 @@
+id: roles:role-lean-manufacturing-designer
+type: Role
+name: Lean Manufacturing Designer
+description: Designs lean manufacturing solutions and interfaces, translating Manufacturing requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- lean
+- manufacturing
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Lean Manufacturing
+  org_unit: Lean Manufacturing Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-lean-manufacturing-designer-requires-lean-manufacturing
+  source_id: roles:role-lean-manufacturing-designer
+  target_id: skills:skill-lean-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-lean-manufacturing-designer-requires-lean-manufacturing-secondary
+  source_id: roles:role-lean-manufacturing-designer
+  target_id: skills:skill-lean-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

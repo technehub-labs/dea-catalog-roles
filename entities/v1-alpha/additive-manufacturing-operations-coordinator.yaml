@@ -1,0 +1,50 @@
+id: roles:role-additive-manufacturing-operations-coordinator
+type: Role
+name: Additive Manufacturing Operations Coordinator
+description: Coordinates day-to-day additive manufacturing activities, schedules, and records, keeping
+  Manufacturing operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- additive
+- manufacturing
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Additive Manufacturing
+  org_unit: Additive Manufacturing Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-additive-manufacturing-operations-coordi-requires-additive-manufacturing
+  source_id: roles:role-additive-manufacturing-operations-coordinator
+  target_id: skills:skill-additive-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-additive-manufacturing-operations-coordi-requires-additive-manufacturing-secondary
+  source_id: roles:role-additive-manufacturing-operations-coordinator
+  target_id: skills:skill-additive-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

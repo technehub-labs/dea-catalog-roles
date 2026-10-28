@@ -1,0 +1,50 @@
+id: roles:role-robotics-integration-manager
+type: Role
+name: Robotics Integration Manager
+description: 'Manages robotics integration end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Manufacturing operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- robotics
+- manufacturing
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Robotics Integration
+  org_unit: Robotics Integration Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-robotics-integration-manager-requires-robotics-integration
+  source_id: roles:role-robotics-integration-manager
+  target_id: skills:skill-robotics-integration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-robotics-integration-manager-requires-robotics-integration-secondary
+  source_id: roles:role-robotics-integration-manager
+  target_id: skills:skill-robotics-integration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

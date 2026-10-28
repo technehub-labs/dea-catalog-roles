@@ -1,0 +1,50 @@
+id: roles:role-supply-chain-planning-lead
+type: Role
+name: Supply Chain Planning Lead
+description: Sets direction for supply chain planning teams, owns their outcomes, and represents supply
+  chain planning interests in Manufacturing governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- supply
+- manufacturing
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Supply Chain Planning
+  org_unit: Supply Chain Planning Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-supply-chain-planning-lead-requires-supply-chain-planning
+  source_id: roles:role-supply-chain-planning-lead
+  target_id: skills:skill-supply-chain-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-supply-chain-planning-lead-requires-supply-chain-planning-secondary
+  source_id: roles:role-supply-chain-planning-lead
+  target_id: skills:skill-supply-chain-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-tooling-fixtures-planner
+type: Role
+name: Tooling & Fixtures Planner
+description: Plans capacity, schedule, and sequencing for tooling & fixtures activities, balancing demand,
+  budget, and dependencies in the Manufacturing portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- tooling
+- manufacturing
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Tooling & Fixtures
+  org_unit: Tooling & Fixtures Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-tooling-fixtures-planner-requires-tooling-fixtures
+  source_id: roles:role-tooling-fixtures-planner
+  target_id: skills:skill-tooling-fixtures
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-tooling-fixtures-planner-requires-tooling-fixtures-secondary
+  source_id: roles:role-tooling-fixtures-planner
+  target_id: skills:skill-tooling-fixtures-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
