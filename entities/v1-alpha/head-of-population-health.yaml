@@ -1,0 +1,50 @@
+id: roles:role-head-of-population-health
+type: Role
+name: Head of Population Health
+description: 'Owns the population health domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Healthcare.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- population
+- healthcare
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Population Health
+  org_unit: Population Health Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-head-of-population-health-requires-population-health
+  source_id: roles:role-head-of-population-health
+  target_id: skills:skill-population-health
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-population-health-requires-population-health-secondary
+  source_id: roles:role-head-of-population-health
+  target_id: skills:skill-population-health-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

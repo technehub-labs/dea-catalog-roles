@@ -1,0 +1,50 @@
+id: roles:role-surgical-services-analyst
+type: Role
+name: Surgical Services Analyst
+description: Analyses surgical services data and processes, producing insight and recommendations that
+  steer Healthcare planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- surgical
+- healthcare
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Surgical Services
+  org_unit: Surgical Services Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-surgical-services-analyst-requires-surgical-services
+  source_id: roles:role-surgical-services-analyst
+  target_id: skills:skill-surgical-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-surgical-services-analyst-requires-surgical-services-secondary
+  source_id: roles:role-surgical-services-analyst
+  target_id: skills:skill-surgical-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

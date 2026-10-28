@@ -1,0 +1,50 @@
+id: roles:role-pharmacy-operations-lead
+type: Role
+name: Pharmacy Operations Lead
+description: Sets direction for pharmacy operations teams, owns their outcomes, and represents pharmacy
+  operations interests in Healthcare governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- pharmacy
+- healthcare
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Pharmacy Operations
+  org_unit: Pharmacy Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-pharmacy-operations-lead-requires-pharmacy-operations
+  source_id: roles:role-pharmacy-operations-lead
+  target_id: skills:skill-pharmacy-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-pharmacy-operations-lead-requires-pharmacy-operations-secondary
+  source_id: roles:role-pharmacy-operations-lead
+  target_id: skills:skill-pharmacy-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

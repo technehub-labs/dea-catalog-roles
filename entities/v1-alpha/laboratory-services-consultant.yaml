@@ -1,0 +1,50 @@
+id: roles:role-laboratory-services-consultant
+type: Role
+name: Laboratory Services Consultant
+description: Supports Healthcare teams adopting laboratory services practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- laboratory
+- healthcare
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Laboratory Services
+  org_unit: Laboratory Services Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-laboratory-services-consultant-requires-laboratory-services
+  source_id: roles:role-laboratory-services-consultant
+  target_id: skills:skill-laboratory-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-laboratory-services-consultant-requires-laboratory-services-secondary
+  source_id: roles:role-laboratory-services-consultant
+  target_id: skills:skill-laboratory-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

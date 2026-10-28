@@ -1,0 +1,50 @@
+id: roles:role-blood-bank-services-consultant
+type: Role
+name: Blood Bank Services Consultant
+description: Supports Healthcare teams adopting blood bank services practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- blood
+- healthcare
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Blood Bank Services
+  org_unit: Blood Bank Services Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-blood-bank-services-consultant-requires-blood-bank-services
+  source_id: roles:role-blood-bank-services-consultant
+  target_id: skills:skill-blood-bank-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-blood-bank-services-consultant-requires-blood-bank-services-secondary
+  source_id: roles:role-blood-bank-services-consultant
+  target_id: skills:skill-blood-bank-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

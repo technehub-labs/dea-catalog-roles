@@ -1,0 +1,50 @@
+id: roles:role-laboratory-services-program-manager
+type: Role
+name: Laboratory Services Program Manager
+description: Coordinates multi-team laboratory services programmes across Healthcare, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- laboratory
+- healthcare
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Laboratory Services
+  org_unit: Laboratory Services Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-laboratory-services-program-manager-requires-laboratory-services
+  source_id: roles:role-laboratory-services-program-manager
+  target_id: skills:skill-laboratory-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-laboratory-services-program-manager-requires-laboratory-services-secondary
+  source_id: roles:role-laboratory-services-program-manager
+  target_id: skills:skill-laboratory-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

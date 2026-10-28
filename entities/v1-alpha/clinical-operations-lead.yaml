@@ -1,0 +1,50 @@
+id: roles:role-clinical-operations-lead
+type: Role
+name: Clinical Operations Lead
+description: Sets direction for clinical operations teams, owns their outcomes, and represents clinical
+  operations interests in Healthcare governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- clinical
+- healthcare
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Clinical Operations
+  org_unit: Clinical Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-clinical-operations-lead-requires-clinical-operations
+  source_id: roles:role-clinical-operations-lead
+  target_id: skills:skill-clinical-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-clinical-operations-lead-requires-clinical-operations-secondary
+  source_id: roles:role-clinical-operations-lead
+  target_id: skills:skill-clinical-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

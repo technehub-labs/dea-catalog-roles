@@ -1,0 +1,50 @@
+id: roles:role-patient-safety-analyst
+type: Role
+name: Patient Safety Analyst
+description: Analyses patient safety data and processes, producing insight and recommendations that steer
+  Healthcare planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- patient
+- healthcare
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Patient Safety
+  org_unit: Patient Safety Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-patient-safety-analyst-requires-patient-safety
+  source_id: roles:role-patient-safety-analyst
+  target_id: skills:skill-patient-safety
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-patient-safety-analyst-requires-patient-safety-secondary
+  source_id: roles:role-patient-safety-analyst
+  target_id: skills:skill-patient-safety-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-medical-coding-billing-operations-coordinator
+type: Role
+name: Medical Coding & Billing Operations Coordinator
+description: Coordinates day-to-day medical coding & billing activities, schedules, and records, keeping
+  Healthcare operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- medical
+- healthcare
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Medical Coding & Billing
+  org_unit: Medical Coding & Billing Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-medical-coding-billing-operations-coordi-requires-medical-coding-billing
+  source_id: roles:role-medical-coding-billing-operations-coordinator
+  target_id: skills:skill-medical-coding-billing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-medical-coding-billing-operations-coordi-requires-medical-coding-billing-secondary
+  source_id: roles:role-medical-coding-billing-operations-coordinator
+  target_id: skills:skill-medical-coding-billing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

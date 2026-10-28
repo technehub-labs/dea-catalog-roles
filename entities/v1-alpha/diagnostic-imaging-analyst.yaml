@@ -1,0 +1,50 @@
+id: roles:role-diagnostic-imaging-analyst
+type: Role
+name: Diagnostic Imaging Analyst
+description: Analyses diagnostic imaging data and processes, producing insight and recommendations that
+  steer Healthcare planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- diagnostic
+- healthcare
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Diagnostic Imaging
+  org_unit: Diagnostic Imaging Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-diagnostic-imaging-analyst-requires-diagnostic-imaging
+  source_id: roles:role-diagnostic-imaging-analyst
+  target_id: skills:skill-diagnostic-imaging
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-diagnostic-imaging-analyst-requires-diagnostic-imaging-secondary
+  source_id: roles:role-diagnostic-imaging-analyst
+  target_id: skills:skill-diagnostic-imaging-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-care-coordination-designer
+type: Role
+name: Care Coordination Designer
+description: Designs care coordination solutions and interfaces, translating Healthcare requirements into
+  usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- care
+- healthcare
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Care Coordination
+  org_unit: Care Coordination Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-care-coordination-designer-requires-care-coordination
+  source_id: roles:role-care-coordination-designer
+  target_id: skills:skill-care-coordination
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-care-coordination-designer-requires-care-coordination-secondary
+  source_id: roles:role-care-coordination-designer
+  target_id: skills:skill-care-coordination-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-community-health-outreach-analyst
+type: Role
+name: Community Health Outreach Analyst
+description: Analyses community health outreach data and processes, producing insight and recommendations
+  that steer Healthcare planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- community
+- healthcare
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Community Health Outreach
+  org_unit: Community Health Outreach Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-community-health-outreach-analyst-requires-community-health-outreach
+  source_id: roles:role-community-health-outreach-analyst
+  target_id: skills:skill-community-health-outreach
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-community-health-outreach-analyst-requires-community-health-outreach-secondary
+  source_id: roles:role-community-health-outreach-analyst
+  target_id: skills:skill-community-health-outreach-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

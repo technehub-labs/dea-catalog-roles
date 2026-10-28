@@ -1,0 +1,50 @@
+id: roles:role-regulatory-affairs-medical-devices-consultant
+type: Role
+name: Regulatory Affairs (Medical Devices) Consultant
+description: Supports Healthcare teams adopting regulatory affairs (medical devices) practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- regulatory
+- healthcare
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Affairs (Medical Devices)
+  org_unit: Regulatory Affairs (Medical Devices) Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-regulatory-affairs-medical-devices-consu-requires-regulatory-affairs-medical-dev
+  source_id: roles:role-regulatory-affairs-medical-devices-consultant
+  target_id: skills:skill-regulatory-affairs-medical-devices
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-affairs-medical-devices-consu-requires-regulatory-affairs-medical-dev-secondary
+  source_id: roles:role-regulatory-affairs-medical-devices-consultant
+  target_id: skills:skill-regulatory-affairs-medical-devices-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

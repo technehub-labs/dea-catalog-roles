@@ -1,0 +1,50 @@
+id: roles:role-population-health-designer
+type: Role
+name: Population Health Designer
+description: Designs population health solutions and interfaces, translating Healthcare requirements into
+  usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- population
+- healthcare
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Population Health
+  org_unit: Population Health Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-population-health-designer-requires-population-health
+  source_id: roles:role-population-health-designer
+  target_id: skills:skill-population-health
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-population-health-designer-requires-population-health-secondary
+  source_id: roles:role-population-health-designer
+  target_id: skills:skill-population-health-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

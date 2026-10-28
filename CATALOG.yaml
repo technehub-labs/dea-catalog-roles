@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 3889
+    entities: 4327
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -19349,6 +19349,2196 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-product-traceability-program-manager
       path: entities/v1-alpha/product-traceability-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-administrator
+      path: entities/v1-alpha/biomedical-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-administrator
+      path: entities/v1-alpha/blood-bank-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-administrator
+      path: entities/v1-alpha/care-coordination-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-administrator
+      path: entities/v1-alpha/clinical-governance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-administrator
+      path: entities/v1-alpha/clinical-informatics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-administrator
+      path: entities/v1-alpha/clinical-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-administrator
+      path: entities/v1-alpha/clinical-trials-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-administrator
+      path: entities/v1-alpha/community-health-outreach-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-administrator
+      path: entities/v1-alpha/diagnostic-imaging-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-administrator
+      path: entities/v1-alpha/emergency-care-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-administrator
+      path: entities/v1-alpha/genomics-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-administrator
+      path: entities/v1-alpha/healthcare-revenue-cycle-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-administrator
+      path: entities/v1-alpha/home-care-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-administrator
+      path: entities/v1-alpha/infection-prevention-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-administrator
+      path: entities/v1-alpha/laboratory-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-administrator
+      path: entities/v1-alpha/medical-coding-billing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-administrator
+      path: entities/v1-alpha/medical-staff-credentialing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-administrator
+      path: entities/v1-alpha/medical-supply-chain-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-administrator
+      path: entities/v1-alpha/mental-health-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-administrator
+      path: entities/v1-alpha/nursing-workforce-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-administrator
+      path: entities/v1-alpha/patient-access-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-administrator
+      path: entities/v1-alpha/patient-experience-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-administrator
+      path: entities/v1-alpha/patient-safety-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-administrator
+      path: entities/v1-alpha/pharmacy-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-administrator
+      path: entities/v1-alpha/population-health-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-administrator
+      path: entities/v1-alpha/primary-care-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-administrator
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-administrator
+      path: entities/v1-alpha/rehabilitation-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-administrator
+      path: entities/v1-alpha/surgical-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-administrator
+      path: entities/v1-alpha/telehealth-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-analyst
+      path: entities/v1-alpha/biomedical-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-analyst
+      path: entities/v1-alpha/blood-bank-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-analyst
+      path: entities/v1-alpha/care-coordination-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-analyst
+      path: entities/v1-alpha/clinical-governance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-analyst
+      path: entities/v1-alpha/clinical-informatics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-analyst
+      path: entities/v1-alpha/clinical-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-analyst
+      path: entities/v1-alpha/clinical-trials-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-analyst
+      path: entities/v1-alpha/community-health-outreach-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-analyst
+      path: entities/v1-alpha/diagnostic-imaging-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-analyst
+      path: entities/v1-alpha/emergency-care-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-analyst
+      path: entities/v1-alpha/genomics-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-analyst
+      path: entities/v1-alpha/healthcare-revenue-cycle-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-analyst
+      path: entities/v1-alpha/home-care-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-analyst
+      path: entities/v1-alpha/infection-prevention-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-analyst
+      path: entities/v1-alpha/laboratory-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-analyst
+      path: entities/v1-alpha/medical-coding-billing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-analyst
+      path: entities/v1-alpha/medical-staff-credentialing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-analyst
+      path: entities/v1-alpha/medical-supply-chain-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-analyst
+      path: entities/v1-alpha/mental-health-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-analyst
+      path: entities/v1-alpha/nursing-workforce-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-analyst
+      path: entities/v1-alpha/patient-access-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-analyst
+      path: entities/v1-alpha/patient-experience-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-analyst
+      path: entities/v1-alpha/patient-safety-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-analyst
+      path: entities/v1-alpha/pharmacy-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-analyst
+      path: entities/v1-alpha/population-health-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-analyst
+      path: entities/v1-alpha/primary-care-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-analyst
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-analyst
+      path: entities/v1-alpha/rehabilitation-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-analyst
+      path: entities/v1-alpha/surgical-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-analyst
+      path: entities/v1-alpha/telehealth-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-architect
+      path: entities/v1-alpha/biomedical-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-architect
+      path: entities/v1-alpha/blood-bank-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-architect
+      path: entities/v1-alpha/care-coordination-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-architect
+      path: entities/v1-alpha/clinical-governance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-architect
+      path: entities/v1-alpha/clinical-informatics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-architect
+      path: entities/v1-alpha/clinical-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-architect
+      path: entities/v1-alpha/clinical-trials-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-architect
+      path: entities/v1-alpha/community-health-outreach-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-architect
+      path: entities/v1-alpha/diagnostic-imaging-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-architect
+      path: entities/v1-alpha/emergency-care-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-architect
+      path: entities/v1-alpha/genomics-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-architect
+      path: entities/v1-alpha/healthcare-revenue-cycle-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-architect
+      path: entities/v1-alpha/home-care-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-architect
+      path: entities/v1-alpha/infection-prevention-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-architect
+      path: entities/v1-alpha/laboratory-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-architect
+      path: entities/v1-alpha/medical-coding-billing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-architect
+      path: entities/v1-alpha/medical-staff-credentialing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-architect
+      path: entities/v1-alpha/medical-supply-chain-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-architect
+      path: entities/v1-alpha/mental-health-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-architect
+      path: entities/v1-alpha/nursing-workforce-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-architect
+      path: entities/v1-alpha/patient-access-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-architect
+      path: entities/v1-alpha/patient-experience-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-architect
+      path: entities/v1-alpha/patient-safety-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-architect
+      path: entities/v1-alpha/pharmacy-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-architect
+      path: entities/v1-alpha/population-health-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-architect
+      path: entities/v1-alpha/primary-care-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-architect
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-architect
+      path: entities/v1-alpha/rehabilitation-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-architect
+      path: entities/v1-alpha/surgical-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-architect
+      path: entities/v1-alpha/telehealth-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-coach
+      path: entities/v1-alpha/biomedical-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-coach
+      path: entities/v1-alpha/blood-bank-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-coach
+      path: entities/v1-alpha/care-coordination-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-coach
+      path: entities/v1-alpha/clinical-governance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-coach
+      path: entities/v1-alpha/clinical-informatics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-coach
+      path: entities/v1-alpha/clinical-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-coach
+      path: entities/v1-alpha/clinical-trials-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-coach
+      path: entities/v1-alpha/community-health-outreach-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-coach
+      path: entities/v1-alpha/diagnostic-imaging-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-coach
+      path: entities/v1-alpha/emergency-care-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-coach
+      path: entities/v1-alpha/genomics-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-coach
+      path: entities/v1-alpha/healthcare-revenue-cycle-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-coach
+      path: entities/v1-alpha/home-care-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-coach
+      path: entities/v1-alpha/infection-prevention-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-coach
+      path: entities/v1-alpha/laboratory-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-coach
+      path: entities/v1-alpha/medical-coding-billing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-coach
+      path: entities/v1-alpha/medical-staff-credentialing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-coach
+      path: entities/v1-alpha/medical-supply-chain-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-coach
+      path: entities/v1-alpha/mental-health-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-coach
+      path: entities/v1-alpha/nursing-workforce-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-coach
+      path: entities/v1-alpha/patient-access-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-coach
+      path: entities/v1-alpha/patient-experience-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-coach
+      path: entities/v1-alpha/patient-safety-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-coach
+      path: entities/v1-alpha/pharmacy-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-coach
+      path: entities/v1-alpha/population-health-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-coach
+      path: entities/v1-alpha/primary-care-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-coach
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-coach
+      path: entities/v1-alpha/rehabilitation-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-coach
+      path: entities/v1-alpha/surgical-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-coach
+      path: entities/v1-alpha/telehealth-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-consultant
+      path: entities/v1-alpha/biomedical-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-consultant
+      path: entities/v1-alpha/blood-bank-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-consultant
+      path: entities/v1-alpha/care-coordination-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-consultant
+      path: entities/v1-alpha/clinical-governance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-consultant
+      path: entities/v1-alpha/clinical-informatics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-consultant
+      path: entities/v1-alpha/clinical-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-consultant
+      path: entities/v1-alpha/clinical-trials-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-consultant
+      path: entities/v1-alpha/community-health-outreach-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-consultant
+      path: entities/v1-alpha/diagnostic-imaging-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-consultant
+      path: entities/v1-alpha/emergency-care-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-consultant
+      path: entities/v1-alpha/genomics-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-consultant
+      path: entities/v1-alpha/healthcare-revenue-cycle-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-consultant
+      path: entities/v1-alpha/home-care-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-consultant
+      path: entities/v1-alpha/infection-prevention-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-consultant
+      path: entities/v1-alpha/laboratory-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-consultant
+      path: entities/v1-alpha/medical-coding-billing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-consultant
+      path: entities/v1-alpha/medical-staff-credentialing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-consultant
+      path: entities/v1-alpha/medical-supply-chain-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-consultant
+      path: entities/v1-alpha/mental-health-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-consultant
+      path: entities/v1-alpha/nursing-workforce-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-consultant
+      path: entities/v1-alpha/patient-access-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-consultant
+      path: entities/v1-alpha/patient-experience-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-consultant
+      path: entities/v1-alpha/patient-safety-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-consultant
+      path: entities/v1-alpha/pharmacy-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-consultant
+      path: entities/v1-alpha/population-health-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-consultant
+      path: entities/v1-alpha/primary-care-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-consultant
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-consultant
+      path: entities/v1-alpha/rehabilitation-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-consultant
+      path: entities/v1-alpha/surgical-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-consultant
+      path: entities/v1-alpha/telehealth-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-designer
+      path: entities/v1-alpha/biomedical-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-designer
+      path: entities/v1-alpha/blood-bank-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-designer
+      path: entities/v1-alpha/care-coordination-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-designer
+      path: entities/v1-alpha/clinical-governance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-designer
+      path: entities/v1-alpha/clinical-informatics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-designer
+      path: entities/v1-alpha/clinical-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-designer
+      path: entities/v1-alpha/clinical-trials-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-designer
+      path: entities/v1-alpha/community-health-outreach-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-designer
+      path: entities/v1-alpha/diagnostic-imaging-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-designer
+      path: entities/v1-alpha/emergency-care-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-designer
+      path: entities/v1-alpha/genomics-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-designer
+      path: entities/v1-alpha/healthcare-revenue-cycle-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-designer
+      path: entities/v1-alpha/home-care-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-designer
+      path: entities/v1-alpha/infection-prevention-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-designer
+      path: entities/v1-alpha/laboratory-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-designer
+      path: entities/v1-alpha/medical-coding-billing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-designer
+      path: entities/v1-alpha/medical-staff-credentialing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-designer
+      path: entities/v1-alpha/medical-supply-chain-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-designer
+      path: entities/v1-alpha/mental-health-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-designer
+      path: entities/v1-alpha/nursing-workforce-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-designer
+      path: entities/v1-alpha/patient-access-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-designer
+      path: entities/v1-alpha/patient-experience-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-designer
+      path: entities/v1-alpha/patient-safety-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-designer
+      path: entities/v1-alpha/pharmacy-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-designer
+      path: entities/v1-alpha/population-health-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-designer
+      path: entities/v1-alpha/primary-care-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-designer
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-designer
+      path: entities/v1-alpha/rehabilitation-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-designer
+      path: entities/v1-alpha/surgical-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-designer
+      path: entities/v1-alpha/telehealth-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-developer
+      path: entities/v1-alpha/biomedical-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-developer
+      path: entities/v1-alpha/blood-bank-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-developer
+      path: entities/v1-alpha/care-coordination-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-developer
+      path: entities/v1-alpha/clinical-governance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-developer
+      path: entities/v1-alpha/clinical-informatics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-developer
+      path: entities/v1-alpha/clinical-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-developer
+      path: entities/v1-alpha/clinical-trials-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-developer
+      path: entities/v1-alpha/community-health-outreach-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-developer
+      path: entities/v1-alpha/diagnostic-imaging-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-developer
+      path: entities/v1-alpha/emergency-care-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-developer
+      path: entities/v1-alpha/genomics-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-developer
+      path: entities/v1-alpha/healthcare-revenue-cycle-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-developer
+      path: entities/v1-alpha/home-care-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-developer
+      path: entities/v1-alpha/infection-prevention-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-developer
+      path: entities/v1-alpha/laboratory-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-developer
+      path: entities/v1-alpha/medical-coding-billing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-developer
+      path: entities/v1-alpha/medical-staff-credentialing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-developer
+      path: entities/v1-alpha/medical-supply-chain-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-developer
+      path: entities/v1-alpha/mental-health-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-developer
+      path: entities/v1-alpha/nursing-workforce-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-developer
+      path: entities/v1-alpha/patient-access-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-developer
+      path: entities/v1-alpha/patient-experience-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-developer
+      path: entities/v1-alpha/patient-safety-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-developer
+      path: entities/v1-alpha/pharmacy-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-developer
+      path: entities/v1-alpha/population-health-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-developer
+      path: entities/v1-alpha/primary-care-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-developer
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-developer
+      path: entities/v1-alpha/rehabilitation-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-developer
+      path: entities/v1-alpha/surgical-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-developer
+      path: entities/v1-alpha/telehealth-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-engineer
+      path: entities/v1-alpha/biomedical-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-engineer
+      path: entities/v1-alpha/blood-bank-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-engineer
+      path: entities/v1-alpha/care-coordination-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-engineer
+      path: entities/v1-alpha/clinical-governance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-engineer
+      path: entities/v1-alpha/clinical-informatics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-engineer
+      path: entities/v1-alpha/clinical-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-engineer
+      path: entities/v1-alpha/clinical-trials-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-engineer
+      path: entities/v1-alpha/community-health-outreach-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-engineer
+      path: entities/v1-alpha/diagnostic-imaging-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-engineer
+      path: entities/v1-alpha/emergency-care-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-engineer
+      path: entities/v1-alpha/genomics-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-engineer
+      path: entities/v1-alpha/healthcare-revenue-cycle-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-engineer
+      path: entities/v1-alpha/home-care-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-engineer
+      path: entities/v1-alpha/infection-prevention-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-engineer
+      path: entities/v1-alpha/laboratory-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-engineer
+      path: entities/v1-alpha/medical-coding-billing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-engineer
+      path: entities/v1-alpha/medical-staff-credentialing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-engineer
+      path: entities/v1-alpha/medical-supply-chain-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-engineer
+      path: entities/v1-alpha/mental-health-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-engineer
+      path: entities/v1-alpha/nursing-workforce-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-engineer
+      path: entities/v1-alpha/patient-access-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-engineer
+      path: entities/v1-alpha/patient-experience-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-engineer
+      path: entities/v1-alpha/patient-safety-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-engineer
+      path: entities/v1-alpha/pharmacy-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-engineer
+      path: entities/v1-alpha/population-health-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-engineer
+      path: entities/v1-alpha/primary-care-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-engineer
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-engineer
+      path: entities/v1-alpha/rehabilitation-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-engineer
+      path: entities/v1-alpha/surgical-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-engineer
+      path: entities/v1-alpha/telehealth-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-biomedical-engineering
+      path: entities/v1-alpha/head-of-biomedical-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-blood-bank-services
+      path: entities/v1-alpha/head-of-blood-bank-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-care-coordination
+      path: entities/v1-alpha/head-of-care-coordination.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-clinical-governance
+      path: entities/v1-alpha/head-of-clinical-governance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-clinical-informatics
+      path: entities/v1-alpha/head-of-clinical-informatics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-clinical-operations
+      path: entities/v1-alpha/head-of-clinical-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-clinical-trials
+      path: entities/v1-alpha/head-of-clinical-trials.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-community-health-outreach
+      path: entities/v1-alpha/head-of-community-health-outreach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-diagnostic-imaging
+      path: entities/v1-alpha/head-of-diagnostic-imaging.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-emergency-care
+      path: entities/v1-alpha/head-of-emergency-care.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-genomics-services
+      path: entities/v1-alpha/head-of-genomics-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-healthcare-revenue-cycle
+      path: entities/v1-alpha/head-of-healthcare-revenue-cycle.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-home-care-services
+      path: entities/v1-alpha/head-of-home-care-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-infection-prevention
+      path: entities/v1-alpha/head-of-infection-prevention.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-laboratory-services
+      path: entities/v1-alpha/head-of-laboratory-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-medical-coding-billing
+      path: entities/v1-alpha/head-of-medical-coding-billing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-medical-staff-credentialing
+      path: entities/v1-alpha/head-of-medical-staff-credentialing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-medical-supply-chain
+      path: entities/v1-alpha/head-of-medical-supply-chain.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mental-health-services
+      path: entities/v1-alpha/head-of-mental-health-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-nursing-workforce
+      path: entities/v1-alpha/head-of-nursing-workforce.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-patient-access
+      path: entities/v1-alpha/head-of-patient-access.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-patient-experience
+      path: entities/v1-alpha/head-of-patient-experience.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-patient-safety
+      path: entities/v1-alpha/head-of-patient-safety.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-pharmacy-operations
+      path: entities/v1-alpha/head-of-pharmacy-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-population-health
+      path: entities/v1-alpha/head-of-population-health.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-primary-care
+      path: entities/v1-alpha/head-of-primary-care.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-regulatory-affairs-medical-devices
+      path: entities/v1-alpha/head-of-regulatory-affairs-medical-devices.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-rehabilitation-services
+      path: entities/v1-alpha/head-of-rehabilitation-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-surgical-services
+      path: entities/v1-alpha/head-of-surgical-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-telehealth
+      path: entities/v1-alpha/head-of-telehealth.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-lead
+      path: entities/v1-alpha/biomedical-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-lead
+      path: entities/v1-alpha/blood-bank-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-lead
+      path: entities/v1-alpha/care-coordination-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-lead
+      path: entities/v1-alpha/clinical-informatics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-lead
+      path: entities/v1-alpha/clinical-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-lead
+      path: entities/v1-alpha/clinical-trials-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-lead
+      path: entities/v1-alpha/community-health-outreach-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-lead
+      path: entities/v1-alpha/diagnostic-imaging-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-lead
+      path: entities/v1-alpha/emergency-care-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-lead
+      path: entities/v1-alpha/genomics-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-lead
+      path: entities/v1-alpha/healthcare-revenue-cycle-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-lead
+      path: entities/v1-alpha/home-care-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-lead
+      path: entities/v1-alpha/infection-prevention-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-lead
+      path: entities/v1-alpha/laboratory-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-lead
+      path: entities/v1-alpha/medical-coding-billing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-lead
+      path: entities/v1-alpha/medical-staff-credentialing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-lead
+      path: entities/v1-alpha/medical-supply-chain-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-lead
+      path: entities/v1-alpha/mental-health-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-lead
+      path: entities/v1-alpha/nursing-workforce-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-lead
+      path: entities/v1-alpha/patient-access-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-lead
+      path: entities/v1-alpha/patient-experience-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-lead
+      path: entities/v1-alpha/patient-safety-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-lead
+      path: entities/v1-alpha/pharmacy-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-lead
+      path: entities/v1-alpha/population-health-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-lead
+      path: entities/v1-alpha/primary-care-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-lead
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-lead
+      path: entities/v1-alpha/rehabilitation-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-lead
+      path: entities/v1-alpha/surgical-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-lead
+      path: entities/v1-alpha/telehealth-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-manager
+      path: entities/v1-alpha/biomedical-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-manager
+      path: entities/v1-alpha/blood-bank-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-manager
+      path: entities/v1-alpha/care-coordination-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-manager
+      path: entities/v1-alpha/clinical-governance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-manager
+      path: entities/v1-alpha/clinical-informatics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-manager
+      path: entities/v1-alpha/clinical-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-manager
+      path: entities/v1-alpha/clinical-trials-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-manager
+      path: entities/v1-alpha/community-health-outreach-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-manager
+      path: entities/v1-alpha/diagnostic-imaging-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-manager
+      path: entities/v1-alpha/emergency-care-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-manager
+      path: entities/v1-alpha/genomics-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-manager
+      path: entities/v1-alpha/healthcare-revenue-cycle-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-manager
+      path: entities/v1-alpha/home-care-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-manager
+      path: entities/v1-alpha/infection-prevention-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-manager
+      path: entities/v1-alpha/laboratory-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-manager
+      path: entities/v1-alpha/medical-coding-billing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-manager
+      path: entities/v1-alpha/medical-staff-credentialing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-manager
+      path: entities/v1-alpha/medical-supply-chain-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-manager
+      path: entities/v1-alpha/mental-health-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-manager
+      path: entities/v1-alpha/nursing-workforce-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-manager
+      path: entities/v1-alpha/patient-access-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-manager
+      path: entities/v1-alpha/patient-safety-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-manager
+      path: entities/v1-alpha/pharmacy-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-manager
+      path: entities/v1-alpha/population-health-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-manager
+      path: entities/v1-alpha/primary-care-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-manager
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-manager
+      path: entities/v1-alpha/rehabilitation-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-manager
+      path: entities/v1-alpha/surgical-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-manager
+      path: entities/v1-alpha/telehealth-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-operations-coordinator
+      path: entities/v1-alpha/biomedical-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-operations-coordinator
+      path: entities/v1-alpha/blood-bank-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-operations-coordinator
+      path: entities/v1-alpha/care-coordination-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-operations-coordinator
+      path: entities/v1-alpha/clinical-governance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-operations-coordinator
+      path: entities/v1-alpha/clinical-informatics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-operations-coordinator
+      path: entities/v1-alpha/clinical-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-operations-coordinator
+      path: entities/v1-alpha/clinical-trials-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-operations-coordinator
+      path: entities/v1-alpha/community-health-outreach-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-operations-coordinator
+      path: entities/v1-alpha/diagnostic-imaging-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-operations-coordinator
+      path: entities/v1-alpha/emergency-care-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-operations-coordinator
+      path: entities/v1-alpha/genomics-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-operations-coordinator
+      path: entities/v1-alpha/healthcare-revenue-cycle-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-operations-coordinator
+      path: entities/v1-alpha/home-care-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-operations-coordinator
+      path: entities/v1-alpha/infection-prevention-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-operations-coordinator
+      path: entities/v1-alpha/laboratory-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-operations-coordinator
+      path: entities/v1-alpha/medical-coding-billing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-operations-coordinator
+      path: entities/v1-alpha/medical-staff-credentialing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-operations-coordinator
+      path: entities/v1-alpha/medical-supply-chain-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-operations-coordinator
+      path: entities/v1-alpha/mental-health-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-operations-coordinator
+      path: entities/v1-alpha/nursing-workforce-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-operations-coordinator
+      path: entities/v1-alpha/patient-access-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-operations-coordinator
+      path: entities/v1-alpha/patient-experience-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-operations-coordinator
+      path: entities/v1-alpha/patient-safety-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-operations-coordinator
+      path: entities/v1-alpha/pharmacy-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-operations-coordinator
+      path: entities/v1-alpha/population-health-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-operations-coordinator
+      path: entities/v1-alpha/primary-care-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-operations-coordinator
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-operations-coordinator
+      path: entities/v1-alpha/rehabilitation-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-operations-coordinator
+      path: entities/v1-alpha/surgical-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-operations-coordinator
+      path: entities/v1-alpha/telehealth-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-planner
+      path: entities/v1-alpha/biomedical-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-planner
+      path: entities/v1-alpha/blood-bank-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-planner
+      path: entities/v1-alpha/care-coordination-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-planner
+      path: entities/v1-alpha/clinical-governance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-planner
+      path: entities/v1-alpha/clinical-informatics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-planner
+      path: entities/v1-alpha/clinical-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-planner
+      path: entities/v1-alpha/clinical-trials-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-planner
+      path: entities/v1-alpha/community-health-outreach-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-planner
+      path: entities/v1-alpha/diagnostic-imaging-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-planner
+      path: entities/v1-alpha/emergency-care-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-planner
+      path: entities/v1-alpha/genomics-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-planner
+      path: entities/v1-alpha/healthcare-revenue-cycle-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-planner
+      path: entities/v1-alpha/home-care-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-planner
+      path: entities/v1-alpha/infection-prevention-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-planner
+      path: entities/v1-alpha/laboratory-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-planner
+      path: entities/v1-alpha/medical-coding-billing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-planner
+      path: entities/v1-alpha/medical-staff-credentialing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-planner
+      path: entities/v1-alpha/medical-supply-chain-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-planner
+      path: entities/v1-alpha/mental-health-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-planner
+      path: entities/v1-alpha/nursing-workforce-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-planner
+      path: entities/v1-alpha/patient-access-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-planner
+      path: entities/v1-alpha/patient-experience-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-planner
+      path: entities/v1-alpha/patient-safety-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-planner
+      path: entities/v1-alpha/pharmacy-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-planner
+      path: entities/v1-alpha/population-health-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-planner
+      path: entities/v1-alpha/primary-care-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-planner
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-planner
+      path: entities/v1-alpha/rehabilitation-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-planner
+      path: entities/v1-alpha/surgical-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-planner
+      path: entities/v1-alpha/telehealth-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-product-owner
+      path: entities/v1-alpha/biomedical-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-product-owner
+      path: entities/v1-alpha/blood-bank-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-product-owner
+      path: entities/v1-alpha/care-coordination-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-product-owner
+      path: entities/v1-alpha/clinical-governance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-product-owner
+      path: entities/v1-alpha/clinical-informatics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-product-owner
+      path: entities/v1-alpha/clinical-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-product-owner
+      path: entities/v1-alpha/clinical-trials-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-product-owner
+      path: entities/v1-alpha/community-health-outreach-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-product-owner
+      path: entities/v1-alpha/diagnostic-imaging-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-product-owner
+      path: entities/v1-alpha/emergency-care-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-product-owner
+      path: entities/v1-alpha/genomics-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-product-owner
+      path: entities/v1-alpha/healthcare-revenue-cycle-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-product-owner
+      path: entities/v1-alpha/home-care-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-product-owner
+      path: entities/v1-alpha/infection-prevention-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-product-owner
+      path: entities/v1-alpha/laboratory-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-product-owner
+      path: entities/v1-alpha/medical-coding-billing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-product-owner
+      path: entities/v1-alpha/medical-staff-credentialing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-product-owner
+      path: entities/v1-alpha/medical-supply-chain-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-product-owner
+      path: entities/v1-alpha/mental-health-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-product-owner
+      path: entities/v1-alpha/nursing-workforce-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-access-product-owner
+      path: entities/v1-alpha/patient-access-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-experience-product-owner
+      path: entities/v1-alpha/patient-experience-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-patient-safety-product-owner
+      path: entities/v1-alpha/patient-safety-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pharmacy-operations-product-owner
+      path: entities/v1-alpha/pharmacy-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-population-health-product-owner
+      path: entities/v1-alpha/population-health-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-primary-care-product-owner
+      path: entities/v1-alpha/primary-care-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-medical-devices-product-owner
+      path: entities/v1-alpha/regulatory-affairs-medical-devices-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rehabilitation-services-product-owner
+      path: entities/v1-alpha/rehabilitation-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-surgical-services-product-owner
+      path: entities/v1-alpha/surgical-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telehealth-product-owner
+      path: entities/v1-alpha/telehealth-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-biomedical-engineering-program-manager
+      path: entities/v1-alpha/biomedical-engineering-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-blood-bank-services-program-manager
+      path: entities/v1-alpha/blood-bank-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-care-coordination-program-manager
+      path: entities/v1-alpha/care-coordination-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-governance-program-manager
+      path: entities/v1-alpha/clinical-governance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-informatics-program-manager
+      path: entities/v1-alpha/clinical-informatics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-operations-program-manager
+      path: entities/v1-alpha/clinical-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-clinical-trials-program-manager
+      path: entities/v1-alpha/clinical-trials-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-community-health-outreach-program-manager
+      path: entities/v1-alpha/community-health-outreach-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-diagnostic-imaging-program-manager
+      path: entities/v1-alpha/diagnostic-imaging-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-emergency-care-program-manager
+      path: entities/v1-alpha/emergency-care-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-genomics-services-program-manager
+      path: entities/v1-alpha/genomics-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-healthcare-revenue-cycle-program-manager
+      path: entities/v1-alpha/healthcare-revenue-cycle-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-home-care-services-program-manager
+      path: entities/v1-alpha/home-care-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-infection-prevention-program-manager
+      path: entities/v1-alpha/infection-prevention-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-laboratory-services-program-manager
+      path: entities/v1-alpha/laboratory-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-coding-billing-program-manager
+      path: entities/v1-alpha/medical-coding-billing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-staff-credentialing-program-manager
+      path: entities/v1-alpha/medical-staff-credentialing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-medical-supply-chain-program-manager
+      path: entities/v1-alpha/medical-supply-chain-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mental-health-services-program-manager
+      path: entities/v1-alpha/mental-health-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-nursing-workforce-program-manager
+      path: entities/v1-alpha/nursing-workforce-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
