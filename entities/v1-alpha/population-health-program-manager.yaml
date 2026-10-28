@@ -5,8 +5,8 @@ description: >-
   Manages programs that improve health outcomes for a defined population:
   program design against epidemiological need, intervention delivery with
   care teams, and outcome measurement against program targets.
-version: 0.1.0
-lifecycle_status: proposed
+version: 0.2.0
+lifecycle_status: active
 tags:
   - functional
   - program
@@ -16,6 +16,23 @@ metadata:
   industries:
     - health
     - public-sector
+  evidence_rating: E5
+  evidence_ladder:
+    - stage: E1-recurrence
+      date: '2026-10-27'
+      reference: industries/health.yaml
+    - stage: E2-corroboration
+      date: '2026-10-27'
+      reference: industries/public-sector.yaml
+    - stage: E3-enterprise-generality
+      date: '2026-10-27'
+      reference: change-requests/CR-DEA-ROL-04-admissions-experience-program.md
+    - stage: E4-distinctness
+      date: '2026-10-27'
+      reference: docs/distinctness-register.md
+    - stage: E5-review
+      date: '2026-10-27'
+      reference: change-requests/CR-DEA-ROL-04-admissions-experience-program.md
 relationships:
   - id: roles:rel-php-requires-pm2-skill
     source_id: roles:role-population-health-program-manager
