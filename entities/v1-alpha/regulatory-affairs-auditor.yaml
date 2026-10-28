@@ -1,0 +1,50 @@
+id: roles:role-regulatory-affairs-auditor
+type: Role
+name: Regulatory Affairs Auditor
+description: Independently reviews regulatory affairs controls and records, reporting findings and tracking
+  remediation within Legal & Regulatory assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- regulatory
+- legal-regulatory
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Affairs
+  org_unit: Regulatory Affairs Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-regulatory-affairs-auditor-requires-regulatory-affairs
+  source_id: roles:role-regulatory-affairs-auditor
+  target_id: skills:skill-regulatory-affairs
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-affairs-auditor-requires-regulatory-affairs-secondary
+  source_id: roles:role-regulatory-affairs-auditor
+  target_id: skills:skill-regulatory-affairs-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

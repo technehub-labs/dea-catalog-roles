@@ -1,0 +1,50 @@
+id: roles:role-standard-setting-auditor
+type: Role
+name: Standard Setting Auditor
+description: Independently reviews standard setting controls and records, reporting findings and tracking
+  remediation within Legal & Regulatory assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- standard
+- legal-regulatory
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Standard Setting
+  org_unit: Standard Setting Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-standard-setting-auditor-requires-standard-setting
+  source_id: roles:role-standard-setting-auditor
+  target_id: skills:skill-standard-setting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-standard-setting-auditor-requires-standard-setting-secondary
+  source_id: roles:role-standard-setting-auditor
+  target_id: skills:skill-standard-setting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
