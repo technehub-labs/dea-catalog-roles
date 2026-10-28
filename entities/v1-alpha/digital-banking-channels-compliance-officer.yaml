@@ -1,0 +1,50 @@
+id: roles:role-digital-banking-channels-compliance-officer
+type: Role
+name: Digital Banking Channels Compliance Officer
+description: Constrains and reviews digital banking channels activity against regulatory and policy obligations,
+  escalating breaches in the Finance & Banking control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- digital
+- finance
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Digital Banking Channels
+  org_unit: Digital Banking Channels Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-digital-banking-channels-compliance-offi-requires-digital-banking-channels
+  source_id: roles:role-digital-banking-channels-compliance-officer
+  target_id: skills:skill-digital-banking-channels
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-digital-banking-channels-compliance-offi-requires-digital-banking-channels-secondary
+  source_id: roles:role-digital-banking-channels-compliance-officer
+  target_id: skills:skill-digital-banking-channels-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
