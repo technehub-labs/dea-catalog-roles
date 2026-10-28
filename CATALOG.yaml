@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 547
+    entities: 607
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -2639,6 +2639,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-water-management-compliance-officer
       path: entities/v1-alpha/water-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-auditor
+      path: entities/v1-alpha/airport-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-auditor
+      path: entities/v1-alpha/aviation-safety-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-auditor
+      path: entities/v1-alpha/cold-chain-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-auditor
+      path: entities/v1-alpha/customer-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-auditor
+      path: entities/v1-alpha/customs-border-clearance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-auditor
+      path: entities/v1-alpha/delivery-partner-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-auditor
+      path: entities/v1-alpha/driver-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-auditor
+      path: entities/v1-alpha/fleet-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-auditor
+      path: entities/v1-alpha/fleet-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-auditor
+      path: entities/v1-alpha/freight-forwarding-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-auditor
+      path: entities/v1-alpha/fuel-energy-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-auditor
+      path: entities/v1-alpha/hazardous-goods-transport-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-auditor
+      path: entities/v1-alpha/last-mile-delivery-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-auditor
+      path: entities/v1-alpha/logistics-networks-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-auditor
+      path: entities/v1-alpha/maritime-crewing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-auditor
+      path: entities/v1-alpha/mobility-as-a-service-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-auditor
+      path: entities/v1-alpha/parcel-sorting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-auditor
+      path: entities/v1-alpha/passenger-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-auditor
+      path: entities/v1-alpha/port-terminal-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-auditor
+      path: entities/v1-alpha/rail-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-auditor
+      path: entities/v1-alpha/rail-signalling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-auditor
+      path: entities/v1-alpha/reverse-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-auditor
+      path: entities/v1-alpha/route-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-auditor
+      path: entities/v1-alpha/supply-chain-visibility-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-auditor
+      path: entities/v1-alpha/track-infrastructure-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-auditor
+      path: entities/v1-alpha/traffic-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-auditor
+      path: entities/v1-alpha/transport-security-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-auditor
+      path: entities/v1-alpha/urban-mobility-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-auditor
+      path: entities/v1-alpha/warehouse-automation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-auditor
+      path: entities/v1-alpha/warehouse-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-airport-operations-compliance-officer
+      path: entities/v1-alpha/airport-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-aviation-safety-compliance-officer
+      path: entities/v1-alpha/aviation-safety-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cold-chain-logistics-compliance-officer
+      path: entities/v1-alpha/cold-chain-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-logistics-compliance-officer
+      path: entities/v1-alpha/customer-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customs-border-clearance-compliance-officer
+      path: entities/v1-alpha/customs-border-clearance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-delivery-partner-management-compliance-officer
+      path: entities/v1-alpha/delivery-partner-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-driver-management-compliance-officer
+      path: entities/v1-alpha/driver-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-maintenance-compliance-officer
+      path: entities/v1-alpha/fleet-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fleet-operations-compliance-officer
+      path: entities/v1-alpha/fleet-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-freight-forwarding-compliance-officer
+      path: entities/v1-alpha/freight-forwarding-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fuel-energy-logistics-compliance-officer
+      path: entities/v1-alpha/fuel-energy-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-hazardous-goods-transport-compliance-officer
+      path: entities/v1-alpha/hazardous-goods-transport-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-last-mile-delivery-compliance-officer
+      path: entities/v1-alpha/last-mile-delivery-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-logistics-networks-compliance-officer
+      path: entities/v1-alpha/logistics-networks-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-maritime-crewing-compliance-officer
+      path: entities/v1-alpha/maritime-crewing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobility-as-a-service-compliance-officer
+      path: entities/v1-alpha/mobility-as-a-service-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-parcel-sorting-compliance-officer
+      path: entities/v1-alpha/parcel-sorting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-passenger-services-compliance-officer
+      path: entities/v1-alpha/passenger-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-port-terminal-operations-compliance-officer
+      path: entities/v1-alpha/port-terminal-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-operations-compliance-officer
+      path: entities/v1-alpha/rail-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rail-signalling-compliance-officer
+      path: entities/v1-alpha/rail-signalling-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-reverse-logistics-compliance-officer
+      path: entities/v1-alpha/reverse-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-route-planning-compliance-officer
+      path: entities/v1-alpha/route-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-visibility-compliance-officer
+      path: entities/v1-alpha/supply-chain-visibility-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-track-infrastructure-maintenance-compliance-officer
+      path: entities/v1-alpha/track-infrastructure-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-compliance-officer
+      path: entities/v1-alpha/traffic-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transport-security-compliance-officer
+      path: entities/v1-alpha/transport-security-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-urban-mobility-compliance-officer
+      path: entities/v1-alpha/urban-mobility-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-automation-compliance-officer
+      path: entities/v1-alpha/warehouse-automation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-warehouse-operations-compliance-officer
+      path: entities/v1-alpha/warehouse-operations-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

@@ -1,0 +1,50 @@
+id: roles:role-traffic-management-auditor
+type: Role
+name: Traffic Management Auditor
+description: Independently reviews traffic management controls and records, reporting findings and tracking
+  remediation within Transport & Logistics assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- traffic
+- transport
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Traffic Management
+  org_unit: Traffic Management Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - transport
+  - audit
+  - technology
+relationships:
+- id: roles:rel-traffic-management-auditor-requires-traffic-management
+  source_id: roles:role-traffic-management-auditor
+  target_id: skills:skill-traffic-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-traffic-management-auditor-requires-traffic-management-secondary
+  source_id: roles:role-traffic-management-auditor
+  target_id: skills:skill-traffic-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/transport.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
