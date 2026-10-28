@@ -1,0 +1,50 @@
+id: roles:role-mobile-core-product-owner
+type: Role
+name: Mobile Core Product Owner
+description: Owns the mobile core product backlog, prioritising against user value and Telecommunications
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- mobile
+- telecom
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mobile Core
+  org_unit: Mobile Core Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-mobile-core-product-owner-requires-mobile-core
+  source_id: roles:role-mobile-core-product-owner
+  target_id: skills:skill-mobile-core
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mobile-core-product-owner-requires-mobile-core-secondary
+  source_id: roles:role-mobile-core-product-owner
+  target_id: skills:skill-mobile-core-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

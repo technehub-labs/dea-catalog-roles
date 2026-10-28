@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 5587
+    entities: 6027
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -27839,6 +27839,2506 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-practice-development-program-manager
       path: entities/v1-alpha/practice-development-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-administrator
+      path: entities/v1-alpha/5g-core-network-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-administrator
+      path: entities/v1-alpha/bss-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-administrator
+      path: entities/v1-alpha/cell-site-deployment-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-administrator
+      path: entities/v1-alpha/charging-billing-mediation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-administrator
+      path: entities/v1-alpha/customer-field-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-administrator
+      path: entities/v1-alpha/edge-computing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-administrator
+      path: entities/v1-alpha/ftth-rollout-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-administrator
+      path: entities/v1-alpha/fibre-transport-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-administrator
+      path: entities/v1-alpha/fixed-wireless-access-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-administrator
+      path: entities/v1-alpha/interconnect-roaming-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-administrator
+      path: entities/v1-alpha/microwave-backhaul-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-administrator
+      path: entities/v1-alpha/mobile-core-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-administrator
+      path: entities/v1-alpha/network-inventory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-administrator
+      path: entities/v1-alpha/network-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-administrator
+      path: entities/v1-alpha/network-planning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-administrator
+      path: entities/v1-alpha/network-security-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-administrator
+      path: entities/v1-alpha/network-slicing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-administrator
+      path: entities/v1-alpha/network-virtualization-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-administrator
+      path: entities/v1-alpha/number-portability-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-administrator
+      path: entities/v1-alpha/oss-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-administrator
+      path: entities/v1-alpha/private-networks-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-administrator
+      path: entities/v1-alpha/quality-of-service-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-administrator
+      path: entities/v1-alpha/rf-spectrum-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-administrator
+      path: entities/v1-alpha/radio-access-network-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-administrator
+      path: entities/v1-alpha/satellite-services-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-administrator
+      path: entities/v1-alpha/service-assurance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-administrator
+      path: entities/v1-alpha/submarine-cable-systems-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-administrator
+      path: entities/v1-alpha/subscriber-data-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-administrator
+      path: entities/v1-alpha/telco-cloud-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-analyst
+      path: entities/v1-alpha/5g-core-network-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-analyst
+      path: entities/v1-alpha/bss-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-analyst
+      path: entities/v1-alpha/cell-site-deployment-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-analyst
+      path: entities/v1-alpha/charging-billing-mediation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-analyst
+      path: entities/v1-alpha/customer-field-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-analyst
+      path: entities/v1-alpha/edge-computing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-analyst
+      path: entities/v1-alpha/ftth-rollout-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-analyst
+      path: entities/v1-alpha/fibre-transport-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-analyst
+      path: entities/v1-alpha/fixed-wireless-access-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-analyst
+      path: entities/v1-alpha/interconnect-roaming-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-analyst
+      path: entities/v1-alpha/microwave-backhaul-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-analyst
+      path: entities/v1-alpha/mobile-core-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-analyst
+      path: entities/v1-alpha/network-inventory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-analyst
+      path: entities/v1-alpha/network-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-analyst
+      path: entities/v1-alpha/network-planning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-analyst
+      path: entities/v1-alpha/network-security-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-analyst
+      path: entities/v1-alpha/network-slicing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-analyst
+      path: entities/v1-alpha/network-virtualization-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-analyst
+      path: entities/v1-alpha/number-portability-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-analyst
+      path: entities/v1-alpha/oss-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-analyst
+      path: entities/v1-alpha/private-networks-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-analyst
+      path: entities/v1-alpha/quality-of-service-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-analyst
+      path: entities/v1-alpha/rf-spectrum-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-analyst
+      path: entities/v1-alpha/radio-access-network-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-analyst
+      path: entities/v1-alpha/satellite-services-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-analyst
+      path: entities/v1-alpha/service-assurance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-analyst
+      path: entities/v1-alpha/submarine-cable-systems-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-analyst
+      path: entities/v1-alpha/subscriber-data-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-analyst
+      path: entities/v1-alpha/telco-cloud-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-architect
+      path: entities/v1-alpha/5g-core-network-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-architect
+      path: entities/v1-alpha/bss-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-architect
+      path: entities/v1-alpha/cell-site-deployment-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-architect
+      path: entities/v1-alpha/charging-billing-mediation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-architect
+      path: entities/v1-alpha/customer-field-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-architect
+      path: entities/v1-alpha/edge-computing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-architect
+      path: entities/v1-alpha/ftth-rollout-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-architect
+      path: entities/v1-alpha/fibre-transport-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-architect
+      path: entities/v1-alpha/fixed-wireless-access-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-architect
+      path: entities/v1-alpha/interconnect-roaming-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-architect
+      path: entities/v1-alpha/microwave-backhaul-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-architect
+      path: entities/v1-alpha/mobile-core-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-architect
+      path: entities/v1-alpha/network-inventory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-architect
+      path: entities/v1-alpha/network-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-architect
+      path: entities/v1-alpha/network-planning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-architect
+      path: entities/v1-alpha/network-security-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-architect
+      path: entities/v1-alpha/network-slicing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-architect
+      path: entities/v1-alpha/network-virtualization-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-architect
+      path: entities/v1-alpha/number-portability-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-architect
+      path: entities/v1-alpha/oss-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-architect
+      path: entities/v1-alpha/private-networks-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-architect
+      path: entities/v1-alpha/quality-of-service-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-architect
+      path: entities/v1-alpha/rf-spectrum-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-architect
+      path: entities/v1-alpha/radio-access-network-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-architect
+      path: entities/v1-alpha/satellite-services-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-architect
+      path: entities/v1-alpha/service-assurance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-architect
+      path: entities/v1-alpha/submarine-cable-systems-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-architect
+      path: entities/v1-alpha/subscriber-data-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-architect
+      path: entities/v1-alpha/telco-cloud-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-auditor
+      path: entities/v1-alpha/5g-core-network-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-auditor
+      path: entities/v1-alpha/bss-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-auditor
+      path: entities/v1-alpha/cell-site-deployment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-auditor
+      path: entities/v1-alpha/charging-billing-mediation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-auditor
+      path: entities/v1-alpha/customer-field-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-auditor
+      path: entities/v1-alpha/edge-computing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-auditor
+      path: entities/v1-alpha/ftth-rollout-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-auditor
+      path: entities/v1-alpha/fibre-transport-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-auditor
+      path: entities/v1-alpha/fixed-wireless-access-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-auditor
+      path: entities/v1-alpha/interconnect-roaming-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-auditor
+      path: entities/v1-alpha/microwave-backhaul-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-auditor
+      path: entities/v1-alpha/mobile-core-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-auditor
+      path: entities/v1-alpha/network-inventory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-auditor
+      path: entities/v1-alpha/network-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-auditor
+      path: entities/v1-alpha/network-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-auditor
+      path: entities/v1-alpha/network-security-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-auditor
+      path: entities/v1-alpha/network-slicing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-auditor
+      path: entities/v1-alpha/network-virtualization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-auditor
+      path: entities/v1-alpha/number-portability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-auditor
+      path: entities/v1-alpha/oss-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-auditor
+      path: entities/v1-alpha/private-networks-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-auditor
+      path: entities/v1-alpha/quality-of-service-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-auditor
+      path: entities/v1-alpha/rf-spectrum-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-auditor
+      path: entities/v1-alpha/radio-access-network-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-auditor
+      path: entities/v1-alpha/satellite-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-auditor
+      path: entities/v1-alpha/service-assurance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-auditor
+      path: entities/v1-alpha/submarine-cable-systems-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-auditor
+      path: entities/v1-alpha/subscriber-data-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-auditor
+      path: entities/v1-alpha/telco-cloud-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-coach
+      path: entities/v1-alpha/5g-core-network-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-coach
+      path: entities/v1-alpha/bss-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-coach
+      path: entities/v1-alpha/cell-site-deployment-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-coach
+      path: entities/v1-alpha/charging-billing-mediation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-coach
+      path: entities/v1-alpha/customer-field-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-coach
+      path: entities/v1-alpha/edge-computing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-coach
+      path: entities/v1-alpha/ftth-rollout-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-coach
+      path: entities/v1-alpha/fibre-transport-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-coach
+      path: entities/v1-alpha/fixed-wireless-access-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-coach
+      path: entities/v1-alpha/interconnect-roaming-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-coach
+      path: entities/v1-alpha/microwave-backhaul-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-coach
+      path: entities/v1-alpha/mobile-core-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-coach
+      path: entities/v1-alpha/network-inventory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-coach
+      path: entities/v1-alpha/network-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-coach
+      path: entities/v1-alpha/network-planning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-coach
+      path: entities/v1-alpha/network-security-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-coach
+      path: entities/v1-alpha/network-slicing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-coach
+      path: entities/v1-alpha/network-virtualization-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-coach
+      path: entities/v1-alpha/number-portability-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-coach
+      path: entities/v1-alpha/oss-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-coach
+      path: entities/v1-alpha/private-networks-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-coach
+      path: entities/v1-alpha/quality-of-service-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-coach
+      path: entities/v1-alpha/rf-spectrum-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-coach
+      path: entities/v1-alpha/radio-access-network-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-coach
+      path: entities/v1-alpha/satellite-services-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-coach
+      path: entities/v1-alpha/service-assurance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-coach
+      path: entities/v1-alpha/submarine-cable-systems-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-coach
+      path: entities/v1-alpha/subscriber-data-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-coach
+      path: entities/v1-alpha/telco-cloud-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-compliance-officer
+      path: entities/v1-alpha/5g-core-network-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-compliance-officer
+      path: entities/v1-alpha/bss-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-compliance-officer
+      path: entities/v1-alpha/cell-site-deployment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-compliance-officer
+      path: entities/v1-alpha/charging-billing-mediation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-compliance-officer
+      path: entities/v1-alpha/customer-field-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-compliance-officer
+      path: entities/v1-alpha/edge-computing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-compliance-officer
+      path: entities/v1-alpha/ftth-rollout-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-compliance-officer
+      path: entities/v1-alpha/fibre-transport-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-compliance-officer
+      path: entities/v1-alpha/fixed-wireless-access-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-compliance-officer
+      path: entities/v1-alpha/interconnect-roaming-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-compliance-officer
+      path: entities/v1-alpha/microwave-backhaul-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-compliance-officer
+      path: entities/v1-alpha/mobile-core-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-compliance-officer
+      path: entities/v1-alpha/network-inventory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-compliance-officer
+      path: entities/v1-alpha/network-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-compliance-officer
+      path: entities/v1-alpha/network-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-compliance-officer
+      path: entities/v1-alpha/network-security-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-compliance-officer
+      path: entities/v1-alpha/network-slicing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-compliance-officer
+      path: entities/v1-alpha/network-virtualization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-compliance-officer
+      path: entities/v1-alpha/number-portability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-compliance-officer
+      path: entities/v1-alpha/oss-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-compliance-officer
+      path: entities/v1-alpha/private-networks-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-compliance-officer
+      path: entities/v1-alpha/quality-of-service-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-compliance-officer
+      path: entities/v1-alpha/rf-spectrum-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-compliance-officer
+      path: entities/v1-alpha/radio-access-network-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-compliance-officer
+      path: entities/v1-alpha/satellite-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-compliance-officer
+      path: entities/v1-alpha/service-assurance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-compliance-officer
+      path: entities/v1-alpha/submarine-cable-systems-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-compliance-officer
+      path: entities/v1-alpha/subscriber-data-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-compliance-officer
+      path: entities/v1-alpha/telco-cloud-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-consultant
+      path: entities/v1-alpha/5g-core-network-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-consultant
+      path: entities/v1-alpha/bss-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-consultant
+      path: entities/v1-alpha/cell-site-deployment-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-consultant
+      path: entities/v1-alpha/charging-billing-mediation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-consultant
+      path: entities/v1-alpha/customer-field-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-consultant
+      path: entities/v1-alpha/edge-computing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-consultant
+      path: entities/v1-alpha/ftth-rollout-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-consultant
+      path: entities/v1-alpha/fibre-transport-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-consultant
+      path: entities/v1-alpha/fixed-wireless-access-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-consultant
+      path: entities/v1-alpha/interconnect-roaming-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-consultant
+      path: entities/v1-alpha/microwave-backhaul-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-consultant
+      path: entities/v1-alpha/mobile-core-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-consultant
+      path: entities/v1-alpha/network-inventory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-consultant
+      path: entities/v1-alpha/network-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-consultant
+      path: entities/v1-alpha/network-planning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-consultant
+      path: entities/v1-alpha/network-security-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-consultant
+      path: entities/v1-alpha/network-slicing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-consultant
+      path: entities/v1-alpha/network-virtualization-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-consultant
+      path: entities/v1-alpha/number-portability-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-consultant
+      path: entities/v1-alpha/oss-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-consultant
+      path: entities/v1-alpha/private-networks-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-consultant
+      path: entities/v1-alpha/quality-of-service-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-consultant
+      path: entities/v1-alpha/rf-spectrum-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-consultant
+      path: entities/v1-alpha/radio-access-network-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-consultant
+      path: entities/v1-alpha/satellite-services-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-consultant
+      path: entities/v1-alpha/service-assurance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-consultant
+      path: entities/v1-alpha/submarine-cable-systems-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-consultant
+      path: entities/v1-alpha/subscriber-data-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-consultant
+      path: entities/v1-alpha/telco-cloud-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-designer
+      path: entities/v1-alpha/5g-core-network-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-designer
+      path: entities/v1-alpha/bss-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-designer
+      path: entities/v1-alpha/cell-site-deployment-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-designer
+      path: entities/v1-alpha/charging-billing-mediation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-designer
+      path: entities/v1-alpha/customer-field-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-designer
+      path: entities/v1-alpha/edge-computing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-designer
+      path: entities/v1-alpha/ftth-rollout-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-designer
+      path: entities/v1-alpha/fibre-transport-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-designer
+      path: entities/v1-alpha/fixed-wireless-access-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-designer
+      path: entities/v1-alpha/interconnect-roaming-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-designer
+      path: entities/v1-alpha/microwave-backhaul-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-designer
+      path: entities/v1-alpha/mobile-core-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-designer
+      path: entities/v1-alpha/network-inventory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-designer
+      path: entities/v1-alpha/network-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-designer
+      path: entities/v1-alpha/network-planning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-designer
+      path: entities/v1-alpha/network-security-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-designer
+      path: entities/v1-alpha/network-slicing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-designer
+      path: entities/v1-alpha/network-virtualization-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-designer
+      path: entities/v1-alpha/number-portability-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-designer
+      path: entities/v1-alpha/oss-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-designer
+      path: entities/v1-alpha/private-networks-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-designer
+      path: entities/v1-alpha/quality-of-service-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-designer
+      path: entities/v1-alpha/rf-spectrum-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-designer
+      path: entities/v1-alpha/radio-access-network-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-designer
+      path: entities/v1-alpha/satellite-services-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-designer
+      path: entities/v1-alpha/service-assurance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-designer
+      path: entities/v1-alpha/submarine-cable-systems-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-designer
+      path: entities/v1-alpha/subscriber-data-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-designer
+      path: entities/v1-alpha/telco-cloud-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-developer
+      path: entities/v1-alpha/5g-core-network-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-developer
+      path: entities/v1-alpha/bss-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-developer
+      path: entities/v1-alpha/cell-site-deployment-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-developer
+      path: entities/v1-alpha/charging-billing-mediation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-developer
+      path: entities/v1-alpha/customer-field-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-developer
+      path: entities/v1-alpha/edge-computing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-developer
+      path: entities/v1-alpha/ftth-rollout-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-developer
+      path: entities/v1-alpha/fibre-transport-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-developer
+      path: entities/v1-alpha/fixed-wireless-access-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-developer
+      path: entities/v1-alpha/interconnect-roaming-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-developer
+      path: entities/v1-alpha/microwave-backhaul-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-developer
+      path: entities/v1-alpha/mobile-core-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-developer
+      path: entities/v1-alpha/network-inventory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-developer
+      path: entities/v1-alpha/network-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-developer
+      path: entities/v1-alpha/network-planning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-developer
+      path: entities/v1-alpha/network-security-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-developer
+      path: entities/v1-alpha/network-slicing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-developer
+      path: entities/v1-alpha/network-virtualization-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-developer
+      path: entities/v1-alpha/number-portability-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-developer
+      path: entities/v1-alpha/oss-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-developer
+      path: entities/v1-alpha/private-networks-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-developer
+      path: entities/v1-alpha/quality-of-service-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-developer
+      path: entities/v1-alpha/rf-spectrum-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-developer
+      path: entities/v1-alpha/radio-access-network-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-developer
+      path: entities/v1-alpha/satellite-services-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-developer
+      path: entities/v1-alpha/service-assurance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-developer
+      path: entities/v1-alpha/submarine-cable-systems-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-developer
+      path: entities/v1-alpha/subscriber-data-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-developer
+      path: entities/v1-alpha/telco-cloud-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-engineer
+      path: entities/v1-alpha/5g-core-network-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-engineer
+      path: entities/v1-alpha/bss-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-engineer
+      path: entities/v1-alpha/cell-site-deployment-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-engineer
+      path: entities/v1-alpha/charging-billing-mediation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-engineer
+      path: entities/v1-alpha/customer-field-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-engineer
+      path: entities/v1-alpha/edge-computing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-engineer
+      path: entities/v1-alpha/ftth-rollout-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-engineer
+      path: entities/v1-alpha/fibre-transport-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-engineer
+      path: entities/v1-alpha/fixed-wireless-access-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-engineer
+      path: entities/v1-alpha/interconnect-roaming-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-engineer
+      path: entities/v1-alpha/microwave-backhaul-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-engineer
+      path: entities/v1-alpha/mobile-core-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-engineer
+      path: entities/v1-alpha/network-inventory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-engineer
+      path: entities/v1-alpha/network-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-engineer
+      path: entities/v1-alpha/network-planning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-engineer
+      path: entities/v1-alpha/network-security-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-engineer
+      path: entities/v1-alpha/network-slicing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-engineer
+      path: entities/v1-alpha/network-virtualization-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-engineer
+      path: entities/v1-alpha/number-portability-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-engineer
+      path: entities/v1-alpha/oss-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-engineer
+      path: entities/v1-alpha/private-networks-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-engineer
+      path: entities/v1-alpha/quality-of-service-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-engineer
+      path: entities/v1-alpha/rf-spectrum-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-engineer
+      path: entities/v1-alpha/radio-access-network-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-engineer
+      path: entities/v1-alpha/satellite-services-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-engineer
+      path: entities/v1-alpha/service-assurance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-engineer
+      path: entities/v1-alpha/submarine-cable-systems-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-engineer
+      path: entities/v1-alpha/subscriber-data-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-engineer
+      path: entities/v1-alpha/telco-cloud-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-5g-core-network
+      path: entities/v1-alpha/head-of-5g-core-network.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-bss
+      path: entities/v1-alpha/head-of-bss.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-cell-site-deployment
+      path: entities/v1-alpha/head-of-cell-site-deployment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-charging-billing-mediation
+      path: entities/v1-alpha/head-of-charging-billing-mediation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-customer-field-services
+      path: entities/v1-alpha/head-of-customer-field-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-edge-computing
+      path: entities/v1-alpha/head-of-edge-computing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-ftth-rollout
+      path: entities/v1-alpha/head-of-ftth-rollout.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fibre-transport
+      path: entities/v1-alpha/head-of-fibre-transport.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fixed-wireless-access
+      path: entities/v1-alpha/head-of-fixed-wireless-access.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-interconnect-roaming
+      path: entities/v1-alpha/head-of-interconnect-roaming.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-microwave-backhaul
+      path: entities/v1-alpha/head-of-microwave-backhaul.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mobile-core
+      path: entities/v1-alpha/head-of-mobile-core.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-inventory
+      path: entities/v1-alpha/head-of-network-inventory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-operations
+      path: entities/v1-alpha/head-of-network-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-planning
+      path: entities/v1-alpha/head-of-network-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-security
+      path: entities/v1-alpha/head-of-network-security.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-slicing
+      path: entities/v1-alpha/head-of-network-slicing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-virtualization
+      path: entities/v1-alpha/head-of-network-virtualization.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-number-portability
+      path: entities/v1-alpha/head-of-number-portability.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-oss
+      path: entities/v1-alpha/head-of-oss.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-private-networks
+      path: entities/v1-alpha/head-of-private-networks.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-quality-of-service
+      path: entities/v1-alpha/head-of-quality-of-service.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-rf-spectrum
+      path: entities/v1-alpha/head-of-rf-spectrum.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-radio-access-network
+      path: entities/v1-alpha/head-of-radio-access-network.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-satellite-services
+      path: entities/v1-alpha/head-of-satellite-services.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-service-assurance
+      path: entities/v1-alpha/head-of-service-assurance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-submarine-cable-systems
+      path: entities/v1-alpha/head-of-submarine-cable-systems.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-subscriber-data-management
+      path: entities/v1-alpha/head-of-subscriber-data-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-telco-cloud
+      path: entities/v1-alpha/head-of-telco-cloud.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-lead
+      path: entities/v1-alpha/5g-core-network-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-lead
+      path: entities/v1-alpha/bss-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-lead
+      path: entities/v1-alpha/cell-site-deployment-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-lead
+      path: entities/v1-alpha/charging-billing-mediation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-lead
+      path: entities/v1-alpha/customer-field-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-lead
+      path: entities/v1-alpha/edge-computing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-lead
+      path: entities/v1-alpha/ftth-rollout-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-lead
+      path: entities/v1-alpha/fibre-transport-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-lead
+      path: entities/v1-alpha/fixed-wireless-access-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-lead
+      path: entities/v1-alpha/interconnect-roaming-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-lead
+      path: entities/v1-alpha/microwave-backhaul-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-lead
+      path: entities/v1-alpha/mobile-core-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-lead
+      path: entities/v1-alpha/network-inventory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-lead
+      path: entities/v1-alpha/network-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-lead
+      path: entities/v1-alpha/network-planning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-lead
+      path: entities/v1-alpha/network-security-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-lead
+      path: entities/v1-alpha/network-slicing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-lead
+      path: entities/v1-alpha/network-virtualization-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-lead
+      path: entities/v1-alpha/number-portability-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-lead
+      path: entities/v1-alpha/oss-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-lead
+      path: entities/v1-alpha/private-networks-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-lead
+      path: entities/v1-alpha/quality-of-service-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-lead
+      path: entities/v1-alpha/rf-spectrum-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-lead
+      path: entities/v1-alpha/radio-access-network-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-lead
+      path: entities/v1-alpha/satellite-services-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-lead
+      path: entities/v1-alpha/service-assurance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-lead
+      path: entities/v1-alpha/submarine-cable-systems-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-lead
+      path: entities/v1-alpha/subscriber-data-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-lead
+      path: entities/v1-alpha/telco-cloud-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-manager
+      path: entities/v1-alpha/5g-core-network-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-manager
+      path: entities/v1-alpha/bss-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-manager
+      path: entities/v1-alpha/cell-site-deployment-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-manager
+      path: entities/v1-alpha/charging-billing-mediation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-manager
+      path: entities/v1-alpha/customer-field-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-manager
+      path: entities/v1-alpha/edge-computing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-manager
+      path: entities/v1-alpha/ftth-rollout-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-manager
+      path: entities/v1-alpha/fibre-transport-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-manager
+      path: entities/v1-alpha/fixed-wireless-access-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-manager
+      path: entities/v1-alpha/interconnect-roaming-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-manager
+      path: entities/v1-alpha/microwave-backhaul-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-manager
+      path: entities/v1-alpha/mobile-core-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-manager
+      path: entities/v1-alpha/network-inventory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-manager
+      path: entities/v1-alpha/network-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-manager
+      path: entities/v1-alpha/network-planning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-manager
+      path: entities/v1-alpha/network-security-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-manager
+      path: entities/v1-alpha/network-slicing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-manager
+      path: entities/v1-alpha/network-virtualization-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-manager
+      path: entities/v1-alpha/number-portability-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-manager
+      path: entities/v1-alpha/oss-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-manager
+      path: entities/v1-alpha/private-networks-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-manager
+      path: entities/v1-alpha/quality-of-service-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-manager
+      path: entities/v1-alpha/rf-spectrum-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-manager
+      path: entities/v1-alpha/radio-access-network-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-manager
+      path: entities/v1-alpha/satellite-services-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-manager
+      path: entities/v1-alpha/service-assurance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-manager
+      path: entities/v1-alpha/submarine-cable-systems-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-manager
+      path: entities/v1-alpha/subscriber-data-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-manager
+      path: entities/v1-alpha/telco-cloud-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-operations-coordinator
+      path: entities/v1-alpha/5g-core-network-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-operations-coordinator
+      path: entities/v1-alpha/bss-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-operations-coordinator
+      path: entities/v1-alpha/cell-site-deployment-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-operations-coordinator
+      path: entities/v1-alpha/charging-billing-mediation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-operations-coordinator
+      path: entities/v1-alpha/customer-field-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-operations-coordinator
+      path: entities/v1-alpha/edge-computing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-operations-coordinator
+      path: entities/v1-alpha/ftth-rollout-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-operations-coordinator
+      path: entities/v1-alpha/fibre-transport-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-operations-coordinator
+      path: entities/v1-alpha/fixed-wireless-access-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-operations-coordinator
+      path: entities/v1-alpha/interconnect-roaming-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-operations-coordinator
+      path: entities/v1-alpha/microwave-backhaul-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-operations-coordinator
+      path: entities/v1-alpha/mobile-core-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-operations-coordinator
+      path: entities/v1-alpha/network-inventory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-operations-coordinator
+      path: entities/v1-alpha/network-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-operations-coordinator
+      path: entities/v1-alpha/network-planning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-operations-coordinator
+      path: entities/v1-alpha/network-security-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-operations-coordinator
+      path: entities/v1-alpha/network-slicing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-operations-coordinator
+      path: entities/v1-alpha/network-virtualization-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-operations-coordinator
+      path: entities/v1-alpha/number-portability-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-operations-coordinator
+      path: entities/v1-alpha/oss-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-operations-coordinator
+      path: entities/v1-alpha/private-networks-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-operations-coordinator
+      path: entities/v1-alpha/quality-of-service-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-operations-coordinator
+      path: entities/v1-alpha/rf-spectrum-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-operations-coordinator
+      path: entities/v1-alpha/radio-access-network-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-operations-coordinator
+      path: entities/v1-alpha/satellite-services-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-operations-coordinator
+      path: entities/v1-alpha/service-assurance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-operations-coordinator
+      path: entities/v1-alpha/submarine-cable-systems-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-operations-coordinator
+      path: entities/v1-alpha/subscriber-data-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-operations-coordinator
+      path: entities/v1-alpha/telco-cloud-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-planner
+      path: entities/v1-alpha/5g-core-network-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-planner
+      path: entities/v1-alpha/bss-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-planner
+      path: entities/v1-alpha/cell-site-deployment-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-planner
+      path: entities/v1-alpha/charging-billing-mediation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-planner
+      path: entities/v1-alpha/customer-field-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-planner
+      path: entities/v1-alpha/edge-computing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-planner
+      path: entities/v1-alpha/ftth-rollout-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-planner
+      path: entities/v1-alpha/fibre-transport-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-planner
+      path: entities/v1-alpha/fixed-wireless-access-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-planner
+      path: entities/v1-alpha/interconnect-roaming-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-planner
+      path: entities/v1-alpha/microwave-backhaul-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-planner
+      path: entities/v1-alpha/mobile-core-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-planner
+      path: entities/v1-alpha/network-inventory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-planner
+      path: entities/v1-alpha/network-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-planner
+      path: entities/v1-alpha/network-planning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-planner
+      path: entities/v1-alpha/network-security-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-planner
+      path: entities/v1-alpha/network-slicing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-planner
+      path: entities/v1-alpha/network-virtualization-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-planner
+      path: entities/v1-alpha/number-portability-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-planner
+      path: entities/v1-alpha/oss-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-planner
+      path: entities/v1-alpha/private-networks-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-planner
+      path: entities/v1-alpha/quality-of-service-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-planner
+      path: entities/v1-alpha/rf-spectrum-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-planner
+      path: entities/v1-alpha/radio-access-network-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-planner
+      path: entities/v1-alpha/satellite-services-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-planner
+      path: entities/v1-alpha/service-assurance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-planner
+      path: entities/v1-alpha/submarine-cable-systems-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-planner
+      path: entities/v1-alpha/subscriber-data-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-planner
+      path: entities/v1-alpha/telco-cloud-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-product-owner
+      path: entities/v1-alpha/5g-core-network-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-product-owner
+      path: entities/v1-alpha/bss-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-product-owner
+      path: entities/v1-alpha/cell-site-deployment-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-product-owner
+      path: entities/v1-alpha/charging-billing-mediation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-product-owner
+      path: entities/v1-alpha/customer-field-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-product-owner
+      path: entities/v1-alpha/edge-computing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-product-owner
+      path: entities/v1-alpha/ftth-rollout-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-product-owner
+      path: entities/v1-alpha/fibre-transport-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-product-owner
+      path: entities/v1-alpha/fixed-wireless-access-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-product-owner
+      path: entities/v1-alpha/interconnect-roaming-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-product-owner
+      path: entities/v1-alpha/microwave-backhaul-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-product-owner
+      path: entities/v1-alpha/mobile-core-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-product-owner
+      path: entities/v1-alpha/network-inventory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-product-owner
+      path: entities/v1-alpha/network-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-product-owner
+      path: entities/v1-alpha/network-planning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-product-owner
+      path: entities/v1-alpha/network-security-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-product-owner
+      path: entities/v1-alpha/network-slicing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-product-owner
+      path: entities/v1-alpha/network-virtualization-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-product-owner
+      path: entities/v1-alpha/number-portability-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-product-owner
+      path: entities/v1-alpha/oss-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-product-owner
+      path: entities/v1-alpha/private-networks-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-product-owner
+      path: entities/v1-alpha/quality-of-service-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-product-owner
+      path: entities/v1-alpha/rf-spectrum-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-product-owner
+      path: entities/v1-alpha/radio-access-network-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-product-owner
+      path: entities/v1-alpha/satellite-services-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-product-owner
+      path: entities/v1-alpha/service-assurance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-product-owner
+      path: entities/v1-alpha/submarine-cable-systems-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-product-owner
+      path: entities/v1-alpha/subscriber-data-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-product-owner
+      path: entities/v1-alpha/telco-cloud-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-program-manager
+      path: entities/v1-alpha/5g-core-network-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-program-manager
+      path: entities/v1-alpha/bss-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-program-manager
+      path: entities/v1-alpha/cell-site-deployment-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-program-manager
+      path: entities/v1-alpha/charging-billing-mediation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-program-manager
+      path: entities/v1-alpha/customer-field-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-program-manager
+      path: entities/v1-alpha/edge-computing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-program-manager
+      path: entities/v1-alpha/ftth-rollout-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-program-manager
+      path: entities/v1-alpha/fibre-transport-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-program-manager
+      path: entities/v1-alpha/fixed-wireless-access-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-program-manager
+      path: entities/v1-alpha/interconnect-roaming-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-program-manager
+      path: entities/v1-alpha/microwave-backhaul-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-program-manager
+      path: entities/v1-alpha/mobile-core-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-program-manager
+      path: entities/v1-alpha/network-inventory-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-program-manager
+      path: entities/v1-alpha/network-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-program-manager
+      path: entities/v1-alpha/network-planning-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-program-manager
+      path: entities/v1-alpha/network-security-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-program-manager
+      path: entities/v1-alpha/network-slicing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-program-manager
+      path: entities/v1-alpha/network-virtualization-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-program-manager
+      path: entities/v1-alpha/number-portability-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-program-manager
+      path: entities/v1-alpha/oss-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-program-manager
+      path: entities/v1-alpha/private-networks-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-program-manager
+      path: entities/v1-alpha/quality-of-service-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-program-manager
+      path: entities/v1-alpha/rf-spectrum-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-program-manager
+      path: entities/v1-alpha/radio-access-network-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-program-manager
+      path: entities/v1-alpha/satellite-services-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-program-manager
+      path: entities/v1-alpha/service-assurance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-program-manager
+      path: entities/v1-alpha/submarine-cable-systems-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-program-manager
+      path: entities/v1-alpha/subscriber-data-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-program-manager
+      path: entities/v1-alpha/telco-cloud-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-traffic-management-program-manager
+      path: entities/v1-alpha/traffic-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-quality-manager
+      path: entities/v1-alpha/5g-core-network-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-quality-manager
+      path: entities/v1-alpha/bss-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-quality-manager
+      path: entities/v1-alpha/cell-site-deployment-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-quality-manager
+      path: entities/v1-alpha/charging-billing-mediation-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-quality-manager
+      path: entities/v1-alpha/customer-field-services-quality-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-quality-manager
+      path: entities/v1-alpha/edge-computing-quality-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

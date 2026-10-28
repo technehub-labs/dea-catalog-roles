@@ -1,0 +1,50 @@
+id: roles:role-fibre-transport-operations-coordinator
+type: Role
+name: Fibre Transport Operations Coordinator
+description: Coordinates day-to-day fibre transport activities, schedules, and records, keeping Telecommunications
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- fibre
+- telecom
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fibre Transport
+  org_unit: Fibre Transport Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-fibre-transport-operations-coordinator-requires-fibre-transport
+  source_id: roles:role-fibre-transport-operations-coordinator
+  target_id: skills:skill-fibre-transport
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fibre-transport-operations-coordinator-requires-fibre-transport-secondary
+  source_id: roles:role-fibre-transport-operations-coordinator
+  target_id: skills:skill-fibre-transport-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

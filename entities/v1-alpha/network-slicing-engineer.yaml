@@ -1,0 +1,50 @@
+id: roles:role-network-slicing-engineer
+type: Role
+name: Network Slicing Engineer
+description: Builds, configures, and maintains network slicing components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Telecommunications standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- network
+- telecom
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Network Slicing
+  org_unit: Network Slicing Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-network-slicing-engineer-requires-network-slicing
+  source_id: roles:role-network-slicing-engineer
+  target_id: skills:skill-network-slicing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-network-slicing-engineer-requires-network-slicing-secondary
+  source_id: roles:role-network-slicing-engineer
+  target_id: skills:skill-network-slicing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-customer-field-services-engineer
+type: Role
+name: Customer Field Services Engineer
+description: Builds, configures, and maintains customer field services components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Telecommunications standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- customer
+- telecom
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customer Field Services
+  org_unit: Customer Field Services Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-customer-field-services-engineer-requires-customer-field-services
+  source_id: roles:role-customer-field-services-engineer
+  target_id: skills:skill-customer-field-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-customer-field-services-engineer-requires-customer-field-services-secondary
+  source_id: roles:role-customer-field-services-engineer
+  target_id: skills:skill-customer-field-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

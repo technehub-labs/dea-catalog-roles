@@ -1,0 +1,50 @@
+id: roles:role-radio-access-network-coach
+type: Role
+name: Radio Access Network Coach
+description: Coaches Telecommunications teams and individuals on radio access network working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- radio
+- telecom
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Radio Access Network
+  org_unit: Radio Access Network Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-radio-access-network-coach-requires-radio-access-network
+  source_id: roles:role-radio-access-network-coach
+  target_id: skills:skill-radio-access-network
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-radio-access-network-coach-requires-radio-access-network-secondary
+  source_id: roles:role-radio-access-network-coach
+  target_id: skills:skill-radio-access-network-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

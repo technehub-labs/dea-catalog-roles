@@ -1,0 +1,50 @@
+id: roles:role-network-security-lead
+type: Role
+name: Network Security Lead
+description: Sets direction for network security teams, owns their outcomes, and represents network security
+  interests in Telecommunications governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- network
+- telecom
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Network Security
+  org_unit: Network Security Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-network-security-lead-requires-network-security
+  source_id: roles:role-network-security-lead
+  target_id: skills:skill-network-security
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-network-security-lead-requires-network-security-secondary
+  source_id: roles:role-network-security-lead
+  target_id: skills:skill-network-security-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

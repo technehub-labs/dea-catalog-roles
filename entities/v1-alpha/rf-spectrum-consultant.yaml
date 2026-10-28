@@ -1,0 +1,50 @@
+id: roles:role-rf-spectrum-consultant
+type: Role
+name: RF Spectrum Consultant
+description: Supports Telecommunications teams adopting rf spectrum practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- rf
+- telecom
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: RF Spectrum
+  org_unit: RF Spectrum Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-rf-spectrum-consultant-requires-rf-spectrum
+  source_id: roles:role-rf-spectrum-consultant
+  target_id: skills:skill-rf-spectrum
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rf-spectrum-consultant-requires-rf-spectrum-secondary
+  source_id: roles:role-rf-spectrum-consultant
+  target_id: skills:skill-rf-spectrum-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

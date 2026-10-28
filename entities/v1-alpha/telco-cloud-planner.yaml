@@ -1,0 +1,50 @@
+id: roles:role-telco-cloud-planner
+type: Role
+name: Telco Cloud Planner
+description: Plans capacity, schedule, and sequencing for telco cloud activities, balancing demand, budget,
+  and dependencies in the Telecommunications portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- telco
+- telecom
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Telco Cloud
+  org_unit: Telco Cloud Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-telco-cloud-planner-requires-telco-cloud
+  source_id: roles:role-telco-cloud-planner
+  target_id: skills:skill-telco-cloud
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-telco-cloud-planner-requires-telco-cloud-secondary
+  source_id: roles:role-telco-cloud-planner
+  target_id: skills:skill-telco-cloud-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-rf-spectrum-developer
+type: Role
+name: RF Spectrum Developer
+description: Implements and unit-tests rf spectrum capabilities, contributing code and configuration within
+  the Telecommunications delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- rf
+- telecom
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: RF Spectrum
+  org_unit: RF Spectrum Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-rf-spectrum-developer-requires-rf-spectrum
+  source_id: roles:role-rf-spectrum-developer
+  target_id: skills:skill-rf-spectrum
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rf-spectrum-developer-requires-rf-spectrum-secondary
+  source_id: roles:role-rf-spectrum-developer
+  target_id: skills:skill-rf-spectrum-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

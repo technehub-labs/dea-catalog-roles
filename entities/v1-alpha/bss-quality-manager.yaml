@@ -1,0 +1,50 @@
+id: roles:role-bss-quality-manager
+type: Role
+name: BSS Quality Manager
+description: Owns bss quality standards and assurance activities, driving defect prevention and continuous
+  improvement across Telecommunications delivery.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- bss
+- telecom
+- quality-manager
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: BSS
+  org_unit: BSS Unit
+  function: Quality Manager
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-bss-quality-manager-requires-bss
+  source_id: roles:role-bss-quality-manager
+  target_id: skills:skill-bss
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-bss-quality-manager-requires-bss-secondary
+  source_id: roles:role-bss-quality-manager
+  target_id: skills:skill-bss-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-radio-access-network-analyst
+type: Role
+name: Radio Access Network Analyst
+description: Analyses radio access network data and processes, producing insight and recommendations that
+  steer Telecommunications planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- radio
+- telecom
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Radio Access Network
+  org_unit: Radio Access Network Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-radio-access-network-analyst-requires-radio-access-network
+  source_id: roles:role-radio-access-network-analyst
+  target_id: skills:skill-radio-access-network
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-radio-access-network-analyst-requires-radio-access-network-secondary
+  source_id: roles:role-radio-access-network-analyst
+  target_id: skills:skill-radio-access-network-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

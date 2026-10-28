@@ -1,0 +1,50 @@
+id: roles:role-microwave-backhaul-product-owner
+type: Role
+name: Microwave Backhaul Product Owner
+description: Owns the microwave backhaul product backlog, prioritising against user value and Telecommunications
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- microwave
+- telecom
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Microwave Backhaul
+  org_unit: Microwave Backhaul Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-microwave-backhaul-product-owner-requires-microwave-backhaul
+  source_id: roles:role-microwave-backhaul-product-owner
+  target_id: skills:skill-microwave-backhaul
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-microwave-backhaul-product-owner-requires-microwave-backhaul-secondary
+  source_id: roles:role-microwave-backhaul-product-owner
+  target_id: skills:skill-microwave-backhaul-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-submarine-cable-systems-coach
+type: Role
+name: Submarine Cable Systems Coach
+description: Coaches Telecommunications teams and individuals on submarine cable systems working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- submarine
+- telecom
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Submarine Cable Systems
+  org_unit: Submarine Cable Systems Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-submarine-cable-systems-coach-requires-submarine-cable-systems
+  source_id: roles:role-submarine-cable-systems-coach
+  target_id: skills:skill-submarine-cable-systems
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-submarine-cable-systems-coach-requires-submarine-cable-systems-secondary
+  source_id: roles:role-submarine-cable-systems-coach
+  target_id: skills:skill-submarine-cable-systems-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

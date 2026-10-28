@@ -1,0 +1,50 @@
+id: roles:role-interconnect-roaming-lead
+type: Role
+name: Interconnect & Roaming Lead
+description: Sets direction for interconnect & roaming teams, owns their outcomes, and represents interconnect
+  & roaming interests in Telecommunications governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- interconnect
+- telecom
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Interconnect & Roaming
+  org_unit: Interconnect & Roaming Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-interconnect-roaming-lead-requires-interconnect-roaming
+  source_id: roles:role-interconnect-roaming-lead
+  target_id: skills:skill-interconnect-roaming
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-interconnect-roaming-lead-requires-interconnect-roaming-secondary
+  source_id: roles:role-interconnect-roaming-lead
+  target_id: skills:skill-interconnect-roaming-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

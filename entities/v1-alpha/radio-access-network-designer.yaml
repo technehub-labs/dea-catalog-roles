@@ -1,0 +1,50 @@
+id: roles:role-radio-access-network-designer
+type: Role
+name: Radio Access Network Designer
+description: Designs radio access network solutions and interfaces, translating Telecommunications requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- radio
+- telecom
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Radio Access Network
+  org_unit: Radio Access Network Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-radio-access-network-designer-requires-radio-access-network
+  source_id: roles:role-radio-access-network-designer
+  target_id: skills:skill-radio-access-network
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-radio-access-network-designer-requires-radio-access-network-secondary
+  source_id: roles:role-radio-access-network-designer
+  target_id: skills:skill-radio-access-network-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

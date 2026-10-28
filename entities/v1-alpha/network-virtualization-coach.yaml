@@ -1,0 +1,50 @@
+id: roles:role-network-virtualization-coach
+type: Role
+name: Network Virtualization Coach
+description: Coaches Telecommunications teams and individuals on network virtualization working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- network
+- telecom
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Network Virtualization
+  org_unit: Network Virtualization Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-network-virtualization-coach-requires-network-virtualization
+  source_id: roles:role-network-virtualization-coach
+  target_id: skills:skill-network-virtualization
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-network-virtualization-coach-requires-network-virtualization-secondary
+  source_id: roles:role-network-virtualization-coach
+  target_id: skills:skill-network-virtualization-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

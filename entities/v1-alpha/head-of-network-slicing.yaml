@@ -1,0 +1,50 @@
+id: roles:role-head-of-network-slicing
+type: Role
+name: Head of Network Slicing
+description: 'Owns the network slicing domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Telecommunications.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- network
+- telecom
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Network Slicing
+  org_unit: Network Slicing Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-head-of-network-slicing-requires-network-slicing
+  source_id: roles:role-head-of-network-slicing
+  target_id: skills:skill-network-slicing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-network-slicing-requires-network-slicing-secondary
+  source_id: roles:role-head-of-network-slicing
+  target_id: skills:skill-network-slicing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

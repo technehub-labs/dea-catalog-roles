@@ -1,0 +1,50 @@
+id: roles:role-quality-of-service-consultant
+type: Role
+name: Quality of Service Consultant
+description: Supports Telecommunications teams adopting quality of service practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- quality
+- telecom
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Quality of Service
+  org_unit: Quality of Service Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-quality-of-service-consultant-requires-quality-of-service
+  source_id: roles:role-quality-of-service-consultant
+  target_id: skills:skill-quality-of-service
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-quality-of-service-consultant-requires-quality-of-service-secondary
+  source_id: roles:role-quality-of-service-consultant
+  target_id: skills:skill-quality-of-service-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-telco-cloud-consultant
+type: Role
+name: Telco Cloud Consultant
+description: Supports Telecommunications teams adopting telco cloud practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- telco
+- telecom
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Telco Cloud
+  org_unit: Telco Cloud Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-telco-cloud-consultant-requires-telco-cloud
+  source_id: roles:role-telco-cloud-consultant
+  target_id: skills:skill-telco-cloud
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-telco-cloud-consultant-requires-telco-cloud-secondary
+  source_id: roles:role-telco-cloud-consultant
+  target_id: skills:skill-telco-cloud-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
