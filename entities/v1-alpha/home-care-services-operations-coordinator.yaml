@@ -1,0 +1,50 @@
+id: roles:role-home-care-services-operations-coordinator
+type: Role
+name: Home Care Services Operations Coordinator
+description: Coordinates day-to-day home care services activities, schedules, and records, keeping Healthcare
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- home
+- healthcare
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Home Care Services
+  org_unit: Home Care Services Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-home-care-services-operations-coordinato-requires-home-care-services
+  source_id: roles:role-home-care-services-operations-coordinator
+  target_id: skills:skill-home-care-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-home-care-services-operations-coordinato-requires-home-care-services-secondary
+  source_id: roles:role-home-care-services-operations-coordinator
+  target_id: skills:skill-home-care-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-regulatory-affairs-medical-devices-coach
+type: Role
+name: Regulatory Affairs (Medical Devices) Coach
+description: Coaches Healthcare teams and individuals on regulatory affairs (medical devices) working
+  methods, improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- regulatory
+- healthcare
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Affairs (Medical Devices)
+  org_unit: Regulatory Affairs (Medical Devices) Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-regulatory-affairs-medical-devices-coach-requires-regulatory-affairs-medical-dev
+  source_id: roles:role-regulatory-affairs-medical-devices-coach
+  target_id: skills:skill-regulatory-affairs-medical-devices
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-affairs-medical-devices-coach-requires-regulatory-affairs-medical-dev-secondary
+  source_id: roles:role-regulatory-affairs-medical-devices-coach
+  target_id: skills:skill-regulatory-affairs-medical-devices-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

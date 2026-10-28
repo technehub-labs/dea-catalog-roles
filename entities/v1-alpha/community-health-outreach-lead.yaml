@@ -1,0 +1,50 @@
+id: roles:role-community-health-outreach-lead
+type: Role
+name: Community Health Outreach Lead
+description: Sets direction for community health outreach teams, owns their outcomes, and represents community
+  health outreach interests in Healthcare governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- community
+- healthcare
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Community Health Outreach
+  org_unit: Community Health Outreach Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-community-health-outreach-lead-requires-community-health-outreach
+  source_id: roles:role-community-health-outreach-lead
+  target_id: skills:skill-community-health-outreach
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-community-health-outreach-lead-requires-community-health-outreach-secondary
+  source_id: roles:role-community-health-outreach-lead
+  target_id: skills:skill-community-health-outreach-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

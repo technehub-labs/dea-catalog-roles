@@ -1,0 +1,50 @@
+id: roles:role-mental-health-services-consultant
+type: Role
+name: Mental Health Services Consultant
+description: Supports Healthcare teams adopting mental health services practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- mental
+- healthcare
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mental Health Services
+  org_unit: Mental Health Services Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-mental-health-services-consultant-requires-mental-health-services
+  source_id: roles:role-mental-health-services-consultant
+  target_id: skills:skill-mental-health-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mental-health-services-consultant-requires-mental-health-services-secondary
+  source_id: roles:role-mental-health-services-consultant
+  target_id: skills:skill-mental-health-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

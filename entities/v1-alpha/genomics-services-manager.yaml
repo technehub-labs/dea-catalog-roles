@@ -1,0 +1,50 @@
+id: roles:role-genomics-services-manager
+type: Role
+name: Genomics Services Manager
+description: 'Manages genomics services end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Healthcare operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- genomics
+- healthcare
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Genomics Services
+  org_unit: Genomics Services Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-genomics-services-manager-requires-genomics-services
+  source_id: roles:role-genomics-services-manager
+  target_id: skills:skill-genomics-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-genomics-services-manager-requires-genomics-services-secondary
+  source_id: roles:role-genomics-services-manager
+  target_id: skills:skill-genomics-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

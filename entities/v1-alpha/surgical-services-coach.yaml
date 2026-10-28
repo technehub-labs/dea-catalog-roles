@@ -1,0 +1,50 @@
+id: roles:role-surgical-services-coach
+type: Role
+name: Surgical Services Coach
+description: Coaches Healthcare teams and individuals on surgical services working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- surgical
+- healthcare
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Surgical Services
+  org_unit: Surgical Services Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-surgical-services-coach-requires-surgical-services
+  source_id: roles:role-surgical-services-coach
+  target_id: skills:skill-surgical-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-surgical-services-coach-requires-surgical-services-secondary
+  source_id: roles:role-surgical-services-coach
+  target_id: skills:skill-surgical-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

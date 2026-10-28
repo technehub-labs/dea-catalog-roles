@@ -1,0 +1,50 @@
+id: roles:role-mental-health-services-planner
+type: Role
+name: Mental Health Services Planner
+description: Plans capacity, schedule, and sequencing for mental health services activities, balancing
+  demand, budget, and dependencies in the Healthcare portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- mental
+- healthcare
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mental Health Services
+  org_unit: Mental Health Services Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-mental-health-services-planner-requires-mental-health-services
+  source_id: roles:role-mental-health-services-planner
+  target_id: skills:skill-mental-health-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mental-health-services-planner-requires-mental-health-services-secondary
+  source_id: roles:role-mental-health-services-planner
+  target_id: skills:skill-mental-health-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-surgical-services-designer
+type: Role
+name: Surgical Services Designer
+description: Designs surgical services solutions and interfaces, translating Healthcare requirements into
+  usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- surgical
+- healthcare
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Surgical Services
+  org_unit: Surgical Services Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-surgical-services-designer-requires-surgical-services
+  source_id: roles:role-surgical-services-designer
+  target_id: skills:skill-surgical-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-surgical-services-designer-requires-surgical-services-secondary
+  source_id: roles:role-surgical-services-designer
+  target_id: skills:skill-surgical-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

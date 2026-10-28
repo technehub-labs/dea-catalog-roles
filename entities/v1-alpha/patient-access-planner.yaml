@@ -1,0 +1,50 @@
+id: roles:role-patient-access-planner
+type: Role
+name: Patient Access Planner
+description: Plans capacity, schedule, and sequencing for patient access activities, balancing demand,
+  budget, and dependencies in the Healthcare portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- patient
+- healthcare
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Patient Access
+  org_unit: Patient Access Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-patient-access-planner-requires-patient-access
+  source_id: roles:role-patient-access-planner
+  target_id: skills:skill-patient-access
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-patient-access-planner-requires-patient-access-secondary
+  source_id: roles:role-patient-access-planner
+  target_id: skills:skill-patient-access-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

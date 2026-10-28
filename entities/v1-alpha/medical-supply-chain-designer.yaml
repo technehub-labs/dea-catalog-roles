@@ -1,0 +1,50 @@
+id: roles:role-medical-supply-chain-designer
+type: Role
+name: Medical Supply Chain Designer
+description: Designs medical supply chain solutions and interfaces, translating Healthcare requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- medical
+- healthcare
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Medical Supply Chain
+  org_unit: Medical Supply Chain Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-medical-supply-chain-designer-requires-medical-supply-chain
+  source_id: roles:role-medical-supply-chain-designer
+  target_id: skills:skill-medical-supply-chain
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-medical-supply-chain-designer-requires-medical-supply-chain-secondary
+  source_id: roles:role-medical-supply-chain-designer
+  target_id: skills:skill-medical-supply-chain-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

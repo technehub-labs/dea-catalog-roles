@@ -1,0 +1,50 @@
+id: roles:role-medical-supply-chain-administrator
+type: Role
+name: Medical Supply Chain Administrator
+description: 'Administers medical supply chain environments day to day: provisioning, access control,
+  monitoring, and routine change execution for Healthcare operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- medical
+- healthcare
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Medical Supply Chain
+  org_unit: Medical Supply Chain Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-medical-supply-chain-administrator-requires-medical-supply-chain
+  source_id: roles:role-medical-supply-chain-administrator
+  target_id: skills:skill-medical-supply-chain
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-medical-supply-chain-administrator-requires-medical-supply-chain-secondary
+  source_id: roles:role-medical-supply-chain-administrator
+  target_id: skills:skill-medical-supply-chain-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-patient-access-architect
+type: Role
+name: Patient Access Architect
+description: 'Owns the target architecture for patient access: design standards, technology selection,
+  and the evolution roadmap that keeps patient access fit for the Healthcare operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- patient
+- healthcare
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Patient Access
+  org_unit: Patient Access Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-patient-access-architect-requires-patient-access
+  source_id: roles:role-patient-access-architect
+  target_id: skills:skill-patient-access
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-patient-access-architect-requires-patient-access-secondary
+  source_id: roles:role-patient-access-architect
+  target_id: skills:skill-patient-access-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

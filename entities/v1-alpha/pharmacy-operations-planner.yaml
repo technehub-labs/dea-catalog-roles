@@ -1,0 +1,50 @@
+id: roles:role-pharmacy-operations-planner
+type: Role
+name: Pharmacy Operations Planner
+description: Plans capacity, schedule, and sequencing for pharmacy operations activities, balancing demand,
+  budget, and dependencies in the Healthcare portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- pharmacy
+- healthcare
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Pharmacy Operations
+  org_unit: Pharmacy Operations Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - healthcare
+  - consulting
+  - media
+relationships:
+- id: roles:rel-pharmacy-operations-planner-requires-pharmacy-operations
+  source_id: roles:role-pharmacy-operations-planner
+  target_id: skills:skill-pharmacy-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-pharmacy-operations-planner-requires-pharmacy-operations-secondary
+  source_id: roles:role-pharmacy-operations-planner
+  target_id: skills:skill-pharmacy-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/healthcare.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
