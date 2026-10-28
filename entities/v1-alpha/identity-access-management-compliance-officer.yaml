@@ -1,0 +1,50 @@
+id: roles:role-identity-access-management-compliance-officer
+type: Role
+name: Identity & Access Management Compliance Officer
+description: Constrains and reviews identity & access management activity against regulatory and policy
+  obligations, escalating breaches in the Technology control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- identity
+- technology
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Identity & Access Management
+  org_unit: Identity & Access Management Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-identity-access-management-compliance-of-requires-identity-access-management
+  source_id: roles:role-identity-access-management-compliance-officer
+  target_id: skills:skill-identity-access-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-identity-access-management-compliance-of-requires-identity-access-management-secondary
+  source_id: roles:role-identity-access-management-compliance-officer
+  target_id: skills:skill-identity-access-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-middleware-platforms-auditor
+type: Role
+name: Middleware Platforms Auditor
+description: Independently reviews middleware platforms controls and records, reporting findings and tracking
+  remediation within Technology assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- middleware
+- technology
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Middleware Platforms
+  org_unit: Middleware Platforms Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-middleware-platforms-auditor-requires-middleware-platforms
+  source_id: roles:role-middleware-platforms-auditor
+  target_id: skills:skill-middleware-platforms
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-middleware-platforms-auditor-requires-middleware-platforms-secondary
+  source_id: roles:role-middleware-platforms-auditor
+  target_id: skills:skill-middleware-platforms-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
