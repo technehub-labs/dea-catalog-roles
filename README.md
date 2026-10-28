@@ -1,4 +1,4 @@
-# Roles (dea-catalog-roles)
+# OpenDEA Roles (dea-catalog-roles)
 
 > DEA catalog for **Role** — OpenDEAM v0.3.0 (ADR-0003).
 
