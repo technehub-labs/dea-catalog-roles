@@ -1,0 +1,50 @@
+id: roles:role-5g-core-network-quality-manager
+type: Role
+name: 5G Core Network Quality Manager
+description: Owns 5g core network quality standards and assurance activities, driving defect prevention
+  and continuous improvement across Telecommunications delivery.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- 5g
+- telecom
+- quality-manager
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: 5G Core Network
+  org_unit: 5G Core Network Unit
+  function: Quality Manager
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-5g-core-network-quality-manager-requires-5g-core-network
+  source_id: roles:role-5g-core-network-quality-manager
+  target_id: skills:skill-5g-core-network
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-5g-core-network-quality-manager-requires-5g-core-network-secondary
+  source_id: roles:role-5g-core-network-quality-manager
+  target_id: skills:skill-5g-core-network-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

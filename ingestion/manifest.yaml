@@ -9,7 +9,7 @@ provenance:
   type: discovery
   asserted_by: catalog-seed
   verification_status: unverified
-collisions_with_existing: 5560
+collisions_with_existing: 6000
 notes: >-
   Rows are candidates only (lifecycle_status: proposed, version 0.1.0).
   Entities materialize per admission (GOVERNANCE.md S4); existing
@@ -42,4 +42,5 @@ notes: >-
   410 audit wave-2 admissions (CR-DEA-ROL-31);
   440 legal-regulatory wave-2 admissions (CR-DEA-ROL-32);
   410 consulting wave-2 admissions (CR-DEA-ROL-33);
+  440 telecom wave-2 admissions (CR-DEA-ROL-34);
   the gate fails on any unexplained collision-count change.

@@ -1,0 +1,50 @@
+id: roles:role-bss-lead
+type: Role
+name: BSS Lead
+description: Sets direction for bss teams, owns their outcomes, and represents bss interests in Telecommunications
+  governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- bss
+- telecom
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: BSS
+  org_unit: BSS Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-bss-lead-requires-bss
+  source_id: roles:role-bss-lead
+  target_id: skills:skill-bss
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-bss-lead-requires-bss-secondary
+  source_id: roles:role-bss-lead
+  target_id: skills:skill-bss-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

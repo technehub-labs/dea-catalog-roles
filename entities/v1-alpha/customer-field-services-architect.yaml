@@ -1,0 +1,51 @@
+id: roles:role-customer-field-services-architect
+type: Role
+name: Customer Field Services Architect
+description: 'Owns the target architecture for customer field services: design standards, technology selection,
+  and the evolution roadmap that keeps customer field services fit for the Telecommunications operating
+  model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- customer
+- telecom
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customer Field Services
+  org_unit: Customer Field Services Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-customer-field-services-architect-requires-customer-field-services
+  source_id: roles:role-customer-field-services-architect
+  target_id: skills:skill-customer-field-services
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-customer-field-services-architect-requires-customer-field-services-secondary
+  source_id: roles:role-customer-field-services-architect
+  target_id: skills:skill-customer-field-services-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

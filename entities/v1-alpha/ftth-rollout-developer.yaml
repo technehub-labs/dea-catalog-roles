@@ -1,0 +1,50 @@
+id: roles:role-ftth-rollout-developer
+type: Role
+name: FTTH Rollout Developer
+description: Implements and unit-tests ftth rollout capabilities, contributing code and configuration
+  within the Telecommunications delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- ftth
+- telecom
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: FTTH Rollout
+  org_unit: FTTH Rollout Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-ftth-rollout-developer-requires-ftth-rollout
+  source_id: roles:role-ftth-rollout-developer
+  target_id: skills:skill-ftth-rollout
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-ftth-rollout-developer-requires-ftth-rollout-secondary
+  source_id: roles:role-ftth-rollout-developer
+  target_id: skills:skill-ftth-rollout-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

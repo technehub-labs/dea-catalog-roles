@@ -1,0 +1,50 @@
+id: roles:role-head-of-service-assurance
+type: Role
+name: Head of Service Assurance
+description: 'Owns the service assurance domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Telecommunications.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- service
+- telecom
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Service Assurance
+  org_unit: Service Assurance Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-head-of-service-assurance-requires-service-assurance
+  source_id: roles:role-head-of-service-assurance
+  target_id: skills:skill-service-assurance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-service-assurance-requires-service-assurance-secondary
+  source_id: roles:role-head-of-service-assurance
+  target_id: skills:skill-service-assurance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

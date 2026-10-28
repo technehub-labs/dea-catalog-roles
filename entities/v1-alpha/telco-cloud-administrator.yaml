@@ -1,0 +1,50 @@
+id: roles:role-telco-cloud-administrator
+type: Role
+name: Telco Cloud Administrator
+description: 'Administers telco cloud environments day to day: provisioning, access control, monitoring,
+  and routine change execution for Telecommunications operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- telco
+- telecom
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Telco Cloud
+  org_unit: Telco Cloud Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-telco-cloud-administrator-requires-telco-cloud
+  source_id: roles:role-telco-cloud-administrator
+  target_id: skills:skill-telco-cloud
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-telco-cloud-administrator-requires-telco-cloud-secondary
+  source_id: roles:role-telco-cloud-administrator
+  target_id: skills:skill-telco-cloud-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

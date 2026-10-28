@@ -1,0 +1,50 @@
+id: roles:role-fibre-transport-lead
+type: Role
+name: Fibre Transport Lead
+description: Sets direction for fibre transport teams, owns their outcomes, and represents fibre transport
+  interests in Telecommunications governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- fibre
+- telecom
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Fibre Transport
+  org_unit: Fibre Transport Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-fibre-transport-lead-requires-fibre-transport
+  source_id: roles:role-fibre-transport-lead
+  target_id: skills:skill-fibre-transport
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-fibre-transport-lead-requires-fibre-transport-secondary
+  source_id: roles:role-fibre-transport-lead
+  target_id: skills:skill-fibre-transport-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

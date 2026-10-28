@@ -1,0 +1,50 @@
+id: roles:role-oss-lead
+type: Role
+name: OSS Lead
+description: Sets direction for oss teams, owns their outcomes, and represents oss interests in Telecommunications
+  governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- oss
+- telecom
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: OSS
+  org_unit: OSS Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-oss-lead-requires-oss
+  source_id: roles:role-oss-lead
+  target_id: skills:skill-oss
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-oss-lead-requires-oss-secondary
+  source_id: roles:role-oss-lead
+  target_id: skills:skill-oss-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

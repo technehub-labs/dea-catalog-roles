@@ -1,0 +1,50 @@
+id: roles:role-private-networks-consultant
+type: Role
+name: Private Networks Consultant
+description: Supports Telecommunications teams adopting private networks practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- private
+- telecom
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Private Networks
+  org_unit: Private Networks Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-private-networks-consultant-requires-private-networks
+  source_id: roles:role-private-networks-consultant
+  target_id: skills:skill-private-networks
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-private-networks-consultant-requires-private-networks-secondary
+  source_id: roles:role-private-networks-consultant
+  target_id: skills:skill-private-networks-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
