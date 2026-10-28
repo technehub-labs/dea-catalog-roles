@@ -1,0 +1,50 @@
+id: roles:role-head-of-subscriber-growth
+type: Role
+name: Head of Subscriber Growth
+description: 'Owns the subscriber growth domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Media.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- subscriber
+- media
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Subscriber Growth
+  org_unit: Subscriber Growth Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-head-of-subscriber-growth-requires-subscriber-growth
+  source_id: roles:role-head-of-subscriber-growth
+  target_id: skills:skill-subscriber-growth
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-subscriber-growth-requires-subscriber-growth-secondary
+  source_id: roles:role-head-of-subscriber-growth
+  target_id: skills:skill-subscriber-growth-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

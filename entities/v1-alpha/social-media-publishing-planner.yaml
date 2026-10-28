@@ -1,0 +1,50 @@
+id: roles:role-social-media-publishing-planner
+type: Role
+name: Social Media Publishing Planner
+description: Plans capacity, schedule, and sequencing for social media publishing activities, balancing
+  demand, budget, and dependencies in the Media portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- social
+- media
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Social Media Publishing
+  org_unit: Social Media Publishing Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-social-media-publishing-planner-requires-social-media-publishing
+  source_id: roles:role-social-media-publishing-planner
+  target_id: skills:skill-social-media-publishing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-social-media-publishing-planner-requires-social-media-publishing-secondary
+  source_id: roles:role-social-media-publishing-planner
+  target_id: skills:skill-social-media-publishing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-media-supply-chain-product-owner
+type: Role
+name: Media Supply Chain Product Owner
+description: Owns the media supply chain product backlog, prioritising against user value and Media business
+  goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- media
+- media
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Media Supply Chain
+  org_unit: Media Supply Chain Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-media-supply-chain-product-owner-requires-media-supply-chain
+  source_id: roles:role-media-supply-chain-product-owner
+  target_id: skills:skill-media-supply-chain
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-media-supply-chain-product-owner-requires-media-supply-chain-secondary
+  source_id: roles:role-media-supply-chain-product-owner
+  target_id: skills:skill-media-supply-chain-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 1692
+    entities: 2132
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -8364,6 +8364,2206 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-streaming-content-acquisition-program-manager
       path: entities/v1-alpha/streaming-content-acquisition-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-administrator
+      path: entities/v1-alpha/advertising-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-administrator
+      path: entities/v1-alpha/audience-analytics-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-administrator
+      path: entities/v1-alpha/audience-development-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-administrator
+      path: entities/v1-alpha/brand-partnerships-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-administrator
+      path: entities/v1-alpha/broadcast-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-administrator
+      path: entities/v1-alpha/content-compliance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-administrator
+      path: entities/v1-alpha/content-localization-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-administrator
+      path: entities/v1-alpha/content-production-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-administrator
+      path: entities/v1-alpha/content-rights-licensing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-administrator
+      path: entities/v1-alpha/creator-partnerships-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-administrator
+      path: entities/v1-alpha/digital-asset-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-administrator
+      path: entities/v1-alpha/editorial-standards-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-administrator
+      path: entities/v1-alpha/gaming-content-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-administrator
+      path: entities/v1-alpha/interactive-media-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-administrator
+      path: entities/v1-alpha/live-event-production-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-administrator
+      path: entities/v1-alpha/media-archive-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-administrator
+      path: entities/v1-alpha/media-supply-chain-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-administrator
+      path: entities/v1-alpha/metadata-cataloguing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-administrator
+      path: entities/v1-alpha/newsroom-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-administrator
+      path: entities/v1-alpha/ott-distribution-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-administrator
+      path: entities/v1-alpha/photojournalism-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-administrator
+      path: entities/v1-alpha/podcast-production-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-administrator
+      path: entities/v1-alpha/post-production-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-administrator
+      path: entities/v1-alpha/print-publishing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-administrator
+      path: entities/v1-alpha/programme-scheduling-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-administrator
+      path: entities/v1-alpha/social-media-publishing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-administrator
+      path: entities/v1-alpha/studios-facilities-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-administrator
+      path: entities/v1-alpha/subscriber-growth-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-administrator
+      path: entities/v1-alpha/transcription-captioning-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-administrator
+      path: entities/v1-alpha/video-streaming-platforms-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-analyst
+      path: entities/v1-alpha/advertising-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-analyst
+      path: entities/v1-alpha/audience-analytics-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-analyst
+      path: entities/v1-alpha/audience-development-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-analyst
+      path: entities/v1-alpha/brand-partnerships-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-analyst
+      path: entities/v1-alpha/broadcast-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-analyst
+      path: entities/v1-alpha/content-compliance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-analyst
+      path: entities/v1-alpha/content-localization-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-analyst
+      path: entities/v1-alpha/content-production-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-analyst
+      path: entities/v1-alpha/content-rights-licensing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-analyst
+      path: entities/v1-alpha/creator-partnerships-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-analyst
+      path: entities/v1-alpha/digital-asset-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-analyst
+      path: entities/v1-alpha/editorial-standards-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-analyst
+      path: entities/v1-alpha/gaming-content-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-analyst
+      path: entities/v1-alpha/interactive-media-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-analyst
+      path: entities/v1-alpha/live-event-production-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-analyst
+      path: entities/v1-alpha/media-archive-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-analyst
+      path: entities/v1-alpha/media-supply-chain-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-analyst
+      path: entities/v1-alpha/metadata-cataloguing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-analyst
+      path: entities/v1-alpha/newsroom-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-analyst
+      path: entities/v1-alpha/ott-distribution-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-analyst
+      path: entities/v1-alpha/photojournalism-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-analyst
+      path: entities/v1-alpha/podcast-production-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-analyst
+      path: entities/v1-alpha/post-production-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-analyst
+      path: entities/v1-alpha/print-publishing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-analyst
+      path: entities/v1-alpha/programme-scheduling-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-analyst
+      path: entities/v1-alpha/social-media-publishing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-analyst
+      path: entities/v1-alpha/studios-facilities-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-analyst
+      path: entities/v1-alpha/subscriber-growth-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-analyst
+      path: entities/v1-alpha/transcription-captioning-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-analyst
+      path: entities/v1-alpha/video-streaming-platforms-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-architect
+      path: entities/v1-alpha/advertising-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-architect
+      path: entities/v1-alpha/audience-analytics-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-architect
+      path: entities/v1-alpha/audience-development-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-architect
+      path: entities/v1-alpha/brand-partnerships-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-architect
+      path: entities/v1-alpha/broadcast-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-architect
+      path: entities/v1-alpha/content-compliance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-architect
+      path: entities/v1-alpha/content-localization-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-architect
+      path: entities/v1-alpha/content-production-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-architect
+      path: entities/v1-alpha/content-rights-licensing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-architect
+      path: entities/v1-alpha/creator-partnerships-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-architect
+      path: entities/v1-alpha/digital-asset-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-architect
+      path: entities/v1-alpha/editorial-standards-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-architect
+      path: entities/v1-alpha/gaming-content-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-architect
+      path: entities/v1-alpha/interactive-media-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-architect
+      path: entities/v1-alpha/live-event-production-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-architect
+      path: entities/v1-alpha/media-archive-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-architect
+      path: entities/v1-alpha/media-supply-chain-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-architect
+      path: entities/v1-alpha/metadata-cataloguing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-architect
+      path: entities/v1-alpha/newsroom-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-architect
+      path: entities/v1-alpha/ott-distribution-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-architect
+      path: entities/v1-alpha/photojournalism-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-architect
+      path: entities/v1-alpha/podcast-production-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-architect
+      path: entities/v1-alpha/post-production-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-architect
+      path: entities/v1-alpha/print-publishing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-architect
+      path: entities/v1-alpha/programme-scheduling-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-architect
+      path: entities/v1-alpha/social-media-publishing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-architect
+      path: entities/v1-alpha/studios-facilities-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-architect
+      path: entities/v1-alpha/subscriber-growth-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-architect
+      path: entities/v1-alpha/transcription-captioning-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-architect
+      path: entities/v1-alpha/video-streaming-platforms-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-coach
+      path: entities/v1-alpha/advertising-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-coach
+      path: entities/v1-alpha/audience-analytics-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-coach
+      path: entities/v1-alpha/audience-development-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-coach
+      path: entities/v1-alpha/brand-partnerships-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-coach
+      path: entities/v1-alpha/broadcast-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-coach
+      path: entities/v1-alpha/content-compliance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-coach
+      path: entities/v1-alpha/content-localization-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-coach
+      path: entities/v1-alpha/content-production-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-coach
+      path: entities/v1-alpha/content-rights-licensing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-coach
+      path: entities/v1-alpha/creator-partnerships-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-coach
+      path: entities/v1-alpha/digital-asset-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-coach
+      path: entities/v1-alpha/editorial-standards-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-coach
+      path: entities/v1-alpha/gaming-content-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-coach
+      path: entities/v1-alpha/interactive-media-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-coach
+      path: entities/v1-alpha/live-event-production-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-coach
+      path: entities/v1-alpha/media-archive-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-coach
+      path: entities/v1-alpha/media-supply-chain-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-coach
+      path: entities/v1-alpha/metadata-cataloguing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-coach
+      path: entities/v1-alpha/newsroom-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-coach
+      path: entities/v1-alpha/ott-distribution-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-coach
+      path: entities/v1-alpha/photojournalism-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-coach
+      path: entities/v1-alpha/podcast-production-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-coach
+      path: entities/v1-alpha/post-production-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-coach
+      path: entities/v1-alpha/print-publishing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-coach
+      path: entities/v1-alpha/programme-scheduling-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-coach
+      path: entities/v1-alpha/social-media-publishing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-coach
+      path: entities/v1-alpha/studios-facilities-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-coach
+      path: entities/v1-alpha/subscriber-growth-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-coach
+      path: entities/v1-alpha/transcription-captioning-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-coach
+      path: entities/v1-alpha/video-streaming-platforms-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-consultant
+      path: entities/v1-alpha/advertising-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-consultant
+      path: entities/v1-alpha/audience-analytics-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-consultant
+      path: entities/v1-alpha/audience-development-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-consultant
+      path: entities/v1-alpha/brand-partnerships-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-consultant
+      path: entities/v1-alpha/broadcast-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-consultant
+      path: entities/v1-alpha/content-compliance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-consultant
+      path: entities/v1-alpha/content-localization-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-consultant
+      path: entities/v1-alpha/content-production-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-consultant
+      path: entities/v1-alpha/content-rights-licensing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-consultant
+      path: entities/v1-alpha/creator-partnerships-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-consultant
+      path: entities/v1-alpha/digital-asset-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-consultant
+      path: entities/v1-alpha/editorial-standards-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-consultant
+      path: entities/v1-alpha/gaming-content-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-consultant
+      path: entities/v1-alpha/interactive-media-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-consultant
+      path: entities/v1-alpha/live-event-production-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-consultant
+      path: entities/v1-alpha/media-archive-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-consultant
+      path: entities/v1-alpha/media-supply-chain-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-consultant
+      path: entities/v1-alpha/metadata-cataloguing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-consultant
+      path: entities/v1-alpha/newsroom-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-consultant
+      path: entities/v1-alpha/ott-distribution-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-consultant
+      path: entities/v1-alpha/photojournalism-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-consultant
+      path: entities/v1-alpha/podcast-production-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-consultant
+      path: entities/v1-alpha/post-production-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-consultant
+      path: entities/v1-alpha/print-publishing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-consultant
+      path: entities/v1-alpha/programme-scheduling-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-consultant
+      path: entities/v1-alpha/social-media-publishing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-consultant
+      path: entities/v1-alpha/studios-facilities-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-consultant
+      path: entities/v1-alpha/subscriber-growth-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-consultant
+      path: entities/v1-alpha/transcription-captioning-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-consultant
+      path: entities/v1-alpha/video-streaming-platforms-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-designer
+      path: entities/v1-alpha/advertising-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-designer
+      path: entities/v1-alpha/audience-analytics-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-designer
+      path: entities/v1-alpha/audience-development-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-designer
+      path: entities/v1-alpha/brand-partnerships-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-designer
+      path: entities/v1-alpha/broadcast-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-designer
+      path: entities/v1-alpha/content-compliance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-designer
+      path: entities/v1-alpha/content-localization-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-designer
+      path: entities/v1-alpha/content-production-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-designer
+      path: entities/v1-alpha/content-rights-licensing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-designer
+      path: entities/v1-alpha/creator-partnerships-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-designer
+      path: entities/v1-alpha/digital-asset-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-designer
+      path: entities/v1-alpha/editorial-standards-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-designer
+      path: entities/v1-alpha/gaming-content-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-designer
+      path: entities/v1-alpha/interactive-media-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-designer
+      path: entities/v1-alpha/live-event-production-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-designer
+      path: entities/v1-alpha/media-archive-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-designer
+      path: entities/v1-alpha/media-supply-chain-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-designer
+      path: entities/v1-alpha/metadata-cataloguing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-designer
+      path: entities/v1-alpha/newsroom-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-designer
+      path: entities/v1-alpha/ott-distribution-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-designer
+      path: entities/v1-alpha/photojournalism-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-designer
+      path: entities/v1-alpha/podcast-production-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-designer
+      path: entities/v1-alpha/post-production-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-designer
+      path: entities/v1-alpha/print-publishing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-designer
+      path: entities/v1-alpha/programme-scheduling-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-designer
+      path: entities/v1-alpha/social-media-publishing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-designer
+      path: entities/v1-alpha/studios-facilities-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-designer
+      path: entities/v1-alpha/subscriber-growth-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-designer
+      path: entities/v1-alpha/transcription-captioning-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-designer
+      path: entities/v1-alpha/video-streaming-platforms-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-developer
+      path: entities/v1-alpha/advertising-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-developer
+      path: entities/v1-alpha/audience-analytics-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-developer
+      path: entities/v1-alpha/audience-development-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-developer
+      path: entities/v1-alpha/brand-partnerships-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-developer
+      path: entities/v1-alpha/broadcast-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-developer
+      path: entities/v1-alpha/content-compliance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-developer
+      path: entities/v1-alpha/content-localization-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-developer
+      path: entities/v1-alpha/content-production-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-developer
+      path: entities/v1-alpha/content-rights-licensing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-developer
+      path: entities/v1-alpha/creator-partnerships-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-developer
+      path: entities/v1-alpha/digital-asset-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-developer
+      path: entities/v1-alpha/editorial-standards-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-developer
+      path: entities/v1-alpha/gaming-content-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-developer
+      path: entities/v1-alpha/interactive-media-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-developer
+      path: entities/v1-alpha/live-event-production-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-developer
+      path: entities/v1-alpha/media-archive-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-developer
+      path: entities/v1-alpha/media-supply-chain-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-developer
+      path: entities/v1-alpha/metadata-cataloguing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-developer
+      path: entities/v1-alpha/newsroom-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-developer
+      path: entities/v1-alpha/ott-distribution-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-developer
+      path: entities/v1-alpha/photojournalism-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-developer
+      path: entities/v1-alpha/podcast-production-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-developer
+      path: entities/v1-alpha/post-production-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-developer
+      path: entities/v1-alpha/print-publishing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-developer
+      path: entities/v1-alpha/programme-scheduling-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-developer
+      path: entities/v1-alpha/social-media-publishing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-developer
+      path: entities/v1-alpha/studios-facilities-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-developer
+      path: entities/v1-alpha/subscriber-growth-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-developer
+      path: entities/v1-alpha/transcription-captioning-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-developer
+      path: entities/v1-alpha/video-streaming-platforms-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-engineer
+      path: entities/v1-alpha/advertising-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-engineer
+      path: entities/v1-alpha/audience-analytics-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-engineer
+      path: entities/v1-alpha/audience-development-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-engineer
+      path: entities/v1-alpha/brand-partnerships-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-engineer
+      path: entities/v1-alpha/broadcast-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-engineer
+      path: entities/v1-alpha/content-compliance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-engineer
+      path: entities/v1-alpha/content-localization-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-engineer
+      path: entities/v1-alpha/content-production-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-engineer
+      path: entities/v1-alpha/content-rights-licensing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-engineer
+      path: entities/v1-alpha/creator-partnerships-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-engineer
+      path: entities/v1-alpha/digital-asset-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-engineer
+      path: entities/v1-alpha/editorial-standards-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-engineer
+      path: entities/v1-alpha/gaming-content-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-engineer
+      path: entities/v1-alpha/interactive-media-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-engineer
+      path: entities/v1-alpha/live-event-production-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-engineer
+      path: entities/v1-alpha/media-archive-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-engineer
+      path: entities/v1-alpha/media-supply-chain-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-engineer
+      path: entities/v1-alpha/metadata-cataloguing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-engineer
+      path: entities/v1-alpha/newsroom-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-engineer
+      path: entities/v1-alpha/ott-distribution-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-engineer
+      path: entities/v1-alpha/photojournalism-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-engineer
+      path: entities/v1-alpha/podcast-production-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-engineer
+      path: entities/v1-alpha/post-production-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-engineer
+      path: entities/v1-alpha/print-publishing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-engineer
+      path: entities/v1-alpha/programme-scheduling-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-engineer
+      path: entities/v1-alpha/social-media-publishing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-engineer
+      path: entities/v1-alpha/studios-facilities-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-engineer
+      path: entities/v1-alpha/subscriber-growth-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-engineer
+      path: entities/v1-alpha/transcription-captioning-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-engineer
+      path: entities/v1-alpha/video-streaming-platforms-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-advertising-operations
+      path: entities/v1-alpha/head-of-advertising-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audience-analytics
+      path: entities/v1-alpha/head-of-audience-analytics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audience-development
+      path: entities/v1-alpha/head-of-audience-development.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-brand-partnerships
+      path: entities/v1-alpha/head-of-brand-partnerships.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-broadcast-operations
+      path: entities/v1-alpha/head-of-broadcast-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-content-compliance
+      path: entities/v1-alpha/head-of-content-compliance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-content-localization
+      path: entities/v1-alpha/head-of-content-localization.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-content-production
+      path: entities/v1-alpha/head-of-content-production.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-content-rights-licensing
+      path: entities/v1-alpha/head-of-content-rights-licensing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-creator-partnerships
+      path: entities/v1-alpha/head-of-creator-partnerships.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-digital-asset-management
+      path: entities/v1-alpha/head-of-digital-asset-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-editorial-standards
+      path: entities/v1-alpha/head-of-editorial-standards.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-gaming-content
+      path: entities/v1-alpha/head-of-gaming-content.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-interactive-media
+      path: entities/v1-alpha/head-of-interactive-media.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-live-event-production
+      path: entities/v1-alpha/head-of-live-event-production.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-media-archive-management
+      path: entities/v1-alpha/head-of-media-archive-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-media-supply-chain
+      path: entities/v1-alpha/head-of-media-supply-chain.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-metadata-cataloguing
+      path: entities/v1-alpha/head-of-metadata-cataloguing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-newsroom-operations
+      path: entities/v1-alpha/head-of-newsroom-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-ott-distribution
+      path: entities/v1-alpha/head-of-ott-distribution.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-photojournalism
+      path: entities/v1-alpha/head-of-photojournalism.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-podcast-production
+      path: entities/v1-alpha/head-of-podcast-production.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-post-production
+      path: entities/v1-alpha/head-of-post-production.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-print-publishing
+      path: entities/v1-alpha/head-of-print-publishing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-programme-scheduling
+      path: entities/v1-alpha/head-of-programme-scheduling.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-social-media-publishing
+      path: entities/v1-alpha/head-of-social-media-publishing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-studios-facilities
+      path: entities/v1-alpha/head-of-studios-facilities.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-subscriber-growth
+      path: entities/v1-alpha/head-of-subscriber-growth.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-transcription-captioning
+      path: entities/v1-alpha/head-of-transcription-captioning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-video-streaming-platforms
+      path: entities/v1-alpha/head-of-video-streaming-platforms.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-lead
+      path: entities/v1-alpha/advertising-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-lead
+      path: entities/v1-alpha/audience-analytics-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-lead
+      path: entities/v1-alpha/audience-development-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-lead
+      path: entities/v1-alpha/brand-partnerships-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-lead
+      path: entities/v1-alpha/broadcast-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-lead
+      path: entities/v1-alpha/content-compliance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-lead
+      path: entities/v1-alpha/content-localization-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-lead
+      path: entities/v1-alpha/content-production-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-lead
+      path: entities/v1-alpha/content-rights-licensing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-lead
+      path: entities/v1-alpha/creator-partnerships-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-lead
+      path: entities/v1-alpha/digital-asset-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-lead
+      path: entities/v1-alpha/editorial-standards-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-lead
+      path: entities/v1-alpha/gaming-content-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-lead
+      path: entities/v1-alpha/interactive-media-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-lead
+      path: entities/v1-alpha/live-event-production-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-lead
+      path: entities/v1-alpha/media-archive-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-lead
+      path: entities/v1-alpha/media-supply-chain-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-lead
+      path: entities/v1-alpha/metadata-cataloguing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-lead
+      path: entities/v1-alpha/newsroom-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-lead
+      path: entities/v1-alpha/ott-distribution-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-lead
+      path: entities/v1-alpha/photojournalism-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-lead
+      path: entities/v1-alpha/podcast-production-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-lead
+      path: entities/v1-alpha/post-production-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-lead
+      path: entities/v1-alpha/print-publishing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-lead
+      path: entities/v1-alpha/programme-scheduling-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-lead
+      path: entities/v1-alpha/social-media-publishing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-lead
+      path: entities/v1-alpha/studios-facilities-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-lead
+      path: entities/v1-alpha/subscriber-growth-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-lead
+      path: entities/v1-alpha/transcription-captioning-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-lead
+      path: entities/v1-alpha/video-streaming-platforms-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-manager
+      path: entities/v1-alpha/advertising-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-manager
+      path: entities/v1-alpha/audience-analytics-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-manager
+      path: entities/v1-alpha/audience-development-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-manager
+      path: entities/v1-alpha/brand-partnerships-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-manager
+      path: entities/v1-alpha/broadcast-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-manager
+      path: entities/v1-alpha/content-compliance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-manager
+      path: entities/v1-alpha/content-localization-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-manager
+      path: entities/v1-alpha/content-production-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-manager
+      path: entities/v1-alpha/content-rights-licensing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-manager
+      path: entities/v1-alpha/creator-partnerships-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-manager
+      path: entities/v1-alpha/digital-asset-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-manager
+      path: entities/v1-alpha/editorial-standards-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-manager
+      path: entities/v1-alpha/gaming-content-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-manager
+      path: entities/v1-alpha/interactive-media-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-manager
+      path: entities/v1-alpha/live-event-production-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-manager
+      path: entities/v1-alpha/media-archive-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-manager
+      path: entities/v1-alpha/media-supply-chain-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-manager
+      path: entities/v1-alpha/metadata-cataloguing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-manager
+      path: entities/v1-alpha/newsroom-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-manager
+      path: entities/v1-alpha/ott-distribution-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-manager
+      path: entities/v1-alpha/photojournalism-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-manager
+      path: entities/v1-alpha/podcast-production-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-manager
+      path: entities/v1-alpha/post-production-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-manager
+      path: entities/v1-alpha/print-publishing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-manager
+      path: entities/v1-alpha/programme-scheduling-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-manager
+      path: entities/v1-alpha/social-media-publishing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-manager
+      path: entities/v1-alpha/studios-facilities-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-manager
+      path: entities/v1-alpha/subscriber-growth-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-manager
+      path: entities/v1-alpha/transcription-captioning-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-manager
+      path: entities/v1-alpha/video-streaming-platforms-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-operations-coordinator
+      path: entities/v1-alpha/advertising-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-operations-coordinator
+      path: entities/v1-alpha/audience-analytics-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-operations-coordinator
+      path: entities/v1-alpha/audience-development-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-operations-coordinator
+      path: entities/v1-alpha/brand-partnerships-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-operations-coordinator
+      path: entities/v1-alpha/broadcast-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-operations-coordinator
+      path: entities/v1-alpha/content-compliance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-operations-coordinator
+      path: entities/v1-alpha/content-localization-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-operations-coordinator
+      path: entities/v1-alpha/content-production-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-operations-coordinator
+      path: entities/v1-alpha/content-rights-licensing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-operations-coordinator
+      path: entities/v1-alpha/creator-partnerships-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-operations-coordinator
+      path: entities/v1-alpha/digital-asset-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-operations-coordinator
+      path: entities/v1-alpha/editorial-standards-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-operations-coordinator
+      path: entities/v1-alpha/gaming-content-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-operations-coordinator
+      path: entities/v1-alpha/interactive-media-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-operations-coordinator
+      path: entities/v1-alpha/live-event-production-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-operations-coordinator
+      path: entities/v1-alpha/media-archive-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-operations-coordinator
+      path: entities/v1-alpha/media-supply-chain-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-operations-coordinator
+      path: entities/v1-alpha/metadata-cataloguing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-operations-coordinator
+      path: entities/v1-alpha/newsroom-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-operations-coordinator
+      path: entities/v1-alpha/ott-distribution-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-operations-coordinator
+      path: entities/v1-alpha/photojournalism-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-operations-coordinator
+      path: entities/v1-alpha/podcast-production-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-operations-coordinator
+      path: entities/v1-alpha/post-production-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-operations-coordinator
+      path: entities/v1-alpha/print-publishing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-operations-coordinator
+      path: entities/v1-alpha/programme-scheduling-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-operations-coordinator
+      path: entities/v1-alpha/social-media-publishing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-operations-coordinator
+      path: entities/v1-alpha/studios-facilities-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-operations-coordinator
+      path: entities/v1-alpha/subscriber-growth-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-operations-coordinator
+      path: entities/v1-alpha/transcription-captioning-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-operations-coordinator
+      path: entities/v1-alpha/video-streaming-platforms-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-planner
+      path: entities/v1-alpha/advertising-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-planner
+      path: entities/v1-alpha/audience-analytics-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-planner
+      path: entities/v1-alpha/audience-development-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-planner
+      path: entities/v1-alpha/brand-partnerships-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-planner
+      path: entities/v1-alpha/broadcast-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-planner
+      path: entities/v1-alpha/content-compliance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-planner
+      path: entities/v1-alpha/content-localization-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-planner
+      path: entities/v1-alpha/content-production-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-planner
+      path: entities/v1-alpha/content-rights-licensing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-planner
+      path: entities/v1-alpha/creator-partnerships-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-planner
+      path: entities/v1-alpha/digital-asset-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-planner
+      path: entities/v1-alpha/editorial-standards-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-planner
+      path: entities/v1-alpha/gaming-content-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-planner
+      path: entities/v1-alpha/interactive-media-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-planner
+      path: entities/v1-alpha/live-event-production-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-planner
+      path: entities/v1-alpha/media-archive-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-planner
+      path: entities/v1-alpha/media-supply-chain-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-planner
+      path: entities/v1-alpha/metadata-cataloguing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-planner
+      path: entities/v1-alpha/newsroom-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-planner
+      path: entities/v1-alpha/ott-distribution-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-planner
+      path: entities/v1-alpha/photojournalism-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-planner
+      path: entities/v1-alpha/podcast-production-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-planner
+      path: entities/v1-alpha/post-production-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-planner
+      path: entities/v1-alpha/print-publishing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-planner
+      path: entities/v1-alpha/programme-scheduling-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-planner
+      path: entities/v1-alpha/social-media-publishing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-planner
+      path: entities/v1-alpha/studios-facilities-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-planner
+      path: entities/v1-alpha/subscriber-growth-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-planner
+      path: entities/v1-alpha/transcription-captioning-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-planner
+      path: entities/v1-alpha/video-streaming-platforms-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-product-owner
+      path: entities/v1-alpha/advertising-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-product-owner
+      path: entities/v1-alpha/audience-analytics-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-product-owner
+      path: entities/v1-alpha/audience-development-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-product-owner
+      path: entities/v1-alpha/brand-partnerships-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-product-owner
+      path: entities/v1-alpha/broadcast-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-product-owner
+      path: entities/v1-alpha/content-compliance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-product-owner
+      path: entities/v1-alpha/content-localization-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-product-owner
+      path: entities/v1-alpha/content-production-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-product-owner
+      path: entities/v1-alpha/content-rights-licensing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-product-owner
+      path: entities/v1-alpha/creator-partnerships-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-product-owner
+      path: entities/v1-alpha/digital-asset-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-product-owner
+      path: entities/v1-alpha/editorial-standards-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-product-owner
+      path: entities/v1-alpha/gaming-content-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-product-owner
+      path: entities/v1-alpha/interactive-media-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-product-owner
+      path: entities/v1-alpha/live-event-production-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-product-owner
+      path: entities/v1-alpha/media-archive-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-product-owner
+      path: entities/v1-alpha/media-supply-chain-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-product-owner
+      path: entities/v1-alpha/metadata-cataloguing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-product-owner
+      path: entities/v1-alpha/newsroom-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-product-owner
+      path: entities/v1-alpha/ott-distribution-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-photojournalism-product-owner
+      path: entities/v1-alpha/photojournalism-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-podcast-production-product-owner
+      path: entities/v1-alpha/podcast-production-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-product-owner
+      path: entities/v1-alpha/post-production-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-print-publishing-product-owner
+      path: entities/v1-alpha/print-publishing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-programme-scheduling-product-owner
+      path: entities/v1-alpha/programme-scheduling-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-social-media-publishing-product-owner
+      path: entities/v1-alpha/social-media-publishing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-studios-facilities-product-owner
+      path: entities/v1-alpha/studios-facilities-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-growth-product-owner
+      path: entities/v1-alpha/subscriber-growth-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-transcription-captioning-product-owner
+      path: entities/v1-alpha/transcription-captioning-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-video-streaming-platforms-product-owner
+      path: entities/v1-alpha/video-streaming-platforms-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advertising-operations-program-manager
+      path: entities/v1-alpha/advertising-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-analytics-program-manager
+      path: entities/v1-alpha/audience-analytics-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-audience-development-program-manager
+      path: entities/v1-alpha/audience-development-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-brand-partnerships-program-manager
+      path: entities/v1-alpha/brand-partnerships-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-broadcast-operations-program-manager
+      path: entities/v1-alpha/broadcast-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-compliance-program-manager
+      path: entities/v1-alpha/content-compliance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-localization-program-manager
+      path: entities/v1-alpha/content-localization-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-production-program-manager
+      path: entities/v1-alpha/content-production-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-content-rights-licensing-program-manager
+      path: entities/v1-alpha/content-rights-licensing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-creator-partnerships-program-manager
+      path: entities/v1-alpha/creator-partnerships-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-asset-management-program-manager
+      path: entities/v1-alpha/digital-asset-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-editorial-standards-program-manager
+      path: entities/v1-alpha/editorial-standards-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-gaming-content-program-manager
+      path: entities/v1-alpha/gaming-content-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interactive-media-program-manager
+      path: entities/v1-alpha/interactive-media-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-event-production-program-manager
+      path: entities/v1-alpha/live-event-production-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-archive-management-program-manager
+      path: entities/v1-alpha/media-archive-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-media-supply-chain-program-manager
+      path: entities/v1-alpha/media-supply-chain-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-metadata-cataloguing-program-manager
+      path: entities/v1-alpha/metadata-cataloguing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-newsroom-operations-program-manager
+      path: entities/v1-alpha/newsroom-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ott-distribution-program-manager
+      path: entities/v1-alpha/ott-distribution-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

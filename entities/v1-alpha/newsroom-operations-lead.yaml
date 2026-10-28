@@ -1,0 +1,50 @@
+id: roles:role-newsroom-operations-lead
+type: Role
+name: Newsroom Operations Lead
+description: Sets direction for newsroom operations teams, owns their outcomes, and represents newsroom
+  operations interests in Media governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- newsroom
+- media
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Newsroom Operations
+  org_unit: Newsroom Operations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-newsroom-operations-lead-requires-newsroom-operations
+  source_id: roles:role-newsroom-operations-lead
+  target_id: skills:skill-newsroom-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-newsroom-operations-lead-requires-newsroom-operations-secondary
+  source_id: roles:role-newsroom-operations-lead
+  target_id: skills:skill-newsroom-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-interactive-media-lead
+type: Role
+name: Interactive Media Lead
+description: Sets direction for interactive media teams, owns their outcomes, and represents interactive
+  media interests in Media governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- interactive
+- media
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Interactive Media
+  org_unit: Interactive Media Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-interactive-media-lead-requires-interactive-media
+  source_id: roles:role-interactive-media-lead
+  target_id: skills:skill-interactive-media
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-interactive-media-lead-requires-interactive-media-secondary
+  source_id: roles:role-interactive-media-lead
+  target_id: skills:skill-interactive-media-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

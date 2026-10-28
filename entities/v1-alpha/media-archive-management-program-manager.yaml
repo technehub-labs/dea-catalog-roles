@@ -1,0 +1,50 @@
+id: roles:role-media-archive-management-program-manager
+type: Role
+name: Media Archive Management Program Manager
+description: Coordinates multi-team media archive management programmes across Media, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- media
+- media
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Media Archive Management
+  org_unit: Media Archive Management Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-media-archive-management-program-manager-requires-media-archive-management
+  source_id: roles:role-media-archive-management-program-manager
+  target_id: skills:skill-media-archive-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-media-archive-management-program-manager-requires-media-archive-management-secondary
+  source_id: roles:role-media-archive-management-program-manager
+  target_id: skills:skill-media-archive-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

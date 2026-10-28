@@ -1,0 +1,50 @@
+id: roles:role-studios-facilities-engineer
+type: Role
+name: Studios & Facilities Engineer
+description: Builds, configures, and maintains studios & facilities components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Media standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- studios
+- media
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Studios & Facilities
+  org_unit: Studios & Facilities Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-studios-facilities-engineer-requires-studios-facilities
+  source_id: roles:role-studios-facilities-engineer
+  target_id: skills:skill-studios-facilities
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-studios-facilities-engineer-requires-studios-facilities-secondary
+  source_id: roles:role-studios-facilities-engineer
+  target_id: skills:skill-studios-facilities-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

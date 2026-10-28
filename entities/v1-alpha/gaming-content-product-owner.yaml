@@ -1,0 +1,50 @@
+id: roles:role-gaming-content-product-owner
+type: Role
+name: Gaming Content Product Owner
+description: Owns the gaming content product backlog, prioritising against user value and Media business
+  goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- gaming
+- media
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Gaming Content
+  org_unit: Gaming Content Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-gaming-content-product-owner-requires-gaming-content
+  source_id: roles:role-gaming-content-product-owner
+  target_id: skills:skill-gaming-content
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-gaming-content-product-owner-requires-gaming-content-secondary
+  source_id: roles:role-gaming-content-product-owner
+  target_id: skills:skill-gaming-content-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

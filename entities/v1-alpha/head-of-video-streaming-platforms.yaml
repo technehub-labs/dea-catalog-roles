@@ -1,0 +1,50 @@
+id: roles:role-head-of-video-streaming-platforms
+type: Role
+name: Head of Video Streaming Platforms
+description: 'Owns the video streaming platforms domain at executive level: strategy, investment cases,
+  organisational design, and regulatory posture for Media.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- video
+- media
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Video Streaming Platforms
+  org_unit: Video Streaming Platforms Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-head-of-video-streaming-platforms-requires-video-streaming-platforms
+  source_id: roles:role-head-of-video-streaming-platforms
+  target_id: skills:skill-video-streaming-platforms
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-video-streaming-platforms-requires-video-streaming-platforms-secondary
+  source_id: roles:role-head-of-video-streaming-platforms
+  target_id: skills:skill-video-streaming-platforms-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

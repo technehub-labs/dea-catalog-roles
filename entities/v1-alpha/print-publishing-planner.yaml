@@ -1,0 +1,50 @@
+id: roles:role-print-publishing-planner
+type: Role
+name: Print Publishing Planner
+description: Plans capacity, schedule, and sequencing for print publishing activities, balancing demand,
+  budget, and dependencies in the Media portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- print
+- media
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Print Publishing
+  org_unit: Print Publishing Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-print-publishing-planner-requires-print-publishing
+  source_id: roles:role-print-publishing-planner
+  target_id: skills:skill-print-publishing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-print-publishing-planner-requires-print-publishing-secondary
+  source_id: roles:role-print-publishing-planner
+  target_id: skills:skill-print-publishing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

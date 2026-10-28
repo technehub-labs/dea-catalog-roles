@@ -1,0 +1,50 @@
+id: roles:role-ott-distribution-lead
+type: Role
+name: OTT Distribution Lead
+description: Sets direction for ott distribution teams, owns their outcomes, and represents ott distribution
+  interests in Media governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- ott
+- media
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: OTT Distribution
+  org_unit: OTT Distribution Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-ott-distribution-lead-requires-ott-distribution
+  source_id: roles:role-ott-distribution-lead
+  target_id: skills:skill-ott-distribution
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-ott-distribution-lead-requires-ott-distribution-secondary
+  source_id: roles:role-ott-distribution-lead
+  target_id: skills:skill-ott-distribution-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

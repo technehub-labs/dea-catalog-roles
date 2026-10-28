@@ -1,0 +1,50 @@
+id: roles:role-subscriber-growth-engineer
+type: Role
+name: Subscriber Growth Engineer
+description: Builds, configures, and maintains subscriber growth components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Media standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- subscriber
+- media
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Subscriber Growth
+  org_unit: Subscriber Growth Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-subscriber-growth-engineer-requires-subscriber-growth
+  source_id: roles:role-subscriber-growth-engineer
+  target_id: skills:skill-subscriber-growth
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-subscriber-growth-engineer-requires-subscriber-growth-secondary
+  source_id: roles:role-subscriber-growth-engineer
+  target_id: skills:skill-subscriber-growth-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
