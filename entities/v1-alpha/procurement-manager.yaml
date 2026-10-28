@@ -1,33 +1,49 @@
 id: roles:role-procurement-manager
 type: Role
 name: Procurement Manager
-description: >-
-  Owns the sourcing and procurement cycle: category strategy, competitive
-  sourcing per procurement law and policy, contract negotiation, and
-  supplier performance management.
-version: 0.1.0
-lifecycle_status: proposed
+description: 'Owns the sourcing and procurement cycle: category strategy, competitive sourcing per procurement
+  law and policy, contract negotiation, and supplier performance management.'
+version: 0.2.0
+lifecycle_status: active
 tags:
-  - functional
-  - commercial
+- functional
+- commercial
 metadata:
   catalog: technehub-labs/dea-catalog-roles
   metamodel_version: v0.3.0
   industries:
-    - public-sector
+  - public-sector
+  - manufacturing
+  evidence_rating: E5
+  evidence_ladder:
+  - stage: E1-recurrence
+    date: '2026-10-28'
+    reference: industries/public-sector.yaml
+  - stage: E2-corroboration
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv manufacturing row roles:role-procurement-manager (same identity,
+      independent industry)
+  - stage: E3-enterprise-generality
+    date: '2026-10-28'
+    reference: ingestion/bulk-6000-roles.csv (domain recurrence; docs/family-recurrence-register.md usage
+      rules)
+  - stage: E4-distinctness
+    date: '2026-10-28'
+    reference: docs/distinctness-register.md
+  - stage: E5-review
+    date: '2026-10-28'
+    reference: change-requests/CR-DEA-ROL-11-admissions-corroborated-trio.md
 relationships:
-  - id: roles:rel-pm3-requires-proc-skill
-    source_id: roles:role-procurement-manager
-    target_id: skills:skill-procurement-management
-    relationship_type: requires
-    status: proposed
-    rationale: >-
-      The role cannot be fulfilled without procurement management
-      competency (SKL -> ROL "required by", OpenDEAM v0.3.0). Public-sector
-      discovery pass 1; procurement recurs enterprise-wide (tracked toward
-      E2).
-    provenance:
-      type: discovery
-      reference: industries/public-sector.yaml
-      asserted_by: catalog-seed
-      verification_status: unverified
+- id: roles:rel-pm3-requires-proc-skill
+  source_id: roles:role-procurement-manager
+  target_id: skills:skill-procurement-management
+  relationship_type: requires
+  status: proposed
+  rationale: The role cannot be fulfilled without procurement management competency (SKL -> ROL "required
+    by", OpenDEAM v0.3.0). Public-sector discovery pass 1; procurement recurs enterprise-wide (tracked
+    toward E2).
+  provenance:
+    type: discovery
+    reference: industries/public-sector.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

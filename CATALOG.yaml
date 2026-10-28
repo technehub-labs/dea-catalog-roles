@@ -54,8 +54,8 @@ catalog:
       last_modified: "2026-10-14"
     - id: roles:role-security-architect
       path: entities/v1-alpha/security-architect.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-14"
     - id: roles:role-architecture-board-member
       path: entities/v1-alpha/architecture-board-member.yaml
@@ -1534,8 +1534,8 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-procurement-manager
       path: entities/v1-alpha/procurement-manager.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
     - id: roles:role-public-finance-manager
       path: entities/v1-alpha/public-finance-manager.yaml
@@ -1544,8 +1544,8 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-service-designer
       path: entities/v1-alpha/service-designer.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
     - id: roles:role-data-protection-officer
       path: entities/v1-alpha/data-protection-officer.yaml
