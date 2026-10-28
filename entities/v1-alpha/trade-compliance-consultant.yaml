@@ -1,0 +1,50 @@
+id: roles:role-trade-compliance-consultant
+type: Role
+name: Trade Compliance Consultant
+description: Supports Legal & Regulatory teams adopting trade compliance practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- trade
+- legal-regulatory
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Trade Compliance
+  org_unit: Trade Compliance Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-trade-compliance-consultant-requires-trade-compliance
+  source_id: roles:role-trade-compliance-consultant
+  target_id: skills:skill-trade-compliance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-trade-compliance-consultant-requires-trade-compliance-secondary
+  source_id: roles:role-trade-compliance-consultant
+  target_id: skills:skill-trade-compliance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-policy-drafting-operations-coordinator
+type: Role
+name: Policy Drafting Operations Coordinator
+description: Coordinates day-to-day policy drafting activities, schedules, and records, keeping Legal
+  & Regulatory operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- policy
+- legal-regulatory
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Policy Drafting
+  org_unit: Policy Drafting Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-policy-drafting-operations-coordinator-requires-policy-drafting
+  source_id: roles:role-policy-drafting-operations-coordinator
+  target_id: skills:skill-policy-drafting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-policy-drafting-operations-coordinator-requires-policy-drafting-secondary
+  source_id: roles:role-policy-drafting-operations-coordinator
+  target_id: skills:skill-policy-drafting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

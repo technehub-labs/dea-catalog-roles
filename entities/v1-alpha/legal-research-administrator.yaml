@@ -1,0 +1,50 @@
+id: roles:role-legal-research-administrator
+type: Role
+name: Legal Research Administrator
+description: 'Administers legal research environments day to day: provisioning, access control, monitoring,
+  and routine change execution for Legal & Regulatory operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- legal
+- legal-regulatory
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Legal Research
+  org_unit: Legal Research Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-legal-research-administrator-requires-legal-research
+  source_id: roles:role-legal-research-administrator
+  target_id: skills:skill-legal-research
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-legal-research-administrator-requires-legal-research-secondary
+  source_id: roles:role-legal-research-administrator
+  target_id: skills:skill-legal-research-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

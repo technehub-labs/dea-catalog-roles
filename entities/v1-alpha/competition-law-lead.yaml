@@ -1,0 +1,50 @@
+id: roles:role-competition-law-lead
+type: Role
+name: Competition Law Lead
+description: Sets direction for competition law teams, owns their outcomes, and represents competition
+  law interests in Legal & Regulatory governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- competition
+- legal-regulatory
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Competition Law
+  org_unit: Competition Law Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-competition-law-lead-requires-competition-law
+  source_id: roles:role-competition-law-lead
+  target_id: skills:skill-competition-law
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-competition-law-lead-requires-competition-law-secondary
+  source_id: roles:role-competition-law-lead
+  target_id: skills:skill-competition-law-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

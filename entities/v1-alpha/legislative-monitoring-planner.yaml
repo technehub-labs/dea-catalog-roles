@@ -1,0 +1,50 @@
+id: roles:role-legislative-monitoring-planner
+type: Role
+name: Legislative Monitoring Planner
+description: Plans capacity, schedule, and sequencing for legislative monitoring activities, balancing
+  demand, budget, and dependencies in the Legal & Regulatory portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- legislative
+- legal-regulatory
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Legislative Monitoring
+  org_unit: Legislative Monitoring Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-legislative-monitoring-planner-requires-legislative-monitoring
+  source_id: roles:role-legislative-monitoring-planner
+  target_id: skills:skill-legislative-monitoring
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-legislative-monitoring-planner-requires-legislative-monitoring-secondary
+  source_id: roles:role-legislative-monitoring-planner
+  target_id: skills:skill-legislative-monitoring-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

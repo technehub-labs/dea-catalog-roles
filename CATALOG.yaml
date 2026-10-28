@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 4737
+    entities: 5177
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -23589,6 +23589,2206 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-model-validation-program-manager
       path: entities/v1-alpha/model-validation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-administrator
+      path: entities/v1-alpha/administrative-justice-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-administrator
+      path: entities/v1-alpha/competition-law-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-administrator
+      path: entities/v1-alpha/consumer-protection-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-administrator
+      path: entities/v1-alpha/contract-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-administrator
+      path: entities/v1-alpha/corporate-counsel-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-administrator
+      path: entities/v1-alpha/court-administration-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-administrator
+      path: entities/v1-alpha/data-protection-privacy-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-administrator
+      path: entities/v1-alpha/employment-law-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-administrator
+      path: entities/v1-alpha/energy-regulation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-administrator
+      path: entities/v1-alpha/environmental-law-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-administrator
+      path: entities/v1-alpha/ethics-conduct-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-administrator
+      path: entities/v1-alpha/financial-regulation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-administrator
+      path: entities/v1-alpha/governance-board-affairs-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-administrator
+      path: entities/v1-alpha/health-regulation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-administrator
+      path: entities/v1-alpha/insolvency-restructuring-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-administrator
+      path: entities/v1-alpha/intellectual-property-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-administrator
+      path: entities/v1-alpha/legal-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-administrator
+      path: entities/v1-alpha/legal-research-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-administrator
+      path: entities/v1-alpha/legislative-monitoring-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-administrator
+      path: entities/v1-alpha/licensing-permits-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-administrator
+      path: entities/v1-alpha/litigation-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-administrator
+      path: entities/v1-alpha/notary-registries-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-administrator
+      path: entities/v1-alpha/policy-drafting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-administrator
+      path: entities/v1-alpha/public-prosecution-liaison-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-administrator
+      path: entities/v1-alpha/regulatory-affairs-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-administrator
+      path: entities/v1-alpha/sanctions-advisory-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-administrator
+      path: entities/v1-alpha/standard-setting-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-administrator
+      path: entities/v1-alpha/tax-law-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-administrator
+      path: entities/v1-alpha/telecom-regulation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-administrator
+      path: entities/v1-alpha/trade-compliance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-analyst
+      path: entities/v1-alpha/administrative-justice-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-analyst
+      path: entities/v1-alpha/competition-law-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-analyst
+      path: entities/v1-alpha/consumer-protection-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-analyst
+      path: entities/v1-alpha/contract-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-analyst
+      path: entities/v1-alpha/corporate-counsel-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-analyst
+      path: entities/v1-alpha/court-administration-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-analyst
+      path: entities/v1-alpha/data-protection-privacy-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-analyst
+      path: entities/v1-alpha/employment-law-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-analyst
+      path: entities/v1-alpha/energy-regulation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-analyst
+      path: entities/v1-alpha/environmental-law-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-analyst
+      path: entities/v1-alpha/ethics-conduct-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-analyst
+      path: entities/v1-alpha/financial-regulation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-analyst
+      path: entities/v1-alpha/governance-board-affairs-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-analyst
+      path: entities/v1-alpha/health-regulation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-analyst
+      path: entities/v1-alpha/insolvency-restructuring-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-analyst
+      path: entities/v1-alpha/intellectual-property-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-analyst
+      path: entities/v1-alpha/legal-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-analyst
+      path: entities/v1-alpha/legal-research-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-analyst
+      path: entities/v1-alpha/legislative-monitoring-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-analyst
+      path: entities/v1-alpha/licensing-permits-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-analyst
+      path: entities/v1-alpha/litigation-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-analyst
+      path: entities/v1-alpha/notary-registries-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-analyst
+      path: entities/v1-alpha/policy-drafting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-analyst
+      path: entities/v1-alpha/public-prosecution-liaison-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-analyst
+      path: entities/v1-alpha/regulatory-affairs-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-analyst
+      path: entities/v1-alpha/sanctions-advisory-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-analyst
+      path: entities/v1-alpha/standard-setting-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-analyst
+      path: entities/v1-alpha/tax-law-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-analyst
+      path: entities/v1-alpha/telecom-regulation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-analyst
+      path: entities/v1-alpha/trade-compliance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-architect
+      path: entities/v1-alpha/administrative-justice-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-architect
+      path: entities/v1-alpha/competition-law-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-architect
+      path: entities/v1-alpha/consumer-protection-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-architect
+      path: entities/v1-alpha/contract-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-architect
+      path: entities/v1-alpha/corporate-counsel-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-architect
+      path: entities/v1-alpha/court-administration-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-architect
+      path: entities/v1-alpha/data-protection-privacy-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-architect
+      path: entities/v1-alpha/employment-law-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-architect
+      path: entities/v1-alpha/energy-regulation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-architect
+      path: entities/v1-alpha/environmental-law-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-architect
+      path: entities/v1-alpha/ethics-conduct-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-architect
+      path: entities/v1-alpha/financial-regulation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-architect
+      path: entities/v1-alpha/governance-board-affairs-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-architect
+      path: entities/v1-alpha/health-regulation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-architect
+      path: entities/v1-alpha/insolvency-restructuring-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-architect
+      path: entities/v1-alpha/intellectual-property-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-architect
+      path: entities/v1-alpha/legal-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-architect
+      path: entities/v1-alpha/legal-research-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-architect
+      path: entities/v1-alpha/legislative-monitoring-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-architect
+      path: entities/v1-alpha/licensing-permits-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-architect
+      path: entities/v1-alpha/litigation-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-architect
+      path: entities/v1-alpha/notary-registries-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-architect
+      path: entities/v1-alpha/policy-drafting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-architect
+      path: entities/v1-alpha/public-prosecution-liaison-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-architect
+      path: entities/v1-alpha/regulatory-affairs-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-architect
+      path: entities/v1-alpha/sanctions-advisory-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-architect
+      path: entities/v1-alpha/standard-setting-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-architect
+      path: entities/v1-alpha/tax-law-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-architect
+      path: entities/v1-alpha/telecom-regulation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-architect
+      path: entities/v1-alpha/trade-compliance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-coach
+      path: entities/v1-alpha/administrative-justice-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-coach
+      path: entities/v1-alpha/competition-law-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-coach
+      path: entities/v1-alpha/consumer-protection-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-coach
+      path: entities/v1-alpha/contract-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-coach
+      path: entities/v1-alpha/corporate-counsel-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-coach
+      path: entities/v1-alpha/court-administration-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-coach
+      path: entities/v1-alpha/data-protection-privacy-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-coach
+      path: entities/v1-alpha/employment-law-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-coach
+      path: entities/v1-alpha/energy-regulation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-coach
+      path: entities/v1-alpha/environmental-law-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-coach
+      path: entities/v1-alpha/ethics-conduct-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-coach
+      path: entities/v1-alpha/financial-regulation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-coach
+      path: entities/v1-alpha/governance-board-affairs-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-coach
+      path: entities/v1-alpha/health-regulation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-coach
+      path: entities/v1-alpha/insolvency-restructuring-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-coach
+      path: entities/v1-alpha/intellectual-property-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-coach
+      path: entities/v1-alpha/legal-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-coach
+      path: entities/v1-alpha/legal-research-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-coach
+      path: entities/v1-alpha/legislative-monitoring-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-coach
+      path: entities/v1-alpha/licensing-permits-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-coach
+      path: entities/v1-alpha/litigation-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-coach
+      path: entities/v1-alpha/notary-registries-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-coach
+      path: entities/v1-alpha/policy-drafting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-coach
+      path: entities/v1-alpha/public-prosecution-liaison-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-coach
+      path: entities/v1-alpha/regulatory-affairs-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-coach
+      path: entities/v1-alpha/sanctions-advisory-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-coach
+      path: entities/v1-alpha/standard-setting-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-coach
+      path: entities/v1-alpha/tax-law-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-coach
+      path: entities/v1-alpha/telecom-regulation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-coach
+      path: entities/v1-alpha/trade-compliance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-consultant
+      path: entities/v1-alpha/administrative-justice-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-consultant
+      path: entities/v1-alpha/competition-law-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-consultant
+      path: entities/v1-alpha/consumer-protection-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-consultant
+      path: entities/v1-alpha/contract-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-consultant
+      path: entities/v1-alpha/corporate-counsel-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-consultant
+      path: entities/v1-alpha/court-administration-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-consultant
+      path: entities/v1-alpha/data-protection-privacy-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-consultant
+      path: entities/v1-alpha/employment-law-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-consultant
+      path: entities/v1-alpha/energy-regulation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-consultant
+      path: entities/v1-alpha/environmental-law-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-consultant
+      path: entities/v1-alpha/ethics-conduct-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-consultant
+      path: entities/v1-alpha/financial-regulation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-consultant
+      path: entities/v1-alpha/governance-board-affairs-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-consultant
+      path: entities/v1-alpha/health-regulation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-consultant
+      path: entities/v1-alpha/insolvency-restructuring-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-consultant
+      path: entities/v1-alpha/intellectual-property-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-consultant
+      path: entities/v1-alpha/legal-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-consultant
+      path: entities/v1-alpha/legal-research-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-consultant
+      path: entities/v1-alpha/legislative-monitoring-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-consultant
+      path: entities/v1-alpha/licensing-permits-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-consultant
+      path: entities/v1-alpha/litigation-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-consultant
+      path: entities/v1-alpha/notary-registries-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-consultant
+      path: entities/v1-alpha/policy-drafting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-consultant
+      path: entities/v1-alpha/public-prosecution-liaison-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-consultant
+      path: entities/v1-alpha/regulatory-affairs-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-consultant
+      path: entities/v1-alpha/sanctions-advisory-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-consultant
+      path: entities/v1-alpha/standard-setting-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-consultant
+      path: entities/v1-alpha/tax-law-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-consultant
+      path: entities/v1-alpha/telecom-regulation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-consultant
+      path: entities/v1-alpha/trade-compliance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-designer
+      path: entities/v1-alpha/administrative-justice-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-designer
+      path: entities/v1-alpha/competition-law-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-designer
+      path: entities/v1-alpha/consumer-protection-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-designer
+      path: entities/v1-alpha/contract-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-designer
+      path: entities/v1-alpha/corporate-counsel-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-designer
+      path: entities/v1-alpha/court-administration-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-designer
+      path: entities/v1-alpha/data-protection-privacy-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-designer
+      path: entities/v1-alpha/employment-law-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-designer
+      path: entities/v1-alpha/energy-regulation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-designer
+      path: entities/v1-alpha/environmental-law-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-designer
+      path: entities/v1-alpha/ethics-conduct-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-designer
+      path: entities/v1-alpha/financial-regulation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-designer
+      path: entities/v1-alpha/governance-board-affairs-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-designer
+      path: entities/v1-alpha/health-regulation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-designer
+      path: entities/v1-alpha/insolvency-restructuring-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-designer
+      path: entities/v1-alpha/intellectual-property-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-designer
+      path: entities/v1-alpha/legal-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-designer
+      path: entities/v1-alpha/legal-research-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-designer
+      path: entities/v1-alpha/legislative-monitoring-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-designer
+      path: entities/v1-alpha/licensing-permits-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-designer
+      path: entities/v1-alpha/litigation-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-designer
+      path: entities/v1-alpha/notary-registries-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-designer
+      path: entities/v1-alpha/policy-drafting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-designer
+      path: entities/v1-alpha/public-prosecution-liaison-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-designer
+      path: entities/v1-alpha/regulatory-affairs-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-designer
+      path: entities/v1-alpha/sanctions-advisory-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-designer
+      path: entities/v1-alpha/standard-setting-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-designer
+      path: entities/v1-alpha/tax-law-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-designer
+      path: entities/v1-alpha/telecom-regulation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-designer
+      path: entities/v1-alpha/trade-compliance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-developer
+      path: entities/v1-alpha/administrative-justice-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-developer
+      path: entities/v1-alpha/competition-law-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-developer
+      path: entities/v1-alpha/consumer-protection-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-developer
+      path: entities/v1-alpha/contract-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-developer
+      path: entities/v1-alpha/corporate-counsel-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-developer
+      path: entities/v1-alpha/court-administration-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-developer
+      path: entities/v1-alpha/data-protection-privacy-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-developer
+      path: entities/v1-alpha/employment-law-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-developer
+      path: entities/v1-alpha/energy-regulation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-developer
+      path: entities/v1-alpha/environmental-law-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-developer
+      path: entities/v1-alpha/ethics-conduct-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-developer
+      path: entities/v1-alpha/financial-regulation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-developer
+      path: entities/v1-alpha/governance-board-affairs-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-developer
+      path: entities/v1-alpha/health-regulation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-developer
+      path: entities/v1-alpha/insolvency-restructuring-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-developer
+      path: entities/v1-alpha/intellectual-property-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-developer
+      path: entities/v1-alpha/legal-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-developer
+      path: entities/v1-alpha/legal-research-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-developer
+      path: entities/v1-alpha/legislative-monitoring-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-developer
+      path: entities/v1-alpha/licensing-permits-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-developer
+      path: entities/v1-alpha/litigation-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-developer
+      path: entities/v1-alpha/notary-registries-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-developer
+      path: entities/v1-alpha/policy-drafting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-developer
+      path: entities/v1-alpha/public-prosecution-liaison-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-developer
+      path: entities/v1-alpha/regulatory-affairs-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-developer
+      path: entities/v1-alpha/sanctions-advisory-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-developer
+      path: entities/v1-alpha/standard-setting-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-developer
+      path: entities/v1-alpha/tax-law-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-developer
+      path: entities/v1-alpha/telecom-regulation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-developer
+      path: entities/v1-alpha/trade-compliance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-engineer
+      path: entities/v1-alpha/administrative-justice-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-engineer
+      path: entities/v1-alpha/competition-law-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-engineer
+      path: entities/v1-alpha/consumer-protection-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-engineer
+      path: entities/v1-alpha/contract-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-engineer
+      path: entities/v1-alpha/corporate-counsel-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-engineer
+      path: entities/v1-alpha/court-administration-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-engineer
+      path: entities/v1-alpha/data-protection-privacy-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-engineer
+      path: entities/v1-alpha/employment-law-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-engineer
+      path: entities/v1-alpha/energy-regulation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-engineer
+      path: entities/v1-alpha/environmental-law-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-engineer
+      path: entities/v1-alpha/ethics-conduct-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-engineer
+      path: entities/v1-alpha/financial-regulation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-engineer
+      path: entities/v1-alpha/governance-board-affairs-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-engineer
+      path: entities/v1-alpha/health-regulation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-engineer
+      path: entities/v1-alpha/insolvency-restructuring-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-engineer
+      path: entities/v1-alpha/intellectual-property-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-engineer
+      path: entities/v1-alpha/legal-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-engineer
+      path: entities/v1-alpha/legal-research-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-engineer
+      path: entities/v1-alpha/legislative-monitoring-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-engineer
+      path: entities/v1-alpha/licensing-permits-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-engineer
+      path: entities/v1-alpha/litigation-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-engineer
+      path: entities/v1-alpha/notary-registries-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-engineer
+      path: entities/v1-alpha/policy-drafting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-engineer
+      path: entities/v1-alpha/public-prosecution-liaison-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-engineer
+      path: entities/v1-alpha/regulatory-affairs-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-engineer
+      path: entities/v1-alpha/sanctions-advisory-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-engineer
+      path: entities/v1-alpha/standard-setting-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-engineer
+      path: entities/v1-alpha/tax-law-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-engineer
+      path: entities/v1-alpha/telecom-regulation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-engineer
+      path: entities/v1-alpha/trade-compliance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-administrative-justice
+      path: entities/v1-alpha/head-of-administrative-justice.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-competition-law
+      path: entities/v1-alpha/head-of-competition-law.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-consumer-protection
+      path: entities/v1-alpha/head-of-consumer-protection.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-contract-management
+      path: entities/v1-alpha/head-of-contract-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-corporate-counsel
+      path: entities/v1-alpha/head-of-corporate-counsel.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-court-administration
+      path: entities/v1-alpha/head-of-court-administration.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-data-protection-privacy
+      path: entities/v1-alpha/head-of-data-protection-privacy.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-employment-law
+      path: entities/v1-alpha/head-of-employment-law.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-energy-regulation
+      path: entities/v1-alpha/head-of-energy-regulation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-environmental-law
+      path: entities/v1-alpha/head-of-environmental-law.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-ethics-conduct
+      path: entities/v1-alpha/head-of-ethics-conduct.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-financial-regulation
+      path: entities/v1-alpha/head-of-financial-regulation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-governance-board-affairs
+      path: entities/v1-alpha/head-of-governance-board-affairs.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-health-regulation
+      path: entities/v1-alpha/head-of-health-regulation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-insolvency-restructuring
+      path: entities/v1-alpha/head-of-insolvency-restructuring.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-intellectual-property
+      path: entities/v1-alpha/head-of-intellectual-property.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-legal-operations
+      path: entities/v1-alpha/head-of-legal-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-legal-research
+      path: entities/v1-alpha/head-of-legal-research.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-legislative-monitoring
+      path: entities/v1-alpha/head-of-legislative-monitoring.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-licensing-permits
+      path: entities/v1-alpha/head-of-licensing-permits.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-litigation-management
+      path: entities/v1-alpha/head-of-litigation-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-notary-registries
+      path: entities/v1-alpha/head-of-notary-registries.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-policy-drafting
+      path: entities/v1-alpha/head-of-policy-drafting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-public-prosecution-liaison
+      path: entities/v1-alpha/head-of-public-prosecution-liaison.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-regulatory-affairs
+      path: entities/v1-alpha/head-of-regulatory-affairs.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-sanctions-advisory
+      path: entities/v1-alpha/head-of-sanctions-advisory.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-standard-setting
+      path: entities/v1-alpha/head-of-standard-setting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-tax-law
+      path: entities/v1-alpha/head-of-tax-law.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-telecom-regulation
+      path: entities/v1-alpha/head-of-telecom-regulation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-trade-compliance
+      path: entities/v1-alpha/head-of-trade-compliance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-lead
+      path: entities/v1-alpha/administrative-justice-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-lead
+      path: entities/v1-alpha/competition-law-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-lead
+      path: entities/v1-alpha/consumer-protection-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-lead
+      path: entities/v1-alpha/contract-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-lead
+      path: entities/v1-alpha/corporate-counsel-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-lead
+      path: entities/v1-alpha/court-administration-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-lead
+      path: entities/v1-alpha/data-protection-privacy-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-lead
+      path: entities/v1-alpha/employment-law-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-lead
+      path: entities/v1-alpha/energy-regulation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-lead
+      path: entities/v1-alpha/environmental-law-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-lead
+      path: entities/v1-alpha/ethics-conduct-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-lead
+      path: entities/v1-alpha/financial-regulation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-lead
+      path: entities/v1-alpha/governance-board-affairs-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-lead
+      path: entities/v1-alpha/health-regulation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-lead
+      path: entities/v1-alpha/insolvency-restructuring-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-lead
+      path: entities/v1-alpha/intellectual-property-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-lead
+      path: entities/v1-alpha/legal-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-lead
+      path: entities/v1-alpha/legal-research-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-lead
+      path: entities/v1-alpha/legislative-monitoring-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-lead
+      path: entities/v1-alpha/licensing-permits-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-lead
+      path: entities/v1-alpha/litigation-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-lead
+      path: entities/v1-alpha/notary-registries-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-lead
+      path: entities/v1-alpha/policy-drafting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-lead
+      path: entities/v1-alpha/public-prosecution-liaison-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-lead
+      path: entities/v1-alpha/regulatory-affairs-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-lead
+      path: entities/v1-alpha/sanctions-advisory-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-lead
+      path: entities/v1-alpha/standard-setting-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-lead
+      path: entities/v1-alpha/tax-law-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-lead
+      path: entities/v1-alpha/telecom-regulation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-lead
+      path: entities/v1-alpha/trade-compliance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-manager
+      path: entities/v1-alpha/administrative-justice-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-manager
+      path: entities/v1-alpha/competition-law-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-manager
+      path: entities/v1-alpha/consumer-protection-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-manager
+      path: entities/v1-alpha/contract-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-manager
+      path: entities/v1-alpha/corporate-counsel-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-manager
+      path: entities/v1-alpha/court-administration-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-manager
+      path: entities/v1-alpha/data-protection-privacy-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-manager
+      path: entities/v1-alpha/employment-law-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-manager
+      path: entities/v1-alpha/energy-regulation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-manager
+      path: entities/v1-alpha/environmental-law-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-manager
+      path: entities/v1-alpha/ethics-conduct-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-manager
+      path: entities/v1-alpha/financial-regulation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-manager
+      path: entities/v1-alpha/governance-board-affairs-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-manager
+      path: entities/v1-alpha/health-regulation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-manager
+      path: entities/v1-alpha/insolvency-restructuring-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-manager
+      path: entities/v1-alpha/intellectual-property-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-manager
+      path: entities/v1-alpha/legal-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-manager
+      path: entities/v1-alpha/legal-research-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-manager
+      path: entities/v1-alpha/legislative-monitoring-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-manager
+      path: entities/v1-alpha/licensing-permits-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-manager
+      path: entities/v1-alpha/litigation-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-manager
+      path: entities/v1-alpha/notary-registries-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-manager
+      path: entities/v1-alpha/policy-drafting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-manager
+      path: entities/v1-alpha/public-prosecution-liaison-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-manager
+      path: entities/v1-alpha/regulatory-affairs-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-manager
+      path: entities/v1-alpha/sanctions-advisory-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-manager
+      path: entities/v1-alpha/standard-setting-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-manager
+      path: entities/v1-alpha/tax-law-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-manager
+      path: entities/v1-alpha/telecom-regulation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-manager
+      path: entities/v1-alpha/trade-compliance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-operations-coordinator
+      path: entities/v1-alpha/administrative-justice-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-operations-coordinator
+      path: entities/v1-alpha/competition-law-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-operations-coordinator
+      path: entities/v1-alpha/consumer-protection-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-operations-coordinator
+      path: entities/v1-alpha/contract-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-operations-coordinator
+      path: entities/v1-alpha/corporate-counsel-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-operations-coordinator
+      path: entities/v1-alpha/court-administration-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-operations-coordinator
+      path: entities/v1-alpha/data-protection-privacy-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-operations-coordinator
+      path: entities/v1-alpha/employment-law-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-operations-coordinator
+      path: entities/v1-alpha/energy-regulation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-operations-coordinator
+      path: entities/v1-alpha/environmental-law-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-operations-coordinator
+      path: entities/v1-alpha/ethics-conduct-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-operations-coordinator
+      path: entities/v1-alpha/financial-regulation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-operations-coordinator
+      path: entities/v1-alpha/governance-board-affairs-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-operations-coordinator
+      path: entities/v1-alpha/health-regulation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-operations-coordinator
+      path: entities/v1-alpha/insolvency-restructuring-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-operations-coordinator
+      path: entities/v1-alpha/intellectual-property-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-operations-coordinator
+      path: entities/v1-alpha/legal-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-operations-coordinator
+      path: entities/v1-alpha/legal-research-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-operations-coordinator
+      path: entities/v1-alpha/legislative-monitoring-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-operations-coordinator
+      path: entities/v1-alpha/licensing-permits-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-operations-coordinator
+      path: entities/v1-alpha/litigation-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-operations-coordinator
+      path: entities/v1-alpha/notary-registries-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-operations-coordinator
+      path: entities/v1-alpha/policy-drafting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-operations-coordinator
+      path: entities/v1-alpha/public-prosecution-liaison-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-operations-coordinator
+      path: entities/v1-alpha/regulatory-affairs-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-operations-coordinator
+      path: entities/v1-alpha/sanctions-advisory-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-operations-coordinator
+      path: entities/v1-alpha/standard-setting-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-operations-coordinator
+      path: entities/v1-alpha/tax-law-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-operations-coordinator
+      path: entities/v1-alpha/telecom-regulation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-operations-coordinator
+      path: entities/v1-alpha/trade-compliance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-planner
+      path: entities/v1-alpha/administrative-justice-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-planner
+      path: entities/v1-alpha/competition-law-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-planner
+      path: entities/v1-alpha/consumer-protection-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-planner
+      path: entities/v1-alpha/contract-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-planner
+      path: entities/v1-alpha/corporate-counsel-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-planner
+      path: entities/v1-alpha/court-administration-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-planner
+      path: entities/v1-alpha/data-protection-privacy-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-planner
+      path: entities/v1-alpha/employment-law-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-planner
+      path: entities/v1-alpha/energy-regulation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-planner
+      path: entities/v1-alpha/environmental-law-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-planner
+      path: entities/v1-alpha/ethics-conduct-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-planner
+      path: entities/v1-alpha/financial-regulation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-planner
+      path: entities/v1-alpha/governance-board-affairs-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-planner
+      path: entities/v1-alpha/health-regulation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-planner
+      path: entities/v1-alpha/insolvency-restructuring-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-planner
+      path: entities/v1-alpha/intellectual-property-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-planner
+      path: entities/v1-alpha/legal-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-planner
+      path: entities/v1-alpha/legal-research-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-planner
+      path: entities/v1-alpha/legislative-monitoring-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-planner
+      path: entities/v1-alpha/licensing-permits-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-planner
+      path: entities/v1-alpha/litigation-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-planner
+      path: entities/v1-alpha/notary-registries-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-planner
+      path: entities/v1-alpha/policy-drafting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-planner
+      path: entities/v1-alpha/public-prosecution-liaison-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-planner
+      path: entities/v1-alpha/regulatory-affairs-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-planner
+      path: entities/v1-alpha/sanctions-advisory-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-planner
+      path: entities/v1-alpha/standard-setting-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-planner
+      path: entities/v1-alpha/tax-law-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-planner
+      path: entities/v1-alpha/telecom-regulation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-planner
+      path: entities/v1-alpha/trade-compliance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-product-owner
+      path: entities/v1-alpha/administrative-justice-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-product-owner
+      path: entities/v1-alpha/competition-law-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-product-owner
+      path: entities/v1-alpha/consumer-protection-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-product-owner
+      path: entities/v1-alpha/contract-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-product-owner
+      path: entities/v1-alpha/corporate-counsel-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-product-owner
+      path: entities/v1-alpha/court-administration-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-product-owner
+      path: entities/v1-alpha/data-protection-privacy-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-product-owner
+      path: entities/v1-alpha/employment-law-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-product-owner
+      path: entities/v1-alpha/energy-regulation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-product-owner
+      path: entities/v1-alpha/environmental-law-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-product-owner
+      path: entities/v1-alpha/ethics-conduct-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-product-owner
+      path: entities/v1-alpha/financial-regulation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-product-owner
+      path: entities/v1-alpha/governance-board-affairs-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-product-owner
+      path: entities/v1-alpha/health-regulation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-product-owner
+      path: entities/v1-alpha/insolvency-restructuring-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-product-owner
+      path: entities/v1-alpha/intellectual-property-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-product-owner
+      path: entities/v1-alpha/legal-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-product-owner
+      path: entities/v1-alpha/legal-research-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-product-owner
+      path: entities/v1-alpha/legislative-monitoring-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-product-owner
+      path: entities/v1-alpha/licensing-permits-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-litigation-management-product-owner
+      path: entities/v1-alpha/litigation-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-notary-registries-product-owner
+      path: entities/v1-alpha/notary-registries-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-policy-drafting-product-owner
+      path: entities/v1-alpha/policy-drafting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-public-prosecution-liaison-product-owner
+      path: entities/v1-alpha/public-prosecution-liaison-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-regulatory-affairs-product-owner
+      path: entities/v1-alpha/regulatory-affairs-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sanctions-advisory-product-owner
+      path: entities/v1-alpha/sanctions-advisory-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-standard-setting-product-owner
+      path: entities/v1-alpha/standard-setting-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tax-law-product-owner
+      path: entities/v1-alpha/tax-law-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telecom-regulation-product-owner
+      path: entities/v1-alpha/telecom-regulation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-trade-compliance-product-owner
+      path: entities/v1-alpha/trade-compliance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-administrative-justice-program-manager
+      path: entities/v1-alpha/administrative-justice-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-competition-law-program-manager
+      path: entities/v1-alpha/competition-law-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consumer-protection-program-manager
+      path: entities/v1-alpha/consumer-protection-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-management-program-manager
+      path: entities/v1-alpha/contract-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-corporate-counsel-program-manager
+      path: entities/v1-alpha/corporate-counsel-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-court-administration-program-manager
+      path: entities/v1-alpha/court-administration-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-protection-privacy-program-manager
+      path: entities/v1-alpha/data-protection-privacy-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-employment-law-program-manager
+      path: entities/v1-alpha/employment-law-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-regulation-program-manager
+      path: entities/v1-alpha/energy-regulation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-environmental-law-program-manager
+      path: entities/v1-alpha/environmental-law-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ethics-conduct-program-manager
+      path: entities/v1-alpha/ethics-conduct-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-financial-regulation-program-manager
+      path: entities/v1-alpha/financial-regulation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-governance-board-affairs-program-manager
+      path: entities/v1-alpha/governance-board-affairs-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-health-regulation-program-manager
+      path: entities/v1-alpha/health-regulation-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-insolvency-restructuring-program-manager
+      path: entities/v1-alpha/insolvency-restructuring-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-intellectual-property-program-manager
+      path: entities/v1-alpha/intellectual-property-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-operations-program-manager
+      path: entities/v1-alpha/legal-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legal-research-program-manager
+      path: entities/v1-alpha/legal-research-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-legislative-monitoring-program-manager
+      path: entities/v1-alpha/legislative-monitoring-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-licensing-permits-program-manager
+      path: entities/v1-alpha/licensing-permits-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

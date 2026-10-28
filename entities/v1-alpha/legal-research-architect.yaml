@@ -1,0 +1,50 @@
+id: roles:role-legal-research-architect
+type: Role
+name: Legal Research Architect
+description: 'Owns the target architecture for legal research: design standards, technology selection,
+  and the evolution roadmap that keeps legal research fit for the Legal & Regulatory operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- legal
+- legal-regulatory
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Legal Research
+  org_unit: Legal Research Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-legal-research-architect-requires-legal-research
+  source_id: roles:role-legal-research-architect
+  target_id: skills:skill-legal-research
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-legal-research-architect-requires-legal-research-secondary
+  source_id: roles:role-legal-research-architect
+  target_id: skills:skill-legal-research-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

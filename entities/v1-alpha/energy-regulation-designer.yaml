@@ -1,0 +1,50 @@
+id: roles:role-energy-regulation-designer
+type: Role
+name: Energy Regulation Designer
+description: Designs energy regulation solutions and interfaces, translating Legal & Regulatory requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- energy
+- legal-regulatory
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Energy Regulation
+  org_unit: Energy Regulation Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-energy-regulation-designer-requires-energy-regulation
+  source_id: roles:role-energy-regulation-designer
+  target_id: skills:skill-energy-regulation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-energy-regulation-designer-requires-energy-regulation-secondary
+  source_id: roles:role-energy-regulation-designer
+  target_id: skills:skill-energy-regulation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

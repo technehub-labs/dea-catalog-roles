@@ -1,0 +1,50 @@
+id: roles:role-head-of-legal-research
+type: Role
+name: Head of Legal Research
+description: 'Owns the legal research domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Legal & Regulatory.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- legal
+- legal-regulatory
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Legal Research
+  org_unit: Legal Research Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-head-of-legal-research-requires-legal-research
+  source_id: roles:role-head-of-legal-research
+  target_id: skills:skill-legal-research
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-legal-research-requires-legal-research-secondary
+  source_id: roles:role-head-of-legal-research
+  target_id: skills:skill-legal-research-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-head-of-legal-operations
+type: Role
+name: Head of Legal Operations
+description: 'Owns the legal operations domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Legal & Regulatory.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- legal
+- legal-regulatory
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Legal Operations
+  org_unit: Legal Operations Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-head-of-legal-operations-requires-legal-operations
+  source_id: roles:role-head-of-legal-operations
+  target_id: skills:skill-legal-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-legal-operations-requires-legal-operations-secondary
+  source_id: roles:role-head-of-legal-operations
+  target_id: skills:skill-legal-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

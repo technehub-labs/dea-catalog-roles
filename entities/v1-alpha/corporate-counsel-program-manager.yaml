@@ -1,0 +1,50 @@
+id: roles:role-corporate-counsel-program-manager
+type: Role
+name: Corporate Counsel Program Manager
+description: Coordinates multi-team corporate counsel programmes across Legal & Regulatory, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- corporate
+- legal-regulatory
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Corporate Counsel
+  org_unit: Corporate Counsel Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-corporate-counsel-program-manager-requires-corporate-counsel
+  source_id: roles:role-corporate-counsel-program-manager
+  target_id: skills:skill-corporate-counsel
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-corporate-counsel-program-manager-requires-corporate-counsel-secondary
+  source_id: roles:role-corporate-counsel-program-manager
+  target_id: skills:skill-corporate-counsel-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

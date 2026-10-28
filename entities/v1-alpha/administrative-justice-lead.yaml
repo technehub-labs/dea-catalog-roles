@@ -1,0 +1,50 @@
+id: roles:role-administrative-justice-lead
+type: Role
+name: Administrative Justice Lead
+description: Sets direction for administrative justice teams, owns their outcomes, and represents administrative
+  justice interests in Legal & Regulatory governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- administrative
+- legal-regulatory
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Administrative Justice
+  org_unit: Administrative Justice Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-administrative-justice-lead-requires-administrative-justice
+  source_id: roles:role-administrative-justice-lead
+  target_id: skills:skill-administrative-justice
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-administrative-justice-lead-requires-administrative-justice-secondary
+  source_id: roles:role-administrative-justice-lead
+  target_id: skills:skill-administrative-justice-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

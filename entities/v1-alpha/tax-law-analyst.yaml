@@ -1,0 +1,50 @@
+id: roles:role-tax-law-analyst
+type: Role
+name: Tax Law Analyst
+description: Analyses tax law data and processes, producing insight and recommendations that steer Legal
+  & Regulatory planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- tax
+- legal-regulatory
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Tax Law
+  org_unit: Tax Law Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-tax-law-analyst-requires-tax-law
+  source_id: roles:role-tax-law-analyst
+  target_id: skills:skill-tax-law
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-tax-law-analyst-requires-tax-law-secondary
+  source_id: roles:role-tax-law-analyst
+  target_id: skills:skill-tax-law-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

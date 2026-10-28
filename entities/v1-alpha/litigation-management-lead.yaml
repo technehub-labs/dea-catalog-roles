@@ -1,0 +1,50 @@
+id: roles:role-litigation-management-lead
+type: Role
+name: Litigation Management Lead
+description: Sets direction for litigation management teams, owns their outcomes, and represents litigation
+  management interests in Legal & Regulatory governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- litigation
+- legal-regulatory
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Litigation Management
+  org_unit: Litigation Management Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-litigation-management-lead-requires-litigation-management
+  source_id: roles:role-litigation-management-lead
+  target_id: skills:skill-litigation-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-litigation-management-lead-requires-litigation-management-secondary
+  source_id: roles:role-litigation-management-lead
+  target_id: skills:skill-litigation-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

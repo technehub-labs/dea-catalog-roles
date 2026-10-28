@@ -1,0 +1,50 @@
+id: roles:role-legal-research-developer
+type: Role
+name: Legal Research Developer
+description: Implements and unit-tests legal research capabilities, contributing code and configuration
+  within the Legal & Regulatory delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- legal
+- legal-regulatory
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Legal Research
+  org_unit: Legal Research Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-legal-research-developer-requires-legal-research
+  source_id: roles:role-legal-research-developer
+  target_id: skills:skill-legal-research
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-legal-research-developer-requires-legal-research-secondary
+  source_id: roles:role-legal-research-developer
+  target_id: skills:skill-legal-research-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

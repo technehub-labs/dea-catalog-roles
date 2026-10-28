@@ -1,0 +1,50 @@
+id: roles:role-licensing-permits-manager
+type: Role
+name: Licensing & Permits Manager
+description: 'Manages licensing & permits end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Legal & Regulatory operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- licensing
+- legal-regulatory
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Licensing & Permits
+  org_unit: Licensing & Permits Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-licensing-permits-manager-requires-licensing-permits
+  source_id: roles:role-licensing-permits-manager
+  target_id: skills:skill-licensing-permits
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-licensing-permits-manager-requires-licensing-permits-secondary
+  source_id: roles:role-licensing-permits-manager
+  target_id: skills:skill-licensing-permits-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

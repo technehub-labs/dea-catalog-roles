@@ -1,0 +1,50 @@
+id: roles:role-competition-law-product-owner
+type: Role
+name: Competition Law Product Owner
+description: Owns the competition law product backlog, prioritising against user value and Legal & Regulatory
+  business goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- competition
+- legal-regulatory
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Competition Law
+  org_unit: Competition Law Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-competition-law-product-owner-requires-competition-law
+  source_id: roles:role-competition-law-product-owner
+  target_id: skills:skill-competition-law
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-competition-law-product-owner-requires-competition-law-secondary
+  source_id: roles:role-competition-law-product-owner
+  target_id: skills:skill-competition-law-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

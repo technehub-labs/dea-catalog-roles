@@ -1,0 +1,50 @@
+id: roles:role-ethics-conduct-lead
+type: Role
+name: Ethics & Conduct Lead
+description: Sets direction for ethics & conduct teams, owns their outcomes, and represents ethics & conduct
+  interests in Legal & Regulatory governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- ethics
+- legal-regulatory
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Ethics & Conduct
+  org_unit: Ethics & Conduct Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-ethics-conduct-lead-requires-ethics-conduct
+  source_id: roles:role-ethics-conduct-lead
+  target_id: skills:skill-ethics-conduct
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-ethics-conduct-lead-requires-ethics-conduct-secondary
+  source_id: roles:role-ethics-conduct-lead
+  target_id: skills:skill-ethics-conduct-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

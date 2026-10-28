@@ -1,0 +1,50 @@
+id: roles:role-contract-management-program-manager
+type: Role
+name: Contract Management Program Manager
+description: Coordinates multi-team contract management programmes across Legal & Regulatory, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- contract
+- legal-regulatory
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Contract Management
+  org_unit: Contract Management Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - legal-regulatory
+  - technology
+  - mining
+relationships:
+- id: roles:rel-contract-management-program-manager-requires-contract-management
+  source_id: roles:role-contract-management-program-manager
+  target_id: skills:skill-contract-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-contract-management-program-manager-requires-contract-management-secondary
+  source_id: roles:role-contract-management-program-manager
+  target_id: skills:skill-contract-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/legal-regulatory.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
