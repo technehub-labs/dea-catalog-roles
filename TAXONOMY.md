@@ -14,6 +14,29 @@ subclasses may overlap deliberately (a role may be both `technical` and
 | `technical` | Realizes technology and data artifacts | Enterprise Architect, Solution Architect, Platform Engineer |
 | `enablement` | Supports others in performing their roles | Coach, Trainer, Community Lead |
 
+## Instance counts (bulk batch, CR-ROL-RICH-000)
+
+| Class | Definition | Instances in batch |
+|---|---|---|
+| `leadership` | Sets direction and is accountable for outcomes of a domain | 718 |
+| `governance` | Constrains or reviews the shape of other entities | 718 |
+| `functional` | Delivers a business capability end-to-end | 2051 |
+| `technical` | Realizes technology and data artifacts | 1795 |
+| `enablement` | Supports others in performing their roles | 718 |
+
+## Seniority vocabulary (tag facet)
+
+Derived from the role function; carried as a tag `seniority:<band>:<level>`:
+
+| Band | Level | Definition | Instances in batch |
+|---|---|---|---|
+| Associate | 1 | Executes defined tasks under supervision; learning the domain playbook | 359 |
+| Professional | 2 | Delivers independently within standard practice | 1436 |
+| Senior | 3 | Handles complex, ambiguous work; reviews others' output | 1436 |
+| Lead | 4 | Directs a team or practice area; owns team outcomes | 1442 |
+| Principal | 5 | Sets standards and direction across a domain; deep expert authority | 968 |
+| Executive | 6 | Owns domain strategy, investment, and organisational design | 359 |
+
 ## Conventions
 
 - One `role_class` per role instance; additional facets via `tags`.

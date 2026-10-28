@@ -9,7 +9,7 @@ catalog:
     fulfills within an Organizational Unit.
   counts:
     entities: 34
-    canonical: 1
+    canonical: 2
   cross_cutting:
     entities: entities/
     schemas: schemas/
@@ -77,6 +77,21 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-27"
+    - id: roles:role-api-management-administrator
+      path: entities/v1-alpha/api-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-administrator
+      path: entities/v1-alpha/application-portfolio-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-administrator
+      path: entities/v1-alpha/automation-rpa-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
     - id: roles:role-interconnect-and-wholesale-manager
       path: entities/v1-alpha/interconnect-and-wholesale-manager.yaml
       lifecycle_status: proposed
@@ -124,8 +139,8 @@ catalog:
       last_modified: "2026-10-27"
     - id: roles:role-internal-auditor
       path: entities/v1-alpha/internal-auditor.yaml
-      lifecycle_status: proposed
-      version: 0.1.0
+      lifecycle_status: active
+      version: 0.2.0
       last_modified: "2026-10-27"
     - id: roles:role-clinical-governance-lead
       path: entities/v1-alpha/clinical-governance-lead.yaml
