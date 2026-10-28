@@ -1,0 +1,50 @@
+id: roles:role-investigations-administrator
+type: Role
+name: Investigations Administrator
+description: 'Administers investigations environments day to day: provisioning, access control, monitoring,
+  and routine change execution for Audit & Assurance operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- investigations
+- audit
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Investigations
+  org_unit: Investigations Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-investigations-administrator-requires-investigations
+  source_id: roles:role-investigations-administrator
+  target_id: skills:skill-investigations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-investigations-administrator-requires-investigations-secondary
+  source_id: roles:role-investigations-administrator
+  target_id: skills:skill-investigations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

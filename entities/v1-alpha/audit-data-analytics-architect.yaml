@@ -1,0 +1,50 @@
+id: roles:role-audit-data-analytics-architect
+type: Role
+name: Audit Data Analytics Architect
+description: 'Owns the target architecture for audit data analytics: design standards, technology selection,
+  and the evolution roadmap that keeps audit data analytics fit for the Audit & Assurance operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- audit
+- audit
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Audit Data Analytics
+  org_unit: Audit Data Analytics Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-audit-data-analytics-architect-requires-audit-data-analytics
+  source_id: roles:role-audit-data-analytics-architect
+  target_id: skills:skill-audit-data-analytics
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-audit-data-analytics-architect-requires-audit-data-analytics-secondary
+  source_id: roles:role-audit-data-analytics-architect
+  target_id: skills:skill-audit-data-analytics-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

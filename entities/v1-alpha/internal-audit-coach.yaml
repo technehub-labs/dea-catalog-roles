@@ -1,0 +1,50 @@
+id: roles:role-internal-audit-coach
+type: Role
+name: Internal Audit Coach
+description: Coaches Audit & Assurance teams and individuals on internal audit working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- internal
+- audit
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Internal Audit
+  org_unit: Internal Audit Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-internal-audit-coach-requires-internal-audit
+  source_id: roles:role-internal-audit-coach
+  target_id: skills:skill-internal-audit
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-internal-audit-coach-requires-internal-audit-secondary
+  source_id: roles:role-internal-audit-coach
+  target_id: skills:skill-internal-audit-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

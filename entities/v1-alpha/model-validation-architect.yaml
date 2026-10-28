@@ -1,0 +1,50 @@
+id: roles:role-model-validation-architect
+type: Role
+name: Model Validation Architect
+description: 'Owns the target architecture for model validation: design standards, technology selection,
+  and the evolution roadmap that keeps model validation fit for the Audit & Assurance operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- model
+- audit
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Model Validation
+  org_unit: Model Validation Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-model-validation-architect-requires-model-validation
+  source_id: roles:role-model-validation-architect
+  target_id: skills:skill-model-validation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-model-validation-architect-requires-model-validation-secondary
+  source_id: roles:role-model-validation-architect
+  target_id: skills:skill-model-validation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-compliance-testing-program-manager
+type: Role
+name: Compliance Testing Program Manager
+description: Coordinates multi-team compliance testing programmes across Audit & Assurance, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- compliance
+- audit
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Compliance Testing
+  org_unit: Compliance Testing Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-compliance-testing-program-manager-requires-compliance-testing
+  source_id: roles:role-compliance-testing-program-manager
+  target_id: skills:skill-compliance-testing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-compliance-testing-program-manager-requires-compliance-testing-secondary
+  source_id: roles:role-compliance-testing-program-manager
+  target_id: skills:skill-compliance-testing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

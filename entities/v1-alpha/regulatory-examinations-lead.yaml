@@ -1,0 +1,50 @@
+id: roles:role-regulatory-examinations-lead
+type: Role
+name: Regulatory Examinations Lead
+description: Sets direction for regulatory examinations teams, owns their outcomes, and represents regulatory
+  examinations interests in Audit & Assurance governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- regulatory
+- audit
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Examinations
+  org_unit: Regulatory Examinations Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-regulatory-examinations-lead-requires-regulatory-examinations
+  source_id: roles:role-regulatory-examinations-lead
+  target_id: skills:skill-regulatory-examinations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-examinations-lead-requires-regulatory-examinations-secondary
+  source_id: roles:role-regulatory-examinations-lead
+  target_id: skills:skill-regulatory-examinations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-regulatory-examinations-administrator
+type: Role
+name: Regulatory Examinations Administrator
+description: 'Administers regulatory examinations environments day to day: provisioning, access control,
+  monitoring, and routine change execution for Audit & Assurance operations.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- regulatory
+- audit
+- administrator
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Examinations
+  org_unit: Regulatory Examinations Unit
+  function: Administrator
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-regulatory-examinations-administrator-requires-regulatory-examinations
+  source_id: roles:role-regulatory-examinations-administrator
+  target_id: skills:skill-regulatory-examinations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-examinations-administrator-requires-regulatory-examinations-secondary
+  source_id: roles:role-regulatory-examinations-administrator
+  target_id: skills:skill-regulatory-examinations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

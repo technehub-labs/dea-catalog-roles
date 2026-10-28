@@ -1,0 +1,50 @@
+id: roles:role-control-self-assessment-manager
+type: Role
+name: Control Self-Assessment Manager
+description: 'Manages control self-assessment end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Audit & Assurance operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- control
+- audit
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Control Self-Assessment
+  org_unit: Control Self-Assessment Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-control-self-assessment-manager-requires-control-self-assessment
+  source_id: roles:role-control-self-assessment-manager
+  target_id: skills:skill-control-self-assessment
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-control-self-assessment-manager-requires-control-self-assessment-secondary
+  source_id: roles:role-control-self-assessment-manager
+  target_id: skills:skill-control-self-assessment-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-risk-assessment-coach
+type: Role
+name: Risk Assessment Coach
+description: Coaches Audit & Assurance teams and individuals on risk assessment working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- risk
+- audit
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Risk Assessment
+  org_unit: Risk Assessment Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-risk-assessment-coach-requires-risk-assessment
+  source_id: roles:role-risk-assessment-coach
+  target_id: skills:skill-risk-assessment
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-risk-assessment-coach-requires-risk-assessment-secondary
+  source_id: roles:role-risk-assessment-coach
+  target_id: skills:skill-risk-assessment-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

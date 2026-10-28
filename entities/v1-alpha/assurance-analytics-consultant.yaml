@@ -1,0 +1,50 @@
+id: roles:role-assurance-analytics-consultant
+type: Role
+name: Assurance Analytics Consultant
+description: Supports Audit & Assurance teams adopting assurance analytics practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- assurance
+- audit
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Assurance Analytics
+  org_unit: Assurance Analytics Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-assurance-analytics-consultant-requires-assurance-analytics
+  source_id: roles:role-assurance-analytics-consultant
+  target_id: skills:skill-assurance-analytics
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-assurance-analytics-consultant-requires-assurance-analytics-secondary
+  source_id: roles:role-assurance-analytics-consultant
+  target_id: skills:skill-assurance-analytics-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

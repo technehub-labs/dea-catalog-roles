@@ -1,0 +1,50 @@
+id: roles:role-audit-reporting-designer
+type: Role
+name: Audit Reporting Designer
+description: Designs audit reporting solutions and interfaces, translating Audit & Assurance requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- audit
+- audit
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Audit Reporting
+  org_unit: Audit Reporting Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-audit-reporting-designer-requires-audit-reporting
+  source_id: roles:role-audit-reporting-designer
+  target_id: skills:skill-audit-reporting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-audit-reporting-designer-requires-audit-reporting-secondary
+  source_id: roles:role-audit-reporting-designer
+  target_id: skills:skill-audit-reporting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-it-audit-planner
+type: Role
+name: IT Audit Planner
+description: Plans capacity, schedule, and sequencing for it audit activities, balancing demand, budget,
+  and dependencies in the Audit & Assurance portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- it
+- audit
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: IT Audit
+  org_unit: IT Audit Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-it-audit-planner-requires-it-audit
+  source_id: roles:role-it-audit-planner
+  target_id: skills:skill-it-audit
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-it-audit-planner-requires-it-audit-secondary
+  source_id: roles:role-it-audit-planner
+  target_id: skills:skill-it-audit-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
