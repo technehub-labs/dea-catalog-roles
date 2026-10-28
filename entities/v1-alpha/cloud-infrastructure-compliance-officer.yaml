@@ -1,0 +1,50 @@
+id: roles:role-cloud-infrastructure-compliance-officer
+type: Role
+name: Cloud Infrastructure Compliance Officer
+description: Constrains and reviews cloud infrastructure activity against regulatory and policy obligations,
+  escalating breaches in the Technology control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- cloud
+- technology
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Cloud Infrastructure
+  org_unit: Cloud Infrastructure Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-cloud-infrastructure-compliance-officer-requires-cloud-infrastructure
+  source_id: roles:role-cloud-infrastructure-compliance-officer
+  target_id: skills:skill-cloud-infrastructure
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-cloud-infrastructure-compliance-officer-requires-cloud-infrastructure-secondary
+  source_id: roles:role-cloud-infrastructure-compliance-officer
+  target_id: skills:skill-cloud-infrastructure-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

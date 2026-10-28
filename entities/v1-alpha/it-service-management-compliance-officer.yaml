@@ -1,0 +1,50 @@
+id: roles:role-it-service-management-compliance-officer
+type: Role
+name: IT Service Management Compliance Officer
+description: Constrains and reviews it service management activity against regulatory and policy obligations,
+  escalating breaches in the Technology control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- it
+- technology
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: IT Service Management
+  org_unit: IT Service Management Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-it-service-management-compliance-officer-requires-it-service-management
+  source_id: roles:role-it-service-management-compliance-officer
+  target_id: skills:skill-it-service-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-it-service-management-compliance-officer-requires-it-service-management-secondary
+  source_id: roles:role-it-service-management-compliance-officer
+  target_id: skills:skill-it-service-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
