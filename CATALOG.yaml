@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 727
+    entities: 785
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -3539,6 +3539,296 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-telehealth-compliance-officer
       path: entities/v1-alpha/telehealth-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-auditor
+      path: entities/v1-alpha/5g-core-network-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-auditor
+      path: entities/v1-alpha/bss-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-auditor
+      path: entities/v1-alpha/cell-site-deployment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-auditor
+      path: entities/v1-alpha/charging-billing-mediation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-auditor
+      path: entities/v1-alpha/customer-field-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-auditor
+      path: entities/v1-alpha/edge-computing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-auditor
+      path: entities/v1-alpha/ftth-rollout-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-auditor
+      path: entities/v1-alpha/fibre-transport-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-auditor
+      path: entities/v1-alpha/fixed-wireless-access-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-auditor
+      path: entities/v1-alpha/interconnect-roaming-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-auditor
+      path: entities/v1-alpha/microwave-backhaul-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-auditor
+      path: entities/v1-alpha/mobile-core-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-auditor
+      path: entities/v1-alpha/network-inventory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-auditor
+      path: entities/v1-alpha/network-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-auditor
+      path: entities/v1-alpha/network-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-auditor
+      path: entities/v1-alpha/network-security-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-auditor
+      path: entities/v1-alpha/network-slicing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-auditor
+      path: entities/v1-alpha/network-virtualization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-auditor
+      path: entities/v1-alpha/number-portability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-auditor
+      path: entities/v1-alpha/oss-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-auditor
+      path: entities/v1-alpha/private-networks-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-auditor
+      path: entities/v1-alpha/quality-of-service-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-auditor
+      path: entities/v1-alpha/rf-spectrum-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-auditor
+      path: entities/v1-alpha/radio-access-network-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-auditor
+      path: entities/v1-alpha/satellite-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-auditor
+      path: entities/v1-alpha/service-assurance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-auditor
+      path: entities/v1-alpha/submarine-cable-systems-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-auditor
+      path: entities/v1-alpha/subscriber-data-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-auditor
+      path: entities/v1-alpha/telco-cloud-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-5g-core-network-compliance-officer
+      path: entities/v1-alpha/5g-core-network-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-bss-compliance-officer
+      path: entities/v1-alpha/bss-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cell-site-deployment-compliance-officer
+      path: entities/v1-alpha/cell-site-deployment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-charging-billing-mediation-compliance-officer
+      path: entities/v1-alpha/charging-billing-mediation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-field-services-compliance-officer
+      path: entities/v1-alpha/customer-field-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-computing-compliance-officer
+      path: entities/v1-alpha/edge-computing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ftth-rollout-compliance-officer
+      path: entities/v1-alpha/ftth-rollout-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fibre-transport-compliance-officer
+      path: entities/v1-alpha/fibre-transport-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fixed-wireless-access-compliance-officer
+      path: entities/v1-alpha/fixed-wireless-access-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interconnect-roaming-compliance-officer
+      path: entities/v1-alpha/interconnect-roaming-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-microwave-backhaul-compliance-officer
+      path: entities/v1-alpha/microwave-backhaul-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-core-compliance-officer
+      path: entities/v1-alpha/mobile-core-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-inventory-compliance-officer
+      path: entities/v1-alpha/network-inventory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-compliance-officer
+      path: entities/v1-alpha/network-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-planning-compliance-officer
+      path: entities/v1-alpha/network-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-security-compliance-officer
+      path: entities/v1-alpha/network-security-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-slicing-compliance-officer
+      path: entities/v1-alpha/network-slicing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-virtualization-compliance-officer
+      path: entities/v1-alpha/network-virtualization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-number-portability-compliance-officer
+      path: entities/v1-alpha/number-portability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-oss-compliance-officer
+      path: entities/v1-alpha/oss-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-private-networks-compliance-officer
+      path: entities/v1-alpha/private-networks-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-of-service-compliance-officer
+      path: entities/v1-alpha/quality-of-service-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-rf-spectrum-compliance-officer
+      path: entities/v1-alpha/rf-spectrum-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-radio-access-network-compliance-officer
+      path: entities/v1-alpha/radio-access-network-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-satellite-services-compliance-officer
+      path: entities/v1-alpha/satellite-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-service-assurance-compliance-officer
+      path: entities/v1-alpha/service-assurance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-submarine-cable-systems-compliance-officer
+      path: entities/v1-alpha/submarine-cable-systems-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-subscriber-data-management-compliance-officer
+      path: entities/v1-alpha/subscriber-data-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-telco-cloud-compliance-officer
+      path: entities/v1-alpha/telco-cloud-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

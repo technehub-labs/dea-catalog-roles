@@ -1,0 +1,50 @@
+id: roles:role-network-inventory-auditor
+type: Role
+name: Network Inventory Auditor
+description: Independently reviews network inventory controls and records, reporting findings and tracking
+  remediation within Telecommunications assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- network
+- telecom
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Network Inventory
+  org_unit: Network Inventory Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-network-inventory-auditor-requires-network-inventory
+  source_id: roles:role-network-inventory-auditor
+  target_id: skills:skill-network-inventory
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-network-inventory-auditor-requires-network-inventory-secondary
+  source_id: roles:role-network-inventory-auditor
+  target_id: skills:skill-network-inventory-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

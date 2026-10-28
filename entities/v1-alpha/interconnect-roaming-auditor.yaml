@@ -1,0 +1,50 @@
+id: roles:role-interconnect-roaming-auditor
+type: Role
+name: Interconnect & Roaming Auditor
+description: Independently reviews interconnect & roaming controls and records, reporting findings and
+  tracking remediation within Telecommunications assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- interconnect
+- telecom
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Interconnect & Roaming
+  org_unit: Interconnect & Roaming Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - telecom
+  - media
+  - manufacturing
+relationships:
+- id: roles:rel-interconnect-roaming-auditor-requires-interconnect-roaming
+  source_id: roles:role-interconnect-roaming-auditor
+  target_id: skills:skill-interconnect-roaming
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-interconnect-roaming-auditor-requires-interconnect-roaming-secondary
+  source_id: roles:role-interconnect-roaming-auditor
+  target_id: skills:skill-interconnect-roaming-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/telecom.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
