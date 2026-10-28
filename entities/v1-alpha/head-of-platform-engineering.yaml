@@ -1,0 +1,50 @@
+id: roles:role-head-of-platform-engineering
+type: Role
+name: Head of Platform Engineering
+description: 'Owns the platform engineering domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Technology.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- platform
+- technology
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Platform Engineering
+  org_unit: Platform Engineering Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-head-of-platform-engineering-requires-platform-engineering
+  source_id: roles:role-head-of-platform-engineering
+  target_id: skills:skill-platform-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-platform-engineering-requires-platform-engineering-secondary
+  source_id: roles:role-head-of-platform-engineering
+  target_id: skills:skill-platform-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

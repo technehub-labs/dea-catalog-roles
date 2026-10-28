@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 37
+    entities: 67
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -89,6 +89,156 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-automation-rpa-administrator
       path: entities/v1-alpha/automation-rpa-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-api-management
+      path: entities/v1-alpha/head-of-api-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-application-portfolio
+      path: entities/v1-alpha/head-of-application-portfolio.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-automation-rpa
+      path: entities/v1-alpha/head-of-automation-rpa.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-cloud-infrastructure
+      path: entities/v1-alpha/head-of-cloud-infrastructure.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-cybersecurity-operations
+      path: entities/v1-alpha/head-of-cybersecurity-operations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-data-engineering
+      path: entities/v1-alpha/head-of-data-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-data-governance
+      path: entities/v1-alpha/head-of-data-governance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-developer-experience
+      path: entities/v1-alpha/head-of-developer-experience.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-digital-workplace
+      path: entities/v1-alpha/head-of-digital-workplace.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-edge-iot-solutions
+      path: entities/v1-alpha/head-of-edge-iot-solutions.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-end-user-computing
+      path: entities/v1-alpha/head-of-end-user-computing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-enterprise-architecture
+      path: entities/v1-alpha/head-of-enterprise-architecture.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-it-service-management
+      path: entities/v1-alpha/head-of-it-service-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-it-vendor-management
+      path: entities/v1-alpha/head-of-it-vendor-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-identity-access-management
+      path: entities/v1-alpha/head-of-identity-access-management.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-machine-learning-systems
+      path: entities/v1-alpha/head-of-machine-learning-systems.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-middleware-platforms
+      path: entities/v1-alpha/head-of-middleware-platforms.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-mobile-engineering
+      path: entities/v1-alpha/head-of-mobile-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-network-operations-centre
+      path: entities/v1-alpha/head-of-network-operations-centre.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-observability
+      path: entities/v1-alpha/head-of-observability.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-open-source-programs
+      path: entities/v1-alpha/head-of-open-source-programs.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-platform-engineering
+      path: entities/v1-alpha/head-of-platform-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-product-security
+      path: entities/v1-alpha/head-of-product-security.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-quantum-computing-initiatives
+      path: entities/v1-alpha/head-of-quantum-computing-initiatives.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-site-reliability
+      path: entities/v1-alpha/head-of-site-reliability.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-software-engineering
+      path: entities/v1-alpha/head-of-software-engineering.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-storage-backup
+      path: entities/v1-alpha/head-of-storage-backup.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-systems-integration
+      path: entities/v1-alpha/head-of-systems-integration.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-technology-incubation
+      path: entities/v1-alpha/head-of-technology-incubation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-technology-risk
+      path: entities/v1-alpha/head-of-technology-risk.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
