@@ -1,0 +1,50 @@
+id: roles:role-coal-operations-coach
+type: Role
+name: Coal Operations Coach
+description: Coaches Mining & Resources teams and individuals on coal operations working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- coal
+- mining
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Coal Operations
+  org_unit: Coal Operations Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-coal-operations-coach-requires-coal-operations
+  source_id: roles:role-coal-operations-coach
+  target_id: skills:skill-coal-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-coal-operations-coach-requires-coal-operations-secondary
+  source_id: roles:role-coal-operations-coach
+  target_id: skills:skill-coal-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

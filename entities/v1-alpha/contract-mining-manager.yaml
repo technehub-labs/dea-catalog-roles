@@ -1,0 +1,50 @@
+id: roles:role-contract-mining-manager
+type: Role
+name: Contract Mining Manager
+description: 'Manages contract mining end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Mining & Resources operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- contract
+- mining
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Contract Mining
+  org_unit: Contract Mining Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-contract-mining-manager-requires-contract-mining
+  source_id: roles:role-contract-mining-manager
+  target_id: skills:skill-contract-mining
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-contract-mining-manager-requires-contract-mining-secondary
+  source_id: roles:role-contract-mining-manager
+  target_id: skills:skill-contract-mining-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

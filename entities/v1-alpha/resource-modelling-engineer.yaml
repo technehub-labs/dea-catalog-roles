@@ -1,0 +1,50 @@
+id: roles:role-resource-modelling-engineer
+type: Role
+name: Resource Modelling Engineer
+description: Builds, configures, and maintains resource modelling components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Mining & Resources standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- resource
+- mining
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Resource Modelling
+  org_unit: Resource Modelling Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-resource-modelling-engineer-requires-resource-modelling
+  source_id: roles:role-resource-modelling-engineer
+  target_id: skills:skill-resource-modelling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-resource-modelling-engineer-requires-resource-modelling-secondary
+  source_id: roles:role-resource-modelling-engineer
+  target_id: skills:skill-resource-modelling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-gold-processing-program-manager
+type: Role
+name: Gold Processing Program Manager
+description: Coordinates multi-team gold processing programmes across Mining & Resources, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- gold
+- mining
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Gold Processing
+  org_unit: Gold Processing Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-gold-processing-program-manager-requires-gold-processing
+  source_id: roles:role-gold-processing-program-manager
+  target_id: skills:skill-gold-processing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-gold-processing-program-manager-requires-gold-processing-secondary
+  source_id: roles:role-gold-processing-program-manager
+  target_id: skills:skill-gold-processing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

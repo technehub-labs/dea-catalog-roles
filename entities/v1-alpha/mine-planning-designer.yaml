@@ -1,0 +1,50 @@
+id: roles:role-mine-planning-designer
+type: Role
+name: Mine Planning Designer
+description: Designs mine planning solutions and interfaces, translating Mining & Resources requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- mine
+- mining
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mine Planning
+  org_unit: Mine Planning Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-mine-planning-designer-requires-mine-planning
+  source_id: roles:role-mine-planning-designer
+  target_id: skills:skill-mine-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mine-planning-designer-requires-mine-planning-secondary
+  source_id: roles:role-mine-planning-designer
+  target_id: skills:skill-mine-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

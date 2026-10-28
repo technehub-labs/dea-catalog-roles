@@ -1,0 +1,50 @@
+id: roles:role-copper-concentration-program-manager
+type: Role
+name: Copper Concentration Program Manager
+description: Coordinates multi-team copper concentration programmes across Mining & Resources, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- copper
+- mining
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Copper Concentration
+  org_unit: Copper Concentration Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-copper-concentration-program-manager-requires-copper-concentration
+  source_id: roles:role-copper-concentration-program-manager
+  target_id: skills:skill-copper-concentration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-copper-concentration-program-manager-requires-copper-concentration-secondary
+  source_id: roles:role-copper-concentration-program-manager
+  target_id: skills:skill-copper-concentration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

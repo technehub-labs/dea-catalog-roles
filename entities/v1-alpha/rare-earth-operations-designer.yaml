@@ -1,0 +1,50 @@
+id: roles:role-rare-earth-operations-designer
+type: Role
+name: Rare Earth Operations Designer
+description: Designs rare earth operations solutions and interfaces, translating Mining & Resources requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- rare
+- mining
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Rare Earth Operations
+  org_unit: Rare Earth Operations Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-rare-earth-operations-designer-requires-rare-earth-operations
+  source_id: roles:role-rare-earth-operations-designer
+  target_id: skills:skill-rare-earth-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rare-earth-operations-designer-requires-rare-earth-operations-secondary
+  source_id: roles:role-rare-earth-operations-designer
+  target_id: skills:skill-rare-earth-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

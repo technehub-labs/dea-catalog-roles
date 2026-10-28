@@ -1,0 +1,50 @@
+id: roles:role-resource-modelling-lead
+type: Role
+name: Resource Modelling Lead
+description: Sets direction for resource modelling teams, owns their outcomes, and represents resource
+  modelling interests in Mining & Resources governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- resource
+- mining
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Resource Modelling
+  org_unit: Resource Modelling Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-resource-modelling-lead-requires-resource-modelling
+  source_id: roles:role-resource-modelling-lead
+  target_id: skills:skill-resource-modelling
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-resource-modelling-lead-requires-resource-modelling-secondary
+  source_id: roles:role-resource-modelling-lead
+  target_id: skills:skill-resource-modelling-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

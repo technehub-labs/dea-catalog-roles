@@ -1,0 +1,50 @@
+id: roles:role-energy-power-supply-program-manager
+type: Role
+name: Energy & Power Supply Program Manager
+description: Coordinates multi-team energy & power supply programmes across Mining & Resources, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- energy
+- mining
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Energy & Power Supply
+  org_unit: Energy & Power Supply Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-energy-power-supply-program-manager-requires-energy-power-supply
+  source_id: roles:role-energy-power-supply-program-manager
+  target_id: skills:skill-energy-power-supply
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-energy-power-supply-program-manager-requires-energy-power-supply-secondary
+  source_id: roles:role-energy-power-supply-program-manager
+  target_id: skills:skill-energy-power-supply-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

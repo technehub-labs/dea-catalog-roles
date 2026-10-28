@@ -1,0 +1,50 @@
+id: roles:role-rare-earth-operations-developer
+type: Role
+name: Rare Earth Operations Developer
+description: Implements and unit-tests rare earth operations capabilities, contributing code and configuration
+  within the Mining & Resources delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- rare
+- mining
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Rare Earth Operations
+  org_unit: Rare Earth Operations Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-rare-earth-operations-developer-requires-rare-earth-operations
+  source_id: roles:role-rare-earth-operations-developer
+  target_id: skills:skill-rare-earth-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-rare-earth-operations-developer-requires-rare-earth-operations-secondary
+  source_id: roles:role-rare-earth-operations-developer
+  target_id: skills:skill-rare-earth-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

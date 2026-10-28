@@ -1,0 +1,50 @@
+id: roles:role-energy-power-supply-consultant
+type: Role
+name: Energy & Power Supply Consultant
+description: Supports Mining & Resources teams adopting energy & power supply practices, transferring
+  methods and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- energy
+- mining
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Energy & Power Supply
+  org_unit: Energy & Power Supply Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-energy-power-supply-consultant-requires-energy-power-supply
+  source_id: roles:role-energy-power-supply-consultant
+  target_id: skills:skill-energy-power-supply
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-energy-power-supply-consultant-requires-energy-power-supply-secondary
+  source_id: roles:role-energy-power-supply-consultant
+  target_id: skills:skill-energy-power-supply-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

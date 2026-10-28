@@ -1,0 +1,50 @@
+id: roles:role-mine-planning-architect
+type: Role
+name: Mine Planning Architect
+description: 'Owns the target architecture for mine planning: design standards, technology selection,
+  and the evolution roadmap that keeps mine planning fit for the Mining & Resources operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- mine
+- mining
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mine Planning
+  org_unit: Mine Planning Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-mine-planning-architect-requires-mine-planning
+  source_id: roles:role-mine-planning-architect
+  target_id: skills:skill-mine-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mine-planning-architect-requires-mine-planning-secondary
+  source_id: roles:role-mine-planning-architect
+  target_id: skills:skill-mine-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

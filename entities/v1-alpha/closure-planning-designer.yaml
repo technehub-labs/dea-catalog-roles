@@ -1,0 +1,50 @@
+id: roles:role-closure-planning-designer
+type: Role
+name: Closure Planning Designer
+description: Designs closure planning solutions and interfaces, translating Mining & Resources requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- closure
+- mining
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Closure Planning
+  org_unit: Closure Planning Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-closure-planning-designer-requires-closure-planning
+  source_id: roles:role-closure-planning-designer
+  target_id: skills:skill-closure-planning
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-closure-planning-designer-requires-closure-planning-secondary
+  source_id: roles:role-closure-planning-designer
+  target_id: skills:skill-closure-planning-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

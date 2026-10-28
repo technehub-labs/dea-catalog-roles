@@ -1,0 +1,50 @@
+id: roles:role-mine-surveying-operations-coordinator
+type: Role
+name: Mine Surveying Operations Coordinator
+description: Coordinates day-to-day mine surveying activities, schedules, and records, keeping Mining
+  & Resources operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- mine
+- mining
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mine Surveying
+  org_unit: Mine Surveying Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-mine-surveying-operations-coordinator-requires-mine-surveying
+  source_id: roles:role-mine-surveying-operations-coordinator
+  target_id: skills:skill-mine-surveying
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mine-surveying-operations-coordinator-requires-mine-surveying-secondary
+  source_id: roles:role-mine-surveying-operations-coordinator
+  target_id: skills:skill-mine-surveying-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-environmental-compliance-engineer
+type: Role
+name: Environmental Compliance Engineer
+description: Builds, configures, and maintains environmental compliance components and pipelines, resolving
+  technical incidents and keeping delivery aligned with Mining & Resources standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- environmental
+- mining
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Environmental Compliance
+  org_unit: Environmental Compliance Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - mining
+  - healthcare
+  - telecom
+relationships:
+- id: roles:rel-environmental-compliance-engineer-requires-environmental-compliance
+  source_id: roles:role-environmental-compliance-engineer
+  target_id: skills:skill-environmental-compliance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-environmental-compliance-engineer-requires-environmental-compliance-secondary
+  source_id: roles:role-environmental-compliance-engineer
+  target_id: skills:skill-environmental-compliance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/mining.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
