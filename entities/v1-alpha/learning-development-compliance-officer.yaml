@@ -1,0 +1,50 @@
+id: roles:role-learning-development-compliance-officer
+type: Role
+name: Learning & Development Compliance Officer
+description: Constrains and reviews learning & development activity against regulatory and policy obligations,
+  escalating breaches in the Consulting & Professional Services control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- learning
+- consulting
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Learning & Development
+  org_unit: Learning & Development Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-learning-development-compliance-officer-requires-learning-development
+  source_id: roles:role-learning-development-compliance-officer
+  target_id: skills:skill-learning-development
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-learning-development-compliance-officer-requires-learning-development-secondary
+  source_id: roles:role-learning-development-compliance-officer
+  target_id: skills:skill-learning-development-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

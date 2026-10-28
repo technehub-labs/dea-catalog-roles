@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 247
+    entities: 307
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -1139,6 +1139,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-trade-compliance-compliance-officer
       path: entities/v1-alpha/trade-compliance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-auditor
+      path: entities/v1-alpha/advisory-quality-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-auditor
+      path: entities/v1-alpha/alumni-networks-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-auditor
+      path: entities/v1-alpha/business-transformation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-auditor
+      path: entities/v1-alpha/change-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-auditor
+      path: entities/v1-alpha/client-relationship-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-auditor
+      path: entities/v1-alpha/consulting-enablement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-auditor
+      path: entities/v1-alpha/customer-experience-design-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-auditor
+      path: entities/v1-alpha/data-analytics-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-auditor
+      path: entities/v1-alpha/deal-advisory-m-a-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-auditor
+      path: entities/v1-alpha/executive-search-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-auditor
+      path: entities/v1-alpha/finance-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-auditor
+      path: entities/v1-alpha/human-capital-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-auditor
+      path: entities/v1-alpha/interim-leadership-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-auditor
+      path: entities/v1-alpha/knowledge-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-auditor
+      path: entities/v1-alpha/learning-development-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-auditor
+      path: entities/v1-alpha/managed-services-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-auditor
+      path: entities/v1-alpha/management-consulting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-auditor
+      path: entities/v1-alpha/operational-excellence-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-auditor
+      path: entities/v1-alpha/organisation-design-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-auditor
+      path: entities/v1-alpha/practice-development-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-auditor
+      path: entities/v1-alpha/pricing-rate-cards-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-auditor
+      path: entities/v1-alpha/proposal-bid-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-auditor
+      path: entities/v1-alpha/risk-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-auditor
+      path: entities/v1-alpha/staffing-deployment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-auditor
+      path: entities/v1-alpha/strategy-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-auditor
+      path: entities/v1-alpha/supply-chain-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-auditor
+      path: entities/v1-alpha/sustainability-consulting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-auditor
+      path: entities/v1-alpha/talent-acquisition-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-auditor
+      path: entities/v1-alpha/technology-advisory-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-auditor
+      path: entities/v1-alpha/thought-leadership-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-advisory-quality-compliance-officer
+      path: entities/v1-alpha/advisory-quality-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-alumni-networks-compliance-officer
+      path: entities/v1-alpha/alumni-networks-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-business-transformation-compliance-officer
+      path: entities/v1-alpha/business-transformation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-change-management-compliance-officer
+      path: entities/v1-alpha/change-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-client-relationship-management-compliance-officer
+      path: entities/v1-alpha/client-relationship-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-consulting-enablement-compliance-officer
+      path: entities/v1-alpha/consulting-enablement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-customer-experience-design-compliance-officer
+      path: entities/v1-alpha/customer-experience-design-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-analytics-advisory-compliance-officer
+      path: entities/v1-alpha/data-analytics-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-deal-advisory-m-a-compliance-officer
+      path: entities/v1-alpha/deal-advisory-m-a-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-executive-search-compliance-officer
+      path: entities/v1-alpha/executive-search-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-finance-advisory-compliance-officer
+      path: entities/v1-alpha/finance-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-human-capital-advisory-compliance-officer
+      path: entities/v1-alpha/human-capital-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-interim-leadership-compliance-officer
+      path: entities/v1-alpha/interim-leadership-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-knowledge-management-compliance-officer
+      path: entities/v1-alpha/knowledge-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-learning-development-compliance-officer
+      path: entities/v1-alpha/learning-development-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-managed-services-compliance-officer
+      path: entities/v1-alpha/managed-services-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-management-consulting-compliance-officer
+      path: entities/v1-alpha/management-consulting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-operational-excellence-compliance-officer
+      path: entities/v1-alpha/operational-excellence-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-organisation-design-compliance-officer
+      path: entities/v1-alpha/organisation-design-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-practice-development-compliance-officer
+      path: entities/v1-alpha/practice-development-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-pricing-rate-cards-compliance-officer
+      path: entities/v1-alpha/pricing-rate-cards-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-proposal-bid-management-compliance-officer
+      path: entities/v1-alpha/proposal-bid-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-risk-advisory-compliance-officer
+      path: entities/v1-alpha/risk-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-staffing-deployment-compliance-officer
+      path: entities/v1-alpha/staffing-deployment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-strategy-advisory-compliance-officer
+      path: entities/v1-alpha/strategy-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-advisory-compliance-officer
+      path: entities/v1-alpha/supply-chain-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-sustainability-consulting-compliance-officer
+      path: entities/v1-alpha/sustainability-consulting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-acquisition-compliance-officer
+      path: entities/v1-alpha/talent-acquisition-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-advisory-compliance-officer
+      path: entities/v1-alpha/technology-advisory-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-thought-leadership-compliance-officer
+      path: entities/v1-alpha/thought-leadership-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

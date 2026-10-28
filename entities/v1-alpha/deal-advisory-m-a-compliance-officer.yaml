@@ -1,0 +1,50 @@
+id: roles:role-deal-advisory-m-a-compliance-officer
+type: Role
+name: Deal Advisory & M&A Compliance Officer
+description: Constrains and reviews deal advisory & m&a activity against regulatory and policy obligations,
+  escalating breaches in the Consulting & Professional Services control framework.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- deal
+- consulting
+- compliance-officer
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Deal Advisory & M&A
+  org_unit: Deal Advisory & M&A Unit
+  function: Compliance Officer
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - consulting
+  - entertainment
+  - transport
+relationships:
+- id: roles:rel-deal-advisory-m-a-compliance-officer-requires-deal-advisory-m-a
+  source_id: roles:role-deal-advisory-m-a-compliance-officer
+  target_id: skills:skill-deal-advisory-m-a
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-deal-advisory-m-a-compliance-officer-requires-deal-advisory-m-a-secondary
+  source_id: roles:role-deal-advisory-m-a-compliance-officer
+  target_id: skills:skill-deal-advisory-m-a-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/consulting.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
