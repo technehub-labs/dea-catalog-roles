@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 307
+    entities: 367
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -1439,6 +1439,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-thought-leadership-compliance-officer
       path: entities/v1-alpha/thought-leadership-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-auditor
+      path: entities/v1-alpha/animation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-auditor
+      path: entities/v1-alpha/awards-campaigns-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-auditor
+      path: entities/v1-alpha/casting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-auditor
+      path: entities/v1-alpha/celebrity-brand-partnerships-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-auditor
+      path: entities/v1-alpha/character-design-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-auditor
+      path: entities/v1-alpha/digital-content-creation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-auditor
+      path: entities/v1-alpha/fan-engagement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-auditor
+      path: entities/v1-alpha/festival-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-auditor
+      path: entities/v1-alpha/film-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-auditor
+      path: entities/v1-alpha/game-development-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-auditor
+      path: entities/v1-alpha/immersive-experiences-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-auditor
+      path: entities/v1-alpha/live-events-touring-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-auditor
+      path: entities/v1-alpha/location-scouting-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-auditor
+      path: entities/v1-alpha/merchandising-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-auditor
+      path: entities/v1-alpha/music-publishing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-auditor
+      path: entities/v1-alpha/post-production-sound-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-auditor
+      path: entities/v1-alpha/production-finance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-auditor
+      path: entities/v1-alpha/script-development-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-auditor
+      path: entities/v1-alpha/stage-design-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-auditor
+      path: entities/v1-alpha/streaming-content-acquisition-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-auditor
+      path: entities/v1-alpha/stunt-coordination-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-auditor
+      path: entities/v1-alpha/talent-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-auditor
+      path: entities/v1-alpha/talent-recruitment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-auditor
+      path: entities/v1-alpha/television-production-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-auditor
+      path: entities/v1-alpha/theatre-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-auditor
+      path: entities/v1-alpha/theme-park-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-auditor
+      path: entities/v1-alpha/touring-logistics-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-auditor
+      path: entities/v1-alpha/venue-programming-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-auditor
+      path: entities/v1-alpha/visual-effects-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-auditor
+      path: entities/v1-alpha/wardrobe-costuming-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-animation-compliance-officer
+      path: entities/v1-alpha/animation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-awards-campaigns-compliance-officer
+      path: entities/v1-alpha/awards-campaigns-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-casting-compliance-officer
+      path: entities/v1-alpha/casting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-celebrity-brand-partnerships-compliance-officer
+      path: entities/v1-alpha/celebrity-brand-partnerships-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-character-design-compliance-officer
+      path: entities/v1-alpha/character-design-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-content-creation-compliance-officer
+      path: entities/v1-alpha/digital-content-creation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-fan-engagement-compliance-officer
+      path: entities/v1-alpha/fan-engagement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-festival-operations-compliance-officer
+      path: entities/v1-alpha/festival-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-film-production-compliance-officer
+      path: entities/v1-alpha/film-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-game-development-compliance-officer
+      path: entities/v1-alpha/game-development-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-immersive-experiences-compliance-officer
+      path: entities/v1-alpha/immersive-experiences-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-live-events-touring-compliance-officer
+      path: entities/v1-alpha/live-events-touring-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-location-scouting-compliance-officer
+      path: entities/v1-alpha/location-scouting-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-merchandising-compliance-officer
+      path: entities/v1-alpha/merchandising-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-music-publishing-compliance-officer
+      path: entities/v1-alpha/music-publishing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-post-production-sound-compliance-officer
+      path: entities/v1-alpha/post-production-sound-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-finance-compliance-officer
+      path: entities/v1-alpha/production-finance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-script-development-compliance-officer
+      path: entities/v1-alpha/script-development-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stage-design-compliance-officer
+      path: entities/v1-alpha/stage-design-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-streaming-content-acquisition-compliance-officer
+      path: entities/v1-alpha/streaming-content-acquisition-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-stunt-coordination-compliance-officer
+      path: entities/v1-alpha/stunt-coordination-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-management-compliance-officer
+      path: entities/v1-alpha/talent-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-talent-recruitment-compliance-officer
+      path: entities/v1-alpha/talent-recruitment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-television-production-compliance-officer
+      path: entities/v1-alpha/television-production-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theatre-operations-compliance-officer
+      path: entities/v1-alpha/theatre-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-theme-park-operations-compliance-officer
+      path: entities/v1-alpha/theme-park-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-touring-logistics-compliance-officer
+      path: entities/v1-alpha/touring-logistics-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-venue-programming-compliance-officer
+      path: entities/v1-alpha/venue-programming-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-visual-effects-compliance-officer
+      path: entities/v1-alpha/visual-effects-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-wardrobe-costuming-compliance-officer
+      path: entities/v1-alpha/wardrobe-costuming-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"
