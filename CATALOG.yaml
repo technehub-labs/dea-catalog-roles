@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 785
+    entities: 815
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -3829,6 +3829,156 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-telco-cloud-compliance-officer
       path: entities/v1-alpha/telco-cloud-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-assurance-analytics
+      path: entities/v1-alpha/head-of-assurance-analytics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-assurance-technology
+      path: entities/v1-alpha/head-of-assurance-technology.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-data-analytics
+      path: entities/v1-alpha/head-of-audit-data-analytics.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-methodology
+      path: entities/v1-alpha/head-of-audit-methodology.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-planning
+      path: entities/v1-alpha/head-of-audit-planning.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-audit-reporting
+      path: entities/v1-alpha/head-of-audit-reporting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-compliance-testing
+      path: entities/v1-alpha/head-of-compliance-testing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-continuous-auditing
+      path: entities/v1-alpha/head-of-continuous-auditing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-control-self-assessment
+      path: entities/v1-alpha/head-of-control-self-assessment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-engagement-quality
+      path: entities/v1-alpha/head-of-engagement-quality.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-external-audit
+      path: entities/v1-alpha/head-of-external-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-financial-attestation
+      path: entities/v1-alpha/head-of-financial-attestation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-forensic-accounting
+      path: entities/v1-alpha/head-of-forensic-accounting.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-fraud-examinations
+      path: entities/v1-alpha/head-of-fraud-examinations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-governance-reviews
+      path: entities/v1-alpha/head-of-governance-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-it-audit
+      path: entities/v1-alpha/head-of-it-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-internal-audit
+      path: entities/v1-alpha/head-of-internal-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-internal-controls
+      path: entities/v1-alpha/head-of-internal-controls.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-investigations
+      path: entities/v1-alpha/head-of-investigations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-model-validation
+      path: entities/v1-alpha/head-of-model-validation.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-operational-reviews
+      path: entities/v1-alpha/head-of-operational-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-performance-auditing
+      path: entities/v1-alpha/head-of-performance-auditing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-process-auditing
+      path: entities/v1-alpha/head-of-process-auditing.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-quality-assurance-reviews
+      path: entities/v1-alpha/head-of-quality-assurance-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-regulatory-examinations
+      path: entities/v1-alpha/head-of-regulatory-examinations.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-risk-assessment
+      path: entities/v1-alpha/head-of-risk-assessment.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-sustainability-assurance
+      path: entities/v1-alpha/head-of-sustainability-assurance.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-tax-audit
+      path: entities/v1-alpha/head-of-tax-audit.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-third-party-risk-reviews
+      path: entities/v1-alpha/head-of-third-party-risk-reviews.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-head-of-vendor-audit
+      path: entities/v1-alpha/head-of-vendor-audit.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

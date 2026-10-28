@@ -1,0 +1,50 @@
+id: roles:role-head-of-process-auditing
+type: Role
+name: Head of Process Auditing
+description: 'Owns the process auditing domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Audit & Assurance.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- process
+- audit
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Process Auditing
+  org_unit: Process Auditing Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-head-of-process-auditing-requires-process-auditing
+  source_id: roles:role-head-of-process-auditing
+  target_id: skills:skill-process-auditing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-process-auditing-requires-process-auditing-secondary
+  source_id: roles:role-head-of-process-auditing
+  target_id: skills:skill-process-auditing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

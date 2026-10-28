@@ -1,0 +1,50 @@
+id: roles:role-head-of-performance-auditing
+type: Role
+name: Head of Performance Auditing
+description: 'Owns the performance auditing domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Audit & Assurance.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- performance
+- audit
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Performance Auditing
+  org_unit: Performance Auditing Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - audit
+  - telecom
+  - finance
+relationships:
+- id: roles:rel-head-of-performance-auditing-requires-performance-auditing
+  source_id: roles:role-head-of-performance-auditing
+  target_id: skills:skill-performance-auditing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-performance-auditing-requires-performance-auditing-secondary
+  source_id: roles:role-head-of-performance-auditing
+  target_id: skills:skill-performance-auditing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/audit.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
