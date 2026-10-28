@@ -1,0 +1,50 @@
+id: roles:role-head-of-retail-banking-operations
+type: Role
+name: Head of Retail Banking Operations
+description: 'Owns the retail banking operations domain at executive level: strategy, investment cases,
+  organisational design, and regulatory posture for Finance & Banking.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- retail
+- finance
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Retail Banking Operations
+  org_unit: Retail Banking Operations Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-head-of-retail-banking-operations-requires-retail-banking-operations
+  source_id: roles:role-head-of-retail-banking-operations
+  target_id: skills:skill-retail-banking-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-retail-banking-operations-requires-retail-banking-operations-secondary
+  source_id: roles:role-head-of-retail-banking-operations
+  target_id: skills:skill-retail-banking-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

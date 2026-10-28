@@ -1,0 +1,50 @@
+id: roles:role-mortgage-servicing-developer
+type: Role
+name: Mortgage Servicing Developer
+description: Implements and unit-tests mortgage servicing capabilities, contributing code and configuration
+  within the Finance & Banking delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- mortgage
+- finance
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mortgage Servicing
+  org_unit: Mortgage Servicing Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-mortgage-servicing-developer-requires-mortgage-servicing
+  source_id: roles:role-mortgage-servicing-developer
+  target_id: skills:skill-mortgage-servicing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mortgage-servicing-developer-requires-mortgage-servicing-secondary
+  source_id: roles:role-mortgage-servicing-developer
+  target_id: skills:skill-mortgage-servicing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

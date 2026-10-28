@@ -1,0 +1,50 @@
+id: roles:role-mortgage-servicing-lead
+type: Role
+name: Mortgage Servicing Lead
+description: Sets direction for mortgage servicing teams, owns their outcomes, and represents mortgage
+  servicing interests in Finance & Banking governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- mortgage
+- finance
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Mortgage Servicing
+  org_unit: Mortgage Servicing Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-mortgage-servicing-lead-requires-mortgage-servicing
+  source_id: roles:role-mortgage-servicing-lead
+  target_id: skills:skill-mortgage-servicing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-mortgage-servicing-lead-requires-mortgage-servicing-secondary
+  source_id: roles:role-mortgage-servicing-lead
+  target_id: skills:skill-mortgage-servicing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

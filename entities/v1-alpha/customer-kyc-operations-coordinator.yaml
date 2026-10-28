@@ -1,0 +1,50 @@
+id: roles:role-customer-kyc-operations-coordinator
+type: Role
+name: Customer KYC Operations Coordinator
+description: Coordinates day-to-day customer kyc activities, schedules, and records, keeping Finance &
+  Banking operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- customer
+- finance
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Customer KYC
+  org_unit: Customer KYC Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-customer-kyc-operations-coordinator-requires-customer-kyc
+  source_id: roles:role-customer-kyc-operations-coordinator
+  target_id: skills:skill-customer-kyc
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-customer-kyc-operations-coordinator-requires-customer-kyc-secondary
+  source_id: roles:role-customer-kyc-operations-coordinator
+  target_id: skills:skill-customer-kyc-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

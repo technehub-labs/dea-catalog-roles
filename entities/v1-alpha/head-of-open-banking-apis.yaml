@@ -1,0 +1,50 @@
+id: roles:role-head-of-open-banking-apis
+type: Role
+name: Head of Open Banking APIs
+description: 'Owns the open banking apis domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Finance & Banking.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- open
+- finance
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Open Banking APIs
+  org_unit: Open Banking APIs Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-head-of-open-banking-apis-requires-open-banking-apis
+  source_id: roles:role-head-of-open-banking-apis
+  target_id: skills:skill-open-banking-apis
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-open-banking-apis-requires-open-banking-apis-secondary
+  source_id: roles:role-head-of-open-banking-apis
+  target_id: skills:skill-open-banking-apis-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

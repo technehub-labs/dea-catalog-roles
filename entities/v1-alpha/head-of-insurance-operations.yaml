@@ -1,0 +1,50 @@
+id: roles:role-head-of-insurance-operations
+type: Role
+name: Head of Insurance Operations
+description: 'Owns the insurance operations domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Finance & Banking.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- insurance
+- finance
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Insurance Operations
+  org_unit: Insurance Operations Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-head-of-insurance-operations-requires-insurance-operations
+  source_id: roles:role-head-of-insurance-operations
+  target_id: skills:skill-insurance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-insurance-operations-requires-insurance-operations-secondary
+  source_id: roles:role-head-of-insurance-operations
+  target_id: skills:skill-insurance-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

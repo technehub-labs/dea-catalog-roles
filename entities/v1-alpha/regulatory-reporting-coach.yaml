@@ -1,0 +1,50 @@
+id: roles:role-regulatory-reporting-coach
+type: Role
+name: Regulatory Reporting Coach
+description: Coaches Finance & Banking teams and individuals on regulatory reporting working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- regulatory
+- finance
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Reporting
+  org_unit: Regulatory Reporting Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-regulatory-reporting-coach-requires-regulatory-reporting
+  source_id: roles:role-regulatory-reporting-coach
+  target_id: skills:skill-regulatory-reporting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-reporting-coach-requires-regulatory-reporting-secondary
+  source_id: roles:role-regulatory-reporting-coach
+  target_id: skills:skill-regulatory-reporting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

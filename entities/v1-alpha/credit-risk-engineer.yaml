@@ -1,0 +1,50 @@
+id: roles:role-credit-risk-engineer
+type: Role
+name: Credit Risk Engineer
+description: Builds, configures, and maintains credit risk components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Finance & Banking standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- credit
+- finance
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Credit Risk
+  org_unit: Credit Risk Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-credit-risk-engineer-requires-credit-risk
+  source_id: roles:role-credit-risk-engineer
+  target_id: skills:skill-credit-risk
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-credit-risk-engineer-requires-credit-risk-secondary
+  source_id: roles:role-credit-risk-engineer
+  target_id: skills:skill-credit-risk-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

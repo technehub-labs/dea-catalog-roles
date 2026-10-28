@@ -1,0 +1,50 @@
+id: roles:role-insurance-operations-coach
+type: Role
+name: Insurance Operations Coach
+description: Coaches Finance & Banking teams and individuals on insurance operations working methods,
+  improving practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- insurance
+- finance
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Insurance Operations
+  org_unit: Insurance Operations Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-insurance-operations-coach-requires-insurance-operations
+  source_id: roles:role-insurance-operations-coach
+  target_id: skills:skill-insurance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-insurance-operations-coach-requires-insurance-operations-secondary
+  source_id: roles:role-insurance-operations-coach
+  target_id: skills:skill-insurance-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

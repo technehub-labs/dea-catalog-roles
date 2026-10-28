@@ -1,0 +1,50 @@
+id: roles:role-aml-sanctions-developer
+type: Role
+name: AML & Sanctions Developer
+description: Implements and unit-tests aml & sanctions capabilities, contributing code and configuration
+  within the Finance & Banking delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- aml
+- finance
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: AML & Sanctions
+  org_unit: AML & Sanctions Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-aml-sanctions-developer-requires-aml-sanctions
+  source_id: roles:role-aml-sanctions-developer
+  target_id: skills:skill-aml-sanctions
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-aml-sanctions-developer-requires-aml-sanctions-secondary
+  source_id: roles:role-aml-sanctions-developer
+  target_id: skills:skill-aml-sanctions-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-islamic-finance-coach
+type: Role
+name: Islamic Finance Coach
+description: Coaches Finance & Banking teams and individuals on islamic finance working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- islamic
+- finance
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Islamic Finance
+  org_unit: Islamic Finance Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-islamic-finance-coach-requires-islamic-finance
+  source_id: roles:role-islamic-finance-coach
+  target_id: skills:skill-islamic-finance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-islamic-finance-coach-requires-islamic-finance-secondary
+  source_id: roles:role-islamic-finance-coach
+  target_id: skills:skill-islamic-finance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

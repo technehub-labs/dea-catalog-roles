@@ -1,0 +1,50 @@
+id: roles:role-islamic-finance-manager
+type: Role
+name: Islamic Finance Manager
+description: 'Manages islamic finance end to end: objectives, budget, staff, and supplier interfaces,
+  accountable for service outcomes in the Finance & Banking operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- islamic
+- finance
+- manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Islamic Finance
+  org_unit: Islamic Finance Unit
+  function: Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-islamic-finance-manager-requires-islamic-finance
+  source_id: roles:role-islamic-finance-manager
+  target_id: skills:skill-islamic-finance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-islamic-finance-manager-requires-islamic-finance-secondary
+  source_id: roles:role-islamic-finance-manager
+  target_id: skills:skill-islamic-finance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

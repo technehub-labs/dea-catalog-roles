@@ -1,0 +1,50 @@
+id: roles:role-aml-sanctions-consultant
+type: Role
+name: AML & Sanctions Consultant
+description: Supports Finance & Banking teams adopting aml & sanctions practices, transferring methods
+  and tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- aml
+- finance
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: AML & Sanctions
+  org_unit: AML & Sanctions Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-aml-sanctions-consultant-requires-aml-sanctions
+  source_id: roles:role-aml-sanctions-consultant
+  target_id: skills:skill-aml-sanctions
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-aml-sanctions-consultant-requires-aml-sanctions-secondary
+  source_id: roles:role-aml-sanctions-consultant
+  target_id: skills:skill-aml-sanctions-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

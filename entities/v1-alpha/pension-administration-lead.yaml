@@ -1,0 +1,50 @@
+id: roles:role-pension-administration-lead
+type: Role
+name: Pension Administration Lead
+description: Sets direction for pension administration teams, owns their outcomes, and represents pension
+  administration interests in Finance & Banking governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- pension
+- finance
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Pension Administration
+  org_unit: Pension Administration Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-pension-administration-lead-requires-pension-administration
+  source_id: roles:role-pension-administration-lead
+  target_id: skills:skill-pension-administration
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-pension-administration-lead-requires-pension-administration-secondary
+  source_id: roles:role-pension-administration-lead
+  target_id: skills:skill-pension-administration-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

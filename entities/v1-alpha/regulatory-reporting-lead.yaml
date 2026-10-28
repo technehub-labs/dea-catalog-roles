@@ -1,0 +1,50 @@
+id: roles:role-regulatory-reporting-lead
+type: Role
+name: Regulatory Reporting Lead
+description: Sets direction for regulatory reporting teams, owns their outcomes, and represents regulatory
+  reporting interests in Finance & Banking governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- regulatory
+- finance
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Regulatory Reporting
+  org_unit: Regulatory Reporting Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - finance
+  - manufacturing
+  - consulting
+relationships:
+- id: roles:rel-regulatory-reporting-lead-requires-regulatory-reporting
+  source_id: roles:role-regulatory-reporting-lead
+  target_id: skills:skill-regulatory-reporting
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-regulatory-reporting-lead-requires-regulatory-reporting-secondary
+  source_id: roles:role-regulatory-reporting-lead
+  target_id: skills:skill-regulatory-reporting-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/finance.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
