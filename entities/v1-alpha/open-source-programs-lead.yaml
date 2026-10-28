@@ -1,0 +1,50 @@
+id: roles:role-open-source-programs-lead
+type: Role
+name: Open Source Programs Lead
+description: Sets direction for open source programs teams, owns their outcomes, and represents open source
+  programs interests in Technology governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- open
+- technology
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Open Source Programs
+  org_unit: Open Source Programs Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-open-source-programs-lead-requires-open-source-programs
+  source_id: roles:role-open-source-programs-lead
+  target_id: skills:skill-open-source-programs
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-open-source-programs-lead-requires-open-source-programs-secondary
+  source_id: roles:role-open-source-programs-lead
+  target_id: skills:skill-open-source-programs-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

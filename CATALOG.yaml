@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 845
+    entities: 1252
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -4129,6 +4129,2041 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-head-of-thought-leadership
       path: entities/v1-alpha/head-of-thought-leadership.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-administrator
+      path: entities/v1-alpha/cloud-infrastructure-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-administrator
+      path: entities/v1-alpha/cybersecurity-operations-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-administrator
+      path: entities/v1-alpha/data-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-administrator
+      path: entities/v1-alpha/data-governance-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-administrator
+      path: entities/v1-alpha/developer-experience-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-administrator
+      path: entities/v1-alpha/digital-workplace-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-administrator
+      path: entities/v1-alpha/edge-iot-solutions-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-administrator
+      path: entities/v1-alpha/end-user-computing-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-administrator
+      path: entities/v1-alpha/enterprise-architecture-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-administrator
+      path: entities/v1-alpha/it-service-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-administrator
+      path: entities/v1-alpha/it-vendor-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-administrator
+      path: entities/v1-alpha/identity-access-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-administrator
+      path: entities/v1-alpha/machine-learning-systems-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-administrator
+      path: entities/v1-alpha/middleware-platforms-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-administrator
+      path: entities/v1-alpha/mobile-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-administrator
+      path: entities/v1-alpha/network-operations-centre-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-administrator
+      path: entities/v1-alpha/observability-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-administrator
+      path: entities/v1-alpha/open-source-programs-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-administrator
+      path: entities/v1-alpha/platform-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-administrator
+      path: entities/v1-alpha/product-security-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-administrator
+      path: entities/v1-alpha/quantum-computing-initiatives-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-administrator
+      path: entities/v1-alpha/site-reliability-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-administrator
+      path: entities/v1-alpha/software-engineering-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-administrator
+      path: entities/v1-alpha/storage-backup-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-administrator
+      path: entities/v1-alpha/systems-integration-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-administrator
+      path: entities/v1-alpha/technology-incubation-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-administrator
+      path: entities/v1-alpha/technology-risk-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-analyst
+      path: entities/v1-alpha/api-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-analyst
+      path: entities/v1-alpha/application-portfolio-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-analyst
+      path: entities/v1-alpha/automation-rpa-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-analyst
+      path: entities/v1-alpha/cloud-infrastructure-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-analyst
+      path: entities/v1-alpha/cybersecurity-operations-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-analyst
+      path: entities/v1-alpha/data-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-analyst
+      path: entities/v1-alpha/data-governance-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-analyst
+      path: entities/v1-alpha/developer-experience-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-analyst
+      path: entities/v1-alpha/digital-workplace-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-analyst
+      path: entities/v1-alpha/edge-iot-solutions-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-analyst
+      path: entities/v1-alpha/end-user-computing-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-analyst
+      path: entities/v1-alpha/enterprise-architecture-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-analyst
+      path: entities/v1-alpha/it-service-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-analyst
+      path: entities/v1-alpha/it-vendor-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-analyst
+      path: entities/v1-alpha/identity-access-management-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-analyst
+      path: entities/v1-alpha/machine-learning-systems-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-analyst
+      path: entities/v1-alpha/middleware-platforms-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-analyst
+      path: entities/v1-alpha/mobile-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-analyst
+      path: entities/v1-alpha/network-operations-centre-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-analyst
+      path: entities/v1-alpha/observability-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-analyst
+      path: entities/v1-alpha/open-source-programs-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-analyst
+      path: entities/v1-alpha/platform-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-analyst
+      path: entities/v1-alpha/product-security-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-analyst
+      path: entities/v1-alpha/quantum-computing-initiatives-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-analyst
+      path: entities/v1-alpha/site-reliability-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-analyst
+      path: entities/v1-alpha/software-engineering-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-analyst
+      path: entities/v1-alpha/storage-backup-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-analyst
+      path: entities/v1-alpha/systems-integration-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-analyst
+      path: entities/v1-alpha/technology-incubation-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-analyst
+      path: entities/v1-alpha/technology-risk-analyst.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-architect
+      path: entities/v1-alpha/api-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-architect
+      path: entities/v1-alpha/application-portfolio-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-architect
+      path: entities/v1-alpha/automation-rpa-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-architect
+      path: entities/v1-alpha/cloud-infrastructure-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-architect
+      path: entities/v1-alpha/cybersecurity-operations-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-architect
+      path: entities/v1-alpha/data-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-architect
+      path: entities/v1-alpha/data-governance-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-architect
+      path: entities/v1-alpha/developer-experience-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-architect
+      path: entities/v1-alpha/digital-workplace-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-architect
+      path: entities/v1-alpha/edge-iot-solutions-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-architect
+      path: entities/v1-alpha/end-user-computing-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-architect
+      path: entities/v1-alpha/enterprise-architecture-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-architect
+      path: entities/v1-alpha/it-service-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-architect
+      path: entities/v1-alpha/it-vendor-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-architect
+      path: entities/v1-alpha/identity-access-management-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-architect
+      path: entities/v1-alpha/machine-learning-systems-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-architect
+      path: entities/v1-alpha/middleware-platforms-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-architect
+      path: entities/v1-alpha/mobile-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-architect
+      path: entities/v1-alpha/network-operations-centre-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-architect
+      path: entities/v1-alpha/observability-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-architect
+      path: entities/v1-alpha/open-source-programs-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-architect
+      path: entities/v1-alpha/platform-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-architect
+      path: entities/v1-alpha/product-security-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-architect
+      path: entities/v1-alpha/quantum-computing-initiatives-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-architect
+      path: entities/v1-alpha/site-reliability-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-architect
+      path: entities/v1-alpha/software-engineering-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-architect
+      path: entities/v1-alpha/storage-backup-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-architect
+      path: entities/v1-alpha/systems-integration-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-architect
+      path: entities/v1-alpha/technology-incubation-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-architect
+      path: entities/v1-alpha/technology-risk-architect.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-coach
+      path: entities/v1-alpha/api-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-coach
+      path: entities/v1-alpha/application-portfolio-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-coach
+      path: entities/v1-alpha/automation-rpa-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-coach
+      path: entities/v1-alpha/cloud-infrastructure-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-coach
+      path: entities/v1-alpha/cybersecurity-operations-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-coach
+      path: entities/v1-alpha/data-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-coach
+      path: entities/v1-alpha/data-governance-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-coach
+      path: entities/v1-alpha/developer-experience-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-coach
+      path: entities/v1-alpha/digital-workplace-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-coach
+      path: entities/v1-alpha/edge-iot-solutions-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-coach
+      path: entities/v1-alpha/end-user-computing-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-coach
+      path: entities/v1-alpha/enterprise-architecture-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-coach
+      path: entities/v1-alpha/it-service-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-coach
+      path: entities/v1-alpha/it-vendor-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-coach
+      path: entities/v1-alpha/identity-access-management-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-coach
+      path: entities/v1-alpha/machine-learning-systems-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-coach
+      path: entities/v1-alpha/middleware-platforms-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-coach
+      path: entities/v1-alpha/mobile-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-coach
+      path: entities/v1-alpha/network-operations-centre-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-coach
+      path: entities/v1-alpha/observability-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-coach
+      path: entities/v1-alpha/open-source-programs-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-coach
+      path: entities/v1-alpha/platform-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-coach
+      path: entities/v1-alpha/product-security-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-coach
+      path: entities/v1-alpha/quantum-computing-initiatives-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-coach
+      path: entities/v1-alpha/site-reliability-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-coach
+      path: entities/v1-alpha/software-engineering-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-coach
+      path: entities/v1-alpha/storage-backup-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-coach
+      path: entities/v1-alpha/systems-integration-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-coach
+      path: entities/v1-alpha/technology-incubation-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-coach
+      path: entities/v1-alpha/technology-risk-coach.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-consultant
+      path: entities/v1-alpha/api-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-consultant
+      path: entities/v1-alpha/application-portfolio-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-consultant
+      path: entities/v1-alpha/automation-rpa-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-consultant
+      path: entities/v1-alpha/cloud-infrastructure-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-consultant
+      path: entities/v1-alpha/cybersecurity-operations-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-consultant
+      path: entities/v1-alpha/data-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-consultant
+      path: entities/v1-alpha/data-governance-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-consultant
+      path: entities/v1-alpha/developer-experience-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-consultant
+      path: entities/v1-alpha/digital-workplace-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-consultant
+      path: entities/v1-alpha/edge-iot-solutions-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-consultant
+      path: entities/v1-alpha/end-user-computing-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-consultant
+      path: entities/v1-alpha/enterprise-architecture-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-consultant
+      path: entities/v1-alpha/it-service-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-consultant
+      path: entities/v1-alpha/it-vendor-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-consultant
+      path: entities/v1-alpha/identity-access-management-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-consultant
+      path: entities/v1-alpha/machine-learning-systems-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-consultant
+      path: entities/v1-alpha/middleware-platforms-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-consultant
+      path: entities/v1-alpha/mobile-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-consultant
+      path: entities/v1-alpha/network-operations-centre-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-consultant
+      path: entities/v1-alpha/observability-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-consultant
+      path: entities/v1-alpha/open-source-programs-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-consultant
+      path: entities/v1-alpha/platform-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-consultant
+      path: entities/v1-alpha/product-security-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-consultant
+      path: entities/v1-alpha/quantum-computing-initiatives-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-consultant
+      path: entities/v1-alpha/site-reliability-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-consultant
+      path: entities/v1-alpha/software-engineering-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-consultant
+      path: entities/v1-alpha/storage-backup-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-consultant
+      path: entities/v1-alpha/systems-integration-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-consultant
+      path: entities/v1-alpha/technology-incubation-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-consultant
+      path: entities/v1-alpha/technology-risk-consultant.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-designer
+      path: entities/v1-alpha/api-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-designer
+      path: entities/v1-alpha/application-portfolio-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-designer
+      path: entities/v1-alpha/automation-rpa-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-designer
+      path: entities/v1-alpha/cloud-infrastructure-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-designer
+      path: entities/v1-alpha/cybersecurity-operations-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-designer
+      path: entities/v1-alpha/data-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-designer
+      path: entities/v1-alpha/data-governance-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-designer
+      path: entities/v1-alpha/developer-experience-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-designer
+      path: entities/v1-alpha/digital-workplace-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-designer
+      path: entities/v1-alpha/edge-iot-solutions-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-designer
+      path: entities/v1-alpha/end-user-computing-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-designer
+      path: entities/v1-alpha/enterprise-architecture-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-designer
+      path: entities/v1-alpha/it-service-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-designer
+      path: entities/v1-alpha/it-vendor-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-designer
+      path: entities/v1-alpha/identity-access-management-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-designer
+      path: entities/v1-alpha/machine-learning-systems-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-designer
+      path: entities/v1-alpha/middleware-platforms-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-designer
+      path: entities/v1-alpha/mobile-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-designer
+      path: entities/v1-alpha/network-operations-centre-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-designer
+      path: entities/v1-alpha/observability-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-designer
+      path: entities/v1-alpha/open-source-programs-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-designer
+      path: entities/v1-alpha/platform-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-designer
+      path: entities/v1-alpha/product-security-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-designer
+      path: entities/v1-alpha/quantum-computing-initiatives-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-designer
+      path: entities/v1-alpha/site-reliability-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-designer
+      path: entities/v1-alpha/software-engineering-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-designer
+      path: entities/v1-alpha/storage-backup-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-designer
+      path: entities/v1-alpha/systems-integration-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-designer
+      path: entities/v1-alpha/technology-incubation-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-designer
+      path: entities/v1-alpha/technology-risk-designer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-developer
+      path: entities/v1-alpha/api-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-developer
+      path: entities/v1-alpha/application-portfolio-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-developer
+      path: entities/v1-alpha/automation-rpa-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-developer
+      path: entities/v1-alpha/cloud-infrastructure-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-developer
+      path: entities/v1-alpha/cybersecurity-operations-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-developer
+      path: entities/v1-alpha/data-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-developer
+      path: entities/v1-alpha/data-governance-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-developer
+      path: entities/v1-alpha/developer-experience-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-developer
+      path: entities/v1-alpha/digital-workplace-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-developer
+      path: entities/v1-alpha/edge-iot-solutions-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-developer
+      path: entities/v1-alpha/end-user-computing-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-developer
+      path: entities/v1-alpha/enterprise-architecture-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-developer
+      path: entities/v1-alpha/it-service-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-developer
+      path: entities/v1-alpha/it-vendor-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-developer
+      path: entities/v1-alpha/identity-access-management-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-developer
+      path: entities/v1-alpha/machine-learning-systems-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-developer
+      path: entities/v1-alpha/middleware-platforms-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-developer
+      path: entities/v1-alpha/mobile-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-developer
+      path: entities/v1-alpha/network-operations-centre-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-developer
+      path: entities/v1-alpha/observability-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-developer
+      path: entities/v1-alpha/open-source-programs-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-developer
+      path: entities/v1-alpha/platform-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-developer
+      path: entities/v1-alpha/product-security-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-developer
+      path: entities/v1-alpha/quantum-computing-initiatives-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-developer
+      path: entities/v1-alpha/site-reliability-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-developer
+      path: entities/v1-alpha/software-engineering-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-developer
+      path: entities/v1-alpha/storage-backup-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-developer
+      path: entities/v1-alpha/systems-integration-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-developer
+      path: entities/v1-alpha/technology-incubation-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-developer
+      path: entities/v1-alpha/technology-risk-developer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-engineer
+      path: entities/v1-alpha/api-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-engineer
+      path: entities/v1-alpha/application-portfolio-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-engineer
+      path: entities/v1-alpha/automation-rpa-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-engineer
+      path: entities/v1-alpha/cloud-infrastructure-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-engineer
+      path: entities/v1-alpha/cybersecurity-operations-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-engineer
+      path: entities/v1-alpha/data-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-engineer
+      path: entities/v1-alpha/data-governance-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-engineer
+      path: entities/v1-alpha/developer-experience-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-engineer
+      path: entities/v1-alpha/digital-workplace-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-engineer
+      path: entities/v1-alpha/edge-iot-solutions-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-engineer
+      path: entities/v1-alpha/end-user-computing-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-engineer
+      path: entities/v1-alpha/enterprise-architecture-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-engineer
+      path: entities/v1-alpha/it-service-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-engineer
+      path: entities/v1-alpha/it-vendor-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-engineer
+      path: entities/v1-alpha/identity-access-management-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-engineer
+      path: entities/v1-alpha/machine-learning-systems-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-engineer
+      path: entities/v1-alpha/middleware-platforms-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-engineer
+      path: entities/v1-alpha/mobile-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-engineer
+      path: entities/v1-alpha/network-operations-centre-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-engineer
+      path: entities/v1-alpha/observability-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-engineer
+      path: entities/v1-alpha/open-source-programs-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-engineer
+      path: entities/v1-alpha/platform-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-engineer
+      path: entities/v1-alpha/product-security-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-engineer
+      path: entities/v1-alpha/quantum-computing-initiatives-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-engineer
+      path: entities/v1-alpha/site-reliability-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-engineer
+      path: entities/v1-alpha/software-engineering-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-engineer
+      path: entities/v1-alpha/storage-backup-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-engineer
+      path: entities/v1-alpha/systems-integration-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-engineer
+      path: entities/v1-alpha/technology-incubation-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-engineer
+      path: entities/v1-alpha/technology-risk-engineer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-lead
+      path: entities/v1-alpha/api-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-lead
+      path: entities/v1-alpha/application-portfolio-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-lead
+      path: entities/v1-alpha/automation-rpa-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-lead
+      path: entities/v1-alpha/cloud-infrastructure-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-lead
+      path: entities/v1-alpha/cybersecurity-operations-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-lead
+      path: entities/v1-alpha/data-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-lead
+      path: entities/v1-alpha/data-governance-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-lead
+      path: entities/v1-alpha/developer-experience-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-lead
+      path: entities/v1-alpha/digital-workplace-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-lead
+      path: entities/v1-alpha/edge-iot-solutions-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-lead
+      path: entities/v1-alpha/end-user-computing-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-lead
+      path: entities/v1-alpha/enterprise-architecture-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-lead
+      path: entities/v1-alpha/it-service-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-lead
+      path: entities/v1-alpha/it-vendor-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-lead
+      path: entities/v1-alpha/identity-access-management-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-lead
+      path: entities/v1-alpha/machine-learning-systems-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-lead
+      path: entities/v1-alpha/middleware-platforms-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-lead
+      path: entities/v1-alpha/mobile-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-lead
+      path: entities/v1-alpha/network-operations-centre-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-lead
+      path: entities/v1-alpha/observability-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-lead
+      path: entities/v1-alpha/open-source-programs-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-lead
+      path: entities/v1-alpha/platform-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-lead
+      path: entities/v1-alpha/product-security-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-lead
+      path: entities/v1-alpha/quantum-computing-initiatives-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-lead
+      path: entities/v1-alpha/site-reliability-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-lead
+      path: entities/v1-alpha/software-engineering-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-lead
+      path: entities/v1-alpha/storage-backup-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-lead
+      path: entities/v1-alpha/systems-integration-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-lead
+      path: entities/v1-alpha/technology-incubation-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-lead
+      path: entities/v1-alpha/technology-risk-lead.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-manager
+      path: entities/v1-alpha/api-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-manager
+      path: entities/v1-alpha/application-portfolio-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-manager
+      path: entities/v1-alpha/automation-rpa-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-manager
+      path: entities/v1-alpha/cloud-infrastructure-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-manager
+      path: entities/v1-alpha/cybersecurity-operations-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-manager
+      path: entities/v1-alpha/data-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-manager
+      path: entities/v1-alpha/data-governance-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-manager
+      path: entities/v1-alpha/developer-experience-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-manager
+      path: entities/v1-alpha/digital-workplace-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-manager
+      path: entities/v1-alpha/edge-iot-solutions-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-manager
+      path: entities/v1-alpha/end-user-computing-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-manager
+      path: entities/v1-alpha/enterprise-architecture-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-manager
+      path: entities/v1-alpha/it-service-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-manager
+      path: entities/v1-alpha/it-vendor-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-manager
+      path: entities/v1-alpha/identity-access-management-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-manager
+      path: entities/v1-alpha/machine-learning-systems-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-manager
+      path: entities/v1-alpha/middleware-platforms-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-manager
+      path: entities/v1-alpha/mobile-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-manager
+      path: entities/v1-alpha/network-operations-centre-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-manager
+      path: entities/v1-alpha/observability-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-manager
+      path: entities/v1-alpha/open-source-programs-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-manager
+      path: entities/v1-alpha/platform-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-manager
+      path: entities/v1-alpha/product-security-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-manager
+      path: entities/v1-alpha/quantum-computing-initiatives-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-manager
+      path: entities/v1-alpha/site-reliability-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-manager
+      path: entities/v1-alpha/software-engineering-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-manager
+      path: entities/v1-alpha/storage-backup-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-manager
+      path: entities/v1-alpha/systems-integration-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-manager
+      path: entities/v1-alpha/technology-incubation-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-manager
+      path: entities/v1-alpha/technology-risk-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-operations-coordinator
+      path: entities/v1-alpha/api-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-operations-coordinator
+      path: entities/v1-alpha/application-portfolio-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-operations-coordinator
+      path: entities/v1-alpha/automation-rpa-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-operations-coordinator
+      path: entities/v1-alpha/cloud-infrastructure-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-operations-coordinator
+      path: entities/v1-alpha/cybersecurity-operations-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-operations-coordinator
+      path: entities/v1-alpha/data-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-operations-coordinator
+      path: entities/v1-alpha/data-governance-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-operations-coordinator
+      path: entities/v1-alpha/developer-experience-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-operations-coordinator
+      path: entities/v1-alpha/digital-workplace-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-operations-coordinator
+      path: entities/v1-alpha/edge-iot-solutions-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-operations-coordinator
+      path: entities/v1-alpha/end-user-computing-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-operations-coordinator
+      path: entities/v1-alpha/enterprise-architecture-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-operations-coordinator
+      path: entities/v1-alpha/it-service-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-operations-coordinator
+      path: entities/v1-alpha/it-vendor-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-operations-coordinator
+      path: entities/v1-alpha/identity-access-management-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-operations-coordinator
+      path: entities/v1-alpha/machine-learning-systems-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-operations-coordinator
+      path: entities/v1-alpha/middleware-platforms-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-operations-coordinator
+      path: entities/v1-alpha/mobile-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-operations-coordinator
+      path: entities/v1-alpha/network-operations-centre-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-operations-coordinator
+      path: entities/v1-alpha/observability-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-operations-coordinator
+      path: entities/v1-alpha/open-source-programs-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-operations-coordinator
+      path: entities/v1-alpha/platform-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-operations-coordinator
+      path: entities/v1-alpha/product-security-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-operations-coordinator
+      path: entities/v1-alpha/quantum-computing-initiatives-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-operations-coordinator
+      path: entities/v1-alpha/site-reliability-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-operations-coordinator
+      path: entities/v1-alpha/software-engineering-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-operations-coordinator
+      path: entities/v1-alpha/storage-backup-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-operations-coordinator
+      path: entities/v1-alpha/systems-integration-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-operations-coordinator
+      path: entities/v1-alpha/technology-incubation-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-operations-coordinator
+      path: entities/v1-alpha/technology-risk-operations-coordinator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-planner
+      path: entities/v1-alpha/api-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-planner
+      path: entities/v1-alpha/application-portfolio-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-planner
+      path: entities/v1-alpha/automation-rpa-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-planner
+      path: entities/v1-alpha/cloud-infrastructure-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-planner
+      path: entities/v1-alpha/cybersecurity-operations-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-planner
+      path: entities/v1-alpha/data-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-planner
+      path: entities/v1-alpha/data-governance-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-planner
+      path: entities/v1-alpha/developer-experience-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-planner
+      path: entities/v1-alpha/digital-workplace-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-planner
+      path: entities/v1-alpha/edge-iot-solutions-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-planner
+      path: entities/v1-alpha/end-user-computing-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-planner
+      path: entities/v1-alpha/enterprise-architecture-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-planner
+      path: entities/v1-alpha/it-service-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-planner
+      path: entities/v1-alpha/it-vendor-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-planner
+      path: entities/v1-alpha/identity-access-management-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-planner
+      path: entities/v1-alpha/machine-learning-systems-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-planner
+      path: entities/v1-alpha/middleware-platforms-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-planner
+      path: entities/v1-alpha/mobile-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-planner
+      path: entities/v1-alpha/network-operations-centre-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-planner
+      path: entities/v1-alpha/observability-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-planner
+      path: entities/v1-alpha/open-source-programs-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-planner
+      path: entities/v1-alpha/platform-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-planner
+      path: entities/v1-alpha/product-security-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-planner
+      path: entities/v1-alpha/quantum-computing-initiatives-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-planner
+      path: entities/v1-alpha/site-reliability-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-planner
+      path: entities/v1-alpha/software-engineering-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-planner
+      path: entities/v1-alpha/storage-backup-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-planner
+      path: entities/v1-alpha/systems-integration-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-planner
+      path: entities/v1-alpha/technology-incubation-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-planner
+      path: entities/v1-alpha/technology-risk-planner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-product-owner
+      path: entities/v1-alpha/api-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-product-owner
+      path: entities/v1-alpha/application-portfolio-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-product-owner
+      path: entities/v1-alpha/automation-rpa-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-product-owner
+      path: entities/v1-alpha/cloud-infrastructure-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-product-owner
+      path: entities/v1-alpha/cybersecurity-operations-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-product-owner
+      path: entities/v1-alpha/data-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-product-owner
+      path: entities/v1-alpha/data-governance-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-product-owner
+      path: entities/v1-alpha/developer-experience-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-product-owner
+      path: entities/v1-alpha/digital-workplace-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-product-owner
+      path: entities/v1-alpha/edge-iot-solutions-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-product-owner
+      path: entities/v1-alpha/end-user-computing-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-product-owner
+      path: entities/v1-alpha/enterprise-architecture-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-product-owner
+      path: entities/v1-alpha/it-service-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-product-owner
+      path: entities/v1-alpha/it-vendor-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-product-owner
+      path: entities/v1-alpha/identity-access-management-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-product-owner
+      path: entities/v1-alpha/machine-learning-systems-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-product-owner
+      path: entities/v1-alpha/middleware-platforms-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-product-owner
+      path: entities/v1-alpha/mobile-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-product-owner
+      path: entities/v1-alpha/network-operations-centre-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-product-owner
+      path: entities/v1-alpha/observability-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-open-source-programs-product-owner
+      path: entities/v1-alpha/open-source-programs-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-platform-engineering-product-owner
+      path: entities/v1-alpha/platform-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-security-product-owner
+      path: entities/v1-alpha/product-security-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quantum-computing-initiatives-product-owner
+      path: entities/v1-alpha/quantum-computing-initiatives-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-site-reliability-product-owner
+      path: entities/v1-alpha/site-reliability-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-software-engineering-product-owner
+      path: entities/v1-alpha/software-engineering-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-storage-backup-product-owner
+      path: entities/v1-alpha/storage-backup-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-systems-integration-product-owner
+      path: entities/v1-alpha/systems-integration-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-incubation-product-owner
+      path: entities/v1-alpha/technology-incubation-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-technology-risk-product-owner
+      path: entities/v1-alpha/technology-risk-product-owner.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-api-management-program-manager
+      path: entities/v1-alpha/api-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-program-manager
+      path: entities/v1-alpha/application-portfolio-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-program-manager
+      path: entities/v1-alpha/automation-rpa-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cloud-infrastructure-program-manager
+      path: entities/v1-alpha/cloud-infrastructure-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cybersecurity-operations-program-manager
+      path: entities/v1-alpha/cybersecurity-operations-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-engineering-program-manager
+      path: entities/v1-alpha/data-engineering-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-data-governance-program-manager
+      path: entities/v1-alpha/data-governance-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-developer-experience-program-manager
+      path: entities/v1-alpha/developer-experience-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-digital-workplace-program-manager
+      path: entities/v1-alpha/digital-workplace-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-edge-iot-solutions-program-manager
+      path: entities/v1-alpha/edge-iot-solutions-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-end-user-computing-program-manager
+      path: entities/v1-alpha/end-user-computing-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-enterprise-architecture-program-manager
+      path: entities/v1-alpha/enterprise-architecture-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-service-management-program-manager
+      path: entities/v1-alpha/it-service-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-it-vendor-management-program-manager
+      path: entities/v1-alpha/it-vendor-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-identity-access-management-program-manager
+      path: entities/v1-alpha/identity-access-management-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-machine-learning-systems-program-manager
+      path: entities/v1-alpha/machine-learning-systems-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-middleware-platforms-program-manager
+      path: entities/v1-alpha/middleware-platforms-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-mobile-engineering-program-manager
+      path: entities/v1-alpha/mobile-engineering-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-network-operations-centre-program-manager
+      path: entities/v1-alpha/network-operations-centre-program-manager.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-observability-program-manager
+      path: entities/v1-alpha/observability-program-manager.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

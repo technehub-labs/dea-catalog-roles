@@ -1,0 +1,50 @@
+id: roles:role-end-user-computing-program-manager
+type: Role
+name: End-User Computing Program Manager
+description: Coordinates multi-team end-user computing programmes across Technology, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- end
+- technology
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: End-User Computing
+  org_unit: End-User Computing Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-end-user-computing-program-manager-requires-end-user-computing
+  source_id: roles:role-end-user-computing-program-manager
+  target_id: skills:skill-end-user-computing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-end-user-computing-program-manager-requires-end-user-computing-secondary
+  source_id: roles:role-end-user-computing-program-manager
+  target_id: skills:skill-end-user-computing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

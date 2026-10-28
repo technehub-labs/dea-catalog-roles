@@ -1,0 +1,50 @@
+id: roles:role-software-engineering-lead
+type: Role
+name: Software Engineering Lead
+description: Sets direction for software engineering teams, owns their outcomes, and represents software
+  engineering interests in Technology governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- software
+- technology
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Software Engineering
+  org_unit: Software Engineering Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-software-engineering-lead-requires-software-engineering
+  source_id: roles:role-software-engineering-lead
+  target_id: skills:skill-software-engineering
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-software-engineering-lead-requires-software-engineering-secondary
+  source_id: roles:role-software-engineering-lead
+  target_id: skills:skill-software-engineering-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

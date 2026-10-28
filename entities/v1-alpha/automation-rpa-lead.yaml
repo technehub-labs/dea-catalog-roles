@@ -1,0 +1,50 @@
+id: roles:role-automation-rpa-lead
+type: Role
+name: Automation & RPA Lead
+description: Sets direction for automation & rpa teams, owns their outcomes, and represents automation
+  & rpa interests in Technology governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- automation
+- technology
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Automation & RPA
+  org_unit: Automation & RPA Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-automation-rpa-lead-requires-automation-rpa
+  source_id: roles:role-automation-rpa-lead
+  target_id: skills:skill-automation-rpa
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-automation-rpa-lead-requires-automation-rpa-secondary
+  source_id: roles:role-automation-rpa-lead
+  target_id: skills:skill-automation-rpa-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

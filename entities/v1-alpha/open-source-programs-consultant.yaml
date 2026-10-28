@@ -1,0 +1,50 @@
+id: roles:role-open-source-programs-consultant
+type: Role
+name: Open Source Programs Consultant
+description: Supports Technology teams adopting open source programs practices, transferring methods and
+  tools through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- open
+- technology
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Open Source Programs
+  org_unit: Open Source Programs Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-open-source-programs-consultant-requires-open-source-programs
+  source_id: roles:role-open-source-programs-consultant
+  target_id: skills:skill-open-source-programs
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-open-source-programs-consultant-requires-open-source-programs-secondary
+  source_id: roles:role-open-source-programs-consultant
+  target_id: skills:skill-open-source-programs-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-technology-incubation-designer
+type: Role
+name: Technology Incubation Designer
+description: Designs technology incubation solutions and interfaces, translating Technology requirements
+  into usable, consistent, and supportable artefacts.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- technology
+- technology
+- designer
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Technology Incubation
+  org_unit: Technology Incubation Unit
+  function: Designer
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-technology-incubation-designer-requires-technology-incubation
+  source_id: roles:role-technology-incubation-designer
+  target_id: skills:skill-technology-incubation
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-technology-incubation-designer-requires-technology-incubation-secondary
+  source_id: roles:role-technology-incubation-designer
+  target_id: skills:skill-technology-incubation-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

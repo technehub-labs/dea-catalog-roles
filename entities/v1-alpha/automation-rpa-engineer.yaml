@@ -1,0 +1,50 @@
+id: roles:role-automation-rpa-engineer
+type: Role
+name: Automation & RPA Engineer
+description: Builds, configures, and maintains automation & rpa components and pipelines, resolving technical
+  incidents and keeping delivery aligned with Technology standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- automation
+- technology
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Automation & RPA
+  org_unit: Automation & RPA Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-automation-rpa-engineer-requires-automation-rpa
+  source_id: roles:role-automation-rpa-engineer
+  target_id: skills:skill-automation-rpa
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-automation-rpa-engineer-requires-automation-rpa-secondary
+  source_id: roles:role-automation-rpa-engineer
+  target_id: skills:skill-automation-rpa-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

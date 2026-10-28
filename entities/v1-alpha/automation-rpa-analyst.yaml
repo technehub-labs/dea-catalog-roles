@@ -1,0 +1,50 @@
+id: roles:role-automation-rpa-analyst
+type: Role
+name: Automation & RPA Analyst
+description: Analyses automation & rpa data and processes, producing insight and recommendations that
+  steer Technology planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- automation
+- technology
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Automation & RPA
+  org_unit: Automation & RPA Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-automation-rpa-analyst-requires-automation-rpa
+  source_id: roles:role-automation-rpa-analyst
+  target_id: skills:skill-automation-rpa
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-automation-rpa-analyst-requires-automation-rpa-secondary
+  source_id: roles:role-automation-rpa-analyst
+  target_id: skills:skill-automation-rpa-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

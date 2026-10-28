@@ -1,0 +1,50 @@
+id: roles:role-middleware-platforms-coach
+type: Role
+name: Middleware Platforms Coach
+description: Coaches Technology teams and individuals on middleware platforms working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- middleware
+- technology
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Middleware Platforms
+  org_unit: Middleware Platforms Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-middleware-platforms-coach-requires-middleware-platforms
+  source_id: roles:role-middleware-platforms-coach
+  target_id: skills:skill-middleware-platforms
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-middleware-platforms-coach-requires-middleware-platforms-secondary
+  source_id: roles:role-middleware-platforms-coach
+  target_id: skills:skill-middleware-platforms-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

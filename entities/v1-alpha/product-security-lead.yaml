@@ -1,0 +1,50 @@
+id: roles:role-product-security-lead
+type: Role
+name: Product Security Lead
+description: Sets direction for product security teams, owns their outcomes, and represents product security
+  interests in Technology governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- product
+- technology
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Product Security
+  org_unit: Product Security Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - technology
+  - finance
+  - healthcare
+relationships:
+- id: roles:rel-product-security-lead-requires-product-security
+  source_id: roles:role-product-security-lead
+  target_id: skills:skill-product-security
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-product-security-lead-requires-product-security-secondary
+  source_id: roles:role-product-security-lead
+  target_id: skills:skill-product-security-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/technology.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
