@@ -1,0 +1,50 @@
+id: roles:role-gaming-content-architect
+type: Role
+name: Gaming Content Architect
+description: 'Owns the target architecture for gaming content: design standards, technology selection,
+  and the evolution roadmap that keeps gaming content fit for the Media operating model.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- gaming
+- media
+- architect
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Gaming Content
+  org_unit: Gaming Content Unit
+  function: Architect
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-gaming-content-architect-requires-gaming-content
+  source_id: roles:role-gaming-content-architect
+  target_id: skills:skill-gaming-content
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-gaming-content-architect-requires-gaming-content-secondary
+  source_id: roles:role-gaming-content-architect
+  target_id: skills:skill-gaming-content-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

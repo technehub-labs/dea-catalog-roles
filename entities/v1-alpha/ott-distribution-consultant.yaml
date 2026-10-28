@@ -1,0 +1,50 @@
+id: roles:role-ott-distribution-consultant
+type: Role
+name: OTT Distribution Consultant
+description: Supports Media teams adopting ott distribution practices, transferring methods and tools
+  through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- ott
+- media
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: OTT Distribution
+  org_unit: OTT Distribution Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-ott-distribution-consultant-requires-ott-distribution
+  source_id: roles:role-ott-distribution-consultant
+  target_id: skills:skill-ott-distribution
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-ott-distribution-consultant-requires-ott-distribution-secondary
+  source_id: roles:role-ott-distribution-consultant
+  target_id: skills:skill-ott-distribution-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

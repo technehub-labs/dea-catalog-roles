@@ -1,0 +1,50 @@
+id: roles:role-content-compliance-operations-coordinator
+type: Role
+name: Content Compliance Operations Coordinator
+description: Coordinates day-to-day content compliance activities, schedules, and records, keeping Media
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- content
+- media
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Content Compliance
+  org_unit: Content Compliance Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-content-compliance-operations-coordinato-requires-content-compliance
+  source_id: roles:role-content-compliance-operations-coordinator
+  target_id: skills:skill-content-compliance
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-content-compliance-operations-coordinato-requires-content-compliance-secondary
+  source_id: roles:role-content-compliance-operations-coordinator
+  target_id: skills:skill-content-compliance-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

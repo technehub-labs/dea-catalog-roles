@@ -1,0 +1,50 @@
+id: roles:role-print-publishing-operations-coordinator
+type: Role
+name: Print Publishing Operations Coordinator
+description: Coordinates day-to-day print publishing activities, schedules, and records, keeping Media
+  operations running to plan.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- print
+- media
+- operations-coordinator
+- seniority:Associate:1
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Print Publishing
+  org_unit: Print Publishing Unit
+  function: Operations Coordinator
+  seniority_band: Associate
+  seniority_level: 1
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-print-publishing-operations-coordinator-requires-print-publishing
+  source_id: roles:role-print-publishing-operations-coordinator
+  target_id: skills:skill-print-publishing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-print-publishing-operations-coordinator-requires-print-publishing-secondary
+  source_id: roles:role-print-publishing-operations-coordinator
+  target_id: skills:skill-print-publishing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

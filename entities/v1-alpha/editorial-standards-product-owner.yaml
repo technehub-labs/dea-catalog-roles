@@ -1,0 +1,50 @@
+id: roles:role-editorial-standards-product-owner
+type: Role
+name: Editorial Standards Product Owner
+description: Owns the editorial standards product backlog, prioritising against user value and Media business
+  goals, and accepts delivered increments.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- editorial
+- media
+- product-owner
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Editorial Standards
+  org_unit: Editorial Standards Unit
+  function: Product Owner
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-editorial-standards-product-owner-requires-editorial-standards
+  source_id: roles:role-editorial-standards-product-owner
+  target_id: skills:skill-editorial-standards
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-editorial-standards-product-owner-requires-editorial-standards-secondary
+  source_id: roles:role-editorial-standards-product-owner
+  target_id: skills:skill-editorial-standards-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

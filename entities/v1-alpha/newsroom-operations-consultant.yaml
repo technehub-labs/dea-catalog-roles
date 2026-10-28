@@ -1,0 +1,50 @@
+id: roles:role-newsroom-operations-consultant
+type: Role
+name: Newsroom Operations Consultant
+description: Supports Media teams adopting newsroom operations practices, transferring methods and tools
+  through advisory engagements.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- newsroom
+- media
+- consultant
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Newsroom Operations
+  org_unit: Newsroom Operations Unit
+  function: Consultant
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-newsroom-operations-consultant-requires-newsroom-operations
+  source_id: roles:role-newsroom-operations-consultant
+  target_id: skills:skill-newsroom-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-newsroom-operations-consultant-requires-newsroom-operations-secondary
+  source_id: roles:role-newsroom-operations-consultant
+  target_id: skills:skill-newsroom-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-photojournalism-developer
+type: Role
+name: Photojournalism Developer
+description: Implements and unit-tests photojournalism capabilities, contributing code and configuration
+  within the Media delivery toolchain.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- photojournalism
+- media
+- developer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Photojournalism
+  org_unit: Photojournalism Unit
+  function: Developer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-photojournalism-developer-requires-photojournalism
+  source_id: roles:role-photojournalism-developer
+  target_id: skills:skill-photojournalism
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-photojournalism-developer-requires-photojournalism-secondary
+  source_id: roles:role-photojournalism-developer
+  target_id: skills:skill-photojournalism-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-interactive-media-program-manager
+type: Role
+name: Interactive Media Program Manager
+description: Coordinates multi-team interactive media programmes across Media, managing interdependencies,
+  risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- interactive
+- media
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Interactive Media
+  org_unit: Interactive Media Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - media
+  - transport
+  - legal-regulatory
+relationships:
+- id: roles:rel-interactive-media-program-manager-requires-interactive-media
+  source_id: roles:role-interactive-media-program-manager
+  target_id: skills:skill-interactive-media
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-interactive-media-program-manager-requires-interactive-media-secondary
+  source_id: roles:role-interactive-media-program-manager
+  target_id: skills:skill-interactive-media-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/media.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
