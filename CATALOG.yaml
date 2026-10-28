@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 607
+    entities: 667
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -2939,6 +2939,306 @@ catalog:
       last_modified: "2026-10-28"
     - id: roles:role-warehouse-operations-compliance-officer
       path: entities/v1-alpha/warehouse-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-auditor
+      path: entities/v1-alpha/additive-manufacturing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-auditor
+      path: entities/v1-alpha/assembly-lines-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-auditor
+      path: entities/v1-alpha/cnc-machining-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-auditor
+      path: entities/v1-alpha/capacity-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-auditor
+      path: entities/v1-alpha/contract-manufacturing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-auditor
+      path: entities/v1-alpha/ehs-sustainability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-auditor
+      path: entities/v1-alpha/energy-management-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-auditor
+      path: entities/v1-alpha/factory-automation-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-auditor
+      path: entities/v1-alpha/industrial-engineering-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-auditor
+      path: entities/v1-alpha/injection-moulding-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-auditor
+      path: entities/v1-alpha/lean-manufacturing-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-auditor
+      path: entities/v1-alpha/manufacturing-data-systems-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-auditor
+      path: entities/v1-alpha/new-product-introduction-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-auditor
+      path: entities/v1-alpha/packaging-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-auditor
+      path: entities/v1-alpha/paint-surface-treatment-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-auditor
+      path: entities/v1-alpha/plant-maintenance-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-auditor
+      path: entities/v1-alpha/plant-utilities-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-auditor
+      path: entities/v1-alpha/procurement-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-auditor
+      path: entities/v1-alpha/product-industrialization-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-auditor
+      path: entities/v1-alpha/product-traceability-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-auditor
+      path: entities/v1-alpha/production-operations-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-auditor
+      path: entities/v1-alpha/production-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-auditor
+      path: entities/v1-alpha/quality-control-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-auditor
+      path: entities/v1-alpha/robotics-integration-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-auditor
+      path: entities/v1-alpha/scrap-rework-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-auditor
+      path: entities/v1-alpha/supplier-quality-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-auditor
+      path: entities/v1-alpha/supply-chain-planning-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-auditor
+      path: entities/v1-alpha/tooling-fixtures-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-auditor
+      path: entities/v1-alpha/welding-fabrication-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-auditor
+      path: entities/v1-alpha/workforce-scheduling-auditor.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-additive-manufacturing-compliance-officer
+      path: entities/v1-alpha/additive-manufacturing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-assembly-lines-compliance-officer
+      path: entities/v1-alpha/assembly-lines-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-cnc-machining-compliance-officer
+      path: entities/v1-alpha/cnc-machining-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-capacity-management-compliance-officer
+      path: entities/v1-alpha/capacity-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-contract-manufacturing-compliance-officer
+      path: entities/v1-alpha/contract-manufacturing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-ehs-sustainability-compliance-officer
+      path: entities/v1-alpha/ehs-sustainability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-energy-management-compliance-officer
+      path: entities/v1-alpha/energy-management-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-factory-automation-compliance-officer
+      path: entities/v1-alpha/factory-automation-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-industrial-engineering-compliance-officer
+      path: entities/v1-alpha/industrial-engineering-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-injection-moulding-compliance-officer
+      path: entities/v1-alpha/injection-moulding-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-lean-manufacturing-compliance-officer
+      path: entities/v1-alpha/lean-manufacturing-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-manufacturing-data-systems-compliance-officer
+      path: entities/v1-alpha/manufacturing-data-systems-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-new-product-introduction-compliance-officer
+      path: entities/v1-alpha/new-product-introduction-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-packaging-operations-compliance-officer
+      path: entities/v1-alpha/packaging-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-paint-surface-treatment-compliance-officer
+      path: entities/v1-alpha/paint-surface-treatment-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-maintenance-compliance-officer
+      path: entities/v1-alpha/plant-maintenance-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-plant-utilities-compliance-officer
+      path: entities/v1-alpha/plant-utilities-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-procurement-compliance-officer
+      path: entities/v1-alpha/procurement-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-industrialization-compliance-officer
+      path: entities/v1-alpha/product-industrialization-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-product-traceability-compliance-officer
+      path: entities/v1-alpha/product-traceability-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-operations-compliance-officer
+      path: entities/v1-alpha/production-operations-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-production-planning-compliance-officer
+      path: entities/v1-alpha/production-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-quality-control-compliance-officer
+      path: entities/v1-alpha/quality-control-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-robotics-integration-compliance-officer
+      path: entities/v1-alpha/robotics-integration-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-scrap-rework-compliance-officer
+      path: entities/v1-alpha/scrap-rework-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supplier-quality-compliance-officer
+      path: entities/v1-alpha/supplier-quality-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-supply-chain-planning-compliance-officer
+      path: entities/v1-alpha/supply-chain-planning-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-tooling-fixtures-compliance-officer
+      path: entities/v1-alpha/tooling-fixtures-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-welding-fabrication-compliance-officer
+      path: entities/v1-alpha/welding-fabrication-compliance-officer.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-workforce-scheduling-compliance-officer
+      path: entities/v1-alpha/workforce-scheduling-compliance-officer.yaml
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-28"

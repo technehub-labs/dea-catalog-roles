@@ -1,0 +1,50 @@
+id: roles:role-cnc-machining-auditor
+type: Role
+name: CNC Machining Auditor
+description: Independently reviews cnc machining controls and records, reporting findings and tracking
+  remediation within Manufacturing assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- cnc
+- manufacturing
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: CNC Machining
+  org_unit: CNC Machining Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-cnc-machining-auditor-requires-cnc-machining
+  source_id: roles:role-cnc-machining-auditor
+  target_id: skills:skill-cnc-machining
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-cnc-machining-auditor-requires-cnc-machining-secondary
+  source_id: roles:role-cnc-machining-auditor
+  target_id: skills:skill-cnc-machining-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

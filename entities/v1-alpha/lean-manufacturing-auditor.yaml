@@ -1,0 +1,50 @@
+id: roles:role-lean-manufacturing-auditor
+type: Role
+name: Lean Manufacturing Auditor
+description: Independently reviews lean manufacturing controls and records, reporting findings and tracking
+  remediation within Manufacturing assurance cycles.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- governance
+- lean
+- manufacturing
+- auditor
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Lean Manufacturing
+  org_unit: Lean Manufacturing Unit
+  function: Auditor
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - manufacturing
+  - legal-regulatory
+  - entertainment
+relationships:
+- id: roles:rel-lean-manufacturing-auditor-requires-lean-manufacturing
+  source_id: roles:role-lean-manufacturing-auditor
+  target_id: skills:skill-lean-manufacturing
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-lean-manufacturing-auditor-requires-lean-manufacturing-secondary
+  source_id: roles:role-lean-manufacturing-auditor
+  target_id: skills:skill-lean-manufacturing-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/manufacturing.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
