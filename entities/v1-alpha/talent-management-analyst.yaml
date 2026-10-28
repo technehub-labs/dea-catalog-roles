@@ -1,0 +1,50 @@
+id: roles:role-talent-management-analyst
+type: Role
+name: Talent Management Analyst
+description: Analyses talent management data and processes, producing insight and recommendations that
+  steer Entertainment planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- talent
+- entertainment
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Talent Management
+  org_unit: Talent Management Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-talent-management-analyst-requires-talent-management
+  source_id: roles:role-talent-management-analyst
+  target_id: skills:skill-talent-management
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-talent-management-analyst-requires-talent-management-secondary
+  source_id: roles:role-talent-management-analyst
+  target_id: skills:skill-talent-management-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

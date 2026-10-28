@@ -1,0 +1,50 @@
+id: roles:role-game-development-coach
+type: Role
+name: Game Development Coach
+description: Coaches Entertainment teams and individuals on game development working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- game
+- entertainment
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Game Development
+  org_unit: Game Development Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-game-development-coach-requires-game-development
+  source_id: roles:role-game-development-coach
+  target_id: skills:skill-game-development
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-game-development-coach-requires-game-development-secondary
+  source_id: roles:role-game-development-coach
+  target_id: skills:skill-game-development-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

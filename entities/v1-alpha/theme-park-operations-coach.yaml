@@ -1,0 +1,50 @@
+id: roles:role-theme-park-operations-coach
+type: Role
+name: Theme Park Operations Coach
+description: Coaches Entertainment teams and individuals on theme park operations working methods, improving
+  practice maturity through structured feedback.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- enablement
+- theme
+- entertainment
+- coach
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Theme Park Operations
+  org_unit: Theme Park Operations Unit
+  function: Coach
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-theme-park-operations-coach-requires-theme-park-operations
+  source_id: roles:role-theme-park-operations-coach
+  target_id: skills:skill-theme-park-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-theme-park-operations-coach-requires-theme-park-operations-secondary
+  source_id: roles:role-theme-park-operations-coach
+  target_id: skills:skill-theme-park-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

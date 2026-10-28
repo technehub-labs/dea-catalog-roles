@@ -1,0 +1,50 @@
+id: roles:role-celebrity-brand-partnerships-lead
+type: Role
+name: Celebrity Brand Partnerships Lead
+description: Sets direction for celebrity brand partnerships teams, owns their outcomes, and represents
+  celebrity brand partnerships interests in Entertainment governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- celebrity
+- entertainment
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Celebrity Brand Partnerships
+  org_unit: Celebrity Brand Partnerships Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-celebrity-brand-partnerships-lead-requires-celebrity-brand-partnerships
+  source_id: roles:role-celebrity-brand-partnerships-lead
+  target_id: skills:skill-celebrity-brand-partnerships
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-celebrity-brand-partnerships-lead-requires-celebrity-brand-partnerships-secondary
+  source_id: roles:role-celebrity-brand-partnerships-lead
+  target_id: skills:skill-celebrity-brand-partnerships-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

@@ -1,0 +1,50 @@
+id: roles:role-theme-park-operations-analyst
+type: Role
+name: Theme Park Operations Analyst
+description: Analyses theme park operations data and processes, producing insight and recommendations
+  that steer Entertainment planning and investment decisions.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- theme
+- entertainment
+- analyst
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Theme Park Operations
+  org_unit: Theme Park Operations Unit
+  function: Analyst
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-theme-park-operations-analyst-requires-theme-park-operations
+  source_id: roles:role-theme-park-operations-analyst
+  target_id: skills:skill-theme-park-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-theme-park-operations-analyst-requires-theme-park-operations-secondary
+  source_id: roles:role-theme-park-operations-analyst
+  target_id: skills:skill-theme-park-operations-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

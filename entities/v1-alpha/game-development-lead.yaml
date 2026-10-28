@@ -1,0 +1,50 @@
+id: roles:role-game-development-lead
+type: Role
+name: Game Development Lead
+description: Sets direction for game development teams, owns their outcomes, and represents game development
+  interests in Entertainment governance forums.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- game
+- entertainment
+- lead
+- seniority:Lead:4
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Game Development
+  org_unit: Game Development Unit
+  function: Lead
+  seniority_band: Lead
+  seniority_level: 4
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-game-development-lead-requires-game-development
+  source_id: roles:role-game-development-lead
+  target_id: skills:skill-game-development
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-game-development-lead-requires-game-development-secondary
+  source_id: roles:role-game-development-lead
+  target_id: skills:skill-game-development-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

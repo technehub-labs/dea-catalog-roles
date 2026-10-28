@@ -9,7 +9,7 @@ provenance:
   type: discovery
   asserted_by: catalog-seed
   verification_status: unverified
-collisions_with_existing: 1225
+collisions_with_existing: 1665
 notes: >-
   Rows are candidates only (lifecycle_status: proposed, version 0.1.0).
   Entities materialize per admission (GOVERNANCE.md S4); existing
@@ -32,4 +32,5 @@ notes: >-
   30 audit Head-of leadership (CR-DEA-ROL-21);
   30 consulting Head-of leadership (CR-DEA-ROL-22);
   407 technology wave-2 admissions (CR-DEA-ROL-23);
+  440 entertainment wave-2 admissions (CR-DEA-ROL-24);
   the gate fails on any unexplained collision-count change.

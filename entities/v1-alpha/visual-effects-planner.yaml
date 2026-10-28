@@ -1,0 +1,50 @@
+id: roles:role-visual-effects-planner
+type: Role
+name: Visual Effects Planner
+description: Plans capacity, schedule, and sequencing for visual effects activities, balancing demand,
+  budget, and dependencies in the Entertainment portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- visual
+- entertainment
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Visual Effects
+  org_unit: Visual Effects Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-visual-effects-planner-requires-visual-effects
+  source_id: roles:role-visual-effects-planner
+  target_id: skills:skill-visual-effects
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-visual-effects-planner-requires-visual-effects-secondary
+  source_id: roles:role-visual-effects-planner
+  target_id: skills:skill-visual-effects-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

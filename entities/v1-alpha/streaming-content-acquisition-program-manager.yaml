@@ -1,0 +1,50 @@
+id: roles:role-streaming-content-acquisition-program-manager
+type: Role
+name: Streaming Content Acquisition Program Manager
+description: Coordinates multi-team streaming content acquisition programmes across Entertainment, managing
+  interdependencies, risks, and benefits realisation.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- streaming
+- entertainment
+- program-manager
+- seniority:Principal:5
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Streaming Content Acquisition
+  org_unit: Streaming Content Acquisition Unit
+  function: Program Manager
+  seniority_band: Principal
+  seniority_level: 5
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-streaming-content-acquisition-program-ma-requires-streaming-content-acquisition
+  source_id: roles:role-streaming-content-acquisition-program-manager
+  target_id: skills:skill-streaming-content-acquisition
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-streaming-content-acquisition-program-ma-requires-streaming-content-acquisition-secondary
+  source_id: roles:role-streaming-content-acquisition-program-manager
+  target_id: skills:skill-streaming-content-acquisition-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

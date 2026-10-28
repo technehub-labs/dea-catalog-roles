@@ -1,0 +1,50 @@
+id: roles:role-head-of-merchandising
+type: Role
+name: Head of Merchandising
+description: 'Owns the merchandising domain at executive level: strategy, investment cases, organisational
+  design, and regulatory posture for Entertainment.'
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- leadership
+- merchandising
+- entertainment
+- head-of
+- seniority:Executive:6
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Merchandising
+  org_unit: Merchandising Unit
+  function: Head of
+  seniority_band: Executive
+  seniority_level: 6
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-head-of-merchandising-requires-merchandising
+  source_id: roles:role-head-of-merchandising
+  target_id: skills:skill-merchandising
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-head-of-merchandising-requires-merchandising-secondary
+  source_id: roles:role-head-of-merchandising
+  target_id: skills:skill-merchandising-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

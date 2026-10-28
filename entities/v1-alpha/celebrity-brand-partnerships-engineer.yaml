@@ -1,0 +1,50 @@
+id: roles:role-celebrity-brand-partnerships-engineer
+type: Role
+name: Celebrity Brand Partnerships Engineer
+description: Builds, configures, and maintains celebrity brand partnerships components and pipelines,
+  resolving technical incidents and keeping delivery aligned with Entertainment standards.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- technical
+- celebrity
+- entertainment
+- engineer
+- seniority:Professional:2
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Celebrity Brand Partnerships
+  org_unit: Celebrity Brand Partnerships Unit
+  function: Engineer
+  seniority_band: Professional
+  seniority_level: 2
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-celebrity-brand-partnerships-engineer-requires-celebrity-brand-partnerships
+  source_id: roles:role-celebrity-brand-partnerships-engineer
+  target_id: skills:skill-celebrity-brand-partnerships
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-celebrity-brand-partnerships-engineer-requires-celebrity-brand-partnerships-secondary
+  source_id: roles:role-celebrity-brand-partnerships-engineer
+  target_id: skills:skill-celebrity-brand-partnerships-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified

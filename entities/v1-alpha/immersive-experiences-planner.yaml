@@ -1,0 +1,50 @@
+id: roles:role-immersive-experiences-planner
+type: Role
+name: Immersive Experiences Planner
+description: Plans capacity, schedule, and sequencing for immersive experiences activities, balancing
+  demand, budget, and dependencies in the Entertainment portfolio.
+version: 0.1.0
+lifecycle_status: proposed
+tags:
+- functional
+- immersive
+- entertainment
+- planner
+- seniority:Senior:3
+metadata:
+  catalog: technehub-labs/dea-catalog-roles
+  metamodel_version: v0.3.0
+  domain: Immersive Experiences
+  org_unit: Immersive Experiences Unit
+  function: Planner
+  seniority_band: Senior
+  seniority_level: 3
+  industries:
+  - entertainment
+  - mining
+  - audit
+relationships:
+- id: roles:rel-immersive-experiences-planner-requires-immersive-experiences
+  source_id: roles:role-immersive-experiences-planner
+  target_id: skills:skill-immersive-experiences
+  relationship_type: requires
+  status: proposed
+  rationale: Primary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
+- id: roles:rel-immersive-experiences-planner-requires-immersive-experiences-secondary
+  source_id: roles:role-immersive-experiences-planner
+  target_id: skills:skill-immersive-experiences-operations
+  relationship_type: requires
+  status: proposed
+  rationale: Secondary SKL -> ROL requires edge from bulk ingestion batch (CR-ROL-RICH-000); unverified
+    until dea-catalog-skills publishes.
+  provenance:
+    type: discovery
+    reference: industries/entertainment.yaml
+    asserted_by: catalog-seed
+    verification_status: unverified
