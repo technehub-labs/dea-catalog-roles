@@ -8,7 +8,7 @@ catalog:
     A defined set of required Skills and responsibilities that an Actor
     fulfills within an Organizational Unit.
   counts:
-    entities: 34
+    entities: 37
     canonical: 1
   cross_cutting:
     entities: entities/
@@ -77,6 +77,21 @@ catalog:
       lifecycle_status: proposed
       version: 0.1.0
       last_modified: "2026-10-27"
+    - id: roles:role-api-management-administrator
+      path: entities/v1-alpha/api-management-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-application-portfolio-administrator
+      path: entities/v1-alpha/application-portfolio-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
+    - id: roles:role-automation-rpa-administrator
+      path: entities/v1-alpha/automation-rpa-administrator.yaml
+      lifecycle_status: proposed
+      version: 0.1.0
+      last_modified: "2026-10-28"
     - id: roles:role-interconnect-and-wholesale-manager
       path: entities/v1-alpha/interconnect-and-wholesale-manager.yaml
       lifecycle_status: proposed

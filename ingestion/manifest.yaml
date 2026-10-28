@@ -1,0 +1,20 @@
+# Ingestion manifest — bulk batch (CR-ROL-RICH-000)
+source: ingestion/bulk-6000-roles.csv
+sha256: 735adcfd7c192d5e19aa476c89d8520062c699b59f9682840af849f16db92c65
+rows: 6000
+slices: 12
+per_slice: 500
+schema: schemas/role.schema.json
+provenance:
+  type: discovery
+  asserted_by: catalog-seed
+  verification_status: unverified
+collisions_with_existing: 10
+notes: >-
+  Rows are candidates only (lifecycle_status: proposed, version 0.1.0).
+  Entities materialize per admission (GOVERNANCE.md S4); existing
+  instances win on id collision (they carry richer evidence trails).
+  Collision count 10 = 7 pre-existing + 3 pilot admissions
+  (api-management-administrator, application-portfolio-administrator,
+  automation-rpa-administrator) materialized by CR-DEA-ROL-05; the gate
+  fails on any unexplained collision-count change.
