@@ -2,12 +2,23 @@
 """Materialize bulk ingestion rows as entity instances (admission path).
 
 Per CR-ROL-RICH-000 §6 and GOVERNANCE.md §4: bulk rows are candidates;
-they materialize as entities/v1-alpha/<slug>.yaml only when admitted via
-CR. This tool performs the mechanical conversion for an explicit list of
-row ids (or --slice for a whole-slice admission):
+they materialize as entity records only when admitted via CR. This tool
+performs the mechanical conversion for an explicit list of row ids (or
+--slice for a bounded slice admission):
 
     python scripts/materialize_roles.py --ids roles:role-x roles:role-y
     python scripts/materialize_roles.py --slice technology --limit 10
+
+CR-DEA-ROL-24: new records are written in the CR-MET-024 shard layout
+(dea-metaframework/docs/entity-storage-layout.md S4):
+
+    entities/v1-alpha/<shard>/<id>/<id>.yaml
+
+shard = first character of the record slug (`roles:role-` prefix removed;
+`0-9` fallback for digit-leading slugs). Each record directory gains a
+README.md (S2.3 README-per-folder). A record still sitting at its legacy
+flat path is treated as existing (existing wins; run
+scripts/migrate_to_shard_layout.py first).
 
 Safety:
   - refuses to overwrite an existing entity file (existing wins);
@@ -39,6 +50,17 @@ ENTITIES = ROOT / "entities" / "v1-alpha"
 
 def slug_for(rid: str) -> str:
     return rid.split(":", 1)[1].replace("role-", "", 1)
+
+
+def shard_for(rid: str) -> str:
+    """CR-MET-024 shard directory for a role id."""
+    ch = slug_for(rid)[:1]
+    return ch if ch.isalpha() and ch.isascii() and ch.islower() else "0-9"
+
+
+def record_relpath(rid: str) -> str:
+    """Id-derived repository-relative path of a record file."""
+    return f"entities/v1-alpha/{shard_for(rid)}/{rid}/{rid}.yaml"
 
 
 def row_to_instance(row: dict) -> dict:
@@ -103,6 +125,19 @@ def row_to_instance(row: dict) -> dict:
     }
 
 
+def record_readme(rec: dict, relpath: str) -> str:
+    return (
+        f"# {rec['name']}\n\n"
+        f"**Record id:** `{rec['id']}`\n"
+        f"**Type:** {rec['type']} | **Lifecycle:** {rec.get('lifecycle_status')} "
+        f"(v{rec.get('version')})\n"
+        f"**Path:** `{relpath}` (derived from the id; entity-storage-layout.md S5)\n\n"
+        f"{rec.get('description', '')}\n\n"
+        f"*Written by `scripts/materialize_roles.py` in the CR-MET-024 shard "
+        f"layout (CR-DEA-ROL-24). Do not edit manually; regenerate on change.*\n"
+    )
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     g = ap.add_mutually_exclusive_group(required=True)
@@ -129,15 +164,20 @@ def main() -> int:
 
     written = skipped = 0
     for row in selected:
-        out = ENTITIES / f"{slug_for(row['id'])}.yaml"
-        if out.is_file():
-            print(f"skip (exists): {out.name}")
+        out = ROOT / record_relpath(row["id"])
+        legacy = ENTITIES / f"{slug_for(row['id'])}.yaml"
+        if out.is_file() or legacy.is_file():
+            where = out.name if out.is_file() else legacy.name
+            print(f"skip (exists): {where}")
             skipped += 1
             continue
-        ENTITIES.mkdir(parents=True, exist_ok=True)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        instance = row_to_instance(row)
         with open(out, "w") as f:
-            yaml.safe_dump(row_to_instance(row), f, sort_keys=False, allow_unicode=True, width=100)
-        print(f"wrote: {out.name}")
+            yaml.safe_dump(instance, f, sort_keys=False, allow_unicode=True, width=100)
+        (out.parent / "README.md").write_text(
+            record_readme(instance, record_relpath(row["id"])))
+        print(f"wrote: {record_relpath(row['id'])}")
         written += 1
 
     print(f"materialized {written}, skipped {skipped}")
